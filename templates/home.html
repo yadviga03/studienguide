@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="landing-main">
+    <div class="container">
+
+        <section class="landing-hero">
+            <h2>{{ t.home_title }}</h2>
+            <p>{{ t.home_subtitle }}</p>
+        </section>
+
+        <div class="landing-grid">
+
+            <a class="landing-card"
+               href="{{ url_for('studiengaenge', lang=lang) }}">
+                <div class="landing-card-icon">🎓</div>
+                <h3>{{ t.study_programs }}</h3>
+                <p>{{ t.study_programs_desc }}</p>
+            </a>
+
+            <a class="landing-card"
+               href="{{ url_for('lehrstuehle', lang=lang) }}">
+                <div class="landing-card-icon">🏛️</div>
+                <h3>{{ t.chairs }}</h3>
+                <p>{{ t.chairs_desc }}</p>
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ t.site_title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+
+        <div class="site-brand">
+            <img src="{{ url_for('static', filename='MAFIA_LOGO.png') }}"
+                 class="site-logo"
+                 alt="MAFIA Logo"
+                 style="height:56px; width:auto; max-width:180px; display:block;"
+                 >
+
+            <div>
+                <h1>{{ t.site_title }}</h1>
+                <p>{{ t.site_subtitle }}</p>
+            </div>
+        </div>
+
+        <div class="language-switch">
+            <a class="lang-btn {% if lang=='de' %}active{% endif %}"
+               href="?lang=de">DE</a>
+            <a class="lang-btn {% if lang=='en' %}active{% endif %}"
+               href="?lang=en">EN</a>
+        </div>
+
+    </div>
+</header>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>{{ t.footer }}</p>
+    </div>
+</footer>
+
+</body>
+</html>

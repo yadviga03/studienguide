@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="landing-main">
+    <div class="container">
+
+        <section class="landing-hero">
+            <h2>{{ t.chairs_page_title }}</h2>
+            <p>{{ t.chairs_page_text }}</p>
+        </section>
+
+        {% for group, chairs in grouped_chairs.items() %}
+            <h3>{{ group }}</h3>
+            <ul>
+            {% for c in chairs %}
+                <li>
+                    <a href="{{ url_for('lehrstuhl_detail', chair_id=c.id, lang=lang) }}">
+                        {{ c.name }}
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% endblock %}
