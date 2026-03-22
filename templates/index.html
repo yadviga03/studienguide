@@ -1,553 +1,194 @@
-<!DOCTYPE html>
-<html lang="{{ lang }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ t.site_title }} – {{ t.site_subtitle }}</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-  {% set program_data = data[current_degree][current_program] %}
+{% extends "base.html" %}
+{% from "macros.html" import render_module_card %}
 
-  <header class="site-header">
-    <div class="container header-inner header-inner-wide">
-      <div class="site-brand">
-  <img
-    src="{{ url_for('static', filename='MAFIA_LOGO.png') }}"
-    alt="Fachschaft Logo"
-    class="site-logo"
-    style="height:56px; width:auto; max-width:180px; display:block;"
+{% set program_data = data[current_degree][current_program] %}
+
+{% block title %}{{ t.site_title }} – {{ current_program }}{% endblock %}
+
+{% block header_inner_class %}header-inner-wide{% endblock %}
+
+{% block header_controls %}
+  <div
+    class="header-controls-dropdown"
+    data-studiengaenge-url="{{ url_for('studiengaenge') }}"
+    data-lang="{{ lang }}"
+    data-view="{{ current_view }}"
+    data-specialization="{{ current_specialization or '' }}"
   >
-  <div>
-    <h1>{{ t.site_title }}</h1>
-    <p>{{ t.site_subtitle }}</p>
-  </div>
-</div>
-
-      <div class="header-controls-dropdown">
-        <div class="header-select-group">
-          <label for="degreeSelect">{{ t.degree }}</label>
-          <select id="degreeSelect" onchange="changeDegree()">
-            {% for degree in ["Bachelor", "Master"] %}
-              <option value="{{ degree }}" {% if degree == current_degree %}selected{% endif %}>
-                {{ degree }}
-              </option>
-            {% endfor %}
-          </select>
-        </div>
-
-        <div class="header-select-group">
-          <label for="programSelect">{{ t.program }}</label>
-          <select id="programSelect" onchange="changeProgram()">
-            {% for program in programs %}
-              <option value="{{ program }}" {% if program == current_program %}selected{% endif %}>
-                {{ program }}
-              </option>
-            {% endfor %}
-          </select>
-        </div>
-
-        <div class="language-switch">
-          <a
-            class="lang-btn {% if lang == 'de' %}active{% endif %}"
-            href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view=current_view, specialization=current_specialization, lang='de') }}"
-          >
-            DE
-          </a>
-          <a
-            class="lang-btn {% if lang == 'en' %}active{% endif %}"
-            href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view=current_view, specialization=current_specialization, lang='en') }}"
-          >
-            EN
-          </a>
-        </div>
-      </div>
+    <div class="header-select-group">
+      <label for="degreeSelect">{{ t.degree }}</label>
+      <select id="degreeSelect">
+        {% for degree in ["Bachelor", "Master"] %}
+          <option value="{{ degree }}" {% if degree == current_degree %}selected{% endif %}>
+            {{ degree }}
+          </option>
+        {% endfor %}
+      </select>
     </div>
-  </header>
-    <div class="container page-back-link-wrap">
-      <a class="chip back-chip" href="{{ url_for('home', lang=lang) }}">
-        ← {{ t.back_home }}
+
+    <div class="header-select-group">
+      <label for="programSelect">{{ t.program }}</label>
+      <select id="programSelect">
+        {% for program in programs %}
+          <option value="{{ program }}" {% if program == current_program %}selected{% endif %}>
+            {{ program }}
+          </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="language-switch">
+      <a
+        class="lang-btn {% if lang == 'de' %}active{% endif %}"
+        href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view=current_view, specialization=current_specialization, lang='de') }}"
+      >
+        DE
+      </a>
+      <a
+        class="lang-btn {% if lang == 'en' %}active{% endif %}"
+        href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view=current_view, specialization=current_specialization, lang='en') }}"
+      >
+        EN
       </a>
     </div>
-  <main>
-    <section class="top-filter-bar compact-filter-bar">
-      <div class="container">
-        <div class="top-filter-card">
-          {% if "vertiefungen" in program_data and program_data["vertiefungen"] is mapping %}
-            <div class="top-filter-group">
-              <h3>{{ t.specializations }}</h3>
-              <div class="chip-row">
-                {% for name in program_data["vertiefungen"].keys() %}
-                  <a
-                    class="chip {% if current_view == 'vertiefungen' and current_specialization == name %}active{% endif %}"
-                    href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='vertiefungen', specialization=name, lang=lang) }}"
-                  >
-                    {{ name }}
-                  </a>
-                {% endfor %}
-              </div>
-            </div>
-          {% endif %}
+  </div>
+{% endblock %}
 
+{% block content %}
+  <div class="container page-back-link-wrap">
+    <a class="chip back-chip" href="{{ url_for('home', lang=lang) }}">
+      ← {{ t.back_home }}
+    </a>
+  </div>
+
+  <section class="top-filter-bar compact-filter-bar">
+    <div class="container">
+      <div class="top-filter-card">
+        {% if "vertiefungen" in program_data and program_data["vertiefungen"] is mapping %}
           <div class="top-filter-group">
-            <h3>{{ t.other_areas }}</h3>
+            <h3>{{ t.specializations }}</h3>
             <div class="chip-row">
-              <a
-                class="chip {% if current_view == 'nichttechnischer_wahlpflichtbereich' %}active{% endif %}"
-                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='nichttechnischer_wahlpflichtbereich', lang=lang) }}"
-              >
-                {{ t.non_technical_area }}
-              </a>
-
-              {% if "pflichtmodule" in program_data %}
+              {% for name in program_data["vertiefungen"].keys() %}
                 <a
-                  class="chip {% if current_view == 'pflichtmodule' %}active{% endif %}"
-                  href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='pflichtmodule', lang=lang) }}"
+                  class="chip {% if current_view == 'vertiefungen' and current_specialization == name %}active{% endif %}"
+                  href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='vertiefungen', specialization=name, lang=lang) }}"
                 >
-                  {{ t.mandatory_modules }}
+                  {{ name }}
                 </a>
-              {% endif %}
-
-              {% if "wahlmodule" in program_data %}
-                <a
-                  class="chip {% if current_view == 'wahlmodule' %}active{% endif %}"
-                  href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='wahlmodule', lang=lang) }}"
-                >
-                  {{ t.elective_modules }}
-                </a>
-              {% endif %}
-
-              {% if "sonstige_wahlmodule" in program_data %}
-                <a
-                  class="chip {% if current_view == 'sonstige_wahlmodule' %}active{% endif %}"
-                  href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='sonstige_wahlmodule', lang=lang) }}"
-                >
-                  {{ t.other_electives }}
-                </a>
-              {% endif %}
+              {% endfor %}
             </div>
+          </div>
+        {% endif %}
+
+        <div class="top-filter-group">
+          <h3>{{ t.other_areas }}</h3>
+          <div class="chip-row">
+            <a
+              class="chip {% if current_view == 'nichttechnischer_wahlpflichtbereich' %}active{% endif %}"
+              href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='nichttechnischer_wahlpflichtbereich', lang=lang) }}"
+            >
+              {{ t.non_technical_area }}
+            </a>
+
+            {% if "pflichtmodule" in program_data %}
+              <a
+                class="chip {% if current_view == 'pflichtmodule' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='pflichtmodule', lang=lang) }}"
+              >
+                {{ t.mandatory_modules }}
+              </a>
+            {% endif %}
+
+            {% if "wahlmodule" in program_data %}
+              <a
+                class="chip {% if current_view == 'wahlmodule' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='wahlmodule', lang=lang) }}"
+              >
+                {{ t.elective_modules }}
+              </a>
+            {% endif %}
+
+            {% if "sonstige_wahlmodule" in program_data %}
+              <a
+                class="chip {% if current_view == 'sonstige_wahlmodule' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='sonstige_wahlmodule', lang=lang) }}"
+              >
+                {{ t.other_electives }}
+              </a>
+            {% endif %}
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="content-section" id="module">
-      <div class="container">
-        <div class="section-heading">
-          <span class="section-kicker">{{ current_degree }} · {{ current_program }}</span>
-
-          {% if current_view == "pflichtmodule" %}
-            <h3>{{ t.mandatory_modules }}</h3>
-   
-          {% elif current_view == "vertiefungen" %}
-            <h3>{{ current_specialization }}</h3>
-          
-          {% elif current_view == "sonstige_wahlmodule" %}
-            <h3>{{ t.other_electives }}</h3>
-          
-          {% elif current_view == "wahlmodule" %}
-            <h3>{{ t.elective_modules }}</h3>
-            
-          {% elif current_view == "nichttechnischer_wahlpflichtbereich" %}
-            <h3>{{ t.non_technical_area }}</h3>
-          {% endif %}
-        </div>
+  <section class="content-section" id="module">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-kicker">{{ current_degree }} · {{ current_program }}</span>
 
         {% if current_view == "pflichtmodule" %}
-          <div class="module-list">
-            {% for modul in data[current_degree][current_program]["pflichtmodule"] %}
-              <article class="module-card">
-                <details>
-                  <summary>
-                    <div>
-                      <h4>{{ modul.name }}</h4>
-                    </div>
-                    <span class="details-label">{{ t.show_more }}</span>
-                  </summary>
-                  <div class="module-card-body">
-                    <p>{{ modul.beschreibung }}</p>
-                  </div>
-                </details>
-              </article>
-            {% else %}
-              <p class="empty-state">{{ t.mandatory_empty }}</p>
-            {% endfor %}
-          </div>
+          <h3>{{ t.mandatory_modules }}</h3>
+        {% elif current_view == "vertiefungen" %}
+          <h3>{{ current_specialization }}</h3>
+        {% elif current_view == "sonstige_wahlmodule" %}
+          <h3>{{ t.other_electives }}</h3>
+        {% elif current_view == "wahlmodule" %}
+          <h3>{{ t.elective_modules }}</h3>
+        {% elif current_view == "nichttechnischer_wahlpflichtbereich" %}
+          <h3>{{ t.non_technical_area }}</h3>
         {% endif %}
-
-        {% if current_view == "vertiefungen" %}
-          <div class="module-list">
-            {% for modul in data[current_degree][current_program]["vertiefungen"][current_specialization] %}
-              <article class="module-card">
-                <details>
-                  <summary>
-                    <div>
-                      <h4>{{ modul.name }}</h4>
-                    </div>
-                    <span class="details-label">{{ t.show_more }}</span>
-                  </summary>
-
-                  <div class="module-card-body">
-                    <div class="module-layout">
-                      <div class="module-description">
-                        <h5>{{ t.module_description }}</h5>
-                        <p>{{ modul.beschreibung }}</p>
-                      </div>
-
-                      <div class="module-side">
-                        <button
-                          class="comment-toggle"
-                          type="button"
-                          onclick="toggleCommentForm('commentFormWrapper{{ loop.index0 }}')"
-                        >
-                          {{ t.comment_write }}
-                        </button>
-
-                        <div id="commentFormWrapper{{ loop.index0 }}" class="comment-form-wrapper">
-                        <form method="POST" action="{{ url_for('comment') }}" class="comment-form">
-                          <input type="hidden" name="degree" value="{{ current_degree }}">
-                          <input type="hidden" name="program" value="{{ current_program }}">
-                          <input type="hidden" name="view" value="{{ current_view }}">
-                          <input type="hidden" name="specialization" value="{{ current_specialization or '' }}">
-                          <input type="hidden" name="modulname" value="{{ modul.name }}">
-                          <input type="hidden" name="lang" value="{{ lang }}">
-
-                          <label for="semester{{ loop.index0 }}">Wann hast du das Modul belegt?</label>
-                          <input
-                            type="text"
-                            id="semester{{ loop.index0 }}"
-                            name="semester"
-                            placeholder="z. B. WS24/25 oder SS23"
-                            required
-                          >
-
-                          <label for="kommentar{{ loop.index0 }}">{{ t.comment }}</label>
-                          <textarea
-                            id="kommentar{{ loop.index0 }}"
-                            name="kommentar"
-                            rows="4"
-                            placeholder="{{ t.comment_placeholder }}"
-                            required
-                          ></textarea>
-
-                          <button type="submit" class="submit-comment">
-                            {{ t.submit }}
-                          </button>
-                          <p style="font-size:8px; color:#9aa3ad; margin-top:6px; line-height:1.2; opacity:0.85;">
-                            Kommentare sind anonym und werden vor der Veröffentlichung geprüft.
-                            Es werden nur sachliche und hilfreiche Beiträge freigegeben.
-                          </p>
-                        </form>
-                      </div>
-                      </div>
-                    </div>
-
-                    <div class="comments-card">
-                      <h5>{{ t.comments_existing }}</h5>
-                      {% set ns = namespace(found=false) %}
-                      {% for eintrag in comments %}
-                        {% if eintrag.modulname == modul.name %}
-                          {% set ns.found = true %}
-                          <article class="comment-entry">
-                            <p>{{ eintrag.kommentar }}</p>
-                          </article>
-                        {% endif %}
-                      {% endfor %}
-                      {% if not ns.found %}
-                        <p class="empty-state">{{ t.comments_empty }}</p>
-                      {% endif %}
-                    </div>
-                  </div>
-                </details>
-              </article>
-            {% else %}
-              <p class="empty-state">{{ t.specialization_empty }}</p>
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        {% if current_view == "sonstige_wahlmodule" %}
-          <div class="module-list">
-            {% for modul in data[current_degree][current_program]["sonstige_wahlmodule"] %}
-              <article class="module-card">
-                <details>
-                  <summary>
-                    <div>
-                      <h4>{{ modul.name }}</h4>
-                    </div>
-                    <span class="details-label">{{ t.show_more }}</span>
-                  </summary>
-                  <div class="module-card-body">
-  <div class="module-layout">
-
-    <div class="module-description">
-      <p>{{ modul.beschreibung }}</p>
-    </div>
-
-    <div class="module-side">
-      <button
-        class="comment-toggle"
-        type="button"
-        onclick="toggleCommentForm('commentFormWrapperSW{{ loop.index0 }}')"
-      >
-        {{ t.comment_write }}
-      </button>
-
-      <div id="commentFormWrapperSW{{ loop.index0 }}" class="comment-form-wrapper">
-        <form method="POST" action="{{ url_for('comment') }}" class="comment-form">
-          <input type="hidden" name="degree" value="{{ current_degree }}">
-          <input type="hidden" name="program" value="{{ current_program }}">
-          <input type="hidden" name="view" value="{{ current_view }}">
-          <input type="hidden" name="specialization" value="">
-          <input type="hidden" name="modulname" value="{{ modul.name }}">
-          <input type="hidden" name="lang" value="{{ lang }}">
-
-          <label>Wann hast du das Modul belegt?</label>
-          <input type="text" name="semester" placeholder="z. B. WS24/25 oder SS23" required>
-
-          <label>{{ t.comment }}</label>
-          <textarea name="kommentar" rows="4" required></textarea>
-
-          <button type="submit" class="submit-comment">{{ t.submit }}</button>
-
-          <p style="font-size:10px; color:#9aa3ad; margin-top:6px; line-height:1.2; opacity:0.85;">
-            Kommentare sind anonym und werden vor der Veröffentlichung geprüft.
-            Es werden nur sachliche und hilfreiche Beiträge freigegeben.
-          </p>
-        </form>
       </div>
-    </div>
 
-  </div>
-
-  <div class="comments-card">
-    <h5>{{ t.comments_existing }}</h5>
-    {% set ns = namespace(found=false) %}
-    {% for eintrag in comments %}
-      {% if eintrag.modulname == modul.name %}
-        {% set ns.found = true %}
-        <article class="comment-entry">
-          <p>{{ eintrag.kommentar }}</p>
-        </article>
+      {% if current_view == "pflichtmodule" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["pflichtmodule"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">{{ t.mandatory_modules }}: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
       {% endif %}
-    {% endfor %}
-    {% if not ns.found %}
-      <p class="empty-state">{{ t.comments_empty }}</p>
-    {% endif %}
-  </div>
-</div>
-                </details>
-              </article>
-            {% else %}
-              <p class="empty-state">{{ t.other_electives_empty }}</p>
-            {% endfor %}
-          </div>
-        {% endif %}
 
-        {% if current_view == "wahlmodule" %}
-          <div class="module-list">
-            {% for modul in data[current_degree][current_program]["wahlmodule"] %}
-              <article class="module-card">
-                <details>
-                  <summary>
-                    <div>
-                      <h4>{{ modul.name }}</h4>
-                    </div>
-                    <span class="details-label">{{ t.show_more }}</span>
-                  </summary>
-                  <div class="module-card-body">
-  <div class="module-layout">
-
-    <div class="module-description">
-      <p>{{ modul.beschreibung }}</p>
-    </div>
-
-    <div class="module-side">
-      <button
-        class="comment-toggle"
-        type="button"
-        onclick="toggleCommentForm('commentFormWrapperWM{{ loop.index0 }}')"
-      >
-        {{ t.comment_write }}
-      </button>
-
-      <div id="commentFormWrapperWM{{ loop.index0 }}" class="comment-form-wrapper">
-        <form method="POST" action="{{ url_for('comment') }}" class="comment-form">
-          <input type="hidden" name="degree" value="{{ current_degree }}">
-          <input type="hidden" name="program" value="{{ current_program }}">
-          <input type="hidden" name="view" value="{{ current_view }}">
-          <input type="hidden" name="specialization" value="">
-          <input type="hidden" name="modulname" value="{{ modul.name }}">
-          <input type="hidden" name="lang" value="{{ lang }}">
-
-          <label for="semesterWM{{ loop.index0 }}">Wann hast du das Modul belegt?</label>
-          <input
-            type="text"
-            id="semesterWM{{ loop.index0 }}"
-            name="semester"
-            placeholder="z. B. WS24/25 oder SS23"
-            required
-          >
-
-          <label for="kommentarWM{{ loop.index0 }}">{{ t.comment }}</label>
-          <textarea
-            id="kommentarWM{{ loop.index0 }}"
-            name="kommentar"
-            rows="4"
-            placeholder="{{ t.comment_placeholder }}"
-            required
-          ></textarea>
-
-          <button type="submit" class="submit-comment">
-            {{ t.submit }}
-          </button>
-
-          <p style="font-size:10px; color:#9aa3ad; margin-top:6px; line-height:1.2; opacity:0.85;">
-           Kommentare sind anonym und werden vor der Veröffentlichung geprüft.
-          Es werden nur sachliche und hilfreiche Beiträge freigegeben.
-          </p>
-        </form>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="comments-card">
-    <h5>{{ t.comments_existing }}</h5>
-    {% set ns = namespace(found=false) %}
-    {% for eintrag in comments %}
-      {% if eintrag.modulname == modul.name %}
-        {% set ns.found = true %}
-        <article class="comment-entry">
-          <p>{{ eintrag.kommentar }}</p>
-        </article>
+      {% if current_view == "vertiefungen" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["vertiefungen"][current_specialization] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">{{ t.selected_modules }} keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
       {% endif %}
-    {% endfor %}
-    {% if not ns.found %}
-      <p class="empty-state">{{ t.comments_empty }}</p>
-    {% endif %}
-  </div>
-</div>
-                </details>
-              </article>
-            {% else %}
-              <p class="empty-state">{{ t.elective_empty }}</p>
-            {% endfor %}
-          </div>
-        {% endif %}
 
-        {% if current_view == "nichttechnischer_wahlpflichtbereich" %}
-          <div class="module-list">
-            {% for modul in nichttechnischer_wahlpflichtbereich %}
-              <article class="module-card">
-                <details>
-                  <summary>
-                    <div>
-                      <h4>{{ modul.name }}</h4>
-                    </div>
-                    <span class="details-label">{{ t.show_more }}</span>
-                  </summary>
-                  <div class="module-card-body">
-  <div class="module-layout">
-
-    <div class="module-description">
-      <p>{{ modul.beschreibung }}</p>
-    </div>
-
-    <div class="module-side">
-      <button
-        class="comment-toggle"
-        type="button"
-        onclick="toggleCommentForm('commentFormWrapperNT{{ loop.index0 }}')"
-      >
-        {{ t.comment_write }}
-      </button>
-
-      <div id="commentFormWrapperNT{{ loop.index0 }}" class="comment-form-wrapper">
-        <form method="POST" action="{{ url_for('comment') }}" class="comment-form">
-          <input type="hidden" name="degree" value="{{ current_degree }}">
-          <input type="hidden" name="program" value="{{ current_program }}">
-          <input type="hidden" name="view" value="{{ current_view }}">
-          <input type="hidden" name="specialization" value="">
-          <input type="hidden" name="modulname" value="{{ modul.name }}">
-          <input type="hidden" name="lang" value="{{ lang }}">
-
-          <label>Wann hast du das Modul belegt?</label>
-          <input type="text" name="semester" placeholder="z. B. WS24/25 oder SS23" required>
-
-          <label>{{ t.comment }}</label>
-          <textarea name="kommentar" rows="4" required></textarea>
-
-          <button type="submit" class="submit-comment">{{ t.submit }}</button>
-
-          <p style="font-size:10px; color:#9aa3ad; margin-top:6px; line-height:1.2; opacity:0.85;">
-            Kommentare sind anonym und werden vor der Veröffentlichung geprüft.
-            Es werden nur sachliche und hilfreiche Beiträge freigegeben.
-          </p>
-        </form>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="comments-card">
-    <h5>{{ t.comments_existing }}</h5>
-    {% set ns = namespace(found=false) %}
-    {% for eintrag in comments %}
-      {% if eintrag.modulname == modul.name %}
-        {% set ns.found = true %}
-        <article class="comment-entry">
-          <p>{{ eintrag.kommentar }}</p>
-        </article>
+      {% if current_view == "sonstige_wahlmodule" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["sonstige_wahlmodule"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">{{ t.other_electives }}: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
       {% endif %}
-    {% endfor %}
-    {% if not ns.found %}
-      <p class="empty-state">{{ t.comments_empty }}</p>
-    {% endif %}
-  </div>
-</div>
-                </details>
-              </article>
-            {% else %}
-              <p class="empty-state">{{ t.modules_empty }}</p>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
-    </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>{{ t.footer }}</p>
+      {% if current_view == "wahlmodule" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["wahlmodule"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">{{ t.elective_modules }}: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "nichttechnischer_wahlpflichtbereich" %}
+        <div class="module-list">
+          {% for modul in nichttechnischer_wahlpflichtbereich %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">{{ t.non_technical_area }}: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
-  </footer>
-
-  <script>
-    function toggleCommentForm(id) {
-      const form = document.getElementById(id);
-      if (form.style.display === "block") {
-        form.style.display = "none";
-      } else {
-        form.style.display = "block";
-      }
-    }
-
-    function changeDegree() {
-      const degree = document.getElementById("degreeSelect").value;
-      const lang = "{{ lang }}";
-      window.location.href = "/studiengaenge?degree=" + encodeURIComponent(degree) + "&lang=" + encodeURIComponent(lang);
-    }
-
-    function changeProgram() {
-      const degree = "{{ current_degree }}";
-      const program = document.getElementById("programSelect").value;
-      const lang = "{{ lang }}";
-      window.location.href =
-        "/studiengaenge?degree=" + encodeURIComponent(degree) +
-        "&program=" + encodeURIComponent(program) +
-        "&lang=" + encodeURIComponent(lang);
-    }
-  </script>
-</body>
-</html>
+  </section>
+{% endblock %}

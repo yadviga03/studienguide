@@ -1,0 +1,26 @@
+{% macro render_module_card(modul, t) %}
+  <article class="module-card">
+    <details class="module-details">
+      <summary class="module-summary">
+        <div class="module-summary-text">
+          <h4>{{ modul.name }}</h4>
+        </div>
+        <span class="details-label" data-open-text="{{ t.show_more }}" data-close-text="{{ t.show_less }}">
+          {{ t.show_more }}
+        </span>
+      </summary>
+
+      <div class="module-card-body">
+        <div class="module-description full-width">
+          <h5>{{ t.module_description }}</h5>
+          <p>{{ modul.beschreibung }}</p>
+
+          <div class="experience-hint">
+            <h5>{{ t.experience_title }}</h5>
+            <p>{{ t.experience_hint }}</p>
+          </div>
+        </div>
+      </div>
+    </details>
+  </article>
+{% endmacro %}

@@ -1,33 +1,65 @@
 {% extends "base.html" %}
+
+{% block title %}{{ t.site_title }} – {{ t.site_subtitle }}{% endblock %}
+
+{% block header_controls %}
+  <div class="language-switch">
+    <a
+      class="lang-btn {% if lang == 'de' %}active{% endif %}"
+      href="{{ url_for('home', lang='de') }}"
+    >
+      DE
+    </a>
+    <a
+      class="lang-btn {% if lang == 'en' %}active{% endif %}"
+      href="{{ url_for('home', lang='en') }}"
+    >
+      EN
+    </a>
+  </div>
+{% endblock %}
+
 {% block content %}
-
-<div class="landing-main">
+  <section class="hero-intro-section">
     <div class="container">
-
-        <section class="landing-hero">
-            <h2>{{ t.home_title }}</h2>
-            <p>{{ t.home_subtitle }}</p>
-        </section>
-
-        <div class="landing-grid">
-
-            <a class="landing-card"
-               href="{{ url_for('studiengaenge', lang=lang) }}">
-                <div class="landing-card-icon">🎓</div>
-                <h3>{{ t.study_programs }}</h3>
-                <p>{{ t.study_programs_desc }}</p>
-            </a>
-
-            <a class="landing-card"
-               href="{{ url_for('lehrstuehle', lang=lang) }}">
-                <div class="landing-card-icon">🏛️</div>
-                <h3>{{ t.chairs }}</h3>
-                <p>{{ t.chairs_desc }}</p>
-            </a>
-
-        </div>
-
+      <p class="hero-intro-text">
+        {{ t.home_intro }}
+      </p>
     </div>
-</div>
+  </section>
 
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-card">
+        <h2>{{ t.home_title }}</h2>
+        <p>{{ t.home_subtitle }}</p>
+
+        <div class="home-grid">
+          <a class="home-tile" href="{{ url_for('studiengaenge', lang=lang) }}">
+            <div class="home-tile-icon">🎓</div>
+            <h3>{{ t.study_programs }}</h3>
+            <p>
+              Hier findest du eine Übersicht nach Studiengängen. Wähle deinen Studiengang aus
+              und entdecke alle Module, die du nach unserem aktuellen Stand wählen kannst.
+            </p>
+          </a>
+
+          <a class="home-tile" href="{{ url_for('lehrstuehle', lang=lang) }}">
+            <div class="home-tile-icon">🏛️</div>
+            <h3>{{ t.chairs }}</h3>
+            <p>
+              Falls du dir anschauen möchtest, welche Lehrstühle es bei uns gibt
+              und mit welchen Themen sie sich beschäftigen, findest du hier eine Übersicht.
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="home-disclaimer-wrap container">
+    <p class="home-disclaimer-text">
+      {{ t.home_disclaimer.format(email="EMAIL@EINFUEGEN.DE") }}
+    </p>
+  </div>
 {% endblock %}

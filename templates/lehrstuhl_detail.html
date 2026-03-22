@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t.site_title }} – {{ chair.name }}{% endblock %}
+
+{% block header_controls %}
+  <div class="language-switch">
+    <a
+      class="lang-btn {% if lang == 'de' %}active{% endif %}"
+      href="{{ url_for('lehrstuhl_detail', chair_id=chair_id, lang='de') }}"
+    >
+      DE
+    </a>
+    <a
+      class="lang-btn {% if lang == 'en' %}active{% endif %}"
+      href="{{ url_for('lehrstuhl_detail', chair_id=chair_id, lang='en') }}"
+    >
+      EN
+    </a>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="container page-back-link-wrap dual-back-links">
+    <a class="chip back-chip" href="{{ url_for('home', lang=lang) }}">
+      ← {{ t.back_home }}
+    </a>
+    <a class="chip back-chip" href="{{ url_for('lehrstuehle', lang=lang) }}">
+      ← {{ t.back_chairs }}
+    </a>
+  </div>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="section-heading">
+        <h2>{{ chair.name }}</h2>
+        <p>{{ t.chair_modules_text }}</p>
+      </div>
+
+      <div class="chair-module-section">
+        <h3 class="chair-module-heading">Bachelormodule</h3>
+
+        <div class="chair-simple-list">
+          {% for modul in bachelor_modules %}
+            <div class="chair-simple-list-item">
+              <div class="chair-simple-list-title">{{ modul.name }}</div>
+              <div class="chair-simple-list-text">{{ modul.beschreibung }}</div>
+
+              <div class="experience-hint">
+                <h5>{{ t.experience_title }}</h5>
+                <p>{{ t.experience_hint }}</p>
+              </div>
+            </div>
+          {% else %}
+            <p class="empty-state">Keine Bachelormodule hinterlegt.</p>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="chair-module-section">
+        <h3 class="chair-module-heading">Mastermodule</h3>
+
+        <div class="chair-simple-list">
+          {% for modul in master_modules %}
+            <div class="chair-simple-list-item">
+              <div class="chair-simple-list-title">{{ modul.name }}</div>
+              <div class="chair-simple-list-text">{{ modul.beschreibung }}</div>
+
+              <div class="experience-hint">
+                <h5>{{ t.experience_title }}</h5>
+                <p>{{ t.experience_hint }}</p>
+              </div>
+            </div>
+          {% else %}
+            <p class="empty-state">Keine Mastermodule hinterlegt.</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

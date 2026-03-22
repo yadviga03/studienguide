@@ -39,7 +39,6 @@ CHAIRS = {
         "group": "A - Me",
         "modules": []
     },
-
     "mikrofluidik": {
         "name": "Mikrofluidik",
         "group": "Mi - Sc",
@@ -70,7 +69,6 @@ CHAIRS = {
         "group": "Mi - Sc",
         "modules": []
     },
-
     "stroemungsmaschinen": {
         "name": "Strömungsmaschinen",
         "group": "St - W",
@@ -99,17 +97,6 @@ CHAIRS = {
     "werkstofftechnik_chair": {
         "name": "Werkstofftechnik",
         "group": "St - W",
-        "modules": []
-    },
-
-    "biomedizinische_technik": {
-        "name": "Biomedizinische Technik (Universitätsmedizin)",
-        "group": "Assoziierte Lehrstühle",
-        "modules": []
-    },
-    "biomechanik_implantattechnologie": {
-        "name": "Biomechanik und Implantattechnologie (Universitätsmedizin)",
-        "group": "Assoziierte Lehrstühle",
         "modules": []
     }
 }

@@ -1,28 +1,33 @@
 {% extends "base.html" %}
+
+{% block title %}{{ t.chairs_page_title }}{% endblock %}
+
 {% block content %}
+<section class="content-section">
+  <div class="container">
 
-<div class="landing-main">
-    <div class="container">
-
-        <section class="landing-hero">
-            <h2>{{ t.chairs_page_title }}</h2>
-            <p>{{ t.chairs_page_text }}</p>
-        </section>
-
-        {% for group, chairs in grouped_chairs.items() %}
-            <h3>{{ group }}</h3>
-            <ul>
-            {% for c in chairs %}
-                <li>
-                    <a href="{{ url_for('lehrstuhl_detail', chair_id=c.id, lang=lang) }}">
-                        {{ c.name }}
-                    </a>
-                </li>
-            {% endfor %}
-            </ul>
-        {% endfor %}
-
+    <div class="section-heading">
+      <h2>{{ t.chairs_page_title }}</h2>
+      <p>{{ t.chairs_page_text }}</p>
     </div>
-</div>
 
+    <div class="chair-list">
+      {% for chair in chairs %}
+        <a class="chair-list-item"
+           href="{{ url_for('lehrstuhl_detail', chair_id=chair.id, lang=lang) }}">
+           
+          <div class="chair-list-name">
+            {{ chair.name }}
+          </div>
+
+          <div class="chair-list-meta">
+            {{ chair.modules_count }} Module →
+          </div>
+
+        </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
 {% endblock %}
