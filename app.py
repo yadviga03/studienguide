@@ -265,7 +265,6 @@ def lehrstuehle():
         chairs=chairs
     )
 
-
 @app.route("/lehrstuehle/<chair_id>")
 def lehrstuhl_detail(chair_id):
     lang, t = get_lang_and_translations()

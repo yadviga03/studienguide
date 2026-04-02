@@ -10,6 +10,41 @@ def normalize_modules(modules_dict):
         }
     return normalized
 
+# Beschreibung (Beispiel)
+# Name: "..."
+# Beschreibung:
+#   1. Welche Struktur hatte das Modul?
+#      z. B. Vorlesung 1,5 h / Übung 1,5 h oder zusätzlich Praktika?
+#   2. Welche Inhalte sind besonders im Kopf geblieben und was war weniger sinnvoll?
+#   3. Warum ist das Modul für weiterführende Module wichtig oder nicht wichtig?
+#   4. Prüfungsvorleistung:
+#      Näheres: Was genau musste gemacht werden? (Inhalt, zeitlicher Aufwand etc.)
+
+# Klausur:
+#   Wie ist die Prüfungsleistung aufgebaut?
+#   z. B. mündlich oder schriftlich
+#   Wenn schriftlich:
+#       - Rechnen / Theorie, wie ist der Aufbau?
+#       - Wie viele Aufgaben gibt es?
+#       - Wie viel Zeit steht zur Verfügung?
+#   Wenn mündlich:
+#       - Wie ist die Prüfung aufgebaut?
+#       - Wie ist die Stimmung während der Prüfung?
+
+# Tipps:
+#   Wenn du das Modul nochmal beginnen würdest:
+#       - Was würdest du vorher wissen wollen?
+#       - Gibt es hilfreiche Bücher?
+#       - Welche Vorleistungen sind besonders wichtig?
+#       - Gibt es etwas, das man auf keinen Fall machen sollte?
+
+# Erfahrungen:
+#   1. Wann hast du das Modul belegt? (z. B. WS 2025/2026, SS 2024)
+#   2. Was war besonders gut?
+#   3. Was war nicht so gut?
+#   4. Wie gut war die Vorbereitung auf die Klausur?
+#   5. Wie passt die Note zu deinem Lernaufwand?
+#   6. Würdest du das Modul im Nachhinein wieder wählen / empfehlen?
 
 RAW_MODULES = {
     "aktive_systeme_kraftfahrzeug": {
@@ -26,12 +61,27 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "aerodynamik_hydrodynamik": {
-        "name": "Aerodynamik und Hydrodynamik",
+    "advanced_analysis_of_marine_structures": {
+        "name": "Advanced Analysis of Marine Structures",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
+    },
+    "aerodynamik_hydrodynamik": {
+        "name": "Aerodynamik und Hydrodynamik",
+        "beschreibung": "Vorlesung 1,5 h und Übung 1,5 h. Zusätzlich gibt es einen freiwilligen Tagesausflug nach Laage. Dieses Modul ist eine Art Vertiefung in Richtung Überschallgebiete, Flugzeuglehre und Grenzschichten. Man kann die Inhalte auch später für das Modul Numerische Strömungsmechanik gut gebrauchen. Es gibt keine Prüfungsvorleistung.",
+        "klausur": "Mündliche Prüfung. Man muss einerseits die Fragen richtig beantworten, andererseits im Fragenkatalog weit kommen (d. h. viele Fragen beantworten).",
+        "tipps": [
+            "Vorlesungen besuchen (es werden genau diese Inhalte in der Prüfung abgefragt).",
+            "Nehmt die Exkursion nach Laage unbedingt mit."
+        ],
+        "erfahrungen": [
+            {
+                "semester": "WS24/25",
+                "bericht": "Ich fand, das war eines der besten Module im Studium. Die Exkursion war super. Die Prüfung war fair, aber es gibt schon viel zu lernen und zu verstehen. Ich würde mir mehr solche Module wünschen."
+            }
+        ]
     },
     "alternative_antriebssysteme": {
         "name": "Alternative Antriebssysteme",
@@ -96,6 +146,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "balance": {
+        "name": "BALANCE - Einführung in interdisziplineres Denken",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "betriebsfestigkeit": {
         "name": "Betriebsfestigkeit",
         "beschreibung": "Beschreibung folgt.",
@@ -110,8 +167,8 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "blue_engineering": {
-        "name": "Blue Engineering - Nachhaltigkeit im Ingenieurwesen",
+     "bruch_schaedigungmechanik": {
+        "name": "Bruch- und Schädigungsmechanik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -119,6 +176,55 @@ RAW_MODULES = {
     },
     "cad": {
         "name": "Computer Aided Design (CAD)",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "cfd_fuer_schiffshydrodynamik": {
+        "name": "CFD für Schiffshydrodynamik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "coding_of_finite_elements": {
+        "name": "Coding of Finite Elements",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "computational_modelling_of_biomaterials_and_their_interaction_with_tissue": {
+        "name": "Computational modelling of biomaterials and their interaction with tissue",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "computational_methods_in_fluid_dynamics": {
+        "name": "Computational Methods in Fluid Dynamics",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "computer_aided_design": {
+        "name": "Computer Aided Design",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "continuum_mechanics": {
+        "name": "Continuum Mechanics",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "deep_learning": {
+        "name": "Deep Learning",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -145,8 +251,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "dynamik_von_schiffen_und_offshore_strukturen": {
+        "name": "Dynamik von Schiffen und Offshore Strukturen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "einfuehrung_cpp": {
         "name": "Einführung in die angewandte C++ Programmierung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "einfuehrung_data_science": {
+        "name": "Einführung in die Data Science in Materialwissenschafte und Ingenieurwesen",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -231,6 +351,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "entwerfen_von_schiffen": {
+        "name": "Entwerfen von Schiffen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "ermuedungsrisse": {
         "name": "Ermüdungsrisse",
         "beschreibung": "Beschreibung folgt.",
@@ -253,7 +380,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "fabrikplanung": {
-        "name": "Fabrikplanung",
+        "name": "Fabrikplanung und Automatisierung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -280,8 +407,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "festigkeitsoptimiertes_gestalten": {
+    "festigkeitsoptimiertes_bruchsicheres": {
         "name": "Festigkeitsoptimiertes und bruchsicheres Gestalten",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "fluid_dynamik": {
+        "name": "Fluid Dynamik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "finite_elemente_analyse_verbundwerkstoffstrukturen": {
+        "name": "Finite-Elemente-Analyse von Verbundwerkstoffstrukturen",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -357,6 +498,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "industrial_engineering": {
+        "name": "Industrial Engineering",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "informatik": {
         "name": "Informatik",
         "beschreibung": "Einführung in informatische Grundlagen und technische Anwendungen.",
@@ -392,7 +540,7 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "kolben_stroemungsmaschinen_energiemaschinen": {
+    "kolben_stroemungsmaschinen": {
         "name": "Kolben- und Strömungsmaschinen / Energiemaschinen",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
@@ -448,8 +596,29 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "labor_vertiefung_werkstofftechnik": {
-        "name": "Laborpraktikum Vertiefungsrichtung Werkstofftechnik",
+    "labor_werkstofftechnik": {
+        "name": "Laborpraktikum Werkstofftechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "labor_thermodynamik_stroemungsmaschinen_und_verbrennungsmotoren": {
+        "name": "Laborpraktikum Thermodynamik, Strömungsmaschinen und Verbrennungsmotoren",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "labor_werkstofftechnik": {
+        "name": "Laborpraktikum Werkstofftechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "leckstabilitaet_und_kentersicherheit": {
+        "name": "Leckstabilität und Kentersicherheit",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -477,7 +646,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "logistik": {
-        "name": "Logistik",
+        "name": "Logistik und Kreislaufwirtschaft",
         "beschreibung": "Es geht um Logistik und Kreislaufwirtschaft in der industriellen Anwendung. Prof. Sender gibt sehr viele praxisnahe Beispiele. Jedoch kann die Vorlesung einem sehr trocken erscheinen, wenn man nicht so sehr auf theoretische Inhalte steht.",
         "klausur": "Bisher keine genauen Infos zur Prüfungsform eingetragen.",
         "tipps": [
@@ -491,13 +660,7 @@ RAW_MODULES = {
             }
         ]
     },
-    "logistik_kreislaufwirtschaft": {
-        "name": "Logistik und Kreislaufwirtschaft",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
-    },
+
     "management_entwicklungsteams_projekten": {
         "name": "Management von Entwicklungsteams und Projekten",
         "beschreibung": "Beschreibung folgt.",
@@ -540,8 +703,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "mathematische_modelle_in_der_schiffstheorie": {
+        "name": "Mathematische Modelle in der Schiffstheorie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "mehrstoffthermodynamik": {
         "name": "Mehrstoffthermodynamik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "meeresforschungstechnik": {
+        "name": "Meeresforschungstechnik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -575,7 +752,7 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "modellierung_turbulenz": {
+    "modellierung_und_simulation_der_turbulenz": {
         "name": "Modellierung und Simulation der Turbulenz",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
@@ -638,6 +815,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "numerical_and_experimental_hydroacoustics": {
+        "name": "Numerical and Experimental Hydroacoustics",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "numerik_stochastik_ing": {
         "name": "Numerik und Stochastik für Ingenieurwissenschaften",
         "beschreibung": "Beschreibung folgt.",
@@ -659,8 +843,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "produktionsplanung_steuerung_pps": {
-        "name": "Produktionsplanung und -steuerung (PPS)",
+    "principle_analysis_of_marine_structures": {
+        "name": "Principle Analysis of Marine Structures",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "principles_of_energy_technology_systems_and_applications_in_maritime_context": {
+        "name": "Principles of energy technology: systems & applications in maritime context",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "produktionsplanung_steuerung": {
+        "name": "Produktionsplanung und -steuerung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -701,6 +899,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "propellertheorie": {
+        "name": "Propellertheorie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "python_data_analysis": {
+        "name": "Python for data analysis and visualization",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "qualitaetsmanagement": {
         "name": "Qualitätsmanagement",
         "beschreibung": "Beschreibung folgt.",
@@ -708,8 +920,15 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "rechnergestuetzte_entwicklungsmethoden_in_der_schiffs_und_meerestechnik": {
+        "name": "Rechnergestützte Entwicklungsmethoden in der Schiffs- und Meerestechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "regelungstechnik": {
-        "name": "Regelungstechnik",
+        "name": "Systemdynamik und Regelungstechnik",
         "beschreibung": "Einführung in Regelkreise, Systeme und deren Verhalten.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -743,8 +962,8 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "robuste_regelung": {
-        "name": "Robuste Regelung und Zustandsschätzung",
+    "robust_control": {
+        "name": "Robust Control ans State Estimation",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -792,6 +1011,27 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+     "sea_loads_on_offshore_structures_emship": {
+        "name": "Sea loads on Offshore structures",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "selected_topics_for_the_analysis_of_marine_structures": {
+        "name": "Selected Topics for the Analysis of Marine Structures",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "seminar_stroemungs_und_windenergietechnik": {
+        "name": "Seminar Strömungs- und Windenergietechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "simulation_werkstofftechnik": {
         "name": "Simulation in der Werkstofftechnik",
         "beschreibung": "Beschreibung folgt.",
@@ -802,6 +1042,13 @@ RAW_MODULES = {
     "stroemungsmechanik_grundlagen": {
         "name": "Grundlagen der Strömungsmechanik",
         "beschreibung": "Grundlagen der Strömungsmechanik und technische Anwendungen.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "structural_design_of_marine_structures": {
+        "name": "Structural Design of Marine Structures",
+        "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
@@ -822,6 +1069,13 @@ RAW_MODULES = {
     },
     "supply_chain_management": {
         "name": "Supply Chain Management",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "team_project_emship": {
+        "name": "Team Project EMship",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -890,13 +1144,35 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "theorie_und_entwerfen_schwimmender_und_gegruendeter_offshore_systeme_master": {
+        "name": "Theorie und Entwerfen schwimmender und gegründeter Offshore-Systeme",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "theorie_und_entwerfen_von_unterwassersystemen": {
+        "name": "Theorie und Entwerfen von Unterwassersystemen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "thermodynamics_of_energy_and_environmental_processes": {
+        "name": "Thermodynamics of Energy and Environmental Processes",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "thermodynamik": {
-        "name": "Thermodynamik",
+        "name": "Technische Thermodynamik 1",
         "beschreibung": "Grundlagen der Thermodynamik für Maschinenbau.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
     },
+    
     "thermodynamik_umweltprozesse": {
         "name": "Thermodynamik von Energie- und umwelttechnischen Prozessen",
         "beschreibung": "Beschreibung folgt.",
@@ -932,6 +1208,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "ultimate_strength_assessment_of_marine_structures": {
+        "name": "Ultimate Strength Assessment of Marine Structures",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "verbrennungsmotoren_1": {
         "name": "Verbrennungsmotoren 1: Konstruktionsgrundlagen emissionsarmer Verbrennungsmotoren",
         "beschreibung": "Beschreibung folgt.",
@@ -960,6 +1243,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "verbundwerkstoffdesign": {
+        "name": "Verbundwerkstoffdesign",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "vernetzte_produktion_und_logistik": {
+        "name": "Vernetzte Produktion und Logistik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "waerme_stoffuebertragung": {
         "name": "Wärme- und Stoffübertragung",
         "beschreibung": "Beschreibung folgt.",
@@ -975,7 +1272,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "werkstofftechnik": {
-        "name": "Werkstofftechnik",
+        "name": "Werkstofftechnik 1",
         "beschreibung": "Werkstofftechnische Grundlagen und Eigenschaften technischer Materialien.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -983,6 +1280,13 @@ RAW_MODULES = {
     },
     "werkstofftechnik_2": {
         "name": "Werkstofftechnik 2: Erweiterte Grundlagen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "widerstand_und_propulsion": {
+        "name": "Widerstand und Propulsion",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1001,7 +1305,15 @@ RAW_MODULES = {
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
-    }
+    },
+    "x_ray": {
+        "name": "X-ray techniques for materials characterisation",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+
 }
 
 MODULES = normalize_modules(RAW_MODULES)

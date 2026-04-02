@@ -4,7 +4,8 @@ NICHT_TECHNISCHER_WAHLPFLICHTBEREICH = [
     "gewerbliche_schutzrechte",
     "englisch_fachkommunikation_ing_c12",
     "management_entwicklungsteams_projekten",
-    "numerik_stochastik_ing"
+    "numerik_stochastik_ing",
+    "balance",
 ]
 
 DATA = {
@@ -43,7 +44,7 @@ DATA = {
                 ],
                 "Energie- und Umwelttechnik": [
                     "verbrennungsmotoren_1",
-                    "kolben_stroemungsmaschinen_energiemaschinen",
+                    "kolben_stroemungsmaschinen",
                     "technische_thermodynamik_2",
                     "waerme_stoffuebertragung",
                     "aerodynamik_hydrodynamik",
@@ -60,7 +61,7 @@ DATA = {
                     "logistik",
                     "grundlagen_fuegetechnik",
                     "grundlagen_materialflusstechnik",
-                    "produktionsplanung_steuerung_pps",
+                    "produktionsplanung_steuerung",
                     "robotertechnik",
                     "antriebssteuerung",
                     "fabrikplanung",
@@ -85,14 +86,13 @@ DATA = {
                 ],
                 "Sustainable Engineering": [
                     "aerodynamik_hydrodynamik",
-                    "logistik_kreislaufwirtschaft",
+                    "logistik",
                     "antriebstechnik",
                     "technische_thermodynamik_2",
                     "energietechnik",
                     "leichtbau_grundlagen",
                     "klimaneutrale_kraftstoffe",
                     "nachhaltige_werkstoffauswahl",
-                    "blue_engineering",
                     "einfuehrung_meerestechnik",
                     "grundlagen_schiffstechnik",
                     "grundlagen_stroemungsmaschinen_windturbinen",
@@ -307,7 +307,7 @@ DATA = {
                     "modellierung_turbulenz"
                     ],
                 "Werkstofftechnik": [
-                    "labor_vertiefung_werkstofftechnik",
+                    "labor_werkstofftechnik",
                     "metallische_konstruktionswerkstoffe",
                     "nichtmetallische_werkstoffe",
                     "additive_fertigungsverfahren",

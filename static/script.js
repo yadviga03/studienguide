@@ -10,6 +10,8 @@ function initHeaderSelects() {
   const degreeSelect = document.getElementById("degreeSelect");
   const programSelect = document.getElementById("programSelect");
 
+  if (!degreeSelect && !programSelect) return;
+
   const baseUrl = wrapper.dataset.studiengaengeUrl;
   const lang = wrapper.dataset.lang;
   const currentView = wrapper.dataset.view;
@@ -27,13 +29,18 @@ function initHeaderSelects() {
   if (programSelect) {
     programSelect.addEventListener("change", function () {
       const url = new URL(baseUrl, window.location.origin);
-      url.searchParams.set("degree", degreeSelect.value);
+
+      if (degreeSelect) {
+        url.searchParams.set("degree", degreeSelect.value);
+      }
+
       url.searchParams.set("program", programSelect.value);
       url.searchParams.set("lang", lang);
 
       if (currentView) {
         url.searchParams.set("view", currentView);
       }
+
       if (currentSpecialization) {
         url.searchParams.set("specialization", currentSpecialization);
       }
@@ -44,20 +51,18 @@ function initHeaderSelects() {
 }
 
 function initDetailsLabels() {
-  const detailsElements = document.querySelectorAll(".module-details");
+  const detailElements = document.querySelectorAll(".module-details");
 
-  detailsElements.forEach((details) => {
-    const label = details.querySelector(".details-label");
-    if (!label) return;
+  detailElements.forEach((detail) => {
+    detail.addEventListener("toggle", function () {
+      const summary = detail.querySelector("summary");
+      if (!summary) return;
 
-    const openText = label.dataset.openText || "Mehr anzeigen";
-    const closeText = label.dataset.closeText || "Weniger anzeigen";
-
-    const updateText = () => {
-      label.textContent = details.open ? closeText : openText;
-    };
-
-    details.addEventListener("toggle", updateText);
-    updateText();
+      if (detail.open) {
+        summary.setAttribute("data-open", "true");
+      } else {
+        summary.setAttribute("data-open", "false");
+      }
+    });
   });
 }

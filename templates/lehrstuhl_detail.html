@@ -2,23 +2,6 @@
 
 {% block title %}{{ t.site_title }} – {{ chair.name }}{% endblock %}
 
-{% block header_controls %}
-  <div class="language-switch">
-    <a
-      class="lang-btn {% if lang == 'de' %}active{% endif %}"
-      href="{{ url_for('lehrstuhl_detail', chair_id=chair_id, lang='de') }}"
-    >
-      DE
-    </a>
-    <a
-      class="lang-btn {% if lang == 'en' %}active{% endif %}"
-      href="{{ url_for('lehrstuhl_detail', chair_id=chair_id, lang='en') }}"
-    >
-      EN
-    </a>
-  </div>
-{% endblock %}
-
 {% block content %}
   <div class="container page-back-link-wrap dual-back-links">
     <a class="chip back-chip" href="{{ url_for('home', lang=lang) }}">
@@ -36,40 +19,58 @@
         <p>{{ t.chair_modules_text }}</p>
       </div>
 
-      <div class="chair-module-section">
-        <h3 class="chair-module-heading">Bachelormodule</h3>
+      <div class="chair-modules-grid">
+        <div class="chair-module-column">
+          <h3 class="chair-module-heading">Bachelormodule</h3>
 
-        <div class="chair-simple-list">
           {% for modul in bachelor_modules %}
-            <div class="chair-simple-list-item">
-              <div class="chair-simple-list-title">{{ modul.name }}</div>
-              <div class="chair-simple-list-text">{{ modul.beschreibung }}</div>
+            <details class="module-details">
+              <summary>
+                <span class="module-summary-title">{{ modul.name }}</span>
+              </summary>
 
-              <div class="experience-hint">
-                <h5>{{ t.experience_title }}</h5>
-                <p>{{ t.experience_hint }}</p>
+              <div class="module-details-content">
+                <div class="module-card-grid">
+                  <article class="info-card">
+                    <h4>{{ t.module_description }}</h4>
+                    <p>{{ modul.beschreibung }}</p>
+                  </article>
+
+                  <article class="info-card">
+                    <h4>{{ t.experience_title }}</h4>
+                    <p>{{ t.experience_hint }}</p>
+                  </article>
+                </div>
               </div>
-            </div>
+            </details>
           {% else %}
             <p class="empty-state">Keine Bachelormodule hinterlegt.</p>
           {% endfor %}
         </div>
-      </div>
 
-      <div class="chair-module-section">
-        <h3 class="chair-module-heading">Mastermodule</h3>
+        <div class="chair-module-column">
+          <h3 class="chair-module-heading">Mastermodule</h3>
 
-        <div class="chair-simple-list">
           {% for modul in master_modules %}
-            <div class="chair-simple-list-item">
-              <div class="chair-simple-list-title">{{ modul.name }}</div>
-              <div class="chair-simple-list-text">{{ modul.beschreibung }}</div>
+            <details class="module-details">
+              <summary>
+                <span class="module-summary-title">{{ modul.name }}</span>
+              </summary>
 
-              <div class="experience-hint">
-                <h5>{{ t.experience_title }}</h5>
-                <p>{{ t.experience_hint }}</p>
+              <div class="module-details-content">
+                <div class="module-card-grid">
+                  <article class="info-card">
+                    <h4>{{ t.module_description }}</h4>
+                    <p>{{ modul.beschreibung }}</p>
+                  </article>
+
+                  <article class="info-card">
+                    <h4>{{ t.experience_title }}</h4>
+                    <p>{{ t.experience_hint }}</p>
+                  </article>
+                </div>
               </div>
-            </div>
+            </details>
           {% else %}
             <p class="empty-state">Keine Mastermodule hinterlegt.</p>
           {% endfor %}

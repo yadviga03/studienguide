@@ -11,15 +11,48 @@
       </summary>
 
       <div class="module-card-body">
-        <div class="module-description full-width">
-          <h5>{{ t.module_description }}</h5>
-          <p>{{ modul.beschreibung }}</p>
+        {% if modul.beschreibung %}
+          <div class="module-description full-width">
+            <h5>{{ t.module_description }}</h5>
+            <p>{{ modul.beschreibung }}</p>
+          </div>
+        {% endif %}
 
+        {% if modul.klausur %}
+          <div class="module-description full-width">
+            <h5>{{ t.exam_title if t.exam_title is defined else "Klausur" }}</h5>
+            <p>{{ modul.klausur }}</p>
+          </div>
+        {% endif %}
+
+        {% if modul.tipps and modul.tipps|length > 0 %}
+          <div class="module-description full-width">
+            <h5>{{ t.tips_title if t.tips_title is defined else "Tipps" }}</h5>
+            <ul>
+              {% for tipp in modul.tipps %}
+                <li>{{ tipp }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        {% if modul.erfahrungen and modul.erfahrungen|length > 0 %}
+          <div class="experience-hint">
+            <h5>{{ t.experience_title }}</h5>
+
+            {% for erfahrung in modul.erfahrungen %}
+              <div class="experience-entry">
+                <span class="semester-chip">{{ erfahrung.semester }}</span>
+                <p>{{ erfahrung.bericht }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        {% else %}
           <div class="experience-hint">
             <h5>{{ t.experience_title }}</h5>
             <p>{{ t.experience_hint }}</p>
           </div>
-        </div>
+        {% endif %}
       </div>
     </details>
   </article>
