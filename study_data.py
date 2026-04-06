@@ -354,8 +354,61 @@ DATA = {
         },
 
         "Sustainable Engineering": {
-            "pflichtmodule": [],
-            "wahlmodule": []
+            "pflichtmodule": [
+                "design_offshore_systems",
+                "principle_analysis_of_marine_structures",
+                "principles_of_marine_fluid_mechanics",
+                "safety_maritime_systems",
+                "ship_design"
+            ],
+            "wahlmodule": [
+                "advanced_analysis_of_marine_structures",
+                "advanced_analysis_offshore_systems",
+                "cfd_maritime_engineering",
+                "coding_of_finite_elements",
+                "composite_material_design",
+                "continuum_mechanics",
+                "deep_sea_technology_underwater_applications",
+                "design_offshore_aquaculture_systems",
+                "design_underwater_systems",
+                "experimental_methods_maritime_engineering",
+                "large_engines_energy_converters_fuels",
+                "modelling_turbulent_flows",
+                "navigation_control_autonomy_systems",
+                "ocean_renewable_energies",
+                "ocean_research_technologies",
+                "ocean_waves",
+                "resistance_propulsion",
+                "sailing_theory",
+                "seakeeping_manoeuvring",
+                "selected_topics_for_the_analysis_of_marine_structures",
+                "ship_life_cycle_digitalization",
+                "structural_design_marine_structures",
+                "technical_production_processes_ships",
+                "ultimate_strength_assessment_of_marine_structures"
+            ],
+            "sonstige_wahlmodule":[
+                "dynamics_multibody_systems",
+                "finite_element_analysis_composite_structures",
+                "introduction_applied_programming_cpp",
+                "introduction_data_science_materials",
+                "maritime_graphics",
+                "metallic_engineering_materials",
+                "numerical_and_experimental_hydroacoustics",
+                "numerical_fluid_mechanics_turbulent_flows",
+                "principles_of_energy_technology_systems_and_applications_in_maritime_context",
+                "robust_control",
+                "structural_durability",
+                "technical_fluids_sustainable_maritime"
+            ],
+            "nichttechnischer_wahlpflichtbereich": [
+                "deutsch_a11",
+                "deutsch_a12",
+                "englisch_fachkommunikation_ing_c12",
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "essentials_ocean_science_and_sustainable_ocean_use",
+                "reasoning_under_uncertainty"
+            ]
         }
     }
 }

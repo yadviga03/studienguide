@@ -291,7 +291,6 @@ def lehrstuhl_detail(chair_id):
 def studiengaenge():
     lang, t = get_lang_and_translations()
     resolved_data = get_resolved_data()
-    resolved_nichttechnisch = resolve_modules(NICHT_TECHNISCHER_WAHLPFLICHTBEREICH)
 
     degree = request.args.get("degree", "Bachelor")
     if degree not in resolved_data:
@@ -302,6 +301,13 @@ def studiengaenge():
     program = request.args.get("program", programs[0])
     if program not in resolved_data[degree]:
         program = programs[0]
+
+    program_raw_data = DATA[degree][program]
+    nichttechnisch_ids = program_raw_data.get(
+        "nichttechnischer_wahlpflichtbereich",
+        NICHT_TECHNISCHER_WAHLPFLICHTBEREICH
+    )
+    resolved_nichttechnisch = resolve_modules(nichttechnisch_ids)
 
     program_data = resolved_data[degree][program]
     view = request.args.get("view", get_default_view(degree, program))

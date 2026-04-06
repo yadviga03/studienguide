@@ -68,6 +68,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "advanced_analysis_offshore_systems": {
+    "name": "Advanced Analysis of Offshore Systems",
+    "beschreibung": "Beschreibung folgt.",
+    "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+    "tipps": [],
+    "erfahrungen": []
+    },  
     "aerodynamik_hydrodynamik": {
         "name": "Aerodynamik und Hydrodynamik",
         "beschreibung": "Vorlesung 1,5 h und Übung 1,5 h. Zusätzlich gibt es einen freiwilligen Tagesausflug nach Laage. Dieses Modul ist eine Art Vertiefung in Richtung Überschallgebiete, Flugzeuglehre und Grenzschichten. Man kann die Inhalte auch später für das Modul Numerische Strömungsmechanik gut gebrauchen. Es gibt keine Prüfungsvorleistung.",
@@ -188,12 +195,26 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "cfd_maritime_engineering": {
+    "name": "CFD in Maritime Engineering",
+    "beschreibung": "Beschreibung folgt.",
+    "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+    "tipps": [],
+    "erfahrungen": []
+    },
     "coding_of_finite_elements": {
         "name": "Coding of Finite Elements",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
+    },
+    "composite_material_design": {
+    "name": "Composite Material Design",
+    "beschreibung": "Beschreibung folgt.",
+    "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+    "tipps": [],
+    "erfahrungen": []
     },
     "computational_modelling_of_biomaterials_and_their_interaction_with_tissue": {
         "name": "Computational modelling of biomaterials and their interaction with tissue",
@@ -230,8 +251,57 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "deep_sea_technology_underwater_applications": {
+        "name": "Deep-Sea Technology and Practical Applications of Underwater Technology",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "design_offshore_aquaculture_systems": {
+        "name": "Design of Offshore Aquaculture Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "design_offshore_systems": {
+        "name": "Design of Offshore Systems",
+        "beschreibung": "Decription incoming",
+        "klausur": "No informations",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "design_underwater_systems": {
+        "name": "Design of Underwater Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "digitale_regelung": {
         "name": "Digitale Regelung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "deutsch_a11": {
+        "name": "Deutsch A1.1",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "deutsch_a12": {
+        "name": "Deutsch A1.2",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "dynamics_multibody_systems": {
+        "name": "Dynamics of Multibody Systems",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -365,6 +435,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "essentials_ocean_science_and_sustainable_ocean_use": {
+        "name": "Essentials of Ocean Science and Sustainable Ocean Use",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "experimental_methods_maritime_engineering": {
+        "name": "Experimental Methods in Maritime Engineering",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },  
     "experimentelle_stroemungsmechanik": {
         "name": "Experimentelle Strömungsmechanik",
         "beschreibung": "Beschreibung folgt.",
@@ -379,6 +463,7 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+
     "fabrikplanung": {
         "name": "Fabrikplanung und Automatisierung",
         "beschreibung": "Beschreibung folgt.",
@@ -416,6 +501,13 @@ RAW_MODULES = {
     },
     "fluid_dynamik": {
         "name": "Fluid Dynamik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "finite_element_analysis_composite_structures": {
+        "name": "Finite Element Analysis of Composite Structures",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -519,6 +611,21 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "introduction_applied_programming_cpp": {
+        "name": "Introduction to Applied Programming in C++",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "introduction_data_science_materials": {
+        "name": "Introduction to Data Science in Materials Science and Engineering",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+
     "kaelte_klimatechnik": {
         "name": "Kälte- und Klimatechnik",
         "beschreibung": "Beschreibung folgt.",
@@ -617,6 +724,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "large_engines_energy_converters_fuels": {
+        "name": "Large Engines, Energy Converters and Fuels for Climate Neutral Marine Applications",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "leckstabilitaet_und_kentersicherheit": {
         "name": "Leckstabilität und Kentersicherheit",
         "beschreibung": "Beschreibung folgt.",
@@ -668,6 +782,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "maritime_graphics": {
+        "name": "Maritime Graphics",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "maritime_logistik": {
         "name": "Maritime Logistik",
         "beschreibung": "Beschreibung folgt.",
@@ -684,9 +805,12 @@ RAW_MODULES = {
     },
     "mathematik_1": {
         "name": "Mathematik 1",
-        "beschreibung": "Grundlagen der Mathematik für ingenieurwissenschaftliche Anwendungen.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
+        "klausur": "Schriftliche Klausur: Bei Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei …",
+        "tipps": [
+            "Macht die Serien ordentlich und schreibt euch das gut auf (mit einem guten System). Ihr werdet im Studium noch weiter darauf zurückgreifen. "
+            "Falls ihr die Klausur nicht schreiben wollt, macht trotzdem die Zulassung. Ihr werdet euch ärgern, wenn ihr das nicht vorher fertig macht."
+        ],
         "erfahrungen": []
     },
     "mathematik_2": {
@@ -731,7 +855,14 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "metallische_konstruktionswerkstoffe": {
+    "metallic_engineering_materials": {
+        "name": "Metallic Engineering Materials",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+        "metallische_konstruktionswerkstoffe": {
         "name": "Metallische Konstruktionswerkstoffe / Wärmebehandlung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
@@ -754,6 +885,13 @@ RAW_MODULES = {
     },
     "modellierung_und_simulation_der_turbulenz": {
         "name": "Modellierung und Simulation der Turbulenz",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "modelling_turbulent_flows": {
+        "name": "Modelling and Simulation of Turbulent Flows",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -794,6 +932,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "navigation_control_autonomy_systems": {
+        "name": "Navigation, Control and Vehicle Autonomy of Maritime Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "nichtlineare_regelungssysteme": {
         "name": "Nichtlineare Regelungssysteme",
         "beschreibung": "Beschreibung folgt.",
@@ -822,6 +967,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "numerical_fluid_mechanics_turbulent_flows": {
+        "name": "Numerical Fluid Mechanics and Turbulent Flows",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "numerik_stochastik_ing": {
         "name": "Numerik und Stochastik für Ingenieurwissenschaften",
         "beschreibung": "Beschreibung folgt.",
@@ -843,6 +995,27 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "ocean_renewable_energies": {
+        "name": "Ocean Renewable Energies",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "ocean_research_technologies": {
+        "name": "Ocean Research Technologies",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "ocean_waves": {
+        "name": "Ocean Waves",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "principle_analysis_of_marine_structures": {
         "name": "Principle Analysis of Marine Structures",
         "beschreibung": "Beschreibung folgt.",
@@ -852,6 +1025,13 @@ RAW_MODULES = {
     },
     "principles_of_energy_technology_systems_and_applications_in_maritime_context": {
         "name": "Principles of energy technology: systems & applications in maritime context",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "principles_of_marine_fluid_mechanics": {
+        "name": "Principles of marine fluid mechanics",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -920,6 +1100,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "reasoning_under_uncertainty": {
+        "name": "Reasoning under Unsertainty",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "rechnergestuetzte_entwicklungsmethoden_in_der_schiffs_und_meerestechnik": {
         "name": "Rechnergestützte Entwicklungsmethoden in der Schiffs- und Meerestechnik",
         "beschreibung": "Beschreibung folgt.",
@@ -955,6 +1142,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "resistance_propulsion": {
+        "name": "Resistance and Propulsion",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "robotertechnik": {
         "name": "Robotertechnik",
         "beschreibung": "Beschreibung folgt.",
@@ -964,6 +1158,20 @@ RAW_MODULES = {
     },
     "robust_control": {
         "name": "Robust Control ans State Estimation",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "safety_maritime_systems": {
+        "name": "Safety of Marine Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "sailing_theory": {
+        "name": "Sailing Theory",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1018,6 +1226,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "seakeeping_manoeuvring": {
+        "name": "Seakeeping and Manoeuvring",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "selected_topics_for_the_analysis_of_marine_structures": {
         "name": "Selected Topics for the Analysis of Marine Structures",
         "beschreibung": "Beschreibung folgt.",
@@ -1027,6 +1242,20 @@ RAW_MODULES = {
     },
     "seminar_stroemungs_und_windenergietechnik": {
         "name": "Seminar Strömungs- und Windenergietechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "ship_design": {
+        "name": "Ship design",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "ship_life_cycle_digitalization": {
+        "name": "Ship Life Cycle Digitalization",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1046,8 +1275,15 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "structural_design_of_marine_structures": {
+    "structural_design_marine_structures": {
         "name": "Structural Design of Marine Structures",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "structural_durability": {
+        "name": "Structural Durability",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1076,6 +1312,20 @@ RAW_MODULES = {
     },
     "team_project_emship": {
         "name": "Team Project EMship",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "technical_production_processes_ships": {
+        "name": "Technical Production Processes of Maritime Structures and Ships",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "technical_fluids_sustainable_maritime": {
+        "name": "Technical Fluids for Sustainable Maritime Applications",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
