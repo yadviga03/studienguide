@@ -57,7 +57,7 @@ CHAIRS = {
             "verbrennungsmotoren_3",
             "verbrennungsmotoren_4",
             "grossmotoren_schiff",
-            "kolben_stroemungsmaschinen_energiemaschinen",
+            "kolben_stroemungsmaschinen",
             "kraft_schmierstoffe_co2",
             "aufladung_verbrennungsmotor",
         ]
@@ -97,11 +97,11 @@ CHAIRS = {
         "group": "A - Me",
         "modules": [
             "meeresforschungstechnik",
-            "theorie_und_entwerfen_schwimmender_und_gegruendeter_offshore_systeme_master",
+            "theorie_und_entwerfen_schwimmender_und_gegruendeter_offshore_systeme",
             "sea_loads_on_offshore_structures_emship",
             "einfuehrung_meerestechnik",
             "technologien_meeresenergienutzung",
-            "theorie_und_entwerfen_von_unterwassersystemen_master",
+            "theorie_und_entwerfen_von_unterwassersystemen",
         ]
     },
     "mikrofluidik": {
@@ -112,7 +112,7 @@ CHAIRS = {
             "komponenten_mechatronischer_systeme",
             "antriebssteuerung",
             "additive_fertigungsverfahren",
-            "hydraulik_und_pneumatik",
+            "hydraulik_pneumatik",
             "mikrofluidik"
         ]
     },
@@ -142,6 +142,7 @@ CHAIRS = {
             "konstruktionsmethodik",
             "projekt_produktentwicklung",
             "computer_aided_design"
+            "intralogistik",
         ]
     },
     "produktionsorganisation_logistik": {
@@ -190,9 +191,9 @@ CHAIRS = {
         "name": "Strömungsmaschinen",
         "group": "St - W",
         "modules": [
-            "kolben_und_stroemungsmaschinen",
+            "kolben_stroemungsmaschinen",
             "grundlagen_stroemungsmaschinen_windturbinen",
-            "management_von_entwicklungsteams_und_projekten",
+            "management_entwicklungsteams_projekten",
             "numerical_and_experimental_hydroacoustics",
             "hydraulische_stroemungsmaschinen",
             "thermische_stroemungsmaschinen",
@@ -204,9 +205,8 @@ CHAIRS = {
         "group": "St - W",
         "modules": [
             "stroemungsmechanik_grundlagen",
-            "aerodynamik_und_hydrodynamik",
+            "aerodynamik_hydrodynamik",
             "angewandte_stroemungssimulation",
-            "projekt_maschinenbau",
             "numerische_stroemungsmechanik",
             "experimentelle_stroemungsmechanik",
             "nichtnewtonsche_fluidmechanik",
@@ -221,11 +221,11 @@ CHAIRS = {
             "technische_mechanik_1",
             "technische_mechanik_2",
             "technische_mechanik_3",
-            "strukturmechanik_und_fem_1",
-            "strukturmechanik_und_fem_2",
+            "strukturmechanik_fem_1",
+            "strukturmechanik_fem_2",
             "betriebsfestigkeit",
             "ermuedungsrisse",
-            "festigkeitsoptimiertes_bruchsicheres_gestalten"
+            "festigkeitsoptimiertes_bruchsicheres"
         ]
     },
     "technische_mechanik_dynamik": {

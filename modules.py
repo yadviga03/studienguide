@@ -174,8 +174,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "biomaterialieneinsatz_und_prüfung": {
+        "name": "Biomaterialieneinsatz und -prüfung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "biomaterialien_maschinenbau": {
         "name": "Biomaterialien für Maschinenbau",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "biomedizinische_technik": {
+        "name": "Biomedizinische Technik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -357,10 +371,11 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "elektrotechnik": {
-        "name": "Elektrotechnik",
+        "name": "Einführung im die Elektrotechnik für Maschinenbau",
         "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
         "klausur": "Schriftliche Klausur mit Rechen- und Theorieaufgaben.",
         "tipps": [
+            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
             "Altklausuren rechnen.",
             "Schaltungen und Grundgesetze wirklich verstehen.",
             "Nicht nur lesen, sondern Aufgaben aktiv rechnen."
@@ -548,6 +563,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "grundlagen_chemie": {
+        "name": "Grundlagen der Chemie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "grundlagen_fuegetechnik": {
         "name": "Grundlagen der Fügetechnik",
         "beschreibung": "Beschreibung folgt.",
@@ -605,7 +627,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "informatik": {
-        "name": "Informatik",
+        "name": "Informatik 1: Einführung in die Programmierung",
         "beschreibung": "Einführung in informatische Grundlagen und technische Anwendungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -812,9 +834,10 @@ RAW_MODULES = {
     },
     "mathematik_1": {
         "name": "Mathematik 1: Grundlagen und eindimensionale Analysis",
-        "beschreibung": "Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
+        "beschreibung": "Es ist eine typische 2h und 15min Vorlesung (also 3*45min) und 1,5h Übung.Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
         "klausur": "Schriftliche Klausur: Bei Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei …",
         "tipps": [
+            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
             "Macht die Serien ordentlich und schreibt euch das gut auf (mit einem guten System). Ihr werdet im Studium noch weiter darauf zurückgreifen. "
             "Falls ihr die Klausur nicht schreiben wollt, macht trotzdem die Zulassung. Ihr werdet euch ärgern, wenn ihr das nicht vorher fertig macht."
         ],
@@ -836,6 +859,13 @@ RAW_MODULES = {
     },
     "mathematische_modelle_in_der_schiffstheorie": {
         "name": "Mathematische Modelle in der Schiffstheorie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "medizinische_grundlagen": {
+        "name": "Medizinische Grundlagen für Studierende der Biomedizintechnik: Labordiagnostik, Pathologie, Mikrobiologie, Abwehsysteme",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1356,7 +1386,9 @@ RAW_MODULES = {
         "name": "Technische Mechanik 1",
         "beschreibung": "Einführung in die Technische Mechanik mit Statik und Grundprinzipien.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "tipps": [
+            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
+        ],
         "erfahrungen": []
     },
     "technische_mechanik_2": {
@@ -1401,7 +1433,7 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "theorie_und_entwerfen_schwimmender_und_gegruendeter_offshore_systeme_master": {
+    "theorie_und_entwerfen_schwimmender_und_gegruendeter_offshore_systeme": {
         "name": "Theorie und Entwerfen schwimmender und gegründeter Offshore-Systeme",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",

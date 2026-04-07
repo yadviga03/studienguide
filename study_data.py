@@ -132,23 +132,41 @@ DATA = {
 
         "Biomedizinische Technik": {
             "pflichtmodule": [
+                "anatomie_und_physiologie",
+                "biomaterialieneinsatz_und_prüfung",
+                "biomedizinische_technik",
+                "elektrotechnik",
+                "grundlagen_chemie",
+                "informatik",
+                "konstruktionslehre",
                 "mathematik_1",
                 "mathematik_2",
                 "mathematik_3",
+                "medizinische_grundlagen",
+                "messtechnik",
+                "nichtmetallische_werkstoffe",
+                "regelungstechnik",
+                "stroemungsmechanik_grundlagen",
+                "technische_darstellungslehre",
                 "technische_mechanik_1",
                 "technische_mechanik_2",
                 "technische_mechanik_3",
-                "technische_darstellungslehre",
-                "konstruktionslehre",
-                "werkstofftechnik",
-                "informatik",
-                "messtechnik",
-                "regelungstechnik",
                 "thermodynamik",
-                "stroemungsmechanik_grundlagen",
-                "elektrotechnik"
+                "werkstofftechnik",
             ],
-            "wahlmodule": []
+            "wahlmodule": [
+                "angewandte_stroemungssimulation",
+                "digitale_regelung",
+                "maschinendynamik",
+                "strukturmechanik_fem_1",
+                "waerme_stoffuebertragung",
+                "aerodynamik_hydrodynamik",
+                "fertigungslehre",
+                "leichtbau_grundlagen,"
+                "projekt_additive_fertigung",
+                "regelungssysteme_zustandsraum",
+                "technische_dokumentation",
+            ]
         },
 
         "Wirtschaftsingenieurwesen": {
