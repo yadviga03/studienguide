@@ -12,91 +12,96 @@ DATA = {
     "Bachelor": {
         "Maschinenbau": {
             "pflichtmodule": [
+                "elektrotechnik",
+                "fertigungslehre",
+                "informatik",
+                "konstruktionslehre",
                 "mathematik_1",
                 "mathematik_2",
                 "mathematik_3",
+                "messtechnik",
+                "regelungstechnik",
+                "stroemungsmechanik_grundlagen",
+                "technische_darstellungslehre",
                 "technische_mechanik_1",
                 "technische_mechanik_2",
                 "technische_mechanik_3",
-                "technische_darstellungslehre",
-                "konstruktionslehre",
-                "werkstofftechnik",
-                "fertigungslehre",
-                "informatik",
-                "messtechnik",
-                "regelungstechnik",
                 "thermodynamik",
-                "stroemungsmechanik_grundlagen",
-                "elektrotechnik"
+                "werkstofftechnik",
             ],
             "vertiefungen": {
                 "Entwicklung und Konstruktion": [
                     "antriebstechnik",
-                    "maschinendynamik",
-                    "strukturmechanik_fem_1",
-                    "werkstofftechnik_2",
                     "dynamik_kraftfahrzeuge",
-                    "leichtbau_grundlagen",
-                    "nachhaltige_werkstoffauswahl",
-                    "robotertechnik",
                     "fahrzeugantriebe",
-                    "projekt_konstruktionslehre"
+                    "leichtbau_grundlagen",
+                    "maschinendynamik",
+                    "nachhaltige_werkstoffauswahl",
+                    "projekt_konstruktionslehre",
+                    "robotertechnik",
+                    "strukturmechanik_fem_1",
+                    "werkstofftechnik_2"
                 ],
+
                 "Energie- und Umwelttechnik": [
-                    "verbrennungsmotoren_1",
-                    "kolben_stroemungsmaschinen",
-                    "technische_thermodynamik_2",
-                    "waerme_stoffuebertragung",
                     "aerodynamik_hydrodynamik",
-                    "energietechnik",
-                    "regelungssysteme_zustandsraum",
                     "angewandte_stroemungssimulation",
+                    "energietechnik",
                     "grundlagen_stroemungsmaschinen_windturbinen",
+                    "kolben_stroemungsmaschinen",
                     "moderne_windenergieanlagen",
-                    "verbrennungsmotoren_2"
+                    "regelungssysteme_zustandsraum",
+                    "technische_thermodynamik_2",
+                    "verbrennungsmotoren_1",
+                    "verbrennungsmotoren_2",
+                    "waerme_stoffuebertragung"
                 ],
+
                 "Produktionstechnik und Logistik": [
+                    "antriebssteuerung",
                     "automatisierung_fertigung_montage",
+                    "fabrikplanung",
                     "fertigungsmittel",
-                    "logistik",
                     "grundlagen_fuegetechnik",
                     "grundlagen_materialflusstechnik",
+                    "logistik",
                     "produktionsplanung_steuerung",
-                    "robotertechnik",
-                    "antriebssteuerung",
-                    "fabrikplanung",
-                    "produktionswirtschaft"
+                    "produktionswirtschaft",
+                    "robotertechnik"
                 ],
+
                 "Regelungstechnik und Mechatronik": [
-                    "regelungssysteme_zustandsraum",
                     "antriebstechnik",
-                    "maschinendynamik",
-                    "automatisierung_fertigung_montage",
-                    "komponenten_mechatronischer_systeme",
-                    "robotertechnik",
                     "antriebssteuerung",
-                    "digitale_regelung"
+                    "automatisierung_fertigung_montage",
+                    "digitale_regelung",
+                    "komponenten_mechatronischer_systeme",
+                    "maschinendynamik",
+                    "regelungssysteme_zustandsraum",
+                    "robotertechnik"
                 ],
+
                 "Schiff- und Meerestechnik": [
+                    "einfuehrung_meerestechnik",
                     "grundlagen_hydromechanik_schiffen_offshore",
                     "grundlagen_schiffstechnik",
-                    "einfuehrung_meerestechnik",
                     "labor_schiffs_meerestechnik",
                     "schiffs_offshorekonstruktionen"
                 ],
+
                 "Sustainable Engineering": [
                     "aerodynamik_hydrodynamik",
-                    "logistik",
                     "antriebstechnik",
-                    "technische_thermodynamik_2",
-                    "energietechnik",
-                    "leichtbau_grundlagen",
-                    "klimaneutrale_kraftstoffe",
-                    "nachhaltige_werkstoffauswahl",
                     "einfuehrung_meerestechnik",
+                    "energietechnik",
                     "grundlagen_schiffstechnik",
                     "grundlagen_stroemungsmaschinen_windturbinen",
-                    "moderne_windenergieanlagen"
+                    "klimaneutrale_kraftstoffe",
+                    "leichtbau_grundlagen",
+                    "logistik",
+                    "moderne_windenergieanlagen",
+                    "nachhaltige_werkstoffauswahl",
+                    "technische_thermodynamik_2"
                 ]
             },
             "sonstige_wahlmodule": [
@@ -108,26 +113,28 @@ DATA = {
 
         "Mechatronik": {
             "pflichtmodule": [
+                "elektrotechnik_1",
+                "elektrotechnik_2",
+                "elektrotechnik_3",
+                "fertigungslehre",
+                "informatik",
+                "konstruktionslehre",
                 "mathematik_1",
                 "mathematik_2",
                 "mathematik_3",
+                "messtechnik",
+                "regelungstechnik",
+                "stroemungsmechanik_grundlagen",
+                "technische_darstellungslehre",
                 "technische_mechanik_1",
                 "technische_mechanik_2",
                 "technische_mechanik_3",
-                "technische_darstellungslehre",
-                "konstruktionslehre",
-                "werkstofftechnik",
-                "fertigungslehre",
-                "informatik",
-                "messtechnik",
-                "regelungstechnik",
                 "thermodynamik",
-                "stroemungsmechanik_grundlagen",
-                "elektrotechnik_1",
-                "elektrotechnik_2",
-                "elektrotechnik_3"
+                "werkstofftechnik",
             ],
-            "wahlmodule": []
+            "wahlmodule": [
+                
+            ]
         },
 
         "Biomedizinische Technik": {
@@ -155,17 +162,17 @@ DATA = {
                 "werkstofftechnik",
             ],
             "wahlmodule": [
+                "aerodynamik_hydrodynamik",
                 "angewandte_stroemungssimulation",
                 "digitale_regelung",
-                "maschinendynamik",
-                "strukturmechanik_fem_1",
-                "waerme_stoffuebertragung",
-                "aerodynamik_hydrodynamik",
                 "fertigungslehre",
                 "leichtbau_grundlagen",
+                "maschinendynamik",
                 "projekt_additive_fertigung",
                 "regelungssysteme_zustandsraum",
+                "strukturmechanik_fem_1",
                 "technische_dokumentation",
+                "waerme_stoffuebertragung",
             ]
         },
 
@@ -193,160 +200,163 @@ DATA = {
             "vertiefungen": {
                 
                 "Antriebstechnik": [
+                    "aktive_systeme_kraftfahrzeug",
                     "alternative_antriebssysteme",
                     "entwerfen_antriebe",
                     "hydraulik_pneumatik",
                     "regelungsorientierte_modellbildung_mechatronik",
                     "technische_schwingungslehre",
-                    "verbrennungsmotoren_4",
-                    "aktive_systeme_kraftfahrzeug"
+                    "verbrennungsmotoren_4"
                 ],
 
                 "Fertigungstechnik": [
-                    "qualitaetsmanagement",
-                    "fertigungsmittel",
                     "additive_fertigungsverfahren",
                     "anlagenwirtschaft",
+                    "fertigungsmittel",
                     "klebtechnik",
+                    "qualitaetsmanagement",
                     "schiffsfertigungstechnik"
                 ],
 
                 "Konstruktionstechnik": [
-                    "konstruktionsmethodik",
-                    "cad",
                     "additive_fertigungsverfahren",
-                    "strukturmechanik_fem_2",
                     "betriebsfestigkeit",
+                    "cad",
                     "experimenteller_leichtbau",
-                    "projekt_produktentwicklung"
+                    "konstruktionsmethodik",
+                    "projekt_produktentwicklung",
+                    "strukturmechanik_fem_2"
                 ],
 
                 "Leichtbau": [
+                    "betriebsfestigkeit",
                     "biomaterialien_maschinenbau",
+                    "experimenteller_leichtbau",
                     "festigkeitsoptimiertes_gestalten",
                     "klebtechnik",
                     "leichtbaukonstruktion",
-                    "strukturmechanik_fem_2",
-                    "betriebsfestigkeit",
-                    "experimenteller_leichtbau",
                     "leichtbauwerkstoffe",
-                    "metallische_konstruktionswerkstoffe"
+                    "metallische_konstruktionswerkstoffe",
+                    "strukturmechanik_fem_2"
                 ],
 
                 "Logistik": [
-                    "supply_chain_management",
-                    "intralogistik",
-                    "maritime_logistik",
                     "ausgewaehlte_themen_logistik",
+                    "cad",
+                    "intralogistik",
                     "leichtbaukonstruktion",
-                    "cad"
+                    "maritime_logistik",
+                    "supply_chain_management"
                 ],
 
                 "Mechatronik": [
+                    "aktive_systeme_kraftfahrzeug",
                     "dynamik_mehrkoerpersysteme",
                     "nichtlineare_regelungssysteme",
-                    "regelungsorientierte_modellbildung_mechatronik",
-                    "aktive_systeme_kraftfahrzeug",
                     "optimierungsmethoden_mechatronik",
+                    "regelungsorientierte_modellbildung_mechatronik",
                     "robuste_regelung",
                     "technische_schwingungslehre"
                 ],
 
                 "Schweißtechnik": [
-                    "schweissmetallurgie",
-                    "schweisskonstruktion",
-                    "schweisstechnologie",
+                    "betriebsfestigkeit",
+                    "metallische_konstruktionswerkstoffe",
                     "qualitaetsmanagement",
                     "schiffsfertigungstechnik",
-                    "umformtechnisches_fuegen",
-                    "betriebsfestigkeit",
-                    "metallische_konstruktionswerkstoffe"
+                    "schweisskonstruktion",
+                    "schweissmetallurgie",
+                    "schweisstechnologie",
+                    "umformtechnisches_fuegen"
                 ],
 
                 "Strömungsmaschinen": [
-                    "hydraulische_stroemungsmaschinen",
-                    "thermische_stroemungsmaschinen",
-                    "grundlagen_akustik",
-                    "numerische_stroemungsmechanik",
                     "betriebsfestigkeit",
+                    "grundlagen_akustik",
+                    "hydraulische_stroemungsmaschinen",
                     "labor_thermische_maschinen",
                     "leichtbauwerkstoffe",
-                    "windenergie_simulation",
-                    "technische_schwingungslehre"
+                    "numerische_stroemungsmechanik",
+                    "technische_schwingungslehre",
+                    "thermische_stroemungsmaschinen",
+                    "windenergie_simulation"
                 ],
 
                 "Strömungsmechanik und Aerodynamik": [
-                    "experimentelle_stroemungsmechanik",
                     "angewandte_stroemungsmechanik",
+                    "experimentelle_stroemungsmechanik",
                     "hydraulische_stroemungsmaschinen",
+                    "labor_thermische_maschinen",
                     "leichtbaukonstruktion",
+                    "mikrofluidik",
                     "nichtnewtonsche_fluidmechanik",
                     "numerische_stroemungsmechanik",
-                    "labor_thermische_maschinen",
-                    "mikrofluidik",
-                    "turbulenzmodellierung",
-                    "thermische_stroemungsmaschinen"
+                    "thermische_stroemungsmaschinen",
+                    "turbulenzmodellierung"
                 ],
 
                 "Strukturmechanik": [
+                    "betriebsfestigkeit",
                     "dynamik_mehrkoerpersysteme",
+                    "elastische_mehrkoerpersysteme",
                     "ermuedungsrisse",
                     "festigkeitsoptimiertes_gestalten",
-                    "strukturmechanik_fem_2",
-                    "betriebsfestigkeit",
-                    "elastische_mehrkoerpersysteme",
                     "metallische_konstruktionswerkstoffe",
+                    "strukturmechanik_fem_2",
                     "technische_schwingungslehre"
                 ],
 
                 "Thermische Maschinen/Verbrennungsmotoren": [
-                    "verbrennungsmotoren_3",
-                    "labor_thermische_maschinen",
-                    "hydraulische_stroemungsmaschinen",
-                    "motor_energiemanagement",
-                    "thermodynamik_verbrennung",
                     "aufladung_verbrennungsmotor",
                     "grossmotoren_schiff",
+                    "hydraulische_stroemungsmaschinen",
                     "kraft_schmierstoffe_co2",
+                    "labor_thermische_maschinen",
                     "mehrstoffthermodynamik",
+                    "motor_energiemanagement",
                     "thermische_stroemungsmaschinen",
-                    "verbrennungsmotoren_4"
-                    ],
-                "Thermische Prozesse/Energieanlagen": [
-                    "mehrstoffthermodynamik",
-                    "regenerative_energietechnik",
-                    "motorthermodynamik",
-                    "numerische_stroemungsmechanik",
                     "thermodynamik_verbrennung",
-                    "thermodynamik_umweltprozesse",
                     "verbrennungsmotoren_3",
+                    "verbrennungsmotoren_4"
+                ],
+
+                "Thermische Prozesse/Energieanlagen": [
                     "kaelte_klimatechnik",
                     "labor_thermische_maschinen",
-                    "modellierung_turbulenz"
-                    ],
+                    "mehrstoffthermodynamik",
+                    "modellierung_turbulenz",
+                    "motorthermodynamik",
+                    "numerische_stroemungsmechanik",
+                    "regenerative_energietechnik",
+                    "thermodynamik_umweltprozesse",
+                    "thermodynamik_verbrennung",
+                    "verbrennungsmotoren_3"
+                ],
+
                 "Werkstofftechnik": [
-                    "labor_werkstofftechnik",
-                    "metallische_konstruktionswerkstoffe",
-                    "nichtmetallische_werkstoffe",
                     "additive_fertigungsverfahren",
                     "biomaterialien_maschinenbau",
                     "festigkeitsoptimiertes_gestalten",
+                    "labor_werkstofftechnik",
+                    "leichtbauwerkstoffe",
+                    "metallische_konstruktionswerkstoffe",
                     "nanomaterialien",
+                    "nichtmetallische_werkstoffe",
                     "simulation_werkstofftechnik",
-                    "werkstoffanalytik",
-                    "leichtbauwerkstoffe"
-                    ],
+                    "werkstoffanalytik"
+                ],
+
                 "Windenergietechnik": [
-                    "windenergietechnik",
+                    "betriebsfestigkeit",
                     "dynamik_mehrkoerpersysteme",
+                    "elastische_mehrkoerpersysteme",
                     "grundlagen_akustik",
                     "konstruktion_windenergieanlagen",
                     "leichtbaukonstruktion",
                     "numerische_stroemungsmechanik",
                     "regelungsorientierte_modellbildung_mechatronik",
                     "theorie_offshore_systeme",
-                    "betriebsfestigkeit",
-                    "elastische_mehrkoerpersysteme"
+                    "windenergietechnik"
                 ]                
             },
            "sonstige_wahlmodule": [
