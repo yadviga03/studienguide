@@ -349,6 +349,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "echtzeitsysteme": {
+        "name": "Echtzeitsysteme",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "einfuehrung_betriebswirtschaftslehre": {
+        "name": "Einführung in die Betriebswirtschaftslehre",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "einfuehrung_cpp": {
         "name": "Einführung in die angewandte C++ Programmierung",
         "beschreibung": "Beschreibung folgt.",
@@ -366,6 +380,20 @@ RAW_MODULES = {
     "einfuehrung_meerestechnik": {
         "name": "Einführung in die Meerestechnik",
         "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "einfuehrung_wirtschaftsrecht": {
+        "name": "Einführung ins Wirtschaftsrecht",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "elektrische_fahrzeugantriebe": {
+        "name": "Elektrische Fahrzeugantriebe",
+        "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
@@ -528,6 +556,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "finanzbuchhaltung": {
+        "name": "Finanzbuchhaltung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "finanzierung_investition": {
+        "name": "Finanzierung und Investition 1",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "finite_element_analysis_composite_structures": {
         "name": "Finite Element Analysis of Composite Structures",
         "beschreibung": "Beschreibung folgt.",
@@ -563,8 +605,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "grundlagen_automatisierung": {
+        "name": "Grundlagen der Automatisierung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "grundlagen_chemie": {
         "name": "Grundlagen der Chemie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "grundlagen_elektronik": {
+        "name": "Grundlagen der Elektronik 1",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -598,8 +654,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "grundlagen_statistik": {
+        "name": "Grundlagen der Statistik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "grundlagen_stroemungsmaschinen_windturbinen": {
         "name": "Grundlagen der Strömungsmaschinen und Windturbinen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "hochintegrierte": {
+        "name": "Hydraulik und Pneumatik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -713,6 +783,13 @@ RAW_MODULES = {
     },
     "kraft_schmierstoffe_co2": {
         "name": "Kraft- und Schmierstoffe – von der fossilen Basis zur CO₂-Neutralität",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "kosten_leistungsrechnung": {
+        "name": " Kosten- und Leistungsrechnung (KLR)",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -892,6 +969,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "messtechnik_analoge_schaltungen": {
+        "name": "Messtechnik und Analoge Schaltungen",
+        "beschreibung": "Grundlagen technischer Messverfahren und Auswertung.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "metallic_engineering_materials": {
         "name": "Metallic Engineering Materials",
         "beschreibung": "Beschreibung folgt.",
@@ -899,7 +983,7 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-        "metallische_konstruktionswerkstoffe": {
+    "metallische_konstruktionswerkstoffe": {
         "name": "Metallische Konstruktionswerkstoffe / Wärmebehandlung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
@@ -908,6 +992,20 @@ RAW_MODULES = {
     },
     "mikrofluidik": {
         "name": "Mikrofluidik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "mikrosystemtechnologie": {
+        "name": "Mikrosystemtechnologie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "modellbildung_simulation_technischer_systeme": {
+        "name": "Modellierung und Simulation technischer Systeme",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1053,6 +1151,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "personlawirtschaftslehre_organisationen": {
+        "name": "Personalwirtschaftslehre und Verhalten Organisationen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "principle_analysis_of_marine_structures": {
         "name": "Principle Analysis of Marine Structures",
         "beschreibung": "Beschreibung folgt.",
@@ -1146,6 +1251,13 @@ RAW_MODULES = {
     },
     "rechnergestuetzte_entwicklungsmethoden_in_der_schiffs_und_meerestechnik": {
         "name": "Rechnergestützte Entwicklungsmethoden in der Schiffs- und Meerestechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "rechnetgestützter_reglerentwurf": {
+        "name": "Rechnergestützter Reglerentwurf",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1277,6 +1389,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "sensorik": {
+        "name": "Sensorik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "seminar_stroemungs_und_windenergietechnik": {
         "name": "Seminar Strömungs- und Windenergietechnik",
         "beschreibung": "Beschreibung folgt.",
@@ -1293,6 +1412,13 @@ RAW_MODULES = {
     },
     "ship_life_cycle_digitalization": {
         "name": "Ship Life Cycle Digitalization",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "signal_systemtheorie": {
+        "name": "Signal- und Systemtheorie",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1377,6 +1503,13 @@ RAW_MODULES = {
     },
     "technische_dokumentation": {
         "name": "Technische Dokumentation",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "technische_optik": {
+        "name": "Technische Optik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],

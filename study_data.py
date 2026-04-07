@@ -133,7 +133,30 @@ DATA = {
                 "werkstofftechnik",
             ],
             "wahlmodule": [
-                
+                "dynamik_kraftfahrzeuge",
+                "echtzeitsysteme",
+                "komponenten_mechatronischer_systeme",
+                "messtechnik_analoge_schaltungen",
+                "robotertechnik",
+                "thermodynamik",
+                "werkstofftechnik",
+                "antriebssteuerung",
+                "antriebstechnik",
+                "elektrische_fahrzeugantriebe",
+                "fahrzeugantriebe",
+                "grundlagen_automatisierung",
+                "grundlagen_elektronik",
+                "grundlagen_stroemungsmaschinen_windturbinen",
+                "maschinendynamik",
+                "mikrosystemtechnologie",
+                "modellbildung_simulation_technischer_systeme",
+                "rechnetgestützter_reglerentwurf",
+                "sensorik",
+                "signal_systemtheorie",
+                "strukturmechanik_fem_1",
+                "technische_optik",
+                "technische_thermodynamik_2",
+                "waerme_stoffuebertragung"
             ]
         },
 
@@ -189,9 +212,19 @@ DATA = {
                 "werkstofftechnik",
                 "fertigungslehre",
                 "informatik",
-                "elektrotechnik"
+                "elektrotechnik",
+                "einfuehrung_betriebswirtschaftslehre",
+                "finanzbuchhaltung",
+                "finanzierung_investition",
+                "kosten_leistungsrechnung",
+                "personlawirtschaftslehre_organisationen",
+                "grundlagen_statistik",
+                "einfuehrung_wirtschaftsrecht",
+                "produktionsplanung_steuerung"
             ],
-            "wahlmodule": []
+            "wahlmodule": [
+                
+            ]
         }
     },
 
