@@ -886,7 +886,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "messtechnik": {
-        "name": "Messtechnik",
+        "name": "Grundlagen der Messtechnik",
         "beschreibung": "Grundlagen technischer Messverfahren und Auswertung.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1383,7 +1383,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "technische_mechanik_1": {
-        "name": "Technische Mechanik 1",
+        "name": "Technische Mechanik 1: Statik",
         "beschreibung": "Einführung in die Technische Mechanik mit Statik und Grundprinzipien.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [
@@ -1392,14 +1392,14 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "technische_mechanik_2": {
-        "name": "Technische Mechanik 2",
+        "name": "Technische Mechanik 2: Festigkeitslehre",
         "beschreibung": "Aufbau auf TM 1 mit weiterführenden mechanischen Zusammenhängen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
     },
     "technische_mechanik_3": {
-        "name": "Technische Mechanik 3",
+        "name": "Technische Mechanik 3: Dynamik",
         "beschreibung": "Vertiefung technischer Mechanik mit anspruchsvolleren Anwendungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],

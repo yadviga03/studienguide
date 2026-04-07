@@ -162,7 +162,7 @@ DATA = {
                 "waerme_stoffuebertragung",
                 "aerodynamik_hydrodynamik",
                 "fertigungslehre",
-                "leichtbau_grundlagen,"
+                "leichtbau_grundlagen",
                 "projekt_additive_fertigung",
                 "regelungssysteme_zustandsraum",
                 "technische_dokumentation",
