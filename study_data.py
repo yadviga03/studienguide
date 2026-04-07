@@ -223,7 +223,38 @@ DATA = {
                 "produktionsplanung_steuerung"
             ],
             "wahlmodule": [
-                
+                "einfuehrung_betriebswirtschaftsliche_steuerlehre",
+                "finanzierung_investition_2",
+                "ideenfindung_entwicklung",
+                "strategisches_marketing",
+                "grundlagen_controlling",
+                "grundlagen_bevölkerungsökonomik",
+                "grundzüge_dienstleistungsmanagement",
+                "grundzüge_moderner_oekonomie",
+                "erfolgsfaktoren_beruflicher_selbstaendigkeit",
+                "automatisierung_fertigung_montage",
+                "energietechnik",
+                "grundlagen_fuegetechnik",
+                "grundlagen_materialflusstechnik",
+                "leichtbau_grundlagen",
+                "messtechnik",
+                "robotertechnik",
+                "technische_dokumentation",
+                "thermodynamik",
+                "gewaesserregelung_kuesten_hochwasserschutz",
+                "verbrennungsmotoren_1",
+                "balance",
+                "fabrikplanung",
+                "fertigungsmittel",
+                "grundlagen_schiffstechnik",
+                "grundlagen_stroemungsmaschinen_windturbinen",
+                "stroemungsmechanik_grundlagen",
+                "regelungstechnik",
+                "technische_thermodynamik_2",
+                "verbrennungsmotoren_2",
+                "waerme_stoffuebertragung",
+                "werkstofftechnik_2",
+                "umweltverfahrenstechnik"
             ]
         }
     },
@@ -231,7 +262,6 @@ DATA = {
     "Master": {
         "Maschinenbau": {
             "vertiefungen": {
-                
                 "Antriebstechnik": [
                     "aktive_systeme_kraftfahrzeug",
                     "alternative_antriebssysteme",

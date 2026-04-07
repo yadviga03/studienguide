@@ -356,6 +356,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "einfuehrung_betriebswirtschaftsliche_steuerlehre": {
+        "name": "Einführung in die betriebswirtschaftsliche Steuerlehre",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "einfuehrung_betriebswirtschaftslehre": {
         "name": "Einführung in die Betriebswirtschaftslehre",
         "beschreibung": "Beschreibung folgt.",
@@ -478,6 +485,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "erfolgsfaktoren_beruflicher_selbstaendigkeit": {
+        "name": "Erfolgsfaktoren beruflicher Selbstständigkeit",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "ermuedungsrisse": {
         "name": "Ermüdungsrisse",
         "beschreibung": "Beschreibung folgt.",
@@ -570,6 +584,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "finanzierung_investition_2": {
+        "name": "Finanzierung und Investition 2",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "finite_element_analysis_composite_structures": {
         "name": "Finite Element Analysis of Composite Structures",
         "beschreibung": "Beschreibung folgt.",
@@ -579,6 +600,13 @@ RAW_MODULES = {
     },
     "finite_elemente_analyse_verbundwerkstoffstrukturen": {
         "name": "Finite-Elemente-Analyse von Verbundwerkstoffstrukturen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "gewaesserregelung_kuesten_hochwasserschutz": {
+        "name": "Gewässerregelung, Küten- und Hochwasseschutz",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -612,8 +640,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "grundlagen_bevölkerungsökonomik": {
+        "name": "Grundlagen der Bevölkerungsökonomik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "grundlagen_chemie": {
         "name": "Grundlagen der Chemie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "grundlagen_controlling": {
+        "name": "Grundlagen des Controllings",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -668,6 +710,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "grundzüge_dienstleistungsmanagement": {
+        "name": "Grundzüge des Dienstleistungsmanagements",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "grundzüge_moderner_oekonomie": {
+        "name": "Grundzüge der modernen Ökonomie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "hochintegrierte": {
         "name": "Hydraulik und Pneumatik",
         "beschreibung": "Beschreibung folgt.",
@@ -684,6 +740,13 @@ RAW_MODULES = {
     },
     "hydraulische_stroemungsmaschinen": {
         "name": "Hydraulische Strömungsmaschinen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "ideenfindung_entwicklung": {
+        "name": "Ideenfindung und -entwicklung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1431,6 +1494,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "strategisches_marketing": {
+        "name": "Strategisches Marketing",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "stroemungsmechanik_grundlagen": {
         "name": "Grundlagen der Strömungsmechanik",
         "beschreibung": "Grundlagen der Strömungsmechanik und technische Anwendungen.",
@@ -1625,6 +1695,13 @@ RAW_MODULES = {
     },
     "umformtechnisches_fuegen": {
         "name": "Umformtechnisches / Mechanisches Fügen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "umweltverfahrenstechnik": {
+        "name": "Umweltverfahrenstechnik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
