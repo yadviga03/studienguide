@@ -97,6 +97,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "anatomie_und_physiologie": {
+        "name": "Anatomie und Physiologie der Biomedizinischen Technik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
         "beschreibung": "Beschreibung folgt.",
@@ -804,7 +811,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "mathematik_1": {
-        "name": "Mathematik 1",
+        "name": "Mathematik 1: Grundlagen und eindimensionale Analysis",
         "beschreibung": "Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
         "klausur": "Schriftliche Klausur: Bei Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei …",
         "tipps": [
@@ -814,14 +821,14 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "mathematik_2": {
-        "name": "Mathematik 2",
+        "name": "Mathematik 2: Lineare Algera und Geometrie",
         "beschreibung": "Vertiefung mathematischer Methoden mit Fokus auf Analysis und lineare Algebra.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
     },
     "mathematik_3": {
-        "name": "Mathematik 3",
+        "name": "Mathematik 3: Differenzialgleichungen und mehrdimensionale Analysis",
         "beschreibung": "Weiterführende mathematische Verfahren für technische Problemstellungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
