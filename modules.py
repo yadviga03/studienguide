@@ -69,12 +69,12 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "advanced_analysis_offshore_systems": {
-    "name": "Advanced Analysis of Offshore Systems",
-    "beschreibung": "Beschreibung folgt.",
-    "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-    "tipps": [],
-    "erfahrungen": []
-    },  
+        "name": "Advanced Analysis of Offshore Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+        },  
     "aerodynamik_hydrodynamik": {
         "name": "Aerodynamik und Hydrodynamik",
         "beschreibung": "Vorlesung 1,5 h und Übung 1,5 h. Zusätzlich gibt es einen freiwilligen Tagesausflug nach Laage. Dieses Modul ist eine Art Vertiefung in Richtung Überschallgebiete, Flugzeuglehre und Grenzschichten. Man kann die Inhalte auch später für das Modul Numerische Strömungsmechanik gut gebrauchen. Es gibt keine Prüfungsvorleistung.",
@@ -217,12 +217,12 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "cfd_maritime_engineering": {
-    "name": "CFD in Maritime Engineering",
-    "beschreibung": "Beschreibung folgt.",
-    "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-    "tipps": [],
-    "erfahrungen": []
-    },
+        "name": "CFD in Maritime Engineering",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+        },
     "coding_of_finite_elements": {
         "name": "Coding of Finite Elements",
         "beschreibung": "Beschreibung folgt.",
@@ -231,12 +231,12 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "composite_material_design": {
-    "name": "Composite Material Design",
-    "beschreibung": "Beschreibung folgt.",
-    "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-    "tipps": [],
-    "erfahrungen": []
-    },
+        "name": "Composite Material Design",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+        },
     "computational_modelling_of_biomaterials_and_their_interaction_with_tissue": {
         "name": "Computational modelling of biomaterials and their interaction with tissue",
         "beschreibung": "Beschreibung folgt.",
@@ -983,7 +983,7 @@ RAW_MODULES = {
     },
     "mathematik_1": {
         "name": "Mathematik 1: Grundlagen und eindimensionale Analysis",
-        "beschreibung": "Es ist eine typische 2h und 15min Vorlesung (also 3*45min) und 1,5h Übung.Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
+        "beschreibung": "Es ist eine typische 2h und 15min Vorlesung (also 3*45min) und 1,5h Übung. Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
         "klausur": "Schriftliche Klausur: Bei Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei …",
         "tipps": [
             "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
@@ -1575,7 +1575,7 @@ RAW_MODULES = {
     },
     "technische_darstellungslehre": {
         "name": "Technische Darstellunglehre",
-        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlagen des technischen Zeichnens, als auch die Zeichnung von Gegenständen in verschiedenen Ansichten lernt. Von „Wie halte ich den Bleistift richtig“ bis „Wie stelle ich zwei sich schneidende Körper da“.Als Klausurvorleistung müssen handgezeichnete Belege, als auch am PC erstellte 3D- Modelle, angefertigt werden.",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlagen des technischen Zeichnens, als auch die Zeichnung von Gegenständen in verschiedenen Ansichten lernt. Von „Wie halte ich den Bleistift richtig“ bis „Wie stelle ich zwei sich schneidende Körper da“. Als Klausurvorleistung müssen handgezeichnete Belege, als auch am PC erstellte 3D- Modelle, angefertigt werden.",
         "klausur": "Die Klausur ist schriftlich und umfasst einen Theorie- und auch meist zwei Zeichenteile",
         "tipps": [
             "Unbedingt die Übungen und Tutorien besuchen, da dies die Grundlagen der Belege sind und dort Fragen beantwortet werden können.",
