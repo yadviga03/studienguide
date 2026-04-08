@@ -15,7 +15,7 @@ def normalize_modules(modules_dict):
 # Beschreibung:
 #   1. Welche Struktur hatte das Modul?
 #      z. B. Vorlesung 1,5 h / Übung 1,5 h oder zusätzlich Praktika?
-#   2. Welche Inhalte sind besonders im Kopf geblieben und was war weniger sinnvoll?
+#   2. Welche Inhalte sind besonders wichtig und was eher Nebensächlich?
 #   3. Warum ist das Modul für weiterführende Module wichtig oder nicht wichtig?
 #   4. Prüfungsvorleistung:
 #      Näheres: Was genau musste gemacht werden? (Inhalt, zeitlicher Aufwand etc.)
@@ -28,8 +28,8 @@ def normalize_modules(modules_dict):
 #       - Wie viele Aufgaben gibt es?
 #       - Wie viel Zeit steht zur Verfügung?
 #   Wenn mündlich:
-#       - Wie ist die Prüfung aufgebaut?
-#       - Wie ist die Stimmung während der Prüfung?
+#       - Wie ist die Prüfung aufgebaut? 
+#       - Was ist das Ziel in der Prüfung (z.B möglichst viele Fragen beantworten oder vielleicht eher die Fragen sehr ausführilich beantworten mit Zusatzinformationen)
 
 # Tipps:
 #   Wenn du das Modul nochmal beginnen würdest:
@@ -167,6 +167,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "ausgewaehlte_anwendung_regelungstechnik": {
+        "name": "Ausgewählte Anwendungen der Regelungstechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "ausgewaehlte_kapitel_der_biomedizinischen_technik": {
         "name": "Ausgewählte Kapitel der Biomedizinischen Technik",
         "beschreibung": "Beschreibung folgt.",
@@ -258,6 +265,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "compact_modeling_large_scale_dynamical_system": {
+        "name": "Compact Modeling of Large Scale Dynamical Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+        },
     "composite_material_design": {
         "name": "Composite Material Design",
         "beschreibung": "Beschreibung folgt.",
@@ -335,6 +349,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "digitale_signalverarbeitung": {
+        "name": "Digitale Signalverarbeitung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "deutsch_a11": {
         "name": "Deutsch A1.1",
         "beschreibung": "Beschreibung folgt.",
@@ -344,6 +365,13 @@ RAW_MODULES = {
     },
     "deutsch_a12": {
         "name": "Deutsch A1.2",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "dynamic_behavior_ac_mashine": {
+        "name": "Dynamic Behavior of AC Machines",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -407,6 +435,13 @@ RAW_MODULES = {
     },
     "einfuehrung_data_science": {
         "name": "Einführung in die Data Science in Materialwissenschafte und Ingenieurwesen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "einfuehrung_digitale_umrichtersteuerung": {
+        "name": "Einführung in die digitale Umrichtersteuerung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -640,8 +675,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "fortgeschrittene_elektronik_schaltkreisentwurf": {
+        "name": "Fortgeschrittene Elektronik und Schaltkreisentwurf",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "geraetetechnik_und_sensorik_in_der_biomedizinischen_technik": {
         "name": "Gerätetechnik und Sensorik in der Biomedizinischen Technik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "geregelte_elektrische_antriebe": {
+        "name": "Geregelte Elektrische Antriebe*",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -774,7 +823,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "hochintegrierte": {
-        "name": "Hydraulik und Pneumatik",
+        "name": "Hochintegrierte [wie heist das]",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1006,6 +1055,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "leistungshalbleiter": {
+        "name": "Leistungshalbleiter",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "logistik": {
         "name": "Logistik und Kreislaufwirtschaft",
         "beschreibung": "Es geht um Logistik und Kreislaufwirtschaft in der industriellen Anwendung. Prof. Sender gibt sehr viele praxisnahe Beispiele. Jedoch kann die Vorlesung einem sehr trocken erscheinen, wenn man nicht so sehr auf theoretische Inhalte steht.",
@@ -1037,6 +1093,13 @@ RAW_MODULES = {
     },
     "maritime_logistik": {
         "name": "Maritime Logistik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "maritime_sensorik": {
+        "name": "Maritime Sensorik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1174,6 +1237,20 @@ RAW_MODULES = {
     },
     "modelling_turbulent_flows": {
         "name": "Modelling and Simulation of Turbulent Flows",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "modeling_symulation_mechatronic_systems": {
+        "name": "Modeling and Simulation of Mechatronic Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "moderne_methoden_regelungstechnik": {
+        "name": "Moderne Methoden der Regelungstechnik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1396,6 +1473,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "prozessautomation_robotik": {
+        "name": "Prozessautomation und Robotik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "python_data_analysis": {
         "name": "Python for data analysis and visualization",
         "beschreibung": "Beschreibung folgt.",
@@ -1475,6 +1559,13 @@ RAW_MODULES = {
     },
     "robust_control": {
         "name": "Robust Control ans State Estimation",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "robuste_regelung_zustandsschaetzung": {
+        "name": "Robuste Regelung und Zustandsschätzung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1811,6 +1902,13 @@ RAW_MODULES = {
     },
     "umformtechnisches_fuegen": {
         "name": "Umformtechnisches / Mechanisches Fügen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "umrichterregelung_erneubare_energien": {
+        "name": "Umrichterregelung für Erneuerbare Energien",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],

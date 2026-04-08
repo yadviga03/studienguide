@@ -420,7 +420,7 @@ DATA = {
                     "regelungsorientierte_modellbildung_mechatronik",
                     "theorie_offshore_systeme",
                     "windenergietechnik"
-                ]                
+                ],               
             },
            "sonstige_wahlmodule": [
                 "modellierung_abgasnachbehandlung",
@@ -430,8 +430,40 @@ DATA = {
         },
 
         "Mechatronik": {
-            "pflichtmodule": [],
-            "wahlmodule": []
+            "vertiefungen": {
+                "Mathematische und Physikalische Grundlagen": [
+                        "digitale_signalverarbeitung",
+                        "dynamik_mehrkoerpersysteme",
+                        "grundlagen_akustik",
+                        "modeling_symulation_mechatronic_systems",
+                        "compact_modeling_large_scale_dynamical_system",
+                        "elastische_mehrkoerpersysteme",
+                        "technische_schwingungslehre",
+                ],
+                "Regelungstechnik":[
+                        "ausgewaehlte_anwendung_regelungstechnik",
+                        "nichtlineare_regelungssysteme",
+                        "regelungsorientierte_modellbildung_mechatronik",
+                        "moderne_methoden_regelungstechnik",
+                        "optimierungsmethoden_mechatronik",
+                        "robuste_regelung_zustandsschaetzung",
+                ],
+                "Komponenten mechatronischer Systeme":[
+                        "dynamic_behavior_ac_mashine",
+                        "fortgeschrittene_elektronik_schaltkreisentwurf",
+                        "hydraulik_pneumatik",
+                        "leistungshalbleiter",
+                        "umrichterregelung für Erneuerbare Energien",
+                        "geregelte_elektrische_antriebe",
+                        "maritime_sensorik",
+                        "prozessautomation_robotik",
+
+                ],
+                "Integration und Erprobung mechatronischer Systeme":[
+
+                ],
+
+            },
         },
 
         "Biomedizinische Technik": {
@@ -472,7 +504,6 @@ DATA = {
                 "",
                 "",
                 "",
-
             ]
         },
 
