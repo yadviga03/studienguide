@@ -254,7 +254,7 @@ DATA = {
                 "verbrennungsmotoren_2",
                 "waerme_stoffuebertragung",
                 "werkstofftechnik_2",
-                "umweltverfahrenstechnik"
+                "umweltverfahrenstechnik",
             ]
         }
     },

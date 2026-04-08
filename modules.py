@@ -832,10 +832,19 @@ RAW_MODULES = {
     },
     "konstruktionslehre": {
         "name": "Konstruktionslehre",
-        "beschreibung": "Weiterführende Inhalte der Konstruktionslehre.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul geht über zwei Semester und besteht aus 90-minütigen Vorlesungen und Übungen, wobei ein Tutorium nur in der ersten Hälfte vorgesehen ist. Hier lernt man wie Bauteile in technischen Zeichnungen erkennt, zeichnet, modelliert, deren Ausmaße und Festigkeit berechnet und nachweist. Das Hauptaugenmerk liegt hierbei auf den Berechnungen. Die Klausurvorleistung beinhalten Handzeichnungen, Online-Fragetest, 3D-Modellierungen, und Berechnungen.",
+        "klausur": "Die Klausur findet erst im 3.ten Semester statt und umfasst zwei mal drei Teile: jeweils einen Theorie-, einen Zeichen- und einen Rechenteil pro Semester (Kl2 im SS und Kl3 im WS). Es ist möglich, dass bald die Klausur zusammengefasst wird und nicht mehr 2 mal 3 Teile hat sondern, nur 3 Große Teile sind.",
+        "tipps": [
+            "Unbedingt die Übungen und Tutorien besuchen, da dies die Grundlagen der Belege sind und dort Fragen beantwortet werden können.",
+            "Die Belege sollte man rechtzeitig anfangen, da sie teilweise recht umfangreich sind und, je perfektionistischer man ist, auch gut über mehr als 10 Stunden gehen können. Vor allem der letzte „Komplexbeleg“ ist sehr kompliziert und zeitaufwendig.",
+            "Die Onlinetests nicht auf den letzten Drücker machen, da vor allem die Rechentest aufwendig sind.",
+        ],
+        "erfahrungen": [
+            {
+            "semester": "WS24/25",
+            "bericht": "Für die Belege und die Klausur habe ich mir das Tabellenbuch Metall besorgt, da hier viele Ausschnitte aus wichtigen Normen sind, welche man oft benötigt. Die Vorlesung habe ich nicht regelmäßig besucht, da ich mit den Folien allein besser klargekommen bin. Wenn man früh anfängt für die Klausur zu lernen, und sich Mühe beim Spickerschreiben gibt, ist die Klausur sehr gut machbar "
+            }
+        ],
     },
     "konstruktionsmethodik": {
         "name": "Konstruktionsmethodik",
@@ -1566,9 +1575,13 @@ RAW_MODULES = {
     },
     "technische_darstellungslehre": {
         "name": "Technische Darstellunglehre",
-        "beschreibung": "Grundlagen der Konstruktionslehre.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlagen des technischen Zeichnens, als auch die Zeichnung von Gegenständen in verschiedenen Ansichten lernt. Von „Wie halte ich den Bleistift richtig“ bis „Wie stelle ich zwei sich schneidende Körper da“.Als Klausurvorleistung müssen handgezeichnete Belege, als auch am PC erstellte 3D- Modelle, angefertigt werden.",
+        "klausur": "Die Klausur ist schriftlich und umfasst einen Theorie- und auch meist zwei Zeichenteile",
+        "tipps": [
+            "Unbedingt die Übungen und Tutorien besuchen, da dies die Grundlagen der Belege sind und dort Fragen beantwortet werden können.",
+            "Die Belege sollte man rechtzeitig anfangen, da sie teilweise recht umfangreich sind und, je perfektionistischer man ist, auch gut über mehr als 10 Stunden gehen können."
+            "Die Theorie und die Tutorien zu den CAD-Programmen sind Grundlage für das Modul Konstruktionslehre."
+        ],
         "erfahrungen": []
     },
     "technische_dokumentation": {
@@ -1772,9 +1785,13 @@ RAW_MODULES = {
     },
     "werkstofftechnik": {
         "name": "Werkstofftechnik 1",
-        "beschreibung": "Werkstofftechnische Grundlagen und Eigenschaften technischer Materialien.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul geht über zwei Semester, wobei das erste Semester aus 90-minütigen Vorlesungen und allen zwei Wochen stattfindenden Übungen und das zweite aus Laborpraktika besteht. Hier lernt man welche verschiedenen Werkstoffe es gibt, wie sie chemisch aufgebaut sind und wie man sie behandeln kann, um die Eigenschaften des Endprodukts nach belieben zu verändern. Als Klausurvorleistung müssen die Laborpraktika bestanden werden, welche aus einer Fragerunde und einer kleinen Demonstration der verschiedenen Untersuchungsmethoden von Werkstoffen bestehen.",
+        "klausur": "Die Klausur ist schriftlich. Die Probeklausuren helfen sehr, da einige Fragen der Klausur wiederverwendet werden.",
+        "tipps": [
+            "Unbedingt die Vorlesungen besuchen, da mit Tafelbildern gearbeitet wird, welche nicht auf den Folien übernommen wird.",
+            "Wenn die Vorlesungsvideos aus der Corona-Zeit bereitgestellt werden: unbedingt mit denen lernen, da in der Klausur sehr genau auf die Wortwahl und die Definitionen geachtet wird.",
+            "Gut auf die Laborpraktika vorbereiten, da man hier genau ausgefragt werden kann.",
+        ],
         "erfahrungen": []
     },
     "werkstofftechnik_2": {
