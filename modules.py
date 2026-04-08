@@ -104,6 +104,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "angewandte_biomechanik": {
+        "name": "Angewandte Biomechanik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "angewandte_biofluidmechanik_medizintechnik": {
+        "name": "Angewandte Biomfluidmechanik für Medizintechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
         "beschreibung": "Beschreibung folgt.",
@@ -153,6 +167,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "ausgewaehlte_kapitel_der_biomedizinischen_technik": {
+        "name": "Ausgewählte Kapitel der Biomedizinischen Technik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "ausgewaehlte_themen_logistik": {
         "name": "Ausgewählte Themen der Logistik",
         "beschreibung": "Beschreibung folgt.",
@@ -169,6 +190,13 @@ RAW_MODULES = {
     },
     "betriebsfestigkeit": {
         "name": "Betriebsfestigkeit",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "biofilm_medizin_technik": {
+        "name": "Biofilm in Medizin und Technik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -450,6 +478,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "endoprothetik_und_orthopaedische_chirurgie": {
+        "name": "Endoprothetik und Orthopädische Chirurgie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "englisch_fachkommunikation_ing_c12": {
         "name": "Englisch Fachkommunikation Ingenieurwissenschaften C1.2 GER",
         "beschreibung": "Beschreibung folgt.",
@@ -605,6 +640,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "geraetetechnik_und_sensorik_in_der_biomedizinischen_technik": {
+        "name": "Gerätetechnik und Sensorik in der Biomedizinischen Technik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "gewaesserregelung_kuesten_hochwasserschutz": {
         "name": "Gewässerregelung, Küten- und Hochwasseschutz",
         "beschreibung": "Beschreibung folgt.",
@@ -628,6 +670,13 @@ RAW_MODULES = {
     },
     "grundlagen_akustik": {
         "name": "Grundlagen der Akustik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "grundlagen_angewandten_muskuloskelettalen_biomechanik_orthopaedietechnik": {
+        "name": "Grundlagen der angewandten muskulo-skelettalen Biomechanik und Orthopädietechnik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -752,6 +801,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "implantattechnologie": {
+        "name": "Implantattechnologie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "industrial_engineering": {
         "name": "Industrial Engineering",
         "beschreibung": "Beschreibung folgt.",
@@ -787,9 +843,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-
+    "ip_management_in_der_medizintechnik": {
+        "name": "IP-Management in der Medizintechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "kaelte_klimatechnik": {
         "name": "Kälte- und Klimatechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "kardiovakulaere_implantate": {
+        "name": "Kardiovaskuläre Implantate",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -952,7 +1021,6 @@ RAW_MODULES = {
             }
         ]
     },
-
     "management_entwicklungsteams_projekten": {
         "name": "Management von Entwicklungsteams und Projekten",
         "beschreibung": "Beschreibung folgt.",
@@ -1015,6 +1083,13 @@ RAW_MODULES = {
     },
     "medizinische_grundlagen": {
         "name": "Medizinische Grundlagen für Studierende der Biomedizintechnik: Labordiagnostik, Pathologie, Mikrobiologie, Abwehsysteme",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "medizinische_technologie_bildgebende_verfahren": {
+        "name": "Medizinische Technologie / Bildgebende Verfahren",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1181,6 +1256,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "numerik_fuer_ingenieurwissenschaften": {
+        "name": "Numerik für Ingenieurwissenschaften",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "numerik_stochastik_ing": {
         "name": "Numerik und Stochastik für Ingenieurwissenschaften",
         "beschreibung": "Beschreibung folgt.",
@@ -1190,6 +1272,13 @@ RAW_MODULES = {
     },
     "numerische_stroemungsmechanik": {
         "name": "Numerische Strömungsmechanik und turbulente Strömungen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "open_space": {
+        "name": "Open Space",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1225,6 +1314,13 @@ RAW_MODULES = {
     },
     "personlawirtschaftslehre_organisationen": {
         "name": "Personalwirtschaftslehre und Verhalten Organisationen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "polymere_als_biomaterialien": {
+        "name": "Polymere als Biomaterialien",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1505,6 +1601,13 @@ RAW_MODULES = {
     },
     "strategisches_marketing": {
         "name": "Strategisches Marketing",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "stochastik": {
+        "name": "Stochastik für Ingenieurwissenschaften",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],

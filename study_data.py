@@ -435,8 +435,45 @@ DATA = {
         },
 
         "Biomedizinische Technik": {
-            "pflichtmodule": [],
-            "wahlmodule": []
+            "pflichtmodule": [
+                "ausgewaehlte_kapitel_der_biomedizinischen_technik",
+                "geraetetechnik_und_sensorik_in_der_biomedizinischen_technik",
+                "endoprothetik_und_orthopaedische_chirurgie",
+                "numerik_fuer_ingenieurwissenschaften",
+                "polymere_als_biomaterialien",
+                "angewandte_biomechanik",
+                "ip_management_in_der_medizintechnik",
+                "medizinische_technologie_bildgebende_verfahren"
+            ],
+            "wahlmodule": [
+                "additive_fertigungsverfahren",
+                "dynamik_mehrkoerpersysteme",
+                "ermuedungsrisse",
+                "festigkeitsoptimiertes_bruchsicheres",
+                "grundlagen_angewandten_muskuloskelettalen_biomechanik_orthopaedietechnik",
+                "nanomaterialien",
+                "implantattechnologie",
+                "nichtlineare_regelungssysteme",
+                "nichtnewtonsche_fluidmechanik",
+                "numerische_stroemungsmechanik",
+                "regelungsorientierte_modellbildung_mechatronik",
+                "schadensanalyse_sicherheitsrelevanter_produkte",
+                "strukturmechanik_fem_2",
+                "angewandte_biofluidmechanik_medizintechnik",
+                "betriebsfestigkeit",
+                "open_space",
+                "cad",
+                "elastische_mehrkoerpersysteme",
+                "kardiovakulaere_implantate",
+                "mikrofluidik",
+                "stochastik",
+                "technische_schwingungslehre",
+                "werkstofftechnik_2",
+                "",
+                "",
+                "",
+
+            ]
         },
 
         "Wirtschaftsingenieurwesen": {
