@@ -461,6 +461,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "eingebettete_multi_prozessor_systeme": {
+        "name": "Eingebettete Multi-Prozessor-Systeme",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "elektrische_fahrzeugantriebe": {
         "name": "Elektrische Fahrzeugantriebe",
         "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
@@ -612,6 +619,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "fehlerdiagnose_und_fehlertoleranz_in_technischen_systemen": {
+        "name": "Fehlerdiagnose und Fehlertoleranz in technischen Systemen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "fertigungslehre": {
         "name": "Fertigungslehre",
         "beschreibung": "Grundlagen des Fachgebiets laut Studienplan.",
@@ -682,6 +696,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "geraetetechnik": {
+        "name": "Gerätetechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "geraetetechnik_und_sensorik_in_der_biomedizinischen_technik": {
         "name": "Gerätetechnik und Sensorik in der Biomedizinischen Technik",
         "beschreibung": "Beschreibung folgt.",
@@ -690,7 +711,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "geregelte_elektrische_antriebe": {
-        "name": "Geregelte Elektrische Antriebe*",
+        "name": "Geregelte Elektrische Antriebe",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1214,6 +1235,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "mikrotechnologie_aktore_sensoren": {
+        "name": "Mikrotechnologie - Aktoren und Sensoren",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "modellbildung_simulation_technischer_systeme": {
         "name": "Modellierung und Simulation technischer Systeme",
         "beschreibung": "Beschreibung folgt.",
@@ -1466,6 +1494,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "project_seminar_power_electronics": {
+        "name": "Project Seminar Power Electronics",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "propellertheorie": {
         "name": "Propellertheorie",
         "beschreibung": "Beschreibung folgt.",
@@ -1538,6 +1573,13 @@ RAW_MODULES = {
     },
     "regenerative_energietechnik": {
         "name": "Regenerative Energietechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "renewable_energy_sources": {
+        "name": "Renewable Energy Sources",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1970,6 +2012,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "verteilte_eingebettete_systeme": {
+        "name": "Verteilte eingebettete Systeme",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "waerme_stoffuebertragung": {
         "name": "Wärme- und Stoffübertragung",
         "beschreibung": "Beschreibung folgt.",
@@ -2030,7 +2079,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-
+    "zuverlaessigkeit_und_testbarkeit_elektronischer_systeme": {
+        "name": "Zuverlässigkeit und Testbarkeit elektronischer Systeme",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
 }
 
 MODULES = normalize_modules(RAW_MODULES)
