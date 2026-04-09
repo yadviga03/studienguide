@@ -64,9 +64,10 @@
   <section class="top-filter-bar compact-filter-bar">
     <div class="container">
       <div class="top-filter-card">
+
         {% if "vertiefungen" in program_data and program_data["vertiefungen"] is mapping %}
           <div class="top-filter-group">
-            <h3>{{ t.specializations }}</h3>
+            <h3>Vertiefungsrichtungen</h3>
             <div class="chip-row">
               {% for name in program_data["vertiefungen"].keys() %}
                 <a
@@ -80,15 +81,41 @@
           </div>
         {% endif %}
 
+        {% if "wahlpflichtbereich" in program_data and program_data["wahlpflichtbereich"] is mapping %}
+          <div class="top-filter-group">
+            <h3>Wahlpflichtbereich</h3>
+            <div class="chip-row">
+              {% for name in program_data["wahlpflichtbereich"].keys() %}
+                <a
+                  class="chip {% if current_view == 'wahlpflichtbereich' and current_specialization == name %}active{% endif %}"
+                  href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='wahlpflichtbereich', specialization=name, lang=lang) }}"
+                >
+                  {{ name }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% if "ingenieurwissenschaftliche_vertiefung" in program_data and program_data["ingenieurwissenschaftliche_vertiefung"] is mapping %}
+          <div class="top-filter-group">
+            <h3>Ingenieurwissenschaftliche Vertiefung</h3>
+            <div class="chip-row">
+              {% for name in program_data["ingenieurwissenschaftliche_vertiefung"].keys() %}
+                <a
+                  class="chip {% if current_view == 'ingenieurwissenschaftliche_vertiefung' and current_specialization == name %}active{% endif %}"
+                  href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='ingenieurwissenschaftliche_vertiefung', specialization=name, lang=lang) }}"
+                >
+                  {{ name }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
         <div class="top-filter-group">
           <h3>{{ t.other_areas }}</h3>
           <div class="chip-row">
-            <a
-              class="chip {% if current_view == 'nichttechnischer_wahlpflichtbereich' %}active{% endif %}"
-              href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='nichttechnischer_wahlpflichtbereich', lang=lang) }}"
-            >
-              {{ t.non_technical_area }}
-            </a>
 
             {% if "pflichtmodule" in program_data %}
               <a
@@ -96,6 +123,69 @@
                 href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='pflichtmodule', lang=lang) }}"
               >
                 {{ t.mandatory_modules }}
+              </a>
+            {% endif %}
+
+            {% if "nichttechnischer_wahlpflichtbereich" in program_data %}
+              <a
+                class="chip {% if current_view == 'nichttechnischer_wahlpflichtbereich' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='nichttechnischer_wahlpflichtbereich', lang=lang) }}"
+              >
+                Nichttechnischer Wahlbereich
+              </a>
+            {% endif %}
+
+            {% if "technischer_wahlpflichtbereich" in program_data %}
+              <a
+                class="chip {% if current_view == 'technischer_wahlpflichtbereich' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='technischer_wahlpflichtbereich', lang=lang) }}"
+              >
+                Technischer Wahlpflichtbereich
+              </a>
+            {% endif %}
+
+            {% if "nichttechnische_wahlmodule" in program_data %}
+              <a
+                class="chip {% if current_view == 'nichttechnische_wahlmodule' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='nichttechnische_wahlmodule', lang=lang) }}"
+              >
+                Nichttechnische Wahlmodule
+              </a>
+            {% endif %}
+
+            {% if "wahlpflichtbereich_wirtschaftswissenschaften" in program_data %}
+              <a
+                class="chip {% if current_view == 'wahlpflichtbereich_wirtschaftswissenschaften' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='wahlpflichtbereich_wirtschaftswissenschaften', lang=lang) }}"
+              >
+                Wahlpflichtbereich Wirtschaftswissenschaften
+              </a>
+            {% endif %}
+
+            {% if "wirtschaftswissenschaftlicher_wahlpflichtbereich" in program_data %}
+              <a
+                class="chip {% if current_view == 'wirtschaftswissenschaftlicher_wahlpflichtbereich' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='wirtschaftswissenschaftlicher_wahlpflichtbereich', lang=lang) }}"
+              >
+                Wirtschaftswissenschaftlicher Wahlpflichtbereich
+              </a>
+            {% endif %}
+
+            {% if "ergaenzender_wahlbereich" in program_data %}
+              <a
+                class="chip {% if current_view == 'ergaenzender_wahlbereich' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='ergaenzender_wahlbereich', lang=lang) }}"
+              >
+                Ergänzender Wahlbereich
+              </a>
+            {% endif %}
+
+            {% if "ergaenzender_wahlpflichtbereich" in program_data %}
+              <a
+                class="chip {% if current_view == 'ergaenzender_wahlpflichtbereich' %}active{% endif %}"
+                href="{{ url_for('studiengaenge', degree=current_degree, program=current_program, view='ergaenzender_wahlpflichtbereich', lang=lang) }}"
+              >
+                Ergänzender Wahlpflichtbereich
               </a>
             {% endif %}
 
@@ -131,12 +221,28 @@
           <h3>{{ t.mandatory_modules }}</h3>
         {% elif current_view == "vertiefungen" %}
           <h3>{{ current_specialization }}</h3>
+        {% elif current_view == "wahlpflichtbereich" %}
+          <h3>{{ current_specialization }}</h3>
+        {% elif current_view == "ingenieurwissenschaftliche_vertiefung" %}
+          <h3>{{ current_specialization }}</h3>
+        {% elif current_view == "technischer_wahlpflichtbereich" %}
+          <h3>Technischer Wahlpflichtbereich</h3>
+        {% elif current_view == "nichttechnischer_wahlpflichtbereich" %}
+          <h3>Nichttechnischer Wahlbereich</h3>
+        {% elif current_view == "nichttechnische_wahlmodule" %}
+          <h3>Nichttechnische Wahlmodule</h3>
+        {% elif current_view == "wahlpflichtbereich_wirtschaftswissenschaften" %}
+          <h3>Wahlpflichtbereich Wirtschaftswissenschaften</h3>
+        {% elif current_view == "wirtschaftswissenschaftlicher_wahlpflichtbereich" %}
+          <h3>Wirtschaftswissenschaftlicher Wahlpflichtbereich</h3>
+        {% elif current_view == "ergaenzender_wahlbereich" %}
+          <h3>Ergänzender Wahlbereich</h3>
+        {% elif current_view == "ergaenzender_wahlpflichtbereich" %}
+          <h3>Ergänzender Wahlpflichtbereich</h3>
         {% elif current_view == "sonstige_wahlmodule" %}
           <h3>{{ t.other_electives }}</h3>
         {% elif current_view == "wahlmodule" %}
           <h3>{{ t.elective_modules }}</h3>
-        {% elif current_view == "nichttechnischer_wahlpflichtbereich" %}
-          <h3>{{ t.non_technical_area }}</h3>
         {% endif %}
       </div>
 
@@ -155,17 +261,27 @@
           {% for modul in data[current_degree][current_program]["vertiefungen"][current_specialization] %}
             {{ render_module_card(modul, t) }}
           {% else %}
-            <p class="empty-state">{{ t.selected_modules }} keine Einträge vorhanden.</p>
+            <p class="empty-state">Keine Einträge vorhanden.</p>
           {% endfor %}
         </div>
       {% endif %}
 
-      {% if current_view == "sonstige_wahlmodule" %}
+      {% if current_view == "wahlpflichtbereich" %}
         <div class="module-list">
-          {% for modul in data[current_degree][current_program]["sonstige_wahlmodule"] %}
+          {% for modul in data[current_degree][current_program]["wahlpflichtbereich"][current_specialization] %}
             {{ render_module_card(modul, t) }}
           {% else %}
-            <p class="empty-state">{{ t.other_electives }}: keine Einträge vorhanden.</p>
+            <p class="empty-state">Keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "ingenieurwissenschaftliche_vertiefung" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["ingenieurwissenschaftliche_vertiefung"][current_specialization] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Keine Einträge vorhanden.</p>
           {% endfor %}
         </div>
       {% endif %}
@@ -180,12 +296,82 @@
         </div>
       {% endif %}
 
+      {% if current_view == "sonstige_wahlmodule" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["sonstige_wahlmodule"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">{{ t.other_electives }}: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
       {% if current_view == "nichttechnischer_wahlpflichtbereich" %}
         <div class="module-list">
           {% for modul in nichttechnischer_wahlpflichtbereich %}
             {{ render_module_card(modul, t) }}
           {% else %}
-            <p class="empty-state">{{ t.non_technical_area }}: keine Einträge vorhanden.</p>
+            <p class="empty-state">Nichttechnischer Wahlbereich: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "technischer_wahlpflichtbereich" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["technischer_wahlpflichtbereich"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Technischer Wahlpflichtbereich: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "nichttechnische_wahlmodule" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["nichttechnische_wahlmodule"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Nichttechnische Wahlmodule: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "wahlpflichtbereich_wirtschaftswissenschaften" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["wahlpflichtbereich_wirtschaftswissenschaften"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Wahlpflichtbereich Wirtschaftswissenschaften: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "wirtschaftswissenschaftlicher_wahlpflichtbereich" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["wirtschaftswissenschaftlicher_wahlpflichtbereich"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Wirtschaftswissenschaftlicher Wahlpflichtbereich: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "ergaenzender_wahlbereich" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["ergaenzender_wahlbereich"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Ergänzender Wahlbereich: keine Einträge vorhanden.</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if current_view == "ergaenzender_wahlpflichtbereich" %}
+        <div class="module-list">
+          {% for modul in data[current_degree][current_program]["ergaenzender_wahlpflichtbereich"] %}
+            {{ render_module_card(modul, t) }}
+          {% else %}
+            <p class="empty-state">Ergänzender Wahlpflichtbereich: keine Einträge vorhanden.</p>
           {% endfor %}
         </div>
       {% endif %}

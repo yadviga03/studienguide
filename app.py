@@ -3,7 +3,7 @@ import os
 
 from chairs_data import CHAIRS
 from modules import MODULES
-from study_data import DATA, NICHT_TECHNISCHER_WAHLPFLICHTBEREICH
+from study_data import DATA
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev-secret-key-change-me")
@@ -176,14 +176,34 @@ def split_modules_by_degree(module_ids):
 def resolve_program_data(program_data):
     resolved = {}
 
+    list_views = [
+        "pflichtmodule",
+        "wahlmodule",
+        "sonstige_wahlmodule",
+        "nichttechnischer_wahlpflichtbereich",
+        "technischer_wahlpflichtbereich",
+        "nichttechnische_wahlmodule",
+        "wahlpflichtbereich_wirtschaftswissenschaften",
+        "wirtschaftswissenschaftlicher_wahlpflichtbereich",
+        "ergaenzender_wahlbereich",
+        "ergaenzender_wahlpflichtbereich",
+    ]
+
+    mapping_views = [
+        "vertiefungen",
+        "wahlpflichtbereich",
+        "ingenieurwissenschaftliche_vertiefung",
+    ]
+
     for key, value in program_data.items():
-        if key in ["pflichtmodule", "wahlmodule", "sonstige_wahlmodule"]:
+        if key in list_views and isinstance(value, list):
             resolved[key] = resolve_modules(value)
-        elif key == "vertiefungen":
+
+        elif key in mapping_views and isinstance(value, dict):
             resolved[key] = {}
-            if isinstance(value, dict):
-                for vert_name, module_ids in value.items():
-                    resolved[key][vert_name] = resolve_modules(module_ids)
+            for area_name, module_ids in value.items():
+                resolved[key][area_name] = resolve_modules(module_ids)
+
         else:
             resolved[key] = value
 
@@ -204,33 +224,45 @@ def get_resolved_data():
 def get_default_view(degree, program):
     program_data = DATA[degree][program]
 
-    if "pflichtmodule" in program_data and isinstance(program_data["pflichtmodule"], list):
-        return "pflichtmodule"
+    preferred_order = [
+        "pflichtmodule",
+        "vertiefungen",
+        "wahlpflichtbereich",
+        "ingenieurwissenschaftliche_vertiefung",
+        "technischer_wahlpflichtbereich",
+        "wahlpflichtbereich_wirtschaftswissenschaften",
+        "wirtschaftswissenschaftlicher_wahlpflichtbereich",
+        "nichttechnischer_wahlpflichtbereich",
+        "nichttechnische_wahlmodule",
+        "wahlmodule",
+        "ergaenzender_wahlbereich",
+        "ergaenzender_wahlpflichtbereich",
+        "sonstige_wahlmodule",
+    ]
 
-    if (
-        "vertiefungen" in program_data
-        and isinstance(program_data["vertiefungen"], dict)
-        and program_data["vertiefungen"]
-    ):
-        return "vertiefungen"
+    for key in preferred_order:
+        if key in program_data:
+            return key
 
-    if "wahlmodule" in program_data:
-        return "wahlmodule"
-
-    if "sonstige_wahlmodule" in program_data:
-        return "sonstige_wahlmodule"
-
-    return "nichttechnischer_wahlpflichtbereich"
+    return None
 
 
-def get_default_specialization(degree, program):
+def get_default_specialization(degree, program, view=None):
     program_data = DATA[degree][program]
-    if (
-        "vertiefungen" in program_data
-        and isinstance(program_data["vertiefungen"], dict)
-        and program_data["vertiefungen"]
-    ):
-        return list(program_data["vertiefungen"].keys())[0]
+
+    mapping_views = [
+        "vertiefungen",
+        "wahlpflichtbereich",
+        "ingenieurwissenschaftliche_vertiefung",
+    ]
+
+    if view in mapping_views and isinstance(program_data.get(view), dict) and program_data[view]:
+        return list(program_data[view].keys())[0]
+
+    for key in mapping_views:
+        if isinstance(program_data.get(key), dict) and program_data[key]:
+            return list(program_data[key].keys())[0]
+
     return None
 
 
@@ -303,33 +335,45 @@ def studiengaenge():
         program = programs[0]
 
     program_raw_data = DATA[degree][program]
-    nichttechnisch_ids = program_raw_data.get(
-        "nichttechnischer_wahlpflichtbereich",
-        NICHT_TECHNISCHER_WAHLPFLICHTBEREICH
-    )
+    nichttechnisch_ids = program_raw_data.get("nichttechnischer_wahlpflichtbereich", [])
     resolved_nichttechnisch = resolve_modules(nichttechnisch_ids)
 
     program_data = resolved_data[degree][program]
     view = request.args.get("view", get_default_view(degree, program))
 
-    allowed_views = ["nichttechnischer_wahlpflichtbereich"]
-
-    if "pflichtmodule" in program_data:
-        allowed_views.append("pflichtmodule")
-    if "vertiefungen" in program_data:
-        allowed_views.append("vertiefungen")
-    if "sonstige_wahlmodule" in program_data:
-        allowed_views.append("sonstige_wahlmodule")
-    if "wahlmodule" in program_data:
-        allowed_views.append("wahlmodule")
+    allowed_views = []
+    for key in [
+        "pflichtmodule",
+        "vertiefungen",
+        "wahlmodule",
+        "sonstige_wahlmodule",
+        "nichttechnischer_wahlpflichtbereich",
+        "technischer_wahlpflichtbereich",
+        "nichttechnische_wahlmodule",
+        "wahlpflichtbereich",
+        "ergaenzender_wahlbereich",
+        "wahlpflichtbereich_wirtschaftswissenschaften",
+        "wirtschaftswissenschaftlicher_wahlpflichtbereich",
+        "ingenieurwissenschaftliche_vertiefung",
+        "ergaenzender_wahlpflichtbereich",
+    ]:
+        if key in program_raw_data:
+            allowed_views.append(key)
 
     if view not in allowed_views:
         view = get_default_view(degree, program)
 
     current_specialization = request.args.get("specialization")
-    if view == "vertiefungen" and isinstance(program_data.get("vertiefungen"), dict):
-        if current_specialization not in program_data["vertiefungen"]:
-            current_specialization = get_default_specialization(degree, program)
+
+    specialization_views = [
+        "vertiefungen",
+        "wahlpflichtbereich",
+        "ingenieurwissenschaftliche_vertiefung",
+    ]
+
+    if view in specialization_views and isinstance(program_data.get(view), dict):
+        if current_specialization not in program_data[view]:
+            current_specialization = get_default_specialization(degree, program, view)
     else:
         current_specialization = None
 
@@ -345,7 +389,5 @@ def studiengaenge():
         lang=lang,
         t=t
     )
-
-
 if __name__ == "__main__":
     app.run(debug=True)

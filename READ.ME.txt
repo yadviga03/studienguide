@@ -1,0 +1,20 @@
+
+
+DIE BEZEICHNUNGEN FÜR DIE MÖGLICHEN MODULGRUPPEN IN ALLEN STUDIENGÄNGEN
+
+pflichtmodule
+vertiefungen
+nichttechnischer_wahlpflichtbereich
+technischer_wahlpflichtbereich
+nichttechnische_wahlmodule
+wahlpflichtbereich
+wahlpflichtbereich_wirtschaftswissenschaften
+wirtschaftswissenschaftlicher_wahlpflichtbereich
+ingenieurwissenschaftliche_vertiefung
+ergaenzender_wahlbereich
+ergaenzender_wahlpflichtbereich
+sonstige_wahlmodule
+wahlmodule
+
+
+BESCHREIBUNG MODULE FOLGENDERWEISE

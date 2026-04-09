@@ -1,13 +1,3 @@
-NICHT_TECHNISCHER_WAHLPFLICHTBEREICH = [
-    "einfuehrung_cpp",
-    "englisch_fachkommunikation_maschinenbau_c11",
-    "gewerbliche_schutzrechte",
-    "englisch_fachkommunikation_ing_c12",
-    "management_entwicklungsteams_projekten",
-    "numerik_stochastik_ing",
-    "balance",
-]
-
 DATA = {
     "Bachelor": {
         "Maschinenbau": {
@@ -42,7 +32,6 @@ DATA = {
                     "strukturmechanik_fem_1",
                     "werkstofftechnik_2"
                 ],
-
                 "Energie- und Umwelttechnik": [
                     "aerodynamik_hydrodynamik",
                     "angewandte_stroemungssimulation",
@@ -56,7 +45,6 @@ DATA = {
                     "verbrennungsmotoren_2",
                     "waerme_stoffuebertragung"
                 ],
-
                 "Produktionstechnik und Logistik": [
                     "antriebssteuerung",
                     "automatisierung_fertigung_montage",
@@ -69,7 +57,6 @@ DATA = {
                     "produktionswirtschaft",
                     "robotertechnik"
                 ],
-
                 "Regelungstechnik und Mechatronik": [
                     "antriebstechnik",
                     "antriebssteuerung",
@@ -80,7 +67,6 @@ DATA = {
                     "regelungssysteme_zustandsraum",
                     "robotertechnik"
                 ],
-
                 "Schiff- und Meerestechnik": [
                     "einfuehrung_meerestechnik",
                     "grundlagen_hydromechanik_schiffen_offshore",
@@ -88,7 +74,6 @@ DATA = {
                     "labor_schiffs_meerestechnik",
                     "schiffs_offshorekonstruktionen"
                 ],
-
                 "Sustainable Engineering": [
                     "aerodynamik_hydrodynamik",
                     "antriebstechnik",
@@ -108,7 +93,17 @@ DATA = {
                 "projekt_additive_fertigung",
                 "projekt_antriebssysteme_embedded_systems",
                 "technische_dokumentation"
-            ]
+            ],
+            "nichttechnischer_wahlpflichtbereich":[
+                "einfuehrung_cpp",
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "gewerbliche_schutzrechte",
+                "englisch_fachkommunikation_ing_c12",
+                "management_entwicklungsteams_projekten",
+                "numerik_stochastik_ing",
+                "balance",
+            ],
+            
         },
 
         "Mechatronik": {
@@ -132,7 +127,7 @@ DATA = {
                 "thermodynamik",
                 "werkstofftechnik",
             ],
-            "wahlmodule": [
+            "technischer_wahlpflichtbereich": [
                 "dynamik_kraftfahrzeuge",
                 "echtzeitsysteme",
                 "komponenten_mechatronischer_systeme",
@@ -157,7 +152,16 @@ DATA = {
                 "technische_optik",
                 "technische_thermodynamik_2",
                 "waerme_stoffuebertragung"
-            ]
+            ],
+            "nichttechnische_wahlmodule": [
+    
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "gewerbliche_schutzrechte",
+                "englisch_fachkommunikation_ing_c12",
+                "management_entwicklungsteams_projekten",
+                "numerik_stochastik_ing",
+                "balance",
+            ],
         },
 
         "Biomedizinische Technik": {
@@ -184,7 +188,7 @@ DATA = {
                 "thermodynamik",
                 "werkstofftechnik",
             ],
-            "wahlmodule": [
+            "technischer_wahlpflichtbereich": [
                 "aerodynamik_hydrodynamik",
                 "angewandte_stroemungssimulation",
                 "digitale_regelung",
@@ -196,7 +200,16 @@ DATA = {
                 "strukturmechanik_fem_1",
                 "technische_dokumentation",
                 "waerme_stoffuebertragung",
-            ]
+            ],
+            "nichttechnischer_wahlpflichtbereich": [
+                "einfuehrung_cpp",
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "gewerbliche_schutzrechte",
+                "englisch_fachkommunikation_ing_c12",
+                "management_entwicklungsteams_projekten",
+                "numerik_stochastik_ing",
+                "balance",
+            ],
         },
 
         "Wirtschaftsingenieurwesen": {
@@ -222,16 +235,7 @@ DATA = {
                 "einfuehrung_wirtschaftsrecht",
                 "produktionsplanung_steuerung"
             ],
-            "wahlmodule": [
-                "einfuehrung_betriebswirtschaftsliche_steuerlehre",
-                "finanzierung_investition_2",
-                "ideenfindung_entwicklung",
-                "strategisches_marketing",
-                "grundlagen_controlling",
-                "grundlagen_bevölkerungsökonomik",
-                "grundzüge_dienstleistungsmanagement",
-                "grundzüge_moderner_oekonomie",
-                "erfolgsfaktoren_beruflicher_selbstaendigkeit",
+            "technischer_wahlpflichtbereich": [
                 "automatisierung_fertigung_montage",
                 "energietechnik",
                 "grundlagen_fuegetechnik",
@@ -255,7 +259,18 @@ DATA = {
                 "waerme_stoffuebertragung",
                 "werkstofftechnik_2",
                 "umweltverfahrenstechnik",
-            ]
+            ],
+            "wahlpflichtbereich_wirtschaftswissenschaften": [
+                "einfuehrung_betriebswirtschaftsliche_steuerlehre",
+                "finanzierung_investition_2",
+                "ideenfindung_entwicklung",
+                "strategisches_marketing",
+                "grundlagen_controlling",
+                "grundlagen_bevölkerungsökonomik",
+                "grundzüge_dienstleistungsmanagement",
+                "grundzüge_moderner_oekonomie",
+                "erfolgsfaktoren_beruflicher_selbstaendigkeit",
+            ],
         }
     },
 
@@ -271,7 +286,6 @@ DATA = {
                     "technische_schwingungslehre",
                     "verbrennungsmotoren_4"
                 ],
-
                 "Fertigungstechnik": [
                     "additive_fertigungsverfahren",
                     "anlagenwirtschaft",
@@ -280,7 +294,6 @@ DATA = {
                     "qualitaetsmanagement",
                     "schiffsfertigungstechnik"
                 ],
-
                 "Konstruktionstechnik": [
                     "additive_fertigungsverfahren",
                     "betriebsfestigkeit",
@@ -290,7 +303,6 @@ DATA = {
                     "projekt_produktentwicklung",
                     "strukturmechanik_fem_2"
                 ],
-
                 "Leichtbau": [
                     "betriebsfestigkeit",
                     "biomaterialien_maschinenbau",
@@ -302,7 +314,6 @@ DATA = {
                     "metallische_konstruktionswerkstoffe",
                     "strukturmechanik_fem_2"
                 ],
-
                 "Logistik": [
                     "ausgewaehlte_themen_logistik",
                     "cad",
@@ -311,7 +322,6 @@ DATA = {
                     "maritime_logistik",
                     "supply_chain_management"
                 ],
-
                 "Mechatronik": [
                     "aktive_systeme_kraftfahrzeug",
                     "dynamik_mehrkoerpersysteme",
@@ -321,7 +331,6 @@ DATA = {
                     "robuste_regelung",
                     "technische_schwingungslehre"
                 ],
-
                 "Schweißtechnik": [
                     "betriebsfestigkeit",
                     "metallische_konstruktionswerkstoffe",
@@ -332,7 +341,6 @@ DATA = {
                     "schweisstechnologie",
                     "umformtechnisches_fuegen"
                 ],
-
                 "Strömungsmaschinen": [
                     "betriebsfestigkeit",
                     "grundlagen_akustik",
@@ -344,7 +352,6 @@ DATA = {
                     "thermische_stroemungsmaschinen",
                     "windenergie_simulation"
                 ],
-
                 "Strömungsmechanik und Aerodynamik": [
                     "angewandte_stroemungsmechanik",
                     "experimentelle_stroemungsmechanik",
@@ -357,7 +364,6 @@ DATA = {
                     "thermische_stroemungsmaschinen",
                     "turbulenzmodellierung"
                 ],
-
                 "Strukturmechanik": [
                     "betriebsfestigkeit",
                     "dynamik_mehrkoerpersysteme",
@@ -368,7 +374,6 @@ DATA = {
                     "strukturmechanik_fem_2",
                     "technische_schwingungslehre"
                 ],
-
                 "Thermische Maschinen/Verbrennungsmotoren": [
                     "aufladung_verbrennungsmotor",
                     "grossmotoren_schiff",
@@ -382,7 +387,6 @@ DATA = {
                     "verbrennungsmotoren_3",
                     "verbrennungsmotoren_4"
                 ],
-
                 "Thermische Prozesse/Energieanlagen": [
                     "kaelte_klimatechnik",
                     "labor_thermische_maschinen",
@@ -395,7 +399,6 @@ DATA = {
                     "thermodynamik_verbrennung",
                     "verbrennungsmotoren_3"
                 ],
-
                 "Werkstofftechnik": [
                     "additive_fertigungsverfahren",
                     "biomaterialien_maschinenbau",
@@ -408,7 +411,6 @@ DATA = {
                     "simulation_werkstofftechnik",
                     "werkstoffanalytik"
                 ],
-
                 "Windenergietechnik": [
                     "betriebsfestigkeit",
                     "dynamik_mehrkoerpersysteme",
@@ -427,10 +429,19 @@ DATA = {
                 "schadensanalyse_sicherheitsrelevanter_produkte",
                 "technologien_meeresenergienutzung"
             ],
+            "nichttechnischer_wahlpflichtbereich":[
+                "einfuehrung_cpp",
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "gewerbliche_schutzrechte",
+                "englisch_fachkommunikation_ing_c12",
+                "management_entwicklungsteams_projekten",
+                "numerik_stochastik_ing",
+                "balance",
+            ],
         },
 
         "Mechatronik": {
-            "vertiefungen": {
+            "wahlpflichtbereich": {
                 "Mathematische und Physikalische Grundlagen": [
                     "compact_modeling_large_scale_dynamical_system",
                     "digitale_signalverarbeitung",
@@ -458,7 +469,7 @@ DATA = {
                     "leistungshalbleiter",
                     "maritime_sensorik",
                     "prozessautomation_robotik",
-                    "umrichterregelung für Erneuerbare Energien",
+                    "umrichterregelung_erneubare_energien",
                 ],
 
                 "Integration und Erprobung mechatronischer Systeme": [
@@ -486,8 +497,11 @@ DATA = {
                     "project_seminar_power_electronics",
                     "renewable_energy_sources",
                 ],
-
+        
             },
+            "ergaenzender_wahlbereich":[
+
+            ],
         },
 
         "Biomedizinische Technik": {
@@ -501,7 +515,7 @@ DATA = {
                 "ip_management_in_der_medizintechnik",
                 "medizinische_technologie_bildgebende_verfahren"
             ],
-            "wahlmodule": [
+            "technischer_wahlpflichtbereich": [
                 "additive_fertigungsverfahren",
                 "dynamik_mehrkoerpersysteme",
                 "ermuedungsrisse",
@@ -525,15 +539,147 @@ DATA = {
                 "stochastik",
                 "technische_schwingungslehre",
                 "werkstofftechnik_2",
-                "",
-                "",
-                "",
-            ]
+            ],
+            "nichttechnischer_wahlpflichtbereich":[
+                "einfuehrung_cpp",
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "gewerbliche_schutzrechte",
+                "englisch_fachkommunikation_ing_c12",
+                "management_entwicklungsteams_projekten",
+                "numerik_stochastik_ing",
+                "balance",
+            ],
+
         },
 
         "Wirtschaftsingenieurwesen": {
-            "pflichtmodule": [],
-            "vertiefungen": {}
+            "pflichtmodule": [
+                "dienstleistungsmarketing",
+                "unternehmensrechnung_controlling_finanzierung",
+            ],
+            "ingenieurwissenschaftliche_vertiefung": {
+                "Automatisierungstechnik":[
+                    "ausgewaehlte_anwendung_regelungstechnik",
+                    "fehlerdiagnose_und_fehlertoleranz_in_technischen_systemen",
+                    "geregelte_elektrische_antriebe",
+                    "mikrotechnologie_aktore_sensoren",
+                    "modeling_symulation_mechatronic_systems",
+                    "moderne_methoden_regelungstechnik",
+                    "optimierungsmethoden_mechatronik",
+                    "prozessautomation_robotik",
+                    "projektseminar_entwurf_simulation_elektronischer_baugruppen",
+                    "prozessmesstechnik",
+                    "robust_control",
+                    "technische_optik",
+                    "zuverlaessigkeit_und_testbarkeit_elektronischer_systeme",
+                ],
+                "Elektrische Energietechnik":[
+                    "ausgewaehlte_anwendung_regelungstechnik",
+                    "geregelte_elektrische_antriebe",
+                    "hochtemperaturelektronik",
+                    "leistungshalbleiter",
+                    "moderne_methoden_regelungstechnik",
+                    "power_system_control_protection",
+                    "power_system_dynamic_stability_control",
+                    "project_seminar_power_electronics",
+                    "projektseminar_entwurf_simulation_elektronischer_baugruppen",
+                    "prozessautomation_robotik",
+                    "renewable_energy_grid_connection_controller_design_grid_code_requirements",
+                    "umrichterregelung_erneubare_energien",
+                    "zuverlaessigkeit_und_testbarkeit_elektronischer_systeme",
+                ],
+                "Informationstechnologie":[
+                    "advanced_cpu_design",
+                    "bild_videoverarbeitung_und_codierung",
+                    "data_driven_methods_in_signal_processing",
+                    "digitale_datenuebertragung",
+                    "kanalcodierung",
+                    "mobilkommunikation",
+                    "radio_navigation_and_radar",
+                    "rechnerarchitekturen_fuer_deep_learning_anwendungen",
+                ],
+                "Energie- und Umwelttechnik":[
+                    "hydraulische_stroemungsmaschinen",
+                    "kaelte_klimatechnik",
+                    "klimaneutrale_kraftstoffe",
+                    "mehrstoffthermodynamik",
+                    "motorthermodynamik",
+                    "regenerative_energietechnik",
+                    "windenergie_simulation",
+                    "thermische_stroemungsmaschinen",
+                    "verbrennungsmotoren_1",
+                    "verbrennungsmotoren_2",
+                    "waerme_stoffuebertragung",
+                    "windenergietechnik"
+                ],
+                "Fertigungs- und Automatisierungstechnik":[
+                    "additive_fertigungsverfahren",
+                    "anlagenwirtschaft",
+                    "ausgewaehlte_fertigungsverfahren",
+                    "automobile_produktion",
+                    "digitale_regelung",
+                    "klebtechnik",
+                    "metallische_konstruktionswerkstoffe",
+                    "moderne_methoden_regelungstechnik",
+                    "optimierungsmethoden_mechatronik",
+                    "qualitaetsmanagement",
+                    "schiffsfertigungstechnik",
+                    "schweisskonstruktion",
+                    "schweissmetallurgie",
+                    "schweisstechnologie",
+                    "steuerungstechnik",
+                    "umformtechnisches_fuegen"
+                ],
+                "Logistik":[
+                    "anlagenwirtschaft",
+                    "ausgewaehlte_themen_logistik",
+                    "automobile_produktion",
+                    "industrial_engineering",
+                    "management_entwicklungsteams_projekten",
+                    "maritime_logistik",
+                    "steuerungstechnik",
+                    "supply_chain_management",
+                    "vernetzte_produktion_und_logistik",
+                ],
+                "Produktentwicklung":[
+                    "additive_fertigungsverfahren",
+                    "advanced_analysis_of_marine_structures",
+                    "cad",
+                    "festigkeitsoptimiertes_bruchsicheres",
+                    "konstruktionsmethodik",
+                    "leichtbaukonstruktion",
+                    "leichtbauwerkstoffe",
+                    "management_entwicklungsteams_projekten",
+                    "metallische_konstruktionswerkstoffe",
+                    "principle_analysis_of_marine_structures",
+                    "projekt_produktentwicklung",
+                    "structural_durability",
+                    "technische_schwingungslehre",
+                ],
+            },
+            "wirtschaftswissenschaftlicher_wahlpflichtbereich": [
+                # WiWi-Module
+            ],
+            "ergaenzender_wahlpflichtbereich": [
+                # ergänzende Module
+            ],
+            "sonstige_wahlmodule": [
+                "balance",
+                "design_underwater_systems",
+                "englisch_fachkommunikation_ing_c12",
+                "englisch_fachkommunikation_maschinenbau_c11",
+                "englisch_fachkommunikation_wiwi_c11",
+                "englisch_fachkommunikation_wiwi_c12",
+                "grossmotoren_schiff",
+                "introduction_applied_programming_cpp",
+                "mikrofluidik",
+                "motor_energiemanagement",
+                "ocean_renewable_energies",
+                "optimierungsmethoden_mechatronik",
+                "verbrennungsmotoren_3",
+                "verbrennungsmotoren_4",
+                
+            ],
         },
 
         "Sustainable Engineering": {

@@ -90,6 +90,13 @@ RAW_MODULES = {
             }
         ]
     },
+    "advanced_cpu_design": {
+        "name": "Advanced CPU Design",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "alternative_antriebssysteme": {
         "name": "Alternative Antriebssysteme",
         "beschreibung": "Beschreibung folgt.",
@@ -174,6 +181,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "ausgewaehlte_fertigungsverfahren": {
+        "name": "Ausgewählte Fertigungsverfahren",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "ausgewaehlte_kapitel_der_biomedizinischen_technik": {
         "name": "Ausgewählte Kapitel der Biomedizinischen Technik",
         "beschreibung": "Beschreibung folgt.",
@@ -188,6 +202,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "automobile_produktion": {
+        "name": "Automobile Produktion",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "balance": {
         "name": "BALANCE - Einführung in interdisziplineres Denken",
         "beschreibung": "Beschreibung folgt.",
@@ -197,6 +218,13 @@ RAW_MODULES = {
     },
     "betriebsfestigkeit": {
         "name": "Betriebsfestigkeit",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "bild_videoverarbeitung_und_codierung": {
+        "name": "Bild-/Videverarbeitung und Codierung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -307,6 +335,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "data_driven_methods_in_signal_processing": {
+        "name": "Data-Driven Methods in Signal Processing",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "deep_learning": {
         "name": "Deep Learning",
         "beschreibung": "Beschreibung folgt.",
@@ -337,6 +372,20 @@ RAW_MODULES = {
     },
     "design_underwater_systems": {
         "name": "Design of Underwater Systems",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "dienstleistungsmarketing": {
+        "name": "Dienstleistungsmarketing",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "digitale_datenuebertragung": {
+        "name": "Digitale Datenübertragung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -536,6 +585,19 @@ RAW_MODULES = {
     },
     "englisch_fachkommunikation_maschinenbau_c11": {
         "name": "Englisch Fachkommunikation Maschinenbau C1.1 GER",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "englisch_fachkommunikation_wiwi_c11": {
+        "name": "Englisch Fachkommunikation Wirtschaftswissenschaften C1.1 GER",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },"englisch_fachkommunikation_wiwi_c12": {
+        "name": "Englisch Fachkommunikation Wirtschaftswissenschaften C1.2 GER",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -850,6 +912,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "hochtemperaturelektronik": {
+        "name": "Hochtemperaturelektronik - Konstruktion und Fertigung",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "hydraulik_pneumatik": {
         "name": "Hydraulik und Pneumatik",
         "beschreibung": "Beschreibung folgt.",
@@ -922,6 +991,13 @@ RAW_MODULES = {
     },
     "kaelte_klimatechnik": {
         "name": "Kälte- und Klimatechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "kanalcodierung": {
+        "name": "Kanalcodierung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1242,6 +1318,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "mobilkommunikation": {
+        "name": "Mobilkommunikation",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "modellbildung_simulation_technischer_systeme": {
         "name": "Modellierung und Simulation technischer Systeme",
         "beschreibung": "Beschreibung folgt.",
@@ -1431,6 +1514,20 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "power_system_control_protection": {
+        "name": "Power System Control and Protection",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "power_system_dynamic_stability_control": {
+        "name": "Power System Dynamic Stability and Control",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "principle_analysis_of_marine_structures": {
         "name": "Principle Analysis of Marine Structures",
         "beschreibung": "Beschreibung folgt.",
@@ -1501,6 +1598,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "projektseminar_entwurf_simulation_elektronischer_baugruppen": {
+        "name": "Projektseminar Entwurf und Simulation elektronischer Baugruppen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "propellertheorie": {
         "name": "Propellertheorie",
         "beschreibung": "Beschreibung folgt.",
@@ -1510,6 +1614,13 @@ RAW_MODULES = {
     },
     "prozessautomation_robotik": {
         "name": "Prozessautomation und Robotik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "prozessmesstechnik": {
+        "name": "Prozessmesstechnik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1529,8 +1640,22 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "radio_navigation_and_radar": {
+        "name": "Radio Navigation and Radar",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "reasoning_under_uncertainty": {
         "name": "Reasoning under Unsertainty",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "rechnerarchitekturen_fuer_deep_learning_anwendungen": {
+        "name": "Rechnerarchitekturen für Deep Learning Anwendungen",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1573,6 +1698,13 @@ RAW_MODULES = {
     },
     "regenerative_energietechnik": {
         "name": "Regenerative Energietechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "renewable_energy_grid_connection_controller_design_grid_code_requirements": {
+        "name": "Renewable Energy: Grid Connection, Controller Design and Grid Code Requirements",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1727,6 +1859,13 @@ RAW_MODULES = {
     },
     "simulation_werkstofftechnik": {
         "name": "Simulation in der Werkstofftechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "steuerungstechnik": {
+        "name": "Steuerungstechnik",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1958,6 +2097,13 @@ RAW_MODULES = {
     },
     "umweltverfahrenstechnik": {
         "name": "Umweltverfahrenstechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "unternehmensrechnung_controlling_finanzierung": {
+        "name": "Unternehmensrechnung, Controlling und Finanzierung",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
