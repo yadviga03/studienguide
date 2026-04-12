@@ -540,18 +540,18 @@ RAW_MODULES = {
     },
     "elektrotechnik": {
         "name": "Einführung im die Elektrotechnik für Maschinenbau",
-        "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
-        "klausur": "Schriftliche Klausur mit Rechen- und Theorieaufgaben.",
+        "beschreibung": "Das Modul umfassen drei mal 45-minütige Vorlesungen als auch Übungen, welche sich von zwei Lehrpersonen geteilt werden: Elektrotechnik und elektrische Maschinen. Hier lernt man die Grundlagen zum Thema Strom, Spannung, Widerstand, als auch Magnetismus, Stromkreise und verschiedenen Maschinen, welche man beschreiben und berechnen muss. Als Klausurvorleistung muss man die Kurzfragentest vor jedem „Praktikum“ bestehen, als auch ein Protokoll des jeweiligen Versuches anfertigen, welche aus dem Deckblatt, einer Hausaufgabe, Berechnungen von Messwerten, Zeichnungen von Diagrammen und einer Auswertung bestehen.",
+        "klausur": "Die Klausur ist schriftlich mit Rechen- und Theorieaufgaben. Es kommen Teile aus dem Bereich Elektrotechnik und Rechenaufgaben aus dem Bereich elektrische Maschinen. Die Klausur orientiert sich sehr stark an der letzten Übung und der Konsultation.",
         "tipps": [
-            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
-            "Altklausuren rechnen.",
-            "Schaltungen und Grundgesetze wirklich verstehen.",
-            "Nicht nur lesen, sondern Aufgaben aktiv rechnen."
+            "Unbedingt die Konsultation und die Übungen besuchen, da hier Aufgaben gerechnet werden, die sehr ähnlich sind zu den Klausuraufgaben.",
+            "Bei den Praktika eine klare Aufgabenverteilung in der Gruppe haben, damit man direkt schnell loslegen kann, da man nur eine Woche für das Protokoll Zeit hat.",
+            "In der ersten Vorlesung wird der Ablaufplan veröffentlicht. Manchmal hat man zwei Vorlesungen in der Woche, mal eine Übung, mal ein Praktikum.",
+            "Anfang Januar wechselt die Lehrperson und kündigt eigene Termine an.",
         ],
         "erfahrungen": [
             {
-                "semester": "SS25",
-                "text": "Mit regelmäßigem Üben ist das Modul machbar. Kurz vor der Klausur alles auf einmal zu lernen war eher schwierig."
+                "semester": "WS24/25",
+                "text": "Bei Dr. Schaeper kann man bei Nichtbestehen der Testate diese beliebig oft wiederholen. Bei Sänger nur zwei Mal "
             }
         ]
     },
@@ -711,9 +711,12 @@ RAW_MODULES = {
     },
     "fertigungslehre": {
         "name": "Fertigungslehre",
-        "beschreibung": "Grundlagen des Fachgebiets laut Studienplan.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch fünf Übungen. Hier lernt man die verschiedenen Herstellungs- und Weiterverarbeitungsmöglichkeiten von Werkstoffen. Also der Weg von „Wie schaffe ich meinen Stahl“ über „Mit welchen Werkzeugen und Methoden, kann ich den Stahl verändern“ bis „Welche Eigenschaften soll der Stahl haben“. Als Prüfungsvorleistung müssen vier der fünf Kurzfragentest am Anfang jede Übung erfolgreich bestanden werden.",
+        "klausur": "Die Klausur ist schriftlich. Es dürfen zwei Seiten Spicker (laut unseren letzen Information, prüft das aber bitte!) mit in die Klausur genommen werden, wobei diese am besten komplett ausgenutzt werden sollten, da Theorie, Skizzen und Diagramme abgefragt werden.",
+        "tipps": [
+            "Die Spickzettel sollten rechtzeitig angefangen werden, da sehr viel Stoff, inklusive Zeichnungen zusammengefasst werden muss.",
+            "Jedes Jahr wird ein Exkurs in das Stahlwerk Salzgitter angeboten, wo man sich den theoretischen Stoff in der Praxis anschauen kann."
+        ],
         "erfahrungen": []
     },
     "fertigungsmittel": {
@@ -1246,28 +1249,45 @@ RAW_MODULES = {
     },
     "mathematik_1": {
         "name": "Mathematik 1: Grundlagen und eindimensionale Analysis",
-        "beschreibung": "Es ist eine typische 2h und 15min Vorlesung (also 3*45min) und 1,5h Übung. Mathematische Grundlagen, die sehr wichtig für das weitere Studium sind. Ihr werdet … lernen. Wenn ihr die Inhalte gut könnt, wird es euch später leichter fallen. Es gibt eine Klausurvorleistung: Jede Woche müsst ihr einen Aufgabenzettel abgeben. Meistens sind dort 3 Aufgaben drauf, alles lehnt sich an die Vorlesung und Übung an. Ihr müsst 50 % der Gesamtpunkte erreichen, um zur Klausur zugelassen zu werden (falls du denkst: ‚ach easy‘... nee, nicht ganz).",
-        "klausur": "Schriftliche Klausur: Bei Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei …",
+        "beschreibung": "Das Modul beinhaltet eine 3 mal 45-minütige Vorlesung als auch 90-minütige Übungen und Tutorien. Hier lernt man die ersten mathematischen Grundlagen, die auf der Schulmathematik aufbauen und im Laufe des Studiums gebraucht werden: Von Mengenlehre und was Reihen sind, über imaginäre Zahlen, bis hin zu Integralen, Ableitungen und Differentialgleichungen. Als Klausurvorleistung müssen wöchentliche Hausaufgaben abgegeben werden, wo man mindestens 50% der möglichen Punkte erreichen muss.",
+        "klausur": "Schriftliche Klausur: Bei Prof. Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei Dr. Just: Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.",
         "tipps": [
-            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
-            "Macht die Serien ordentlich und schreibt euch das gut auf (mit einem guten System). Ihr werdet im Studium noch weiter darauf zurückgreifen. "
-            "Falls ihr die Klausur nicht schreiben wollt, macht trotzdem die Zulassung. Ihr werdet euch ärgern, wenn ihr das nicht vorher fertig macht."
+            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht.",
+            "Macht die Serien ordentlich und schreibt euch das gut auf (mit einem guten System). Ihr werdet im Studium noch weiter darauf zurückgreifen. ",
+            "Falls ihr die Klausur nicht schreiben wollt, macht trotzdem die Zulassung. Ihr werdet euch ärgern, wenn ihr das nicht vorher fertig macht.",
+            "Die wöchentlichen Aufgabenserien gründlich bearbeiten und in den Übungen mitmachen, sodass man den Stoff versteht.",
+            "o	Nehmt euch Zeit die Übungsserien zu bearbeiten, da sie teilweise sehr aufwendig sein können und man ein paar Stunden vor den Aufgaben sitzt."
         ],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester": "WS24/25",
+                "bericht":  "Bei Dr. Just wurde die Klausur als open book geschrieben, sodass man sämtliche Vorlesungs- und Übungsmaterialien mit in die Prüfung nehmen durfte. Das mehrfache Rechnen der Probeklausur und wiederholen der Übungsaufgaben hat mir sehr geholfen in der Klausur."
+            }
+        ]
     },
     "mathematik_2": {
         "name": "Mathematik 2: Lineare Algera und Geometrie",
         "beschreibung": "Vertiefung mathematischer Methoden mit Fokus auf Analysis und lineare Algebra.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "klausur": "Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester": "WS24/25",
+                "bericht":  "Bei Dr. Just wurde die Klausur als open book geschrieben, sodass man sämtliche Vorlesungs- und Übungsmaterialien mit in die Prüfung nehmen durfte. Das mehrfache Rechnen der Probeklausur und wiederholen der Übungsaufgaben hat mir sehr geholfen in der Klausur."
+            }
+        ]
     },
     "mathematik_3": {
         "name": "Mathematik 3: Differenzialgleichungen und mehrdimensionale Analysis",
         "beschreibung": "Weiterführende mathematische Verfahren für technische Problemstellungen.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "klausur": "Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester": "WS24/25",
+                "bericht":  "Bei Dr. Just wurde die Klausur als open book geschrieben, sodass man sämtliche Vorlesungs- und Übungsmaterialien mit in die Prüfung nehmen durfte. Das mehrfache Rechnen der Probeklausur und wiederholen der Übungsaufgaben hat mir sehr geholfen in der Klausur."
+            }
+        ]
     },
     "mathematische_modelle_in_der_schiffstheorie": {
         "name": "Mathematische Modelle in der Schiffstheorie",
@@ -2026,25 +2046,32 @@ RAW_MODULES = {
     },
     "technische_mechanik_1": {
         "name": "Technische Mechanik 1: Statik",
-        "beschreibung": "Einführung in die Technische Mechanik mit Statik und Grundprinzipien.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlage vieler anderen Module lernt: Von der Definition einer Kraft, über die Bestimmung von Schwerpunkten eines Körpers bis hin zum Verhalten von Lagern und Stäben unter Belastung. Hierbei wird viel auf der Schulmathematik und Physik aufgebaut. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
+        "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
-            "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht."
+            "Die Übungen helfen beim Verständnis, da dort die Aufgaben vorgerechnet werden, während man in den Tutorien die Aufgaben selbstständig bearbeitet und den Stoff verinnerlicht.",
+            "Unbedingt zu beiden Probeklausuren gehen, da etwas ähnliches auch in der Klausur drankommen könnte."
         ],
         "erfahrungen": []
     },
     "technische_mechanik_2": {
         "name": "Technische Mechanik 2: Festigkeitslehre",
-        "beschreibung": "Aufbau auf TM 1 mit weiterführenden mechanischen Zusammenhängen.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, welches auf das Modul Technische Mechanik 1 aufbaut. Hier kommt zu der Frage, welche Kräfte auf das System wirken auch die Frage, wie und ab wann sich das System unter der Belastung verändert, verbiegt und knickt. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
+        "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
+        "tipps": [
+            "Die Übungen helfen beim Verständnis, da dort die Aufgaben vorgerechnet werden, während man in den Tutorien die Aufgaben selbstständig bearbeitet und den Stoff verinnerlicht.",
+            "Unbedingt zu beiden Probeklausuren gehen, da etwas ähnliches auch in der Klausur drankommen könnte."
+        ],
         "erfahrungen": []
     },
     "technische_mechanik_3": {
         "name": "Technische Mechanik 3: Dynamik",
-        "beschreibung": "Vertiefung technischer Mechanik mit anspruchsvolleren Anwendungen.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, welches auf das Modul Technische Mechanik 2 aufbaut. Hier fangen die Systeme an sich zu bewegen und man erlernt die Beschreibung von Bahnenbewegungen, Stößen und Schwingungen. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
+        "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
+        "tipps": [
+            "Die Übungen helfen beim Verständnis, da dort die Aufgaben vorgerechnet werden, während man in den Tutorien die Aufgaben selbstständig bearbeitet und den Stoff verinnerlicht.",
+            "Unbedingt zu beiden Probeklausuren gehen, da etwas ähnliches auch in der Klausur drankommen könnte."
+        ],
         "erfahrungen": []
     },
     "technische_schwingungslehre": {
@@ -2087,21 +2114,41 @@ RAW_MODULES = {
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester": "",
+                "bericht": ""
+            }
+        ]
     },
     "thermodynamics_of_energy_and_environmental_processes": {
         "name": "Thermodynamics of Energy and Environmental Processes",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester": "",
+                "bericht": ""
+            }
+        ]
     },
     "thermodynamik": {
         "name": "Technische Thermodynamik 1",
-        "beschreibung": "Grundlagen der Thermodynamik für Maschinenbau.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen und Übungen. Hier lernt man welche Energieformen es gibt, wie man Systeme und Kreisläufe mit diesen beschreibt und mithilfe der Hauptsätze berechnet. Es gibt zwar keine Klausurvorleistung, doch sollte man das Modul deshalb nicht auf die leichte Schulter nehmen.",
+        "klausur": "Die Klausur ist schriftlich und beinhaltet einen Theorieteil, wo Kurzfragen beantwortet werden, und einen Rechenteil, der aus ca. drei Aufgaben besteht. Die lehrstuhleigene Formelsammlung darf mitgenommen werden.",
+        "tipps": [
+            "Lerne mit der Formelsammlung umzugehen, da dies viel Zeit in der Klausur spart.",
+            "Unbedingt die Vorlesungen besuchen, da die Tafelbilder nicht mit in den Foliensatz übernommen werden und viele Erklärungen mit Beispielen im spontanen Dialog mit dem Professor entstehen.",
+            "Unbedingt die Altklausuren angucken, da viele der Theoriefragen wiederverwendet werden und manche nicht ganz so ausführlich in der Vorlesung besprochen werden."
+
+        ],
+        "erfahrungen": [
+            {
+                "semester": "",
+                "bericht": ""
+            }
+        ]
     },
     
     "thermodynamik_umweltprozesse": {
