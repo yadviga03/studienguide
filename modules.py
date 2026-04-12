@@ -1205,7 +1205,7 @@ RAW_MODULES = {
     },
     "logistik": {
         "name": "Logistik und Kreislaufwirtschaft",
-        "beschreibung": "Es geht um Logistik und Kreislaufwirtschaft in der industriellen Anwendung. Prof. Sender gibt sehr viele praxisnahe Beispiele. Jedoch kann die Vorlesung einem sehr trocken erscheinen, wenn man nicht so sehr auf theoretische Inhalte steht.",
+        "beschreibung": "Es geht um Logistik und Kreislaufwirtschaft in der industriellen Anwendung. Prof. Sender gibt sehr viele praxisnahe Beispiele.",
         "klausur": "Bisher keine genauen Infos zur Prüfungsform eingetragen.",
         "tipps": [
             "Begriffe und Modelle früh lernen.",
