@@ -154,13 +154,13 @@ DATA = {
                 "waerme_stoffuebertragung"
             ],
             "nichttechnische_wahlmodule": [
-    
+                "computerorientierte_mathematik_algorithmen_strukturen",
+                "englisch_fachkommunikation_el_technik_info_c11",
                 "englisch_fachkommunikation_maschinenbau_c11",
-                "gewerbliche_schutzrechte",
                 "englisch_fachkommunikation_ing_c12",
                 "management_entwicklungsteams_projekten",
-                "numerik_stochastik_ing",
-                "balance",
+                "informatik_wissenschaft_gesellschaft",
+                "deskriptive_statistik",
             ],
         },
 
@@ -202,38 +202,42 @@ DATA = {
                 "waerme_stoffuebertragung",
             ],
             "nichttechnischer_wahlpflichtbereich": [
+                "balance",
+                "einfuehrung_betriebswirtschaftslehre",
                 "einfuehrung_cpp",
+                "englisch_fachkommunikation_ing_c12",
                 "englisch_fachkommunikation_maschinenbau_c11",
                 "gewerbliche_schutzrechte",
-                "englisch_fachkommunikation_ing_c12",
+                "grundlagen_materiner_stoffkreislaeufe",
                 "management_entwicklungsteams_projekten",
+                "moderne_physik_ingenieurwissenschaften",
                 "numerik_stochastik_ing",
-                "balance",
+                "strategisches_marketing"
             ],
         },
 
         "Wirtschaftsingenieurwesen": {
             "pflichtmodule": [
+                "einfuehrung_betriebswirtschaftslehre",
+                "einfuehrung_wirtschaftsrecht",
+                "elektrotechnik",
+                "fertigungslehre",
+                "finanzbuchhaltung",
+                "finanzierung_investition",
+                "grundlagen_statistik",
+                "informatik",
+                "konstruktionslehre",
+                "kosten_leistungsrechnung",
                 "mathematik_1",
                 "mathematik_2",
                 "mathematik_3",
+                "personlawirtschaftslehre_organisationen",
+                "produktionsplanung_steuerung",
+                "technische_darstellungslehre",
                 "technische_mechanik_1",
                 "technische_mechanik_2",
                 "technische_mechanik_3",
-                "technische_darstellungslehre",
-                "konstruktionslehre",
-                "werkstofftechnik",
-                "fertigungslehre",
-                "informatik",
-                "elektrotechnik",
-                "einfuehrung_betriebswirtschaftslehre",
-                "finanzbuchhaltung",
-                "finanzierung_investition",
-                "kosten_leistungsrechnung",
-                "personlawirtschaftslehre_organisationen",
-                "grundlagen_statistik",
-                "einfuehrung_wirtschaftsrecht",
-                "produktionsplanung_steuerung"
+                "werkstofftechnik"
             ],
             "technischer_wahlpflichtbereich": [
                 "automatisierung_fertigung_montage",
@@ -262,14 +266,14 @@ DATA = {
             ],
             "wahlpflichtbereich_wirtschaftswissenschaften": [
                 "einfuehrung_betriebswirtschaftsliche_steuerlehre",
+                "erfolgsfaktoren_beruflicher_selbstaendigkeit",
                 "finanzierung_investition_2",
-                "ideenfindung_entwicklung",
-                "strategisches_marketing",
-                "grundlagen_controlling",
                 "grundlagen_bevölkerungsökonomik",
+                "grundlagen_controlling",
                 "grundzüge_dienstleistungsmanagement",
                 "grundzüge_moderner_oekonomie",
-                "erfolgsfaktoren_beruflicher_selbstaendigkeit",
+                "ideenfindung_entwicklung",
+                "strategisches_marketing"
             ],
         }
     },
@@ -437,6 +441,7 @@ DATA = {
                 "management_entwicklungsteams_projekten",
                 "numerik_stochastik_ing",
                 "balance",
+                "management_entwicklungsteams_projekten",
             ],
         },
 
@@ -500,7 +505,10 @@ DATA = {
         
             },
             "ergaenzender_wahlbereich":[
-
+                    "englisch_fachkommunikation_ing_c12",
+                    "englisch_fachkommunikation_maschinenbau_c11",
+                    "gewerbliche_schutzrechte",
+                    "management_entwicklungsteams_projekten"
             ],
         },
 

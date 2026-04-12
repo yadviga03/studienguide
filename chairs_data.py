@@ -141,8 +141,7 @@ CHAIRS = {
             "nachhaltige_werkstoffauswahl",
             "konstruktionsmethodik",
             "projekt_produktentwicklung",
-            "computer_aided_design"
-            "intralogistik",
+            "computer_aided_design",
         ]
     },
     "produktionsorganisation_logistik": {
@@ -156,7 +155,8 @@ CHAIRS = {
             "supply_chain_management",
             "industrial_engineering",
             "vernetzte_produktion_und_logistik",
-            "maritime_logistik"
+            "maritime_logistik",
+            "intralogistik",
         ]
     },
     "schiffbau": {

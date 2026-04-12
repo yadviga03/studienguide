@@ -328,6 +328,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "computerorientierte_mathematik_algorithmen_strukturen": {
+        "name": "Computerorientierte Mathematik, Algorithmen und Strukturen",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "continuum_mechanics": {
         "name": "Continuum Mechanics",
         "beschreibung": "Beschreibung folgt.",
@@ -351,6 +358,13 @@ RAW_MODULES = {
     },
     "deep_sea_technology_underwater_applications": {
         "name": "Deep-Sea Technology and Practical Applications of Underwater Technology",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "deskriptive_statistik*": {
+        "name": "Deskriptive Statistik*",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -571,6 +585,13 @@ RAW_MODULES = {
     },
     "endoprothetik_und_orthopaedische_chirurgie": {
         "name": "Endoprothetik und Orthopädische Chirurgie",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "englisch_fachkommunikation_el_technik_info_c11":{
+        "name": "Englisch Fachkommunikation Elektrotechnik/Informationstechnik C1.1 GER",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -863,8 +884,15 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
-    "grundlagen_materialflusstechnik": {
+    "grundlagen_materiner_stoffkreislaeufe": {
         "name": "Grundlagen der Materialflusstechnik",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "grundlagen_materialflusstechnik": {
+        "name": "Grundlagen mariner Stoffkreisläufe",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -956,6 +984,13 @@ RAW_MODULES = {
     },
     "informatik": {
         "name": "Informatik 1: Einführung in die Programmierung",
+        "beschreibung": "Einführung in informatische Grundlagen und technische Anwendungen.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+    "informatik_wissenschaft_gesellschaft": {
+        "name": "Informatik - Wissenschaft und Gesellschaft",
         "beschreibung": "Einführung in informatische Grundlagen und technische Anwendungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1367,6 +1402,13 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "moderne_physik_ingenieurwissenschaften": {
+        "name": "Moderne Physik für Ingenieurwissenschaften",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "moderne_windenergieanlagen": {
         "name": "Moderne Windenergieanlagen",
         "beschreibung": "Beschreibung folgt.",
@@ -1459,12 +1501,21 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "numerische_stroemungsmechanik": {
-        "name": "Numerische Strömungsmechanik und turbulente Strömungen",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
-    },
+    "name": "Numerische Strömungsmechanik und turbulente Strömungen",
+    "beschreibung": "Typisches Modul mit 1,5 h Übung und 1,5 h Vorlesung. Inhaltlich geht es hauptsächlich um numerische Simulationen von Strömungen. Behandelt werden der gesamte Ablauf von der Formulierung des physikalischen Problems über die räumliche und zeitliche Diskretisierung bis hin zur Aufstellung und Lösung des Gleichungssystems. Ein besonderer Schwerpunkt liegt auf der Finite-Differenzen- und der Finite-Volumen-Methode. Zusätzlich werden die Ansätze RANS, DNS und LES miteinander verglichen und ein erster Einblick in turbulente Strömungen gegeben. Das Modul bietet eine sehr gute Grundlage, um spätere Simulationsprogramme und deren Aufbau besser zu verstehen.",
+    "klausur": "Mündliche Prüfung. Im Wesentlichen werden die Inhalte der Vorlesung systematisch durchgegangen. Der Fokus liegt darauf, den gesamten Prozess einer Strömungssimulation erklären zu können, vom physikalischen Problem bis zur numerischen Lösung. Typisch für die Prüfung bei Grundmann ist, im Fragenkatalog möglichst weit zu kommen und die Fragen ausführlich sowie verständlich zu beantworten. Es gibt keine Prüfungsvorleistung.",
+    "tipps": [
+        "Die Übungen zu Vorwärts-, Rückwärts- und ähnlichen numerischen Verfahren sind sehr hilfreich.",
+        "Unbedingt die Konsultationen von Hüttmann nutzen, besonders wenn bereits konkrete Fragen gesammelt wurden.",
+        "Die Vorlesungen regelmäßig besuchen, da die Prüfung sehr nah an den dort erklärten Inhalten orientiert ist."
+    ],
+    "erfahrungen": [
+        {
+            "semester": "WS24/25",
+            "bericht": "Sehr cooles Modul, definitiv nicht eines der leichtesten, aber wenn man Interesse an dem Thema hat, macht es wirklich Spaß. Die Dozenten sind super engagiert und sehr studentennah. Die mündliche Prüfung war total angenehm. Durch die entspannte Art der beiden war die Aufregung schnell weg. Insgesamt war die Note genau wie erwartet, und das Verhältnis von Aufwand zu Ergebnis war wirklich gut."
+            }
+    ]
+},
     "open_space": {
         "name": "Open Space",
         "beschreibung": "Beschreibung folgt.",
