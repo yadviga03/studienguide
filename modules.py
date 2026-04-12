@@ -77,7 +77,7 @@ RAW_MODULES = {
         },  
     "aerodynamik_hydrodynamik": {
         "name": "Aerodynamik und Hydrodynamik",
-        "beschreibung": "Vorlesung 1,5 h und Übung 1,5 h. Zusätzlich gibt es einen freiwilligen Tagesausflug nach Laage. Dieses Modul ist eine Art Vertiefung in Richtung Überschallgebiete, Flugzeuglehre und Grenzschichten. Man kann die Inhalte auch später für das Modul Numerische Strömungsmechanik gut gebrauchen. Es gibt keine Prüfungsvorleistung.",
+        "beschreibung": "Vorlesung 1,5 h und Übung 1,5 h. Zusätzlich gibt es einen freiwilligen Tagesausflug nach Laage. Dieses Modul ist eine Art Grundlagen in Richtung Potentialtheorie, Überschallgebiete, Verdichtungsstoß Profiltheorie und Grenzschichten. Man kann die Inhalte auch später für das Modul Numerische Strömungsmechanik gut gebrauchen. Es gibt keine Prüfungsvorleistung.",
         "klausur": "Mündliche Prüfung. Man muss einerseits die Fragen richtig beantworten, andererseits im Fragenkatalog weit kommen (d. h. viele Fragen beantworten).",
         "tipps": [
             "Vorlesungen besuchen (es werden genau diese Inhalte in der Prüfung abgefragt).",
@@ -551,7 +551,7 @@ RAW_MODULES = {
         "erfahrungen": [
             {
                 "semester": "WS24/25",
-                "text": "Bei Dr. Schaeper kann man bei Nichtbestehen der Testate diese beliebig oft wiederholen. Bei Sänger nur zwei Mal "
+                "bericht": "Bei Dr. Schaeper kann man bei Nichtbestehen der Testate diese beliebig oft wiederholen. Bei Sänger nur zwei Mal "
             }
         ]
     },
@@ -903,10 +903,16 @@ RAW_MODULES = {
     },
     "grundlagen_schiffstechnik": {
         "name": "Grundlagen der Schiffstechnik",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Ein 90-minütige Vorlesung und Übungsvorlesung. Man beschäftigt sich mit der allgemeinen Einteilung von Schiffen (nach Gruppen), außerdem mit dem Entwurfsprozess. Die Schwimmstabilität wird in den letzten Vorlesungen ebenfalls zu einem wichtigen Thema. In der Übung geht es eher um etwas Praktisches und nicht nur um Rechenübungen, obwohl man auch ein bisschen rechnen muss. Prüfungsvorleistung sind 4 Belege: 1. Rechnen, 2. Modellieren, 3. Rechnen mit Software, 4. Dokumentation abgeben",
+        "klausur": "Mündliche Prüfung: an sich fragen die genau das was in der Vorlesungen besprochen wurde.",
+        "tipps": [
+        ],
+        "erfahrungen": [
+            {
+                "semester": "SS25",
+                "bericht": "Ich fand das Modul sehr gut, sowohl die Struktur als auch die Inhalte und alles, was man dabei gelernt hat. Der Umgang mit der Software Rhinoceros 3D war ebenfalls eine wertvolle Erfahrung für später. Ich habe viel gelernt. Die Prüfung war allerdings recht knackig; man musste schon ordentlich lernen."
+            }
+        ]
     },
     "grundlagen_statistik": {
         "name": "Grundlagen der Statistik",
@@ -1208,7 +1214,7 @@ RAW_MODULES = {
         "erfahrungen": [
             {
                 "semester": "WS24/25",
-                "text": "Inhaltlich spannend wegen der Praxisnähe, aber an manchen Stellen recht trocken."
+                "bericht": "Inhaltlich spannend wegen der Praxisnähe, aber an manchen Stellen recht trocken."
             }
         ]
     },
