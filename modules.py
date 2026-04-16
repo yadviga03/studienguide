@@ -675,10 +675,19 @@ RAW_MODULES = {
     },  
     "experimentelle_stroemungsmechanik": {
         "name": "Experimentelle Strömungsmechanik",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": " Das Modul teilt sich in zwei Phasen: Zuerst gibt es 8 Wochen lang eine 2-stündige Vorlesung (120 min). Diese wird komplett an der Tafel geschrieben, das heißt, man muss alles mitschreiben. Der Dozent lädt auf nette Nachfrage aber auch die einzelnen Videos aus der Coronazeit hoch. Danach folgen 6 Wochen mit Versuchen: Es findet jede Woche ein Versuch statt, der meistens 1 bis 1,5 Stunden dauert. Man arbeitet in Gruppen und trägt sich dafür irgendwann ein. Es werden unterschiedliche experimentelle Messmethoden behandelt, wie zum Beispiel PIV, LDA usw. Prüfungsvorleistung sind die Protokolle. Jede Gruppe muss zu jedem Versuch jeweils ein Protokoll abgeben. Wenn man 6 Mitglieder in der Gruppe hat, gibt jede Person ein Protokoll ab. Wenn es nur 3 Personen sind, schreibt jede Person zwei Protokolle usw.",
+        "klausur": "Mündliche Prüfung: 30 Minuten. Es werden meistens Fragen zu den experimentellen Verfahren aus den Versuchen gestellt. Jedoch sollte man alles lernen, man weiß nie.",
+        "tipps": [
+            	"Versuche sind essenziell.",
+                "Fotografiert alles bei den Versuchen ab.",
+                "Schreibt euch auf, was ihr bei den Versuchen macht und warum."
+        ],
+        "erfahrungen": [
+            {
+            "semester":"WS25/26",
+            "bericht":"Bis jetzt eines der schwersten Module im Studium da man nicht wusste genau, was man lernen soll und in welchem Ausmaß. Es war sehr, sehr viel Stoff, teilweise auch mit vielen veralteten Experimenten. Der Stoff, der in den Vorlesungen vermittelt wurde, war sehr mathelastig, was in der Prüfung leider nur wenig gebracht hat, da dort eher Verständnisfragen gestellt wurden und sehr viel in die Tiefe gefragt wurde. Die Versuche sind aber super und haben total Spaß gemacht. Diese würde ich allen empfehlen, besonders das MRI und PIV."
+            }
+        ]
     },
     "experimenteller_leichtbau": {
         "name": "Experimenteller Leichtbau",
@@ -875,10 +884,19 @@ RAW_MODULES = {
     },
     "grundlagen_fuegetechnik": {
         "name": "Grundlagen der Fügetechnik",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Es sind immer zwei 1,5h Veranstaltungen pro Woche. Übung wird nur bei Bedarf abgehalten (z.B. Verspannungsschaubild! geht hin! spart Lernzeit). Es gibt auch noch 2-3 freiwillige Exkursionen in Fraunhofer-nahe Betriebe (z.B.EEW, Nordex, Liebherr). Behandelt werden, mehr oder weniger, die Grundlagen aller gängigen Fügeverfahren. Jeder Themenbereich wird von einem jeweiligen Dozenten des Fraunhofer IGP abgehalten (Kleben, Schrauben, Nieten, Schweißen). Klebtechnik wird sehr ausführlich behandelt (mind. 4 Vorlesungen). Mechanische Verbindungstechnik (Schrauben) schließt Wissenslücken der KL-Module. Umformtechnisches Fügen (Nieten) und Schweißtechnik werden auch behandelt, ist aber nicht im Fokus. Insgesamt das Module bildet eine gute Basis für weiterführende Module Richtung Leichtbau und Fertigungstechnik im Master, sind jedoch nicht zwingend notwendig. Es gibt keine Prüfungsvorleistung",
+        "klausur": "Mündlich, 30min. Es werden drei Themengebiete abgefragt, in jedem Fall Klebtechnik! Geprüft werdet ihr, in der Regel, von euren Dozenten",
+        "tipps": [
+            "geht zu den Übungen. Wenn das Thema Schrauben geprüft wird, müsst ihr das Verspannungsschaubild aus dem FF kennen, was ihr nach der Übung könnt. ",
+            "Schwänzt nicht zu viele Vorlesungen. Eure Dozenten werden eure Prüfer sein. Je besser ihr euch kennt, desto entspannter wird die Mündliche.",
+            "Wenn ihr euch durch die Veranstaltungen schleift, habt ihr die Chance mit sehr wenig Lern- und Freizeitaufwand eine sehr gute Note zu ergattern."
+        ],
+        "erfahrungen": [
+            {
+                "semester": "WS24/25",
+                "bericht": "Vorteil: derZeitaufwand zu Prüfunslesitung ist sehr gering. Nachteil: Themengebiete können sehr trocken werden. Vertretungsdozent mussten sehr oft einspringen, ohne genug Zeit die Folien vorbereiten zu können. Sonst gilt die Letzte Vorlesung als Konsultation. Wenn ihr keine Fragen habt, wird nichts beantwortet. Das Modul würde nicht unbedingt weiterempfehlen, da es oft Trocken werden kann. Anderseits kann man gut Kontakte in der regionalen Industrie aufbauen."
+            }
+        ]
     },
     "grundlagen_hydromechanik_schiffen_offshore": {
         "name": "Grundlagen der Hydromechanik von Schiffen und Offshore-Strukturen",
