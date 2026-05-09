@@ -111,6 +111,7 @@ def with_module_defaults(module):
     return {
         "name": module.get("name", "Unbekanntes Modul"),
         "beschreibung": module.get("beschreibung", "Keine Beschreibung vorhanden."),
+        "modul_link": module.get("modul_link", ""),
         "klausur": module.get("klausur", "Noch keine Informationen zur Klausur vorhanden."),
         "tipps": module.get("tipps", []),
         "erfahrungen": module.get("erfahrungen", [])

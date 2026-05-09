@@ -3,6 +3,7 @@ def normalize_modules(modules_dict):
     for module_id, module in modules_dict.items():
         normalized[module_id] = {
             "name": module.get("name", module_id),
+            "modul_link": module.get("modul_link", ""),
             "beschreibung": module.get("beschreibung", "Keine Beschreibung vorhanden."),
             "klausur": module.get("klausur", "Noch keine Informationen zur Klausur vorhanden."),
             "tipps": module.get("tipps", []),
@@ -77,6 +78,7 @@ RAW_MODULES = {
         },  
     "aerodynamik_hydrodynamik": {
         "name": "Aerodynamik und Hydrodynamik",
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/bsc/aerodynamik-und-hydrodynamik/",
         "beschreibung": "Vorlesung 1,5 h und Übung 1,5 h. Zusätzlich gibt es einen freiwilligen Tagesausflug nach Laage. Dieses Modul ist eine Art Grundlagen in Richtung Potentialtheorie, Überschallgebiete, Verdichtungsstoß Profiltheorie und Grenzschichten. Man kann die Inhalte auch später für das Modul Numerische Strömungsmechanik gut gebrauchen. Es gibt keine Prüfungsvorleistung.",
         "klausur": "Mündliche Prüfung. Man muss einerseits die Fragen richtig beantworten, andererseits im Fragenkatalog weit kommen (d. h. viele Fragen beantworten).",
         "tipps": [
@@ -197,10 +199,19 @@ RAW_MODULES = {
     },
     "ausgewaehlte_themen_logistik": {
         "name": "Ausgewählte Themen der Logistik",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul besteht nicht aus klassischen Frontalvorlesungen. Stattdessen sucht man sich ein eigenes Thema (die Themen sind breit gefächert) aus und führt dazu eine Art kleine Forschungsarbeit durch. Es ist im Grunde als ein „Üben des Präsentierens von eigenen Ergebnissen“ gedacht. Jedem wird ein Betreuer zugewiesen, die Bearbeitung erfolgt jedoch eigenständig. Im Laufe des Semesters gibt es außerdem eine Zwischenpräsentation.",
+        "klausur": "Die Prüfungsleistung besteht aus einer Präsentation der erzielten Ergebnisse.",
+        "tipps": [
+            "Fand früh an! Es wird nichts bringen in den letzten 2 Wochen etwas zu machen.",
+            "Nimmt ein Thema was euch echt interessiert.",
+            "Achtet auf die grundlegenden Dinge einer guten Präsentation: ein ansprechendes Design (soll seriös wirken), eine klare Struktur und ein sicheres, freies Sprechen"
+        ],
+        "erfahrungen": [
+            {
+                "semester":"WS24/25",
+                "bericht":"Die Erfahrung mit dem Modul war insgesamt sehr positiv. Es bietet eine gute Gelegenheit, das Präsentieren zu üben und den Umgang mit Nervosität zu verbessern. Solche Module würde man sich häufiger wünschen. Insgesamt war alles fair organisiert, und die Abschlusspräsentationen fanden in einer entspannten Atmosphäre statt. Zudem erhält man viele hilfreiche Tipps. Wer das Präsentieren in einem angenehmen Umfeld üben möchte, findet hier eine sehr gute Gelegenheit."
+            }
+        ]
     },
     "automobile_produktion": {
         "name": "Automobile Produktion",
@@ -1511,10 +1522,17 @@ RAW_MODULES = {
     },
     "nichtnewtonsche_fluidmechanik": {
         "name": "Nichtnewtonsche Fluidmechanik",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Typische Aufteilung: 1,5 Stunden Vorlesung und 1,5 Stunden Übung. Die Veranstaltung ist ziemlich mathematiklastig. Es wird die meiste Zeit an der Tafel geschrieben, daher lohnt es sich, aktiv mitzuschreiben. Auf Nachfrage stellt der Dozent gelegentlich Videos aus der Corona-Zeit zur Verfügung. Behandelte Themen sind unter anderem: Schichtenströmungen, Stoffeigenschaften von Fluiden, Vorgänge der Fließbewegung, Stationäre Strömungen.Es gibt keine Vorleistung.",
+        "klausur": "Schriftliche Prüfung mit: 2–3 Rechenaufgaben und 3–4 Theoriefragen",
+        "tipps": [
+            "Sehr früh anfangen zu lernen.",
+        ],
+        "erfahrungen": [
+            {
+            "semester":"WS24/25",
+            "bericht": "Ich fand es sehr schwer zu verstehen, da man alles mitschreiben musste und dadurch kaum Zeit hatte, das Erklärte wirklich zu durchdenken oder zu verinnerlichen, sodass man noch Fragen stellen kann. Die Prüfung war nicht extrem schwer, aber auf keinen Fall so leicht, wie vorher angekündigt. Man muss die Übungen wirklich sehr gut beherrschen, um eine gute bis sehr gute Note zu erreichen. Die Theoriefragen wirkten ziemlich zufällig und waren schwer einzuordnen. Ich würde das Modul empfehlen, wenn man Interesse an physikalischer Mathematik und Rechenaufgaben hat."
+            }
+        ]
     },
     "numerical_and_experimental_hydroacoustics": {
         "name": "Numerical and Experimental Hydroacoustics",
@@ -2017,10 +2035,19 @@ RAW_MODULES = {
     },
     "supply_chain_management": {
         "name": "Supply Chain Management",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Die Veranstaltung besteht typischerweise aus einer 1,5-stündigen Vorlesung und einer 1,5-stündigen Übung, wobei die Übungen nicht jede Woche stattfinden. In der ersten Vorlesung wird bekannt gegeben, wann die Übungen stattfinden. Zusätzlich gibt es eine Exkursion (freiwillig). Inhaltlich baut das Modul auf Themen wie Logistik, PPS und Fabrikplanung auf. Es ist jedoch nicht zwingend notwendig, diese Module vorher belegt zu haben, da die wichtigsten Inhalte zu Beginn noch einmal erklärt werden, um alle auf einen gemeinsamen Stand zu bringen. Behandelt werden unter anderem allgemeine Modellierung, Design und Planung im Kontext von Supply-Chain-Management-Systemen sowie Informationsmanagement. Außerdem beschäftigt man sich mit Themen wie Resilienz und Ersatzteilmanagement. Es wird empfohlen, unbedingt zur letzten Vorlesung zu gehen, da dort noch einmal Hinweise gegeben werden, was in der Klausur drankommt.",
+        "klausur": "Die Klausur ist schriftlich. Im Grunde kommt genau das dran, was der Professor zuvor als wichtig hervorgehoben hat.",
+        "tipps": [
+                "Geht zu den Vorlesungen, da sagt der Prof., welche Inhalte in der Klausur drankommen.",
+                "Übungen sind auch klausurrelevant, aber nicht im gleichen Ausmaß wie die Vorlesungsinhalte.",
+                "Fragt, wenn ihr etwas nicht versteht."
+        ],
+        "erfahrungen": [
+            {
+                "semester":"WS24/25",
+                "bericht":"Ich finde, dass der Professor die Vorlesung sehr interessant gestaltet hat. An sich ist es ein eher trockenes Gebiet, aber er hat es wirklich gut vermittelt. Die Klausur erfordert zwar etwas Vorbereitung, aber es werden immer gute Tipps gegeben, was man lernen sollte."
+            }
+        ]
     },
     "team_project_emship": {
         "name": "Team Project EMship",

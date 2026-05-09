@@ -15,6 +15,15 @@
           <div class="module-description full-width">
             <h5>{{ t.module_description }}</h5>
             <p>{{ modul.beschreibung }}</p>
+
+            {% if modul.modul_link %}
+              <a href="{{ modul.modul_link }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="module-link-button">
+                ↗ Zur offiziellen Modulbeschreibung
+              </a>
+            {% endif %}
           </div>
         {% endif %}
 

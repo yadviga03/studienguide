@@ -896,4 +896,35 @@ img {
   .site-brand p {
     font-size: 0.95rem;
   }
+  .module-description a {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.module-description a:hover {
+  text-decoration: underline;
+}
+.module-link-button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 16px;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+
+   text-decoration: none;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.module-link-button:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-dark);
+}
 }
