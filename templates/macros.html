@@ -17,7 +17,7 @@
             <p>{{ modul.beschreibung | safe }}</p>
 
             {% if modul.modul_link %}
-              <a href="{{ modul.modul_link }}"
+              <a href="{{ modul.modul_link if modul.modul_link else '#' }}"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="module-link-button">

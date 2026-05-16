@@ -16,7 +16,7 @@ def normalize_modules(modules_dict):
 
         normalized[module_id] = {
             "name": module.get("name", module_id),
-
+            "modul_link": module.get("modul_link", ""),
             "beschreibung": (
                 beschreibung
                 if beschreibung and beschreibung != "Beschreibung folgt."
@@ -117,7 +117,7 @@ RAW_MODULES = {
     },
     "advanced_analysis_of_marine_structures": {
         "name": "Advanced Analysis of Marine Structures",
-        "modul_link": "",
+        "modul_link": " # ",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -157,7 +157,7 @@ RAW_MODULES = {
     },
     "alternative_antriebssysteme": {
         "name": "Alternative Antriebssysteme",
-        "modul_link": "",
+        "modul_link": "https://www.gat.uni-rostock.de/lehre/module-im-master/alternative-antriebssysteme/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -243,7 +243,7 @@ RAW_MODULES = {
     },
     "aufladung_verbrennungsmotor": {
         "name": "Aufladung des Verbrennungsmotors",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -365,7 +365,7 @@ RAW_MODULES = {
     },
      "bruch_schaedigungmechanik": {
         "name": "Bruch- und Schädigungsmechanik",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/bruch-und-schaedigungsmechanik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -741,6 +741,14 @@ RAW_MODULES = {
         "tipps": [],
         "erfahrungen": []
     },
+    "engine_thermodynamics": {
+        "name": "Engine Thermodynamics",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
     "englisch_fachkommunikation_el_technik_info_c11":{
         "name": "Englisch Fachkommunikation Elektrotechnik/Informationstechnik C1.1 GER",
         "modul_link": "",
@@ -792,7 +800,7 @@ RAW_MODULES = {
     },
     "entwerfen_antriebe": {
         "name": "Entwerfen von Antrieben",
-        "modul_link": "",
+        "modul_link": "https://www.gat.uni-rostock.de/lehre/module-im-master/entwerfen-von-antrieben/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -857,7 +865,7 @@ RAW_MODULES = {
     },
     "experimenteller_leichtbau": {
         "name": "Experimenteller Leichtbau",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/experimenteller-leichtbau/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -960,7 +968,7 @@ RAW_MODULES = {
     },
     "finite_elemente_analyse_verbundwerkstoffstrukturen": {
         "name": "Finite-Elemente-Analyse von Verbundwerkstoffstrukturen",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/finite-elemente-analyse-von-verbundwerkstoffstrukturen-en/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1016,7 +1024,7 @@ RAW_MODULES = {
     },
     "grossmotoren_schiff": {
         "name": "Großmotoren für Schiffsanwendungen – Grundlagen und Zukunftstrends",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1303,7 +1311,7 @@ RAW_MODULES = {
     },
     "klebtechnik": {
         "name": "Klebtechnik",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/klebtechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1311,7 +1319,7 @@ RAW_MODULES = {
     },
     "kolben_stroemungsmaschinen": {
         "name": "Kolben- und Strömungsmaschinen / Energiemaschinen",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1360,7 +1368,7 @@ RAW_MODULES = {
     },
     "kraft_schmierstoffe_co2": {
         "name": "Kraft- und Schmierstoffe – von der fossilen Basis zur CO₂-Neutralität",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1392,7 +1400,7 @@ RAW_MODULES = {
     },
     "labor_werkstofftechnik": {
         "name": "Laborpraktikum Werkstofftechnik",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/finite-elemente-analyse-von-verbundwerkstoffstrukturen-en/",
         "beschreibung": "Das Pflicht-Modul umfasst verschiedenste Praktika (5-7 Stück, je nach Jahrgang), welche vor und Nachbereitung bedürfen. Während des Praktikums wird eine kleine Fragerunde vorangestellt, um den Wissensstand zu klären und euch zu testen, anschließend kommen die Versuche, wobei Ihr schon im Vorhinein den Ablauf detailliert kennen solltet. Es ist notwendig, die Fragerunde sowie die Versuche kompetent zu absolvieren, um das Praktikum abzuschließen. Regulär wird pro Praktikum auch ein Protokoll angefertigt, welches auch in euren Zeitplan mit involviert sein sollte. Alle Praktika müssen bestanden werden.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [
@@ -1403,7 +1411,7 @@ RAW_MODULES = {
     },
     "labor_thermodynamik_stroemungsmaschinen_und_verbrennungsmotoren": {
         "name": "Laborpraktikum Thermodynamik, Strömungsmaschinen und Verbrennungsmotoren",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1435,7 +1443,7 @@ RAW_MODULES = {
     },
     "leichtbau_grundlagen": {
         "name": "Grundlagen des Leichtbaus",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/grundlagen-des-leichtbaus/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1443,7 +1451,7 @@ RAW_MODULES = {
     },
     "leichtbaukonstruktion": {
         "name": "Leichtbaukonstruktion",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/leichtbaukonstruktion/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1451,7 +1459,7 @@ RAW_MODULES = {
     },
     "leichtbauwerkstoffe": {
         "name": "Leichtbauwerkstoffe",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/leichtbauwerkstoffe/",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Die Vorlesungen sind sehr interessant gestaltet und der Prof steckt mit seiner Begeisterung für das Fach an. Die Übungen sind für Berechnungen von Leichtbaustrukturen uns sollten unbedingt genutzt werden. Das Skriptum ist umfangreich, jedoch gut durchzuarbeiten",
         "klausur": "Die Klausur ist schriftlich. Multiple Choise Fragen sind enthalten, werden aber erst ab 3/5 richtigen Antworten bewertet. Eine ausreichende Vorbereitung ist ein Muss.",
         "tipps": [
@@ -1741,8 +1749,8 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "motor_energiemanagement": {
-        "name": "Motor- und Energiemanagement für Fahrzeugantriebe",
-        "modul_link": "",
+        "name": "Motoren- und Energiemanagement für Kraftfahrzeuge",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2664,7 +2672,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_1": {
         "name": "Verbrennungsmotoren 1: Konstruktionsgrundlagen emissionsarmer Verbrennungsmotoren",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2672,7 +2680,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_2": {
         "name": "Verbrennungsmotoren 2: Brennverfahren, Abgasreinigung und Kraftstoffe für die Energiewende",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2680,7 +2688,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_3": {
         "name": "Verbrennungsmotoren 3: Entwicklungsmethoden für Brennverfahren und Abgasreinigung",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2688,7 +2696,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_4": {
         "name": "Verbrennungsmotoren 4: Zukunftsstrategien für klimaneutrale Mobilität",
-        "modul_link": "",
+        "modul_link": "https://www.lkv.uni-rostock.de/studium-lehre/studierende/vorlesungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2696,7 +2704,7 @@ RAW_MODULES = {
     },
     "verbundwerkstoffdesign": {
         "name": "Verbundwerkstoffdesign",
-        "modul_link": "",
+        "modul_link": "https://www.cld.uni-rostock.de/verbundwerkstoffdesign-en/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],

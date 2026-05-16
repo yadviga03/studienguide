@@ -92,7 +92,9 @@ DATA = {
             "sonstige_wahlmodule": [
                 "projekt_additive_fertigung",
                 "projekt_antriebssysteme_embedded_systems",
-                "technische_dokumentation"
+                "technische_dokumentation",
+                "einfuehrung_data_science",
+                "python_data_analysis"
             ],
             "nichttechnischer_wahlpflichtbereich":[
                 "einfuehrung_cpp",
@@ -296,7 +298,11 @@ DATA = {
                     "fertigungsmittel",
                     "klebtechnik",
                     "qualitaetsmanagement",
-                    "schiffsfertigungstechnik"
+                    "schiffsfertigungstechnik",
+                    "ausgewaehlte_fertigungsverfahren",
+                    "automobile_produktion",
+                    "steuerungstechnik",
+                    "technical_production_processes_ships"
                 ],
                 "Konstruktionstechnik": [
                     "additive_fertigungsverfahren",
@@ -431,7 +437,10 @@ DATA = {
            "sonstige_wahlmodule": [
                 "modellierung_abgasnachbehandlung",
                 "schadensanalyse_sicherheitsrelevanter_produkte",
-                "technologien_meeresenergienutzung"
+                "technologien_meeresenergienutzung",
+                "computational_modelling_of_biomaterials_and_their_interaction_with_tissue",
+                "x_ray",
+                "deep_learning"
             ],
             "nichttechnischer_wahlpflichtbereich":[
                 "einfuehrung_cpp",
