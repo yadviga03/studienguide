@@ -141,15 +141,18 @@ RAW_MODULES = {
     },
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
-        "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/angewandte-stroemungsmechanik-in-natur-und-technik/",
+        "beschreibung": "Es ist eine Ringvorlesung. Man muss nicht zu allen Veranstaltungen gehen, aber ihr bekommt vorher einen Plan mit allen Terminen und Themen. Daran kann man sich gut orientieren.",
+        "klausur": "Es ist eine Hausarbeit, die anschließend präsentiert wird. Die Themen werden in den ersten Wochen ausgesucht und es gibt wirklich viele verschiedene Themen, da ist bestimmt für jeden etwas dabei.",
+        "tipps": [
+            "Geht zu den Vorlesungen, es lohnt sich echt",
+            "Fang früh mit der Hausarbeit an"
+        ],
         "erfahrungen": []
     },
     "angewandte_stroemungssimulation": {
         "name": "Angewandte Strömungssimulation",
-        "modul_link": "",
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/bsc/angewandte-stroemungssimulation/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -789,7 +792,7 @@ RAW_MODULES = {
     },  
     "experimentelle_stroemungsmechanik": {
         "name": "Experimentelle Strömungsmechanik",
-        "modul_link": "",
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/experimentelle-stroemungsmechanik/",
         "beschreibung": " Das Modul teilt sich in zwei Phasen: Zuerst gibt es 8 Wochen lang eine 2-stündige Vorlesung (120 min). Diese wird komplett an der Tafel geschrieben, das heißt, man muss alles mitschreiben. Der Dozent lädt auf nette Nachfrage aber auch die einzelnen Videos aus der Coronazeit hoch. Danach folgen 6 Wochen mit Versuchen: Es findet jede Woche ein Versuch statt, der meistens 1 bis 1,5 Stunden dauert. Man arbeitet in Gruppen und trägt sich dafür irgendwann ein. Es werden unterschiedliche experimentelle Messmethoden behandelt, wie zum Beispiel PIV, LDA usw. Prüfungsvorleistung sind die Protokolle. Jede Gruppe muss zu jedem Versuch jeweils ein Protokoll abgeben. Wenn man 6 Mitglieder in der Gruppe hat, gibt jede Person ein Protokoll ab. Wenn es nur 3 Personen sind, schreibt jede Person zwei Protokolle usw.",
         "klausur": "Mündliche Prüfung: 30 Minuten. Es werden meistens Fragen zu den experimentellen Verfahren aus den Versuchen gestellt. Jedoch sollte man alles lernen, man weiß nie.",
         "tipps": [
@@ -1750,16 +1753,17 @@ RAW_MODULES = {
     },
     "nichtnewtonsche_fluidmechanik": {
         "name": "Nichtnewtonsche Fluidmechanik",
-        "modul_link": "",
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/nichtnewtonsche-fluidmechanik/",
         "beschreibung": "Typische Aufteilung: 1,5 Stunden Vorlesung und 1,5 Stunden Übung. Die Veranstaltung ist ziemlich mathematiklastig. Es wird die meiste Zeit an der Tafel geschrieben, daher lohnt es sich, aktiv mitzuschreiben. Auf Nachfrage stellt der Dozent gelegentlich Videos aus der Corona-Zeit zur Verfügung. Behandelte Themen sind unter anderem: Schichtenströmungen, Stoffeigenschaften von Fluiden, Vorgänge der Fließbewegung, Stationäre Strömungen.Es gibt keine Vorleistung.",
         "klausur": "Schriftliche Prüfung mit: 2–3 Rechenaufgaben und 3–4 Theoriefragen",
         "tipps": [
             "Sehr früh anfangen zu lernen.",
+            ""
         ],
         "erfahrungen": [
             {
             "semester":"WS24/25",
-            "bericht": "Ich fand es sehr schwer zu verstehen, da man alles mitschreiben musste und dadurch kaum Zeit hatte, das Erklärte wirklich zu durchdenken oder zu verinnerlichen, sodass man noch Fragen stellen kann. Die Prüfung war nicht extrem schwer, aber auf keinen Fall so leicht, wie vorher angekündigt. Man muss die Übungen wirklich sehr gut beherrschen, um eine gute bis sehr gute Note zu erreichen. Die Theoriefragen wirkten ziemlich zufällig und waren schwer einzuordnen. Ich würde das Modul empfehlen, wenn man Interesse an physikalischer Mathematik und Rechenaufgaben hat."
+            "bericht": "Ich fand es sehr schwer zu verstehen, da man alles mitschreiben musste und dadurch kaum Zeit hatte, das Erklärte wirklich zu durchdenken oder zu verinnerlichen, sodass man noch Fragen stellen kann. Die Prüfung war nicht extrem schwer, aber auf keinen Fall leicht. Man muss die Übungen wirklich sehr gut beherrschen, um eine gute bis sehr gute Note zu erreichen. Die Theoriefragen wirkten ziemlich zufällig und waren schwer einzuordnen. Ich würde das Modul empfehlen, wenn man Interesse an physikalischer Mathematik und Rechenaufgaben hat."
             }
         ]
     },
@@ -1797,11 +1801,11 @@ RAW_MODULES = {
     },
     "numerische_stroemungsmechanik": {
     "name": "Numerische Strömungsmechanik und turbulente Strömungen",
-        "modul_link": "",
+    "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/numerische-stroemungsmechanik-und-turbulente-stroemungen/",
     "beschreibung": "Typisches Modul mit 1,5 h Übung und 1,5 h Vorlesung. Inhaltlich geht es hauptsächlich um numerische Simulationen von Strömungen. Behandelt werden der gesamte Ablauf von der Formulierung des physikalischen Problems über die räumliche und zeitliche Diskretisierung bis hin zur Aufstellung und Lösung des Gleichungssystems. Ein besonderer Schwerpunkt liegt auf der Finite-Differenzen- und der Finite-Volumen-Methode. Zusätzlich werden die Ansätze RANS, DNS und LES miteinander verglichen und ein erster Einblick in turbulente Strömungen gegeben. Das Modul bietet eine sehr gute Grundlage, um spätere Simulationsprogramme und deren Aufbau besser zu verstehen.",
     "klausur": "Mündliche Prüfung. Im Wesentlichen werden die Inhalte der Vorlesung systematisch durchgegangen. Der Fokus liegt darauf, den gesamten Prozess einer Strömungssimulation erklären zu können, vom physikalischen Problem bis zur numerischen Lösung. Typisch für die Prüfung bei Grundmann ist, im Fragenkatalog möglichst weit zu kommen und die Fragen ausführlich sowie verständlich zu beantworten. Es gibt keine Prüfungsvorleistung.",
     "tipps": [
-        "Die Übungen zu Vorwärts-, Rückwärts- und ähnlichen numerischen Verfahren sind sehr hilfreich.",
+        "Die Übungen zu Vorwärts-, Rückwärts- und weiteren numerischen Verfahren sind sehr hilfreich.",
         "Unbedingt die Konsultationen von Hüttmann nutzen, besonders wenn bereits konkrete Fragen gesammelt wurden.",
         "Die Vorlesungen regelmäßig besuchen, da die Prüfung sehr nah an den dort erklärten Inhalten orientiert ist."
     ],
@@ -2235,7 +2239,7 @@ RAW_MODULES = {
     },
     "seminar_stroemungs_und_windenergietechnik": {
         "name": "Seminar Strömungs- und Windenergietechnik",
-        "modul_link": "",
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/seminar-stroemungs-und-windenergietechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2299,11 +2303,23 @@ RAW_MODULES = {
     },
     "stroemungsmechanik_grundlagen": {
         "name": "Grundlagen der Strömungsmechanik",
-        "modul_link": "",
-        "beschreibung": "Grundlagen der Strömungsmechanik und technische Anwendungen.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/bsc/grundlagen-der-stroemungsmechanik/",
+        "beschreibung": "Ein Grundlagenmodul, in dem man sich mit Fluiden, deren Eigenschaften und der Kinematik beschäftigt. Außerdem geht es viel um Bilanzierungen in der Strömungsmechanik. Man hat hier die ersten Berührungen mit der Euler-Gleichung, Hydrostatik, der Navier-Stokes-Gleichung, der Stromfadentheorie und turbulenten Strömungen. Es gibt keine Prüfungszulassung. ",
+        "klausur": "Klausur sehr anspruchsvoll. Es gibt meistens einen Theorieteil, bei dem keine Hilfsmittel erlaubt sind. Der zweite Teil ist ein Rechenteil, meistens mit einer Aufgabe zu Hydrostatik, einer zur Stromfadentheorie und einer zu Drehmomenten.",
+        "tipps": [
+            "Altklausuren sind Gold wert, rechnet alle durch",
+            "Im Theorieteil der Klausur kommen öfters Aufgaben aus den Altklausuren dran",
+        ],
+        "erfahrungen": [
+            {
+                "semester":"SS24",
+                "bericht":"Ich fand, es war eines der schwersten Module im Studium. Man muss aber sagen, dass die Lehrenden sehr viel helfen. Die Klausur ist wirklich schwer, aber fair."
+            },
+            {
+                "semester":"WS24/25",
+                "bericht":"Hüttmann und Grundmann sind die besten. Geiles Modul, aber schon schwer und auch noch viel zu lernen."
+            }
+        ]
     },
     "structural_design_marine_structures": {
         "name": "Structural Design of Marine Structures",
