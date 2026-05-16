@@ -34,7 +34,7 @@
                   {% if modul.beschreibung %}
                     <article class="info-card">
                       <h4>{{ t.module_description }}</h4>
-                      <p>{{ modul.beschreibung }}</p>
+                      <p>{{ modul.beschreibung | safe }}</p>
                     </article>
                   {% endif %}
 
@@ -69,7 +69,7 @@
                         </div>
                       {% endfor %}
                     {% else %}
-                      <p>{{ t.experience_hint }}</p>
+                      <p>{{ t.experience_hint | safe }}</p>
                     {% endif %}
                   </article>
                 </div>
@@ -129,7 +129,7 @@
                         </div>
                       {% endfor %}
                     {% else %}
-                      <p>{{ t.experience_hint }}</p>
+                      <p>{{ t.experience_hint | safe }}</p>
                     {% endif %}
                   </article>
                 </div>

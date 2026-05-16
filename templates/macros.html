@@ -14,7 +14,7 @@
         {% if modul.beschreibung %}
           <div class="module-description full-width">
             <h5>{{ t.module_description }}</h5>
-            <p>{{ modul.beschreibung }}</p>
+            <p>{{ modul.beschreibung | safe }}</p>
 
             {% if modul.modul_link %}
               <a href="{{ modul.modul_link }}"
@@ -30,7 +30,7 @@
         {% if modul.klausur %}
           <div class="module-description full-width">
             <h5>{{ t.exam_title if t.exam_title is defined else "Klausur" }}</h5>
-            <p>{{ modul.klausur }}</p>
+            <p>{{ modul.klausur | safe }}</p>
           </div>
         {% endif %}
 
@@ -39,7 +39,7 @@
             <h5>{{ t.tips_title if t.tips_title is defined else "Tipps" }}</h5>
             <ul>
               {% for tipp in modul.tipps %}
-                <li>{{ tipp }}</li>
+                <li>{{ tipp | safe }}</li>
               {% endfor %}
             </ul>
           </div>
@@ -52,14 +52,14 @@
             {% for erfahrung in modul.erfahrungen %}
               <div class="experience-entry">
                 <span class="semester-chip">{{ erfahrung.semester }}</span>
-                <p>{{ erfahrung.bericht }}</p>
+                <p>{{ erfahrung.bericht | safe }}</p>
               </div>
             {% endfor %}
           </div>
         {% else %}
           <div class="experience-hint">
             <h5>{{ t.experience_title }}</h5>
-            <p>{{ t.experience_hint }}</p>
+            <p>{{ t.experience_hint | safe }}</p>
           </div>
         {% endif %}
       </div>

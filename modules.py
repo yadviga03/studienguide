@@ -1,14 +1,62 @@
+from markupsafe import Markup
+
 def normalize_modules(modules_dict):
     normalized = {}
+
+    contact_text = Markup(
+        'Wenn du helfen möchtest, schreib uns gerne auf '
+        '<a href="https://www.instagram.com/mafia_uni_rostock/" target="_blank" rel="noopener noreferrer">Instagram ↗</a> '
+        'oder per E-Mail an '
+        '<a href="mailto:fachschaft.mbst@uni-rostock.de">fachschaft.mbst@uni-rostock.de ↗</a>.'
+    )
+
     for module_id, module in modules_dict.items():
+        beschreibung = module.get("beschreibung", "").strip()
+        klausur = module.get("klausur", "").strip()
+
         normalized[module_id] = {
             "name": module.get("name", module_id),
-            "modul_link": module.get("modul_link", ""),
-            "beschreibung": module.get("beschreibung", "Keine Beschreibung vorhanden."),
-            "klausur": module.get("klausur", "Noch keine Informationen zur Klausur vorhanden."),
-            "tipps": module.get("tipps", []),
-            "erfahrungen": module.get("erfahrungen", [])
+
+            "beschreibung": (
+                beschreibung
+                if beschreibung and beschreibung != "Beschreibung folgt."
+                else Markup(
+                    f'Für dieses Modul gibt es aktuell leider noch keine Beschreibung. {contact_text}'
+                )
+            ),
+
+            "klausur": (
+                klausur
+                if klausur and klausur != "Noch keine Informationen zur Klausur vorhanden."
+                else Markup(
+                    f'Für dieses Modul gibt es aktuell leider noch keine Informationen zur Klausur. {contact_text}'
+                )
+            ),
+
+            "tipps": (
+                module.get("tipps")
+                if module.get("tipps")
+                else [
+                    Markup(
+                        f'Für dieses Modul gibt es aktuell noch keine Tipps. {contact_text}'
+                    )
+                ]
+            ),
+
+            "erfahrungen": (
+                module.get("erfahrungen")
+                if module.get("erfahrungen")
+                else [
+                    {
+                        "semester": "",
+                        "bericht": Markup(
+                            f'Für dieses Modul gibt es aktuell noch keine Erfahrungsberichte. {contact_text}'
+                        )
+                    }
+                ]
+            )
         }
+
     return normalized
 
 # Beschreibung (Beispiel)
@@ -171,7 +219,7 @@ RAW_MODULES = {
     },
     "antriebstechnik": {
         "name": "Antriebstechnik",
-        "modul_link": "",
+        "modul_link": "https://www.gat.uni-rostock.de/lehre/module-im-bachelor/antriebstechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -373,7 +421,7 @@ RAW_MODULES = {
         },
     "computational_modelling_of_biomaterials_and_their_interaction_with_tissue": {
         "name": "Computational modelling of biomaterials and their interaction with tissue",
-        "modul_link": "",
+        "modul_link": "https://www.cdma.uni-rostock.de/lehre/lehrveranstaltungen/computational-modelling-of-biomaterials-and-their-interaction-with-tissue/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -421,7 +469,7 @@ RAW_MODULES = {
     },
     "deep_learning": {
         "name": "Deep Learning",
-        "modul_link": "",
+        "modul_link": "https://www.cdma.uni-rostock.de/lehre/lehrveranstaltungen/deep-learning/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -589,7 +637,7 @@ RAW_MODULES = {
     },
     "einfuehrung_data_science": {
         "name": "Einführung in die Data Science in Materialwissenschafte und Ingenieurwesen",
-        "modul_link": "",
+        "modul_link": "https://www.cdma.uni-rostock.de/lehre/lehrveranstaltungen/einfuehrung-in-die-data-science-in-materialwissenschaft-und-ingenieurswesen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -629,8 +677,8 @@ RAW_MODULES = {
     },
     "elektrische_fahrzeugantriebe": {
         "name": "Elektrische Fahrzeugantriebe",
-        "modul_link": "",
-        "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
+        "modul_link": "https://www.gat.uni-rostock.de/lehre/module-im-bachelor/fahrzeugantriebe/",
+        "beschreibung": "",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
@@ -2002,7 +2050,7 @@ RAW_MODULES = {
     },
     "python_data_analysis": {
         "name": "Python for data analysis and visualization",
-        "modul_link": "",
+        "modul_link": "https://www.cdma.uni-rostock.de/lehre/lehrveranstaltungen/python-for-data-analysis-and-visualization/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2732,7 +2780,7 @@ RAW_MODULES = {
     },
     "x_ray": {
         "name": "X-ray techniques for materials characterisation",
-        "modul_link": "",
+        "modul_link": "https://www.cdma.uni-rostock.de/lehre/lehrveranstaltungen/x-ray-techniques-for-materials-characterization/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
