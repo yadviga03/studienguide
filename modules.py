@@ -50,6 +50,7 @@ def normalize_modules(modules_dict):
 RAW_MODULES = {
     "aktive_systeme_kraftfahrzeug": {
         "name": "Aktive Systeme im Kraftfahrzeug",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -57,13 +58,18 @@ RAW_MODULES = {
     },
     "additive_fertigungsverfahren": {
         "name": "Additive Fertigungsverfahren",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch terminlich individuelle Praktika. Hier lernt man die verschiedenen Verfahren der Addiviten Fertigung kennen, sowie ihre Anwendungsbereiche. In den Praktika (in kleinen Gruppen) müssen Bauteile konstruiert und gedruckt werden sowie ein Bericht dazu erstellt werden. Als Prüfungsvorleistung muss das Praktikum absolviert sein.",
+        "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden sowie die Tipps des Professors beachtet werden.Tipps",
+        "tipps": [
+            "Geht zu den Vorlesungen und seht euch auch die vorgestellten Unternehmen mit an",
+            "Stellt bei den Praktika ausreichend Fragen, um euch den anschließenden Bericht zu erleichtern"
+        ],
         "erfahrungen": []
     },
     "advanced_analysis_of_marine_structures": {
         "name": "Advanced Analysis of Marine Structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -71,6 +77,7 @@ RAW_MODULES = {
     },
     "advanced_analysis_offshore_systems": {
         "name": "Advanced Analysis of Offshore Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -94,6 +101,7 @@ RAW_MODULES = {
     },
     "advanced_cpu_design": {
         "name": "Advanced CPU Design",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -101,6 +109,7 @@ RAW_MODULES = {
     },
     "alternative_antriebssysteme": {
         "name": "Alternative Antriebssysteme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -108,6 +117,7 @@ RAW_MODULES = {
     },
     "anatomie_und_physiologie": {
         "name": "Anatomie und Physiologie der Biomedizinischen Technik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -115,6 +125,7 @@ RAW_MODULES = {
     },
     "angewandte_biomechanik": {
         "name": "Angewandte Biomechanik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -122,6 +133,7 @@ RAW_MODULES = {
     },
     "angewandte_biofluidmechanik_medizintechnik": {
         "name": "Angewandte Biomfluidmechanik für Medizintechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -129,6 +141,7 @@ RAW_MODULES = {
     },
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -136,6 +149,7 @@ RAW_MODULES = {
     },
     "angewandte_stroemungssimulation": {
         "name": "Angewandte Strömungssimulation",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -143,13 +157,18 @@ RAW_MODULES = {
     },
     "anlagenwirtschaft": {
         "name": "Anlagenwirtschaft",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch zweiwöchentliche Übungen. Hier lernt man alles über die Organisation von Anlagen kennen. Über das Management, die Nutzung sowie die Instandhaltung und Investitionen. In den Übungen vertieft Ihr eurer wissen und rechnet einige Beispiele durch.",
+        "klausur": "Die Klausur ist schriftlich. Eine klausurrelevante Themenzusammenfassung wird in der letzten Vorlesung bzw. einem separaten Besprechungstermin gegeben.",
+        "tipps": [
+            "Geht in die Klausurvorbereitung",
+            "Es ist viel oberflächlicher Stoff, der nicht so in die Tiefe geht, auswendig lernen ist hier Key"
+        ],
         "erfahrungen": []
     },
     "antriebstechnik": {
         "name": "Antriebstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -157,6 +176,7 @@ RAW_MODULES = {
     },
     "antriebssteuerung": {
         "name": "Antriebssteuerung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -164,6 +184,7 @@ RAW_MODULES = {
     },
     "automatisierung_fertigung_montage": {
         "name": "Automatisierung in Fertigung und Montage",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -171,6 +192,7 @@ RAW_MODULES = {
     },
     "aufladung_verbrennungsmotor": {
         "name": "Aufladung des Verbrennungsmotors",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -178,6 +200,7 @@ RAW_MODULES = {
     },
     "ausgewaehlte_anwendung_regelungstechnik": {
         "name": "Ausgewählte Anwendungen der Regelungstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -185,6 +208,7 @@ RAW_MODULES = {
     },
     "ausgewaehlte_fertigungsverfahren": {
         "name": "Ausgewählte Fertigungsverfahren",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -192,6 +216,7 @@ RAW_MODULES = {
     },
     "ausgewaehlte_kapitel_der_biomedizinischen_technik": {
         "name": "Ausgewählte Kapitel der Biomedizinischen Technik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -199,6 +224,7 @@ RAW_MODULES = {
     },
     "ausgewaehlte_themen_logistik": {
         "name": "Ausgewählte Themen der Logistik",
+        "modul_link": "",
         "beschreibung": "Das Modul besteht nicht aus klassischen Frontalvorlesungen. Stattdessen sucht man sich ein eigenes Thema (die Themen sind breit gefächert) aus und führt dazu eine Art kleine Forschungsarbeit durch. Es ist im Grunde als ein „Üben des Präsentierens von eigenen Ergebnissen“ gedacht. Jedem wird ein Betreuer zugewiesen, die Bearbeitung erfolgt jedoch eigenständig. Im Laufe des Semesters gibt es außerdem eine Zwischenpräsentation.",
         "klausur": "Die Prüfungsleistung besteht aus einer Präsentation der erzielten Ergebnisse.",
         "tipps": [
@@ -215,6 +241,7 @@ RAW_MODULES = {
     },
     "automobile_produktion": {
         "name": "Automobile Produktion",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -222,13 +249,22 @@ RAW_MODULES = {
     },
     "balance": {
         "name": "BALANCE - Einführung in interdisziplineres Denken",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "modul_link": "",
+        "beschreibung": "Das Modul „Balance“ ist als Blockmodul organisiert. Insgesamt gibt es drei Blockveranstaltungen, die meist an Wochenenden stattfinden – typischerweise freitags und samstags, teilweise auch freitags und sonntags. Innerhalb des Moduls werden verschiedene Themengebiete behandelt, wobei der Fokus insbesondere auf künstlerischen und interdisziplinären Denkweisen liegt. Das Modul wird von mehreren Professorinnen und Professoren betreut. Eine Kunstprofessorin übernimmt dabei die leitende Rolle und prägt die inhaltliche Ausrichtung des Moduls besonders stark. Insgesamt wird versucht, Themen aus einer eher künstlerischen und kreativen Perspektive zu betrachten und das interdisziplinäre Denken zu fördern. Es gibt ein Paar Ausflüge",
+        "klausur": "Eine klassische Klausur gibt es in diesem Modul nicht. Stattdessen besteht die Prüfungsleistung aus einer kleineren Abgabe, beispielsweise in Form einer kurzen PowerPoint-Präsentation beziehungsweise eines Berichts. Dieser muss nicht präsentiert werden, sondern wird lediglich eingereicht.",
+        "tipps": [
+            "nicht jedes semester angeboten"
+        ],
+        "erfahrungen": [
+            {
+                "semester": "SS24",
+                "bericht": "Sehr entspanntes Modul. Wir waren zwei Tage in Wismar an der Hochschule, was echt super war. Zusätzlich gab es noch einen Tag auf Rügen in Prora, was ebenfalls sehr cool war. Die Professoren waren alle sehr angenehm und engagiert. Schade, dass es nur ein solches Modul gibt – ich würde jederzeit wieder ein ähnliches Modul belegen."
+            }
+        ]
     },
     "betriebsfestigkeit": {
         "name": "Betriebsfestigkeit",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -236,6 +272,7 @@ RAW_MODULES = {
     },
     "bild_videoverarbeitung_und_codierung": {
         "name": "Bild-/Videverarbeitung und Codierung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -243,6 +280,7 @@ RAW_MODULES = {
     },
     "biofilm_medizin_technik": {
         "name": "Biofilm in Medizin und Technik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -250,6 +288,7 @@ RAW_MODULES = {
     },
     "biomaterialieneinsatz_und_prüfung": {
         "name": "Biomaterialieneinsatz und -prüfung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -257,13 +296,17 @@ RAW_MODULES = {
     },
     "biomaterialien_maschinenbau": {
         "name": "Biomaterialien für Maschinenbau",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen (für Maschinenbauer). Sowohl die Vorlesungen als auch die Übungen/ Praktika sind sehr informativ und kommunikativ gestaltet. Die Übungen beinhalten Präsentationen und Laborarbeiten, welche als Zulassungsvoraussetzung für die Prüfung dienen.",
+        "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden und die Übungen als Vorbereitungen genutzt werden.",
+        "tipps": [
+            "Die Praktika sind wertvoll, also stellt da gerne Fragen!"
+        ],
         "erfahrungen": []
     },
     "biomedizinische_technik": {
         "name": "Biomedizinische Technik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -271,6 +314,7 @@ RAW_MODULES = {
     },
      "bruch_schaedigungmechanik": {
         "name": "Bruch- und Schädigungsmechanik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -278,6 +322,7 @@ RAW_MODULES = {
     },
     "cad": {
         "name": "Computer Aided Design (CAD)",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -285,6 +330,7 @@ RAW_MODULES = {
     },
     "cfd_fuer_schiffshydrodynamik": {
         "name": "CFD für Schiffshydrodynamik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -292,6 +338,7 @@ RAW_MODULES = {
     },
     "cfd_maritime_engineering": {
         "name": "CFD in Maritime Engineering",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -299,6 +346,7 @@ RAW_MODULES = {
         },
     "coding_of_finite_elements": {
         "name": "Coding of Finite Elements",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -306,6 +354,7 @@ RAW_MODULES = {
     },
     "compact_modeling_large_scale_dynamical_system": {
         "name": "Compact Modeling of Large Scale Dynamical Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -313,6 +362,7 @@ RAW_MODULES = {
         },
     "composite_material_design": {
         "name": "Composite Material Design",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -320,6 +370,7 @@ RAW_MODULES = {
         },
     "computational_modelling_of_biomaterials_and_their_interaction_with_tissue": {
         "name": "Computational modelling of biomaterials and their interaction with tissue",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -327,6 +378,7 @@ RAW_MODULES = {
     },
     "computational_methods_in_fluid_dynamics": {
         "name": "Computational Methods in Fluid Dynamics",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -334,6 +386,7 @@ RAW_MODULES = {
     },
     "computer_aided_design": {
         "name": "Computer Aided Design",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -341,6 +394,7 @@ RAW_MODULES = {
     },
     "computerorientierte_mathematik_algorithmen_strukturen": {
         "name": "Computerorientierte Mathematik, Algorithmen und Strukturen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -348,6 +402,7 @@ RAW_MODULES = {
     },
     "continuum_mechanics": {
         "name": "Continuum Mechanics",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -355,6 +410,7 @@ RAW_MODULES = {
     },
     "data_driven_methods_in_signal_processing": {
         "name": "Data-Driven Methods in Signal Processing",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -362,6 +418,7 @@ RAW_MODULES = {
     },
     "deep_learning": {
         "name": "Deep Learning",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -369,6 +426,7 @@ RAW_MODULES = {
     },
     "deep_sea_technology_underwater_applications": {
         "name": "Deep-Sea Technology and Practical Applications of Underwater Technology",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -376,6 +434,7 @@ RAW_MODULES = {
     },
     "deskriptive_statistik*": {
         "name": "Deskriptive Statistik*",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -383,6 +442,7 @@ RAW_MODULES = {
     },
     "design_offshore_aquaculture_systems": {
         "name": "Design of Offshore Aquaculture Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -390,6 +450,7 @@ RAW_MODULES = {
     },
     "design_offshore_systems": {
         "name": "Design of Offshore Systems",
+        "modul_link": "",
         "beschreibung": "Decription incoming",
         "klausur": "No informations",
         "tipps": [],
@@ -397,6 +458,7 @@ RAW_MODULES = {
     },
     "design_underwater_systems": {
         "name": "Design of Underwater Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -404,6 +466,7 @@ RAW_MODULES = {
     },
     "dienstleistungsmarketing": {
         "name": "Dienstleistungsmarketing",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -411,6 +474,7 @@ RAW_MODULES = {
     },
     "digitale_datenuebertragung": {
         "name": "Digitale Datenübertragung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -418,6 +482,7 @@ RAW_MODULES = {
     },
     "digitale_regelung": {
         "name": "Digitale Regelung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -425,6 +490,7 @@ RAW_MODULES = {
     },
     "digitale_signalverarbeitung": {
         "name": "Digitale Signalverarbeitung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -432,6 +498,7 @@ RAW_MODULES = {
     },
     "deutsch_a11": {
         "name": "Deutsch A1.1",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -439,6 +506,7 @@ RAW_MODULES = {
     },
     "deutsch_a12": {
         "name": "Deutsch A1.2",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -446,6 +514,7 @@ RAW_MODULES = {
     },
     "dynamic_behavior_ac_mashine": {
         "name": "Dynamic Behavior of AC Machines",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -453,6 +522,7 @@ RAW_MODULES = {
     },
     "dynamics_multibody_systems": {
         "name": "Dynamics of Multibody Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -460,6 +530,7 @@ RAW_MODULES = {
     },
     "dynamik_kraftfahrzeuge": {
         "name": "Dynamik von Kraftfahrzeugen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -467,6 +538,7 @@ RAW_MODULES = {
     },
     "dynamik_mehrkoerpersysteme": {
         "name": "Dynamik von Mehrkörpersystemen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -474,6 +546,7 @@ RAW_MODULES = {
     },
     "dynamik_von_schiffen_und_offshore_strukturen": {
         "name": "Dynamik von Schiffen und Offshore Strukturen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -481,6 +554,7 @@ RAW_MODULES = {
     },
     "echtzeitsysteme": {
         "name": "Echtzeitsysteme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -488,6 +562,7 @@ RAW_MODULES = {
     },
     "einfuehrung_betriebswirtschaftsliche_steuerlehre": {
         "name": "Einführung in die betriebswirtschaftsliche Steuerlehre",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -495,6 +570,7 @@ RAW_MODULES = {
     },
     "einfuehrung_betriebswirtschaftslehre": {
         "name": "Einführung in die Betriebswirtschaftslehre",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -502,6 +578,7 @@ RAW_MODULES = {
     },
     "einfuehrung_cpp": {
         "name": "Einführung in die angewandte C++ Programmierung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -509,6 +586,7 @@ RAW_MODULES = {
     },
     "einfuehrung_data_science": {
         "name": "Einführung in die Data Science in Materialwissenschafte und Ingenieurwesen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -516,6 +594,7 @@ RAW_MODULES = {
     },
     "einfuehrung_digitale_umrichtersteuerung": {
         "name": "Einführung in die digitale Umrichtersteuerung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -523,6 +602,7 @@ RAW_MODULES = {
     },
     "einfuehrung_meerestechnik": {
         "name": "Einführung in die Meerestechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -530,6 +610,7 @@ RAW_MODULES = {
     },
     "einfuehrung_wirtschaftsrecht": {
         "name": "Einführung ins Wirtschaftsrecht",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -537,6 +618,7 @@ RAW_MODULES = {
     },
     "eingebettete_multi_prozessor_systeme": {
         "name": "Eingebettete Multi-Prozessor-Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -544,6 +626,7 @@ RAW_MODULES = {
     },
     "elektrische_fahrzeugantriebe": {
         "name": "Elektrische Fahrzeugantriebe",
+        "modul_link": "",
         "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -551,6 +634,7 @@ RAW_MODULES = {
     },
     "elektrotechnik": {
         "name": "Einführung im die Elektrotechnik für Maschinenbau",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen drei mal 45-minütige Vorlesungen als auch Übungen, welche sich von zwei Lehrpersonen geteilt werden: Elektrotechnik und elektrische Maschinen. Hier lernt man die Grundlagen zum Thema Strom, Spannung, Widerstand, als auch Magnetismus, Stromkreise und verschiedenen Maschinen, welche man beschreiben und berechnen muss. Als Klausurvorleistung muss man die Kurzfragentest vor jedem „Praktikum“ bestehen, als auch ein Protokoll des jeweiligen Versuches anfertigen, welche aus dem Deckblatt, einer Hausaufgabe, Berechnungen von Messwerten, Zeichnungen von Diagrammen und einer Auswertung bestehen.",
         "klausur": "Die Klausur ist schriftlich mit Rechen- und Theorieaufgaben. Es kommen Teile aus dem Bereich Elektrotechnik und Rechenaufgaben aus dem Bereich elektrische Maschinen. Die Klausur orientiert sich sehr stark an der letzten Übung und der Konsultation.",
         "tipps": [
@@ -568,6 +652,7 @@ RAW_MODULES = {
     },
     "elektrotechnik_1": {
         "name": "Elektrotechnik 1",
+        "modul_link": "",
         "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -575,6 +660,7 @@ RAW_MODULES = {
     },
     "elektrotechnik_2": {
         "name": "Elektrotechnik 2",
+        "modul_link": "",
         "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -582,6 +668,7 @@ RAW_MODULES = {
     },
     "elektrotechnik_3": {
         "name": "Elektrotechnik 3",
+        "modul_link": "",
         "beschreibung": "Grundlagen der Elektrotechnik für Maschinenbauer.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -589,6 +676,7 @@ RAW_MODULES = {
     },
     "elastische_mehrkoerpersysteme": {
         "name": "Elastische Mehrkörpersysteme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -596,6 +684,7 @@ RAW_MODULES = {
     },
     "endoprothetik_und_orthopaedische_chirurgie": {
         "name": "Endoprothetik und Orthopädische Chirurgie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -603,6 +692,7 @@ RAW_MODULES = {
     },
     "englisch_fachkommunikation_el_technik_info_c11":{
         "name": "Englisch Fachkommunikation Elektrotechnik/Informationstechnik C1.1 GER",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -610,26 +700,32 @@ RAW_MODULES = {
     },
     "englisch_fachkommunikation_ing_c12": {
         "name": "Englisch Fachkommunikation Ingenieurwissenschaften C1.2 GER",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "modul_link": "",
+        "beschreibung": "Das Modul umfasst zweimal wöchentlich 90 Minuten Kurs. Hierbei werdet Ihr euren aktuellen Sprachstand ermitteln, Texte auf Englisch verfassen, sowie neue sprachliche Redewendungen und Vokabeln an die Hand bekommen. Zudem werdet Ihr lernen, wie Bewerbungen richtig verfasst werden und einen Einblick in den Umgang mit Dictionaries bekommen. Essenziell für jeden Maschinenbauingenieur.",
+        "klausur": "Die Klausur hat einen schriftlichen und mündlichen Anteil und qualifiziert euch für das UniCert III exam.",
         "tipps": [],
         "erfahrungen": []
     },
     "englisch_fachkommunikation_maschinenbau_c11": {
         "name": "Englisch Fachkommunikation Maschinenbau C1.1 GER",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfasst zweimal wöchentlich 90 Minuten Kurs. Hierbei werdet Ihr Texte auf Englisch verfassen, sowie neue sprachliche Redewendungen und Vokabeln an die Hand bekommen. Essenziell für jeden Maschinenbauingenieur.",
+        "klausur": "Die Klausur ist schriftlich. Genauere Informationen erhaltet Ihr vom Dozenten.",
+        "tipps": [
+            "Nehmt die Hausaufgaben an, diese dienen sehr gut als Prüfungsvorbereitung."
+        ],
         "erfahrungen": []
     },
     "englisch_fachkommunikation_wiwi_c11": {
         "name": "Englisch Fachkommunikation Wirtschaftswissenschaften C1.1 GER",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
     },"englisch_fachkommunikation_wiwi_c12": {
         "name": "Englisch Fachkommunikation Wirtschaftswissenschaften C1.2 GER",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -637,6 +733,7 @@ RAW_MODULES = {
     },
     "energietechnik": {
         "name": "Energietechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -644,6 +741,7 @@ RAW_MODULES = {
     },
     "entwerfen_antriebe": {
         "name": "Entwerfen von Antrieben",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -651,6 +749,7 @@ RAW_MODULES = {
     },
     "entwerfen_von_schiffen": {
         "name": "Entwerfen von Schiffen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -658,6 +757,7 @@ RAW_MODULES = {
     },
     "erfolgsfaktoren_beruflicher_selbstaendigkeit": {
         "name": "Erfolgsfaktoren beruflicher Selbstständigkeit",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -665,6 +765,7 @@ RAW_MODULES = {
     },
     "ermuedungsrisse": {
         "name": "Ermüdungsrisse",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -672,6 +773,7 @@ RAW_MODULES = {
     },
     "essentials_ocean_science_and_sustainable_ocean_use": {
         "name": "Essentials of Ocean Science and Sustainable Ocean Use",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -679,6 +781,7 @@ RAW_MODULES = {
     },
     "experimental_methods_maritime_engineering": {
         "name": "Experimental Methods in Maritime Engineering",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -686,6 +789,7 @@ RAW_MODULES = {
     },  
     "experimentelle_stroemungsmechanik": {
         "name": "Experimentelle Strömungsmechanik",
+        "modul_link": "",
         "beschreibung": " Das Modul teilt sich in zwei Phasen: Zuerst gibt es 8 Wochen lang eine 2-stündige Vorlesung (120 min). Diese wird komplett an der Tafel geschrieben, das heißt, man muss alles mitschreiben. Der Dozent lädt auf nette Nachfrage aber auch die einzelnen Videos aus der Coronazeit hoch. Danach folgen 6 Wochen mit Versuchen: Es findet jede Woche ein Versuch statt, der meistens 1 bis 1,5 Stunden dauert. Man arbeitet in Gruppen und trägt sich dafür irgendwann ein. Es werden unterschiedliche experimentelle Messmethoden behandelt, wie zum Beispiel PIV, LDA usw. Prüfungsvorleistung sind die Protokolle. Jede Gruppe muss zu jedem Versuch jeweils ein Protokoll abgeben. Wenn man 6 Mitglieder in der Gruppe hat, gibt jede Person ein Protokoll ab. Wenn es nur 3 Personen sind, schreibt jede Person zwei Protokolle usw.",
         "klausur": "Mündliche Prüfung: 30 Minuten. Es werden meistens Fragen zu den experimentellen Verfahren aus den Versuchen gestellt. Jedoch sollte man alles lernen, man weiß nie.",
         "tipps": [
@@ -702,6 +806,7 @@ RAW_MODULES = {
     },
     "experimenteller_leichtbau": {
         "name": "Experimenteller Leichtbau",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -710,6 +815,7 @@ RAW_MODULES = {
 
     "fabrikplanung": {
         "name": "Fabrikplanung und Automatisierung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -717,6 +823,7 @@ RAW_MODULES = {
     },
     "fahrzeugantriebe": {
         "name": "Fahrzeugantriebe",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -724,6 +831,7 @@ RAW_MODULES = {
     },
     "fehlerdiagnose_und_fehlertoleranz_in_technischen_systemen": {
         "name": "Fehlerdiagnose und Fehlertoleranz in technischen Systemen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -731,6 +839,7 @@ RAW_MODULES = {
     },
     "fertigungslehre": {
         "name": "Fertigungslehre",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch fünf Übungen. Hier lernt man die verschiedenen Herstellungs- und Weiterverarbeitungsmöglichkeiten von Werkstoffen. Also der Weg von „Wie schaffe ich meinen Stahl“ über „Mit welchen Werkzeugen und Methoden, kann ich den Stahl verändern“ bis „Welche Eigenschaften soll der Stahl haben“. Als Prüfungsvorleistung müssen vier der fünf Kurzfragentest am Anfang jede Übung erfolgreich bestanden werden.",
         "klausur": "Die Klausur ist schriftlich. Es dürfen zwei Seiten Spicker (laut unseren letzen Information, prüft das aber bitte!) mit in die Klausur genommen werden, wobei diese am besten komplett ausgenutzt werden sollten, da Theorie, Skizzen und Diagramme abgefragt werden.",
         "tipps": [
@@ -741,13 +850,18 @@ RAW_MODULES = {
     },
     "fertigungsmittel": {
         "name": "Fertigungsmittel",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch zweiwöchentliche Übungen. Wenn nicht schon in euren Praktika geschehen, bekommt ihr hier einen Einblick in die Welt der Fertigungsmittel (Drehen, Bohren, Fräsen, usw.). In den Übungen werden euch verschiedenste Maschinen gezeigt und ihr stellt kleine Berechnungen dazu an. Als Prüfungsvorleistung müssen einige Studiengänge Tests absolvieren, schaut da am besten in eurer SPSO nach.",
+        "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden und die Übungen als Vorbereitungen genutzt werden.",
+        "tipps": [
+            "Die Übungen sind wichtig verpasst sie nicht!",
+            "Die Vorlesungen sind erweiterte Basics, die jeder Ingenieur draufhaben sollte!"
+        ],
         "erfahrungen": []
     },
     "festigkeitsoptimiertes_bruchsicheres": {
         "name": "Festigkeitsoptimiertes und bruchsicheres Gestalten",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -755,6 +869,7 @@ RAW_MODULES = {
     },
     "fluid_dynamik": {
         "name": "Fluid Dynamik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -762,6 +877,7 @@ RAW_MODULES = {
     },
     "finanzbuchhaltung": {
         "name": "Finanzbuchhaltung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -769,6 +885,7 @@ RAW_MODULES = {
     },
     "finanzierung_investition": {
         "name": "Finanzierung und Investition 1",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -776,6 +893,7 @@ RAW_MODULES = {
     },
     "finanzierung_investition_2": {
         "name": "Finanzierung und Investition 2",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -783,6 +901,7 @@ RAW_MODULES = {
     },
     "finite_element_analysis_composite_structures": {
         "name": "Finite Element Analysis of Composite Structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -790,6 +909,7 @@ RAW_MODULES = {
     },
     "finite_elemente_analyse_verbundwerkstoffstrukturen": {
         "name": "Finite-Elemente-Analyse von Verbundwerkstoffstrukturen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -797,6 +917,7 @@ RAW_MODULES = {
     },
     "fortgeschrittene_elektronik_schaltkreisentwurf": {
         "name": "Fortgeschrittene Elektronik und Schaltkreisentwurf",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -804,6 +925,7 @@ RAW_MODULES = {
     },
     "geraetetechnik": {
         "name": "Gerätetechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -811,6 +933,7 @@ RAW_MODULES = {
     },
     "geraetetechnik_und_sensorik_in_der_biomedizinischen_technik": {
         "name": "Gerätetechnik und Sensorik in der Biomedizinischen Technik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -818,6 +941,7 @@ RAW_MODULES = {
     },
     "geregelte_elektrische_antriebe": {
         "name": "Geregelte Elektrische Antriebe",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -825,6 +949,7 @@ RAW_MODULES = {
     },
     "gewaesserregelung_kuesten_hochwasserschutz": {
         "name": "Gewässerregelung, Küten- und Hochwasseschutz",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -832,6 +957,7 @@ RAW_MODULES = {
     },
     "gewerbliche_schutzrechte": {
         "name": "Gewerbliche Schutzrechte",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -839,6 +965,7 @@ RAW_MODULES = {
     },
     "grossmotoren_schiff": {
         "name": "Großmotoren für Schiffsanwendungen – Grundlagen und Zukunftstrends",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -846,6 +973,7 @@ RAW_MODULES = {
     },
     "grundlagen_akustik": {
         "name": "Grundlagen der Akustik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -853,6 +981,7 @@ RAW_MODULES = {
     },
     "grundlagen_angewandten_muskuloskelettalen_biomechanik_orthopaedietechnik": {
         "name": "Grundlagen der angewandten muskulo-skelettalen Biomechanik und Orthopädietechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -860,6 +989,7 @@ RAW_MODULES = {
     },
     "grundlagen_automatisierung": {
         "name": "Grundlagen der Automatisierung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -867,6 +997,7 @@ RAW_MODULES = {
     },
     "grundlagen_bevölkerungsökonomik": {
         "name": "Grundlagen der Bevölkerungsökonomik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -874,6 +1005,7 @@ RAW_MODULES = {
     },
     "grundlagen_chemie": {
         "name": "Grundlagen der Chemie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -881,6 +1013,7 @@ RAW_MODULES = {
     },
     "grundlagen_controlling": {
         "name": "Grundlagen des Controllings",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -888,6 +1021,7 @@ RAW_MODULES = {
     },
     "grundlagen_elektronik": {
         "name": "Grundlagen der Elektronik 1",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -895,6 +1029,7 @@ RAW_MODULES = {
     },
     "grundlagen_fuegetechnik": {
         "name": "Grundlagen der Fügetechnik",
+        "modul_link": "",
         "beschreibung": "Es sind immer zwei 1,5h Veranstaltungen pro Woche. Übung wird nur bei Bedarf abgehalten (z.B. Verspannungsschaubild! geht hin! spart Lernzeit). Es gibt auch noch 2-3 freiwillige Exkursionen in Fraunhofer-nahe Betriebe (z.B.EEW, Nordex, Liebherr). Behandelt werden, mehr oder weniger, die Grundlagen aller gängigen Fügeverfahren. Jeder Themenbereich wird von einem jeweiligen Dozenten des Fraunhofer IGP abgehalten (Kleben, Schrauben, Nieten, Schweißen). Klebtechnik wird sehr ausführlich behandelt (mind. 4 Vorlesungen). Mechanische Verbindungstechnik (Schrauben) schließt Wissenslücken der KL-Module. Umformtechnisches Fügen (Nieten) und Schweißtechnik werden auch behandelt, ist aber nicht im Fokus. Insgesamt das Module bildet eine gute Basis für weiterführende Module Richtung Leichtbau und Fertigungstechnik im Master, sind jedoch nicht zwingend notwendig. Es gibt keine Prüfungsvorleistung",
         "klausur": "Mündlich, 30min. Es werden drei Themengebiete abgefragt, in jedem Fall Klebtechnik! Geprüft werdet ihr, in der Regel, von euren Dozenten",
         "tipps": [
@@ -911,6 +1046,7 @@ RAW_MODULES = {
     },
     "grundlagen_hydromechanik_schiffen_offshore": {
         "name": "Grundlagen der Hydromechanik von Schiffen und Offshore-Strukturen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -918,6 +1054,7 @@ RAW_MODULES = {
     },
     "grundlagen_materiner_stoffkreislaeufe": {
         "name": "Grundlagen der Materialflusstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -925,6 +1062,7 @@ RAW_MODULES = {
     },
     "grundlagen_materialflusstechnik": {
         "name": "Grundlagen mariner Stoffkreisläufe",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -932,6 +1070,7 @@ RAW_MODULES = {
     },
     "grundlagen_schiffstechnik": {
         "name": "Grundlagen der Schiffstechnik",
+        "modul_link": "",
         "beschreibung": "Ein 90-minütige Vorlesung und Übungsvorlesung. Man beschäftigt sich mit der allgemeinen Einteilung von Schiffen (nach Gruppen), außerdem mit dem Entwurfsprozess. Die Schwimmstabilität wird in den letzten Vorlesungen ebenfalls zu einem wichtigen Thema. In der Übung geht es eher um etwas Praktisches und nicht nur um Rechenübungen, obwohl man auch ein bisschen rechnen muss. Prüfungsvorleistung sind 4 Belege: 1. Rechnen, 2. Modellieren, 3. Rechnen mit Software, 4. Dokumentation abgeben",
         "klausur": "Mündliche Prüfung: an sich fragen die genau das was in der Vorlesungen besprochen wurde.",
         "tipps": [
@@ -945,6 +1084,7 @@ RAW_MODULES = {
     },
     "grundlagen_statistik": {
         "name": "Grundlagen der Statistik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -952,6 +1092,7 @@ RAW_MODULES = {
     },
     "grundlagen_stroemungsmaschinen_windturbinen": {
         "name": "Grundlagen der Strömungsmaschinen und Windturbinen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -959,6 +1100,7 @@ RAW_MODULES = {
     },
     "grundzüge_dienstleistungsmanagement": {
         "name": "Grundzüge des Dienstleistungsmanagements",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -966,6 +1108,7 @@ RAW_MODULES = {
     },
     "grundzüge_moderner_oekonomie": {
         "name": "Grundzüge der modernen Ökonomie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -973,6 +1116,7 @@ RAW_MODULES = {
     },
     "hochintegrierte": {
         "name": "Hochintegrierte [wie heist das]",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -980,6 +1124,7 @@ RAW_MODULES = {
     },
     "hochtemperaturelektronik": {
         "name": "Hochtemperaturelektronik - Konstruktion und Fertigung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -987,6 +1132,7 @@ RAW_MODULES = {
     },
     "hydraulik_pneumatik": {
         "name": "Hydraulik und Pneumatik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -994,6 +1140,7 @@ RAW_MODULES = {
     },
     "hydraulische_stroemungsmaschinen": {
         "name": "Hydraulische Strömungsmaschinen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1001,6 +1148,7 @@ RAW_MODULES = {
     },
     "ideenfindung_entwicklung": {
         "name": "Ideenfindung und -entwicklung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1008,6 +1156,7 @@ RAW_MODULES = {
     },
     "implantattechnologie": {
         "name": "Implantattechnologie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1015,6 +1164,7 @@ RAW_MODULES = {
     },
     "industrial_engineering": {
         "name": "Industrial Engineering",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1022,6 +1172,7 @@ RAW_MODULES = {
     },
     "informatik": {
         "name": "Informatik 1: Einführung in die Programmierung",
+        "modul_link": "",
         "beschreibung": "Einführung in informatische Grundlagen und technische Anwendungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1029,6 +1180,7 @@ RAW_MODULES = {
     },
     "informatik_wissenschaft_gesellschaft": {
         "name": "Informatik - Wissenschaft und Gesellschaft",
+        "modul_link": "",
         "beschreibung": "Einführung in informatische Grundlagen und technische Anwendungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1036,6 +1188,7 @@ RAW_MODULES = {
     },
     "intralogistik": {
         "name": "Intralogistik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1043,6 +1196,7 @@ RAW_MODULES = {
     },
     "introduction_applied_programming_cpp": {
         "name": "Introduction to Applied Programming in C++",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1050,6 +1204,7 @@ RAW_MODULES = {
     },
     "introduction_data_science_materials": {
         "name": "Introduction to Data Science in Materials Science and Engineering",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1057,6 +1212,7 @@ RAW_MODULES = {
     },
     "ip_management_in_der_medizintechnik": {
         "name": "IP-Management in der Medizintechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1064,6 +1220,7 @@ RAW_MODULES = {
     },
     "kaelte_klimatechnik": {
         "name": "Kälte- und Klimatechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1071,6 +1228,7 @@ RAW_MODULES = {
     },
     "kanalcodierung": {
         "name": "Kanalcodierung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1078,6 +1236,7 @@ RAW_MODULES = {
     },
     "kardiovakulaere_implantate": {
         "name": "Kardiovaskuläre Implantate",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1085,6 +1244,7 @@ RAW_MODULES = {
     },
     "klimaneutrale_kraftstoffe": {
         "name": "Klimaneutrale Kraftstoffe",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1092,6 +1252,7 @@ RAW_MODULES = {
     },
     "klebtechnik": {
         "name": "Klebtechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1099,6 +1260,7 @@ RAW_MODULES = {
     },
     "kolben_stroemungsmaschinen": {
         "name": "Kolben- und Strömungsmaschinen / Energiemaschinen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1106,6 +1268,7 @@ RAW_MODULES = {
     },
     "komponenten_mechatronischer_systeme": {
         "name": "Komponenten mechatronischer Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1113,6 +1276,7 @@ RAW_MODULES = {
     },
     "konstruktion_windenergieanlagen": {
         "name": "Konstruktion von Windenergieanlagen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1120,6 +1284,7 @@ RAW_MODULES = {
     },
     "konstruktionslehre": {
         "name": "Konstruktionslehre",
+        "modul_link": "",
         "beschreibung": "Das Modul geht über zwei Semester und besteht aus 90-minütigen Vorlesungen und Übungen, wobei ein Tutorium nur in der ersten Hälfte vorgesehen ist. Hier lernt man wie Bauteile in technischen Zeichnungen erkennt, zeichnet, modelliert, deren Ausmaße und Festigkeit berechnet und nachweist. Das Hauptaugenmerk liegt hierbei auf den Berechnungen. Die Klausurvorleistung beinhalten Handzeichnungen, Online-Fragetest, 3D-Modellierungen, und Berechnungen.",
         "klausur": "Die Klausur findet erst im 3.ten Semester statt und umfasst zwei mal drei Teile: jeweils einen Theorie-, einen Zeichen- und einen Rechenteil pro Semester (Kl2 im SS und Kl3 im WS). Es ist möglich, dass bald die Klausur zusammengefasst wird und nicht mehr 2 mal 3 Teile hat sondern, nur 3 Große Teile sind.",
         "tipps": [
@@ -1136,6 +1301,7 @@ RAW_MODULES = {
     },
     "konstruktionsmethodik": {
         "name": "Konstruktionsmethodik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1143,6 +1309,7 @@ RAW_MODULES = {
     },
     "kraft_schmierstoffe_co2": {
         "name": "Kraft- und Schmierstoffe – von der fossilen Basis zur CO₂-Neutralität",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1150,6 +1317,7 @@ RAW_MODULES = {
     },
     "kosten_leistungsrechnung": {
         "name": " Kosten- und Leistungsrechnung (KLR)",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1157,6 +1325,7 @@ RAW_MODULES = {
     },
     "labor_schiffs_meerestechnik": {
         "name": "Labor: Schiffs- und Meerestechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1164,6 +1333,7 @@ RAW_MODULES = {
     },
     "labor_thermische_maschinen": {
         "name": "Laborpraktikum: Thermische Maschinen - Effizienz und Umwelt",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1171,13 +1341,18 @@ RAW_MODULES = {
     },
     "labor_werkstofftechnik": {
         "name": "Laborpraktikum Werkstofftechnik",
-        "beschreibung": "Beschreibung folgt.",
+        "modul_link": "",
+        "beschreibung": "Das Pflicht-Modul umfasst verschiedenste Praktika (5-7 Stück, je nach Jahrgang), welche vor und Nachbereitung bedürfen. Während des Praktikums wird eine kleine Fragerunde vorangestellt, um den Wissensstand zu klären und euch zu testen, anschließend kommen die Versuche, wobei Ihr schon im Vorhinein den Ablauf detailliert kennen solltet. Es ist notwendig, die Fragerunde sowie die Versuche kompetent zu absolvieren, um das Praktikum abzuschließen. Regulär wird pro Praktikum auch ein Protokoll angefertigt, welches auch in euren Zeitplan mit involviert sein sollte. Alle Praktika müssen bestanden werden.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "tipps": [
+            "Vor- und Nachbereitung des Praktikums sind ein MUSS!",
+            "Vertieft eurer Wissen und lernt die Normen kennen und anzuwenden"
+        ],
         "erfahrungen": []
     },
     "labor_thermodynamik_stroemungsmaschinen_und_verbrennungsmotoren": {
         "name": "Laborpraktikum Thermodynamik, Strömungsmaschinen und Verbrennungsmotoren",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1185,6 +1360,7 @@ RAW_MODULES = {
     },
     "labor_werkstofftechnik": {
         "name": "Laborpraktikum Werkstofftechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1192,6 +1368,7 @@ RAW_MODULES = {
     },
     "large_engines_energy_converters_fuels": {
         "name": "Large Engines, Energy Converters and Fuels for Climate Neutral Marine Applications",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1199,6 +1376,7 @@ RAW_MODULES = {
     },
     "leckstabilitaet_und_kentersicherheit": {
         "name": "Leckstabilität und Kentersicherheit",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1206,6 +1384,7 @@ RAW_MODULES = {
     },
     "leichtbau_grundlagen": {
         "name": "Grundlagen des Leichtbaus",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1213,6 +1392,7 @@ RAW_MODULES = {
     },
     "leichtbaukonstruktion": {
         "name": "Leichtbaukonstruktion",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1220,13 +1400,17 @@ RAW_MODULES = {
     },
     "leichtbauwerkstoffe": {
         "name": "Leichtbauwerkstoffe",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Die Vorlesungen sind sehr interessant gestaltet und der Prof steckt mit seiner Begeisterung für das Fach an. Die Übungen sind für Berechnungen von Leichtbaustrukturen uns sollten unbedingt genutzt werden. Das Skriptum ist umfangreich, jedoch gut durchzuarbeiten",
+        "klausur": "Die Klausur ist schriftlich. Multiple Choise Fragen sind enthalten, werden aber erst ab 3/5 richtigen Antworten bewertet. Eine ausreichende Vorbereitung ist ein Muss.",
+        "tipps": [
+            "Skriptum = Prüfungsvorbereitung"
+        ],
         "erfahrungen": []
     },
     "leistungshalbleiter": {
         "name": "Leistungshalbleiter",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1234,6 +1418,7 @@ RAW_MODULES = {
     },
     "logistik": {
         "name": "Logistik und Kreislaufwirtschaft",
+        "modul_link": "",
         "beschreibung": "Es geht um Logistik und Kreislaufwirtschaft in der industriellen Anwendung. Prof. Sender gibt sehr viele praxisnahe Beispiele.",
         "klausur": "Bisher keine genauen Infos zur Prüfungsform eingetragen.",
         "tipps": [
@@ -1249,6 +1434,7 @@ RAW_MODULES = {
     },
     "management_entwicklungsteams_projekten": {
         "name": "Management von Entwicklungsteams und Projekten",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1256,6 +1442,7 @@ RAW_MODULES = {
     },
     "maritime_graphics": {
         "name": "Maritime Graphics",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1263,6 +1450,7 @@ RAW_MODULES = {
     },
     "maritime_logistik": {
         "name": "Maritime Logistik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1270,6 +1458,7 @@ RAW_MODULES = {
     },
     "maritime_sensorik": {
         "name": "Maritime Sensorik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1277,6 +1466,7 @@ RAW_MODULES = {
     },
     "maschinendynamik": {
         "name": "Maschinendynamik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1284,6 +1474,7 @@ RAW_MODULES = {
     },
     "mathematik_1": {
         "name": "Mathematik 1: Grundlagen und eindimensionale Analysis",
+        "modul_link": "",
         "beschreibung": "Das Modul beinhaltet eine 3 mal 45-minütige Vorlesung als auch 90-minütige Übungen und Tutorien. Hier lernt man die ersten mathematischen Grundlagen, die auf der Schulmathematik aufbauen und im Laufe des Studiums gebraucht werden: Von Mengenlehre und was Reihen sind, über imaginäre Zahlen, bis hin zu Integralen, Ableitungen und Differentialgleichungen. Als Klausurvorleistung müssen wöchentliche Hausaufgaben abgegeben werden, wo man mindestens 50% der möglichen Punkte erreichen muss.",
         "klausur": "Schriftliche Klausur: Bei Prof. Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei Dr. Just: Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.",
         "tipps": [
@@ -1302,6 +1493,7 @@ RAW_MODULES = {
     },
     "mathematik_2": {
         "name": "Mathematik 2: Lineare Algera und Geometrie",
+        "modul_link": "",
         "beschreibung": "Vertiefung mathematischer Methoden mit Fokus auf Analysis und lineare Algebra.",
         "klausur": "Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.",
         "tipps": [],
@@ -1314,6 +1506,7 @@ RAW_MODULES = {
     },
     "mathematik_3": {
         "name": "Mathematik 3: Differenzialgleichungen und mehrdimensionale Analysis",
+        "modul_link": "",
         "beschreibung": "Weiterführende mathematische Verfahren für technische Problemstellungen.",
         "klausur": "Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden",
         "tipps": [],
@@ -1326,6 +1519,7 @@ RAW_MODULES = {
     },
     "mathematische_modelle_in_der_schiffstheorie": {
         "name": "Mathematische Modelle in der Schiffstheorie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1333,6 +1527,7 @@ RAW_MODULES = {
     },
     "medizinische_grundlagen": {
         "name": "Medizinische Grundlagen für Studierende der Biomedizintechnik: Labordiagnostik, Pathologie, Mikrobiologie, Abwehsysteme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1340,6 +1535,7 @@ RAW_MODULES = {
     },
     "medizinische_technologie_bildgebende_verfahren": {
         "name": "Medizinische Technologie / Bildgebende Verfahren",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1347,6 +1543,7 @@ RAW_MODULES = {
     },
     "mehrstoffthermodynamik": {
         "name": "Mehrstoffthermodynamik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1354,6 +1551,7 @@ RAW_MODULES = {
     },
     "meeresforschungstechnik": {
         "name": "Meeresforschungstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1361,6 +1559,7 @@ RAW_MODULES = {
     },
     "messtechnik": {
         "name": "Grundlagen der Messtechnik",
+        "modul_link": "",
         "beschreibung": "Grundlagen technischer Messverfahren und Auswertung.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1368,6 +1567,7 @@ RAW_MODULES = {
     },
     "messtechnik_analoge_schaltungen": {
         "name": "Messtechnik und Analoge Schaltungen",
+        "modul_link": "",
         "beschreibung": "Grundlagen technischer Messverfahren und Auswertung.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1375,6 +1575,7 @@ RAW_MODULES = {
     },
     "metallic_engineering_materials": {
         "name": "Metallic Engineering Materials",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1382,13 +1583,19 @@ RAW_MODULES = {
     },
     "metallische_konstruktionswerkstoffe": {
         "name": "Metallische Konstruktionswerkstoffe / Wärmebehandlung",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Werkstofftechnik 1 und 2 wird hier weitergesetzt. Es ist wichtig zu den Veranstaltungen zu erscheinen, da die Tafelbilder nicht hochgeladen werden. Sauberes Tafelbild und viel schreiben, ganz nach dem Motto: wer schreibt, der bleibt. Vertiefende Kenntnisse zu Metallen können hier erworben werden und sind sehr interessant.",
+        "klausur": "Die Klausur ist schriftlich. Die Tafelbilder sollten als Vorbereitung genutzt werden.",
+        "tipps": [
+            "Verknüpft die einzelnen Themen miteinander, wer das Laborpraktikum Werkstofftechnik gleichzeitig besucht, ist hier klar im Vorteil",
+            "Nehmt das Modul nicht auf die leichte Schulter (sehr anspruchsvoll) und fangt früh genug mit dem Lernen an!",
+            "Wer eine Affinität für Werkstoffe hat, wird es sehr gut finden"
+        ],
         "erfahrungen": []
     },
     "mikrofluidik": {
         "name": "Mikrofluidik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1396,6 +1603,7 @@ RAW_MODULES = {
     },
     "mikrosystemtechnologie": {
         "name": "Mikrosystemtechnologie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1403,6 +1611,7 @@ RAW_MODULES = {
     },
     "mikrotechnologie_aktore_sensoren": {
         "name": "Mikrotechnologie - Aktoren und Sensoren",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1410,6 +1619,7 @@ RAW_MODULES = {
     },
     "mobilkommunikation": {
         "name": "Mobilkommunikation",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1417,6 +1627,7 @@ RAW_MODULES = {
     },
     "modellbildung_simulation_technischer_systeme": {
         "name": "Modellierung und Simulation technischer Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1424,6 +1635,7 @@ RAW_MODULES = {
     },
     "modellierung_abgasnachbehandlung": {
         "name": "Modellierung und Simulation von Abgasnachbehandlungskomponenten",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1431,6 +1643,7 @@ RAW_MODULES = {
     },
     "modellierung_und_simulation_der_turbulenz": {
         "name": "Modellierung und Simulation der Turbulenz",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1438,6 +1651,7 @@ RAW_MODULES = {
     },
     "modelling_turbulent_flows": {
         "name": "Modelling and Simulation of Turbulent Flows",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1445,6 +1659,7 @@ RAW_MODULES = {
     },
     "modeling_symulation_mechatronic_systems": {
         "name": "Modeling and Simulation of Mechatronic Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1452,6 +1667,7 @@ RAW_MODULES = {
     },
     "moderne_methoden_regelungstechnik": {
         "name": "Moderne Methoden der Regelungstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1459,6 +1675,7 @@ RAW_MODULES = {
     },
     "moderne_physik_ingenieurwissenschaften": {
         "name": "Moderne Physik für Ingenieurwissenschaften",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1466,6 +1683,7 @@ RAW_MODULES = {
     },
     "moderne_windenergieanlagen": {
         "name": "Moderne Windenergieanlagen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1473,6 +1691,7 @@ RAW_MODULES = {
     },
     "motor_energiemanagement": {
         "name": "Motor- und Energiemanagement für Fahrzeugantriebe",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1480,6 +1699,7 @@ RAW_MODULES = {
     },
     "motorthermodynamik": {
         "name": "Motorthermodynamik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1487,6 +1707,7 @@ RAW_MODULES = {
     },
     "nachhaltige_werkstoffauswahl": {
         "name": "Nachhaltige Werkstoffauswahl und Produktentwicklung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1494,6 +1715,7 @@ RAW_MODULES = {
     },
     "nanomaterialien": {
         "name": "Nanomaterialien",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1501,6 +1723,7 @@ RAW_MODULES = {
     },
     "navigation_control_autonomy_systems": {
         "name": "Navigation, Control and Vehicle Autonomy of Maritime Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1508,6 +1731,7 @@ RAW_MODULES = {
     },
     "nichtlineare_regelungssysteme": {
         "name": "Nichtlineare Regelungssysteme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1515,13 +1739,18 @@ RAW_MODULES = {
     },
     "nichtmetallische_werkstoffe": {
         "name": "Nichtmetallische Konstruktionswerkstoffe",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Hier lernt Ihr alles rund um Kunststoffe und Keramiken kennen und macht kleine Experimente, welche euch später beim Lernen helfen werden.",
+        "klausur": "Die Klausur ist schriftlich. Es ist sinnvoll sowohl die Vorlesung als auch die Übung zu besuchen.",
+        "tipps": [
+            "Vorbereitung hält sich in Grenzen",
+            "Vorlesungen sind interessant gestaltet, geht hin!"
+        ],
         "erfahrungen": []
     },
     "nichtnewtonsche_fluidmechanik": {
         "name": "Nichtnewtonsche Fluidmechanik",
+        "modul_link": "",
         "beschreibung": "Typische Aufteilung: 1,5 Stunden Vorlesung und 1,5 Stunden Übung. Die Veranstaltung ist ziemlich mathematiklastig. Es wird die meiste Zeit an der Tafel geschrieben, daher lohnt es sich, aktiv mitzuschreiben. Auf Nachfrage stellt der Dozent gelegentlich Videos aus der Corona-Zeit zur Verfügung. Behandelte Themen sind unter anderem: Schichtenströmungen, Stoffeigenschaften von Fluiden, Vorgänge der Fließbewegung, Stationäre Strömungen.Es gibt keine Vorleistung.",
         "klausur": "Schriftliche Prüfung mit: 2–3 Rechenaufgaben und 3–4 Theoriefragen",
         "tipps": [
@@ -1536,6 +1765,7 @@ RAW_MODULES = {
     },
     "numerical_and_experimental_hydroacoustics": {
         "name": "Numerical and Experimental Hydroacoustics",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1543,6 +1773,7 @@ RAW_MODULES = {
     },
     "numerical_fluid_mechanics_turbulent_flows": {
         "name": "Numerical Fluid Mechanics and Turbulent Flows",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1550,6 +1781,7 @@ RAW_MODULES = {
     },
     "numerik_fuer_ingenieurwissenschaften": {
         "name": "Numerik für Ingenieurwissenschaften",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1557,6 +1789,7 @@ RAW_MODULES = {
     },
     "numerik_stochastik_ing": {
         "name": "Numerik und Stochastik für Ingenieurwissenschaften",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1564,6 +1797,7 @@ RAW_MODULES = {
     },
     "numerische_stroemungsmechanik": {
     "name": "Numerische Strömungsmechanik und turbulente Strömungen",
+        "modul_link": "",
     "beschreibung": "Typisches Modul mit 1,5 h Übung und 1,5 h Vorlesung. Inhaltlich geht es hauptsächlich um numerische Simulationen von Strömungen. Behandelt werden der gesamte Ablauf von der Formulierung des physikalischen Problems über die räumliche und zeitliche Diskretisierung bis hin zur Aufstellung und Lösung des Gleichungssystems. Ein besonderer Schwerpunkt liegt auf der Finite-Differenzen- und der Finite-Volumen-Methode. Zusätzlich werden die Ansätze RANS, DNS und LES miteinander verglichen und ein erster Einblick in turbulente Strömungen gegeben. Das Modul bietet eine sehr gute Grundlage, um spätere Simulationsprogramme und deren Aufbau besser zu verstehen.",
     "klausur": "Mündliche Prüfung. Im Wesentlichen werden die Inhalte der Vorlesung systematisch durchgegangen. Der Fokus liegt darauf, den gesamten Prozess einer Strömungssimulation erklären zu können, vom physikalischen Problem bis zur numerischen Lösung. Typisch für die Prüfung bei Grundmann ist, im Fragenkatalog möglichst weit zu kommen und die Fragen ausführlich sowie verständlich zu beantworten. Es gibt keine Prüfungsvorleistung.",
     "tipps": [
@@ -1580,6 +1814,7 @@ RAW_MODULES = {
 },
     "open_space": {
         "name": "Open Space",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1587,6 +1822,7 @@ RAW_MODULES = {
     },
     "optimierungsmethoden_mechatronik": {
         "name": "Optimierungsmethoden in der Mechatronik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1594,6 +1830,7 @@ RAW_MODULES = {
     },
     "ocean_renewable_energies": {
         "name": "Ocean Renewable Energies",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1601,6 +1838,7 @@ RAW_MODULES = {
     },
     "ocean_research_technologies": {
         "name": "Ocean Research Technologies",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1608,6 +1846,7 @@ RAW_MODULES = {
     },
     "ocean_waves": {
         "name": "Ocean Waves",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1615,6 +1854,7 @@ RAW_MODULES = {
     },
     "personlawirtschaftslehre_organisationen": {
         "name": "Personalwirtschaftslehre und Verhalten Organisationen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1622,6 +1862,7 @@ RAW_MODULES = {
     },
     "polymere_als_biomaterialien": {
         "name": "Polymere als Biomaterialien",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1629,6 +1870,7 @@ RAW_MODULES = {
     },
     "power_system_control_protection": {
         "name": "Power System Control and Protection",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1636,6 +1878,7 @@ RAW_MODULES = {
     },
     "power_system_dynamic_stability_control": {
         "name": "Power System Dynamic Stability and Control",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1643,6 +1886,7 @@ RAW_MODULES = {
     },
     "principle_analysis_of_marine_structures": {
         "name": "Principle Analysis of Marine Structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1650,6 +1894,7 @@ RAW_MODULES = {
     },
     "principles_of_energy_technology_systems_and_applications_in_maritime_context": {
         "name": "Principles of energy technology: systems & applications in maritime context",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1657,6 +1902,7 @@ RAW_MODULES = {
     },
     "principles_of_marine_fluid_mechanics": {
         "name": "Principles of marine fluid mechanics",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1664,6 +1910,7 @@ RAW_MODULES = {
     },
     "produktionsplanung_steuerung": {
         "name": "Produktionsplanung und -steuerung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1671,6 +1918,7 @@ RAW_MODULES = {
     },
     "produktionswirtschaft": {
         "name": "Produktionswirtschaft",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1678,6 +1926,7 @@ RAW_MODULES = {
     },
     "projekt_additive_fertigung": {
         "name": "Projekt Additive Fertigung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1685,6 +1934,7 @@ RAW_MODULES = {
     },
     "projekt_antriebssysteme_embedded_systems": {
         "name": "Projekt Antriebssysteme und Embedded Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1692,6 +1942,7 @@ RAW_MODULES = {
     },
     "projekt_konstruktionslehre": {
         "name": "Projekt Konstruktionslehre",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1699,6 +1950,7 @@ RAW_MODULES = {
     },
     "projekt_produktentwicklung": {
         "name": "Projekt Produktentwicklung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1706,6 +1958,7 @@ RAW_MODULES = {
     },
     "project_seminar_power_electronics": {
         "name": "Project Seminar Power Electronics",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1713,6 +1966,7 @@ RAW_MODULES = {
     },
     "projektseminar_entwurf_simulation_elektronischer_baugruppen": {
         "name": "Projektseminar Entwurf und Simulation elektronischer Baugruppen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1720,6 +1974,7 @@ RAW_MODULES = {
     },
     "propellertheorie": {
         "name": "Propellertheorie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1727,6 +1982,7 @@ RAW_MODULES = {
     },
     "prozessautomation_robotik": {
         "name": "Prozessautomation und Robotik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1734,6 +1990,7 @@ RAW_MODULES = {
     },
     "prozessmesstechnik": {
         "name": "Prozessmesstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1741,6 +1998,7 @@ RAW_MODULES = {
     },
     "python_data_analysis": {
         "name": "Python for data analysis and visualization",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1748,13 +2006,18 @@ RAW_MODULES = {
     },
     "qualitaetsmanagement": {
         "name": "Qualitätsmanagement",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Die Vorlesungen sind trocken, jedoch sehr informativ und zeigen euch verschiedene Tools/ Verfahrenstechniken auf, die ihr später im Arbeitsalltag anwenden könnt. Die Übungen sind gut darauf abgestimmt und haben verschiedenste Rechenbeispiele sowie praktische Übungen enthalten.",
+        "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden und die Übungen als Vorbereitungen genutzt werden.",
+        "tipps": [
+            "Fangt früh genug mit dem Lernen an, es ist einiges an Information",
+            "Der Prof. sagt in der letzten Vorlesung, was zum Bestehen reicht und was ihr braucht, um bessere Noten zu erhalten"
+        ],
         "erfahrungen": []
     },
     "radio_navigation_and_radar": {
         "name": "Radio Navigation and Radar",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1762,6 +2025,7 @@ RAW_MODULES = {
     },
     "reasoning_under_uncertainty": {
         "name": "Reasoning under Unsertainty",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1769,6 +2033,7 @@ RAW_MODULES = {
     },
     "rechnerarchitekturen_fuer_deep_learning_anwendungen": {
         "name": "Rechnerarchitekturen für Deep Learning Anwendungen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1776,6 +2041,7 @@ RAW_MODULES = {
     },
     "rechnergestuetzte_entwicklungsmethoden_in_der_schiffs_und_meerestechnik": {
         "name": "Rechnergestützte Entwicklungsmethoden in der Schiffs- und Meerestechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1783,6 +2049,7 @@ RAW_MODULES = {
     },
     "rechnetgestützter_reglerentwurf": {
         "name": "Rechnergestützter Reglerentwurf",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1790,6 +2057,7 @@ RAW_MODULES = {
     },
     "regelungstechnik": {
         "name": "Systemdynamik und Regelungstechnik",
+        "modul_link": "",
         "beschreibung": "Einführung in Regelkreise, Systeme und deren Verhalten.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1797,6 +2065,7 @@ RAW_MODULES = {
     },
     "regelungsorientierte_modellbildung_mechatronik": {
         "name": "Regelungsorientierte Modellbildung in der Mechatronik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1804,6 +2073,7 @@ RAW_MODULES = {
     },
     "regelungssysteme_zustandsraum": {
         "name": "Regelungssysteme im Zustandsraum",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1811,6 +2081,7 @@ RAW_MODULES = {
     },
     "regenerative_energietechnik": {
         "name": "Regenerative Energietechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1818,6 +2089,7 @@ RAW_MODULES = {
     },
     "renewable_energy_grid_connection_controller_design_grid_code_requirements": {
         "name": "Renewable Energy: Grid Connection, Controller Design and Grid Code Requirements",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1825,6 +2097,7 @@ RAW_MODULES = {
     },
     "renewable_energy_sources": {
         "name": "Renewable Energy Sources",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1832,6 +2105,7 @@ RAW_MODULES = {
     },
     "resistance_propulsion": {
         "name": "Resistance and Propulsion",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1839,6 +2113,7 @@ RAW_MODULES = {
     },
     "robotertechnik": {
         "name": "Robotertechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1846,6 +2121,7 @@ RAW_MODULES = {
     },
     "robust_control": {
         "name": "Robust Control ans State Estimation",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1853,6 +2129,7 @@ RAW_MODULES = {
     },
     "robuste_regelung_zustandsschaetzung": {
         "name": "Robuste Regelung und Zustandsschätzung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1860,6 +2137,7 @@ RAW_MODULES = {
     },
     "safety_maritime_systems": {
         "name": "Safety of Marine Systems",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1867,6 +2145,7 @@ RAW_MODULES = {
     },
     "sailing_theory": {
         "name": "Sailing Theory",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1874,6 +2153,7 @@ RAW_MODULES = {
     },
     "schadensanalyse_sicherheitsrelevanter_produkte": {
         "name": "Schadensanalyse sicherheitsrelevanter Produkte",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1881,6 +2161,7 @@ RAW_MODULES = {
     },
     "schiffs_offshorekonstruktionen": {
         "name": "Schiffs- und Offshorekonstruktionen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1888,6 +2169,7 @@ RAW_MODULES = {
     },
     "schiffsfertigungstechnik": {
         "name": "Schiffsfertigungstechnik - Betrieb von Werften",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1895,6 +2177,7 @@ RAW_MODULES = {
     },
     "schweisskonstruktion": {
         "name": "Schweißkonstruktion",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1902,6 +2185,7 @@ RAW_MODULES = {
     },
     "schweissmetallurgie": {
         "name": "Schweißmetallurgie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1909,13 +2193,17 @@ RAW_MODULES = {
     },
     "schweisstechnologie": {
         "name": "Schweißtechnologie",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Meistens werden Vorlesungen und Übungen im Block gehalten, also nehmt euch einen Kaffee oder eine Mate mit und setzt euch mit rein. Vorteil: Durch die Verknüpfung werden die Vorlesungsinhalte nochmals in der Übung aufgegriffen und mit Fragen am Ende dieser gefestigt.",
+        "klausur": "Die Kalusur ist schriftlich.",
+        "tipps": [
+            "Altklausuren = Prüfungsvorbereitung"
+        ],
         "erfahrungen": []
     },
      "sea_loads_on_offshore_structures_emship": {
         "name": "Sea loads on Offshore structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1923,6 +2211,7 @@ RAW_MODULES = {
     },
     "seakeeping_manoeuvring": {
         "name": "Seakeeping and Manoeuvring",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1930,6 +2219,7 @@ RAW_MODULES = {
     },
     "selected_topics_for_the_analysis_of_marine_structures": {
         "name": "Selected Topics for the Analysis of Marine Structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1937,6 +2227,7 @@ RAW_MODULES = {
     },
     "sensorik": {
         "name": "Sensorik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1944,6 +2235,7 @@ RAW_MODULES = {
     },
     "seminar_stroemungs_und_windenergietechnik": {
         "name": "Seminar Strömungs- und Windenergietechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1951,6 +2243,7 @@ RAW_MODULES = {
     },
     "ship_design": {
         "name": "Ship design",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1958,6 +2251,7 @@ RAW_MODULES = {
     },
     "ship_life_cycle_digitalization": {
         "name": "Ship Life Cycle Digitalization",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1965,6 +2259,7 @@ RAW_MODULES = {
     },
     "signal_systemtheorie": {
         "name": "Signal- und Systemtheorie",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1972,6 +2267,7 @@ RAW_MODULES = {
     },
     "simulation_werkstofftechnik": {
         "name": "Simulation in der Werkstofftechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1979,6 +2275,7 @@ RAW_MODULES = {
     },
     "steuerungstechnik": {
         "name": "Steuerungstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1986,6 +2283,7 @@ RAW_MODULES = {
     },
     "strategisches_marketing": {
         "name": "Strategisches Marketing",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1993,6 +2291,7 @@ RAW_MODULES = {
     },
     "stochastik": {
         "name": "Stochastik für Ingenieurwissenschaften",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2000,6 +2299,7 @@ RAW_MODULES = {
     },
     "stroemungsmechanik_grundlagen": {
         "name": "Grundlagen der Strömungsmechanik",
+        "modul_link": "",
         "beschreibung": "Grundlagen der Strömungsmechanik und technische Anwendungen.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2007,6 +2307,7 @@ RAW_MODULES = {
     },
     "structural_design_marine_structures": {
         "name": "Structural Design of Marine Structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2014,6 +2315,7 @@ RAW_MODULES = {
     },
     "structural_durability": {
         "name": "Structural Durability",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2021,6 +2323,7 @@ RAW_MODULES = {
     },
     "strukturmechanik_fem_1": {
         "name": "Strukturmechanik und FEM 1: Grundlagen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2028,6 +2331,7 @@ RAW_MODULES = {
     },
     "strukturmechanik_fem_2": {
         "name": "Strukturmechanik und FEM 2: Erweiterte Grundlagen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2035,6 +2339,7 @@ RAW_MODULES = {
     },
     "supply_chain_management": {
         "name": "Supply Chain Management",
+        "modul_link": "",
         "beschreibung": "Die Veranstaltung besteht typischerweise aus einer 1,5-stündigen Vorlesung und einer 1,5-stündigen Übung, wobei die Übungen nicht jede Woche stattfinden. In der ersten Vorlesung wird bekannt gegeben, wann die Übungen stattfinden. Zusätzlich gibt es eine Exkursion (freiwillig). Inhaltlich baut das Modul auf Themen wie Logistik, PPS und Fabrikplanung auf. Es ist jedoch nicht zwingend notwendig, diese Module vorher belegt zu haben, da die wichtigsten Inhalte zu Beginn noch einmal erklärt werden, um alle auf einen gemeinsamen Stand zu bringen. Behandelt werden unter anderem allgemeine Modellierung, Design und Planung im Kontext von Supply-Chain-Management-Systemen sowie Informationsmanagement. Außerdem beschäftigt man sich mit Themen wie Resilienz und Ersatzteilmanagement. Es wird empfohlen, unbedingt zur letzten Vorlesung zu gehen, da dort noch einmal Hinweise gegeben werden, was in der Klausur drankommt.",
         "klausur": "Die Klausur ist schriftlich. Im Grunde kommt genau das dran, was der Professor zuvor als wichtig hervorgehoben hat.",
         "tipps": [
@@ -2051,6 +2356,7 @@ RAW_MODULES = {
     },
     "team_project_emship": {
         "name": "Team Project EMship",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2058,6 +2364,7 @@ RAW_MODULES = {
     },
     "technical_production_processes_ships": {
         "name": "Technical Production Processes of Maritime Structures and Ships",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2065,6 +2372,7 @@ RAW_MODULES = {
     },
     "technical_fluids_sustainable_maritime": {
         "name": "Technical Fluids for Sustainable Maritime Applications",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2072,6 +2380,7 @@ RAW_MODULES = {
     },
     "technische_darstellungslehre": {
         "name": "Technische Darstellunglehre",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlagen des technischen Zeichnens, als auch die Zeichnung von Gegenständen in verschiedenen Ansichten lernt. Von „Wie halte ich den Bleistift richtig“ bis „Wie stelle ich zwei sich schneidende Körper da“. Als Klausurvorleistung müssen handgezeichnete Belege, als auch am PC erstellte 3D- Modelle, angefertigt werden.",
         "klausur": "Die Klausur ist schriftlich und umfasst einen Theorie- und auch meist zwei Zeichenteile",
         "tipps": [
@@ -2083,6 +2392,7 @@ RAW_MODULES = {
     },
     "technische_dokumentation": {
         "name": "Technische Dokumentation",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2090,6 +2400,7 @@ RAW_MODULES = {
     },
     "technische_optik": {
         "name": "Technische Optik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2097,6 +2408,7 @@ RAW_MODULES = {
     },
     "technische_mechanik_1": {
         "name": "Technische Mechanik 1: Statik",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlage vieler anderen Module lernt: Von der Definition einer Kraft, über die Bestimmung von Schwerpunkten eines Körpers bis hin zum Verhalten von Lagern und Stäben unter Belastung. Hierbei wird viel auf der Schulmathematik und Physik aufgebaut. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
@@ -2107,6 +2419,7 @@ RAW_MODULES = {
     },
     "technische_mechanik_2": {
         "name": "Technische Mechanik 2: Festigkeitslehre",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, welches auf das Modul Technische Mechanik 1 aufbaut. Hier kommt zu der Frage, welche Kräfte auf das System wirken auch die Frage, wie und ab wann sich das System unter der Belastung verändert, verbiegt und knickt. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
@@ -2117,6 +2430,7 @@ RAW_MODULES = {
     },
     "technische_mechanik_3": {
         "name": "Technische Mechanik 3: Dynamik",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, welches auf das Modul Technische Mechanik 2 aufbaut. Hier fangen die Systeme an sich zu bewegen und man erlernt die Beschreibung von Bahnenbewegungen, Stößen und Schwingungen. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
@@ -2127,6 +2441,7 @@ RAW_MODULES = {
     },
     "technische_schwingungslehre": {
         "name": "Technische Schwingungslehre",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2134,6 +2449,7 @@ RAW_MODULES = {
     },
     "technische_thermodynamik_2": {
         "name": "Technische Thermodynamik 2",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2141,6 +2457,7 @@ RAW_MODULES = {
     },
     "technologien_meeresenergienutzung": {
         "name": "Technologien zur Meeresenergienutzung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2148,6 +2465,7 @@ RAW_MODULES = {
     },
     "theorie_offshore_systeme": {
         "name": "Theorie und Entwerfen schwimmender und gegründeter Offshore-Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2155,6 +2473,7 @@ RAW_MODULES = {
     },
     "theorie_und_entwerfen_schwimmender_und_gegruendeter_offshore_systeme": {
         "name": "Theorie und Entwerfen schwimmender und gegründeter Offshore-Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2162,6 +2481,7 @@ RAW_MODULES = {
     },
     "theorie_und_entwerfen_von_unterwassersystemen": {
         "name": "Theorie und Entwerfen von Unterwassersystemen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2174,6 +2494,7 @@ RAW_MODULES = {
     },
     "thermodynamics_of_energy_and_environmental_processes": {
         "name": "Thermodynamics of Energy and Environmental Processes",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2186,6 +2507,7 @@ RAW_MODULES = {
     },
     "thermodynamik": {
         "name": "Technische Thermodynamik 1",
+        "modul_link": "",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen und Übungen. Hier lernt man welche Energieformen es gibt, wie man Systeme und Kreisläufe mit diesen beschreibt und mithilfe der Hauptsätze berechnet. Es gibt zwar keine Klausurvorleistung, doch sollte man das Modul deshalb nicht auf die leichte Schulter nehmen.",
         "klausur": "Die Klausur ist schriftlich und beinhaltet einen Theorieteil, wo Kurzfragen beantwortet werden, und einen Rechenteil, der aus ca. drei Aufgaben besteht. Die lehrstuhleigene Formelsammlung darf mitgenommen werden.",
         "tipps": [
@@ -2204,6 +2526,7 @@ RAW_MODULES = {
     
     "thermodynamik_umweltprozesse": {
         "name": "Thermodynamik von Energie- und umwelttechnischen Prozessen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2211,6 +2534,7 @@ RAW_MODULES = {
     },
     "thermodynamik_verbrennung": {
         "name": "Thermodynamik der Verbrennung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2218,6 +2542,7 @@ RAW_MODULES = {
     },
     "thermische_stroemungsmaschinen": {
         "name": "Thermische Strömungsmaschinen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2225,6 +2550,7 @@ RAW_MODULES = {
     },
     "turbulenzmodellierung": {
         "name": "Modellierung und Simulation der Turbulenz",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2232,13 +2558,17 @@ RAW_MODULES = {
     },
     "umformtechnisches_fuegen": {
         "name": "Umformtechnisches / Mechanisches Fügen",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Die Welt der Schrauben und Nieten wird euch hier erklärt. Es werden Auslegungen berechnet und Versuche gemacht. Zudem gibt es viel Anschauungsmaterial.",
+        "klausur": "Die Klausur ist schriftlich.",
+        "tipps": [
+            "Nehmt die Veranstaltungen wahr, hierbei erfahrt ihr, was in der Klausur abgefragt wird"
+        ],
         "erfahrungen": []
     },
     "umrichterregelung_erneubare_energien": {
         "name": "Umrichterregelung für Erneuerbare Energien",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2246,6 +2576,7 @@ RAW_MODULES = {
     },
     "umweltverfahrenstechnik": {
         "name": "Umweltverfahrenstechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2253,6 +2584,7 @@ RAW_MODULES = {
     },
     "unternehmensrechnung_controlling_finanzierung": {
         "name": "Unternehmensrechnung, Controlling und Finanzierung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2260,6 +2592,7 @@ RAW_MODULES = {
     },
     "ultimate_strength_assessment_of_marine_structures": {
         "name": "Ultimate Strength Assessment of Marine Structures",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2267,6 +2600,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_1": {
         "name": "Verbrennungsmotoren 1: Konstruktionsgrundlagen emissionsarmer Verbrennungsmotoren",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2274,6 +2608,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_2": {
         "name": "Verbrennungsmotoren 2: Brennverfahren, Abgasreinigung und Kraftstoffe für die Energiewende",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2281,6 +2616,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_3": {
         "name": "Verbrennungsmotoren 3: Entwicklungsmethoden für Brennverfahren und Abgasreinigung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2288,6 +2624,7 @@ RAW_MODULES = {
     },
     "verbrennungsmotoren_4": {
         "name": "Verbrennungsmotoren 4: Zukunftsstrategien für klimaneutrale Mobilität",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2295,6 +2632,7 @@ RAW_MODULES = {
     },
     "verbundwerkstoffdesign": {
         "name": "Verbundwerkstoffdesign",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2302,6 +2640,7 @@ RAW_MODULES = {
     },
     "vernetzte_produktion_und_logistik": {
         "name": "Vernetzte Produktion und Logistik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2309,6 +2648,7 @@ RAW_MODULES = {
     },
     "verteilte_eingebettete_systeme": {
         "name": "Verteilte eingebettete Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2316,6 +2656,7 @@ RAW_MODULES = {
     },
     "waerme_stoffuebertragung": {
         "name": "Wärme- und Stoffübertragung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2323,6 +2664,7 @@ RAW_MODULES = {
     },
     "werkstoffanalytik": {
         "name": "Werkstoffanalytik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2330,6 +2672,7 @@ RAW_MODULES = {
     },
     "werkstofftechnik": {
         "name": "Werkstofftechnik 1",
+        "modul_link": "",
         "beschreibung": "Das Modul geht über zwei Semester, wobei das erste Semester aus 90-minütigen Vorlesungen und allen zwei Wochen stattfindenden Übungen und das zweite aus Laborpraktika besteht. Hier lernt man welche verschiedenen Werkstoffe es gibt, wie sie chemisch aufgebaut sind und wie man sie behandeln kann, um die Eigenschaften des Endprodukts nach belieben zu verändern. Als Klausurvorleistung müssen die Laborpraktika bestanden werden, welche aus einer Fragerunde und einer kleinen Demonstration der verschiedenen Untersuchungsmethoden von Werkstoffen bestehen.",
         "klausur": "Die Klausur ist schriftlich. Die Probeklausuren helfen sehr, da einige Fragen der Klausur wiederverwendet werden.",
         "tipps": [
@@ -2341,6 +2684,7 @@ RAW_MODULES = {
     },
     "werkstofftechnik_2": {
         "name": "Werkstofftechnik 2: Erweiterte Grundlagen",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2348,6 +2692,7 @@ RAW_MODULES = {
     },
     "widerstand_und_propulsion": {
         "name": "Widerstand und Propulsion",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2355,6 +2700,7 @@ RAW_MODULES = {
     },
     "windenergie_simulation": {
         "name": "Simulation von Windenergieanlagen - Einführung und praktische Anwendung",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2362,6 +2708,7 @@ RAW_MODULES = {
     },
     "windenergietechnik": {
         "name": "Windenergietechnik",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2369,6 +2716,7 @@ RAW_MODULES = {
     },
     "x_ray": {
         "name": "X-ray techniques for materials characterisation",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2376,6 +2724,7 @@ RAW_MODULES = {
     },
     "zuverlaessigkeit_und_testbarkeit_elektronischer_systeme": {
         "name": "Zuverlässigkeit und Testbarkeit elektronischer Systeme",
+        "modul_link": "",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
