@@ -190,13 +190,21 @@ RAW_MODULES = {
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
         "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/angewandte-stroemungsmechanik-in-natur-und-technik/",
-        "beschreibung": "Es ist eine Ringvorlesung. Man muss nicht zu allen Veranstaltungen gehen, aber ihr bekommt vorher einen Plan mit allen Terminen und Themen. Daran kann man sich gut orientieren.",
+        "beschreibung": "Es ist eine Ringvorlesung. Man muss nicht zu allen Veranstaltungen gehen, aber ihr bekommt vorher einen Plan mit allen Terminen und Themen. Daran kann man sich gut orientieren. Es ist eine gute Fühler Veranstaltung für die Vertiefung, falls man nciht weiß was man nehmen soll",
         "klausur": "Es ist eine Hausarbeit, die anschließend präsentiert wird. Die Themen werden in den ersten Wochen ausgesucht und es gibt wirklich viele verschiedene Themen, da ist bestimmt für jeden etwas dabei.",
         "tipps": [
             "Geht zu den Vorlesungen, es lohnt sich echt",
             "Fang früh mit der Hausarbeit an"
+            "Thema sollte man sich gut aussuchen und viel rücksprache mit dem Betreuer halten"
         ],
-        "erfahrungen": []
+        "erfahrungen": [
+            
+            {
+                "semester": "SS25",
+                "bericht": "Sehr cooles und interessantes Modul. Fachlich geht es nicht extrem tief in einzelne Themen, dafür bekommt man aber viele spannende Einblicke in aktuelle Forschung und unterschiedliche Bereiche. Man hört zu vielen Themen etwas, entwickelt dabei allerdings eher einen breiten Überblick statt tiefer Grundkompetenzen in einem speziellen Gebiet. Für die persönliche akademische Entwicklung und um verschiedene Forschungsrichtungen kennenzulernen, ist das Modul aber wirklich sehr empfehlenswert."
+            }
+
+        ]
     },
     "angewandte_stroemungssimulation": {
         "name": "Angewandte Strömungssimulation",
@@ -760,10 +768,20 @@ RAW_MODULES = {
     "englisch_fachkommunikation_ing_c12": {
         "name": "Englisch Fachkommunikation Ingenieurwissenschaften C1.2 GER",
         "modul_link": "",
-        "beschreibung": "Das Modul umfasst zweimal wöchentlich 90 Minuten Kurs. Hierbei werdet Ihr euren aktuellen Sprachstand ermitteln, Texte auf Englisch verfassen, sowie neue sprachliche Redewendungen und Vokabeln an die Hand bekommen. Zudem werdet Ihr lernen, wie Bewerbungen richtig verfasst werden und einen Einblick in den Umgang mit Dictionaries bekommen. Essenziell für jeden Maschinenbauingenieur.",
+        "beschreibung": "Das Modul umfasst zweimal wöchentlich 90 Minuten Kurs.Es gibt eine Anwesenheitspflicht von etwa 80 %. Mit den Dozierenden kann man aber meistens gut reden, zum Beispiel zählen Krankheitsfälle in der Regel nicht negativ rein, wenn man sich vorher ordentlich abmeldet. Hierbei werdet Ihr euren aktuellen Sprachstand ermitteln, Texte auf Englisch verfassen, sowie neue sprachliche Redewendungen und Vokabeln an die Hand bekommen. Zudem werdet Ihr lernen, wie Bewerbungen richtig verfasst werden und einen Einblick in den Umgang mit Dictionaries bekommen. Essenziell für jeden Maschinenbauingenieur. Die Prüfungsvorleistung ändert sich teilweise von Semester zu Semester.",
         "klausur": "Die Klausur hat einen schriftlichen und mündlichen Anteil und qualifiziert euch für das UniCert III exam.",
-        "tipps": [],
-        "erfahrungen": []
+        "tipps": [
+            "Die Klausur selbst ist eher einfach aufgebaut und besteht aus verschiedenen Textformen, die man vorher behandelt hat. ",
+            "Auch die sprachlichen Formen und Formulierungen, die relevant sind, werden im Unterricht ausführlich besprochen."
+        ],
+        "erfahrungen": [
+            
+            {
+                "semester": "SS24",
+                "bericht": "Gutes Modul, wenn man noch nicht genau weiß, was man später machen möchte, da es auch für Bewerbungen sinnvoll sein kann. Wenn man Englisch im Abi hatte, sollte das Sprachniveau normalerweise völlig ausreichen, um im Modul gut mitzukommen."
+            }
+
+        ]
     },
     "englisch_fachkommunikation_maschinenbau_c11": {
         "name": "Englisch Fachkommunikation Maschinenbau C1.1 GER",
@@ -1033,10 +1051,22 @@ RAW_MODULES = {
     "grundlagen_akustik": {
         "name": "Grundlagen der Akustik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul besteht aus jeweils 1,5 Stunden Vorlesung und Übung pro Woche. Es handelt sich um eine eher grundlegende Vorlesung, die gleichzeitig sehr angewandt mathematisch aufgebaut ist. Die Übungen bestehen größtenteils aus Simulationen und Anwendungen der behandelten Inhalte. Ein gutes mathematisches Verständnis ist definitiv hilfreich, auch wenn vieles in der Vorlesung gut erklärt wird. Man muss die Zusammenhänge aber selbst nachvollziehen können. Besonders wichtig sind Strömungsmechanik und das Lösen von Gleichungssystemen, teilweise auch mit sehr vielen Unbekannten. Inhaltlich geht es stark darum, wie komplexe Systeme mathematisch beschrieben und gelöst werden. Das Modul eignet sich besonders für Leute, die Interesse an Strömungsmaschinen, Maschinenauslegung oder auch Akustik haben.",
+        "klausur": "Die Prüfung ist mündlich und dauert ungefähr 30 Minuten. Inhaltlich ist sie eher anspruchsvoll. Es geht viel um Herleitungen, das Verständnis von Prozessen und darum, wie bestimmte Zusammenhänge mathematisch berechnet werden.",
+        "tipps": [
+            "Zusätzliche Literatur lohnt sich hier definitiv. ",
+            "Besonders wichtig ist es, die Herleitungen nicht nur anzuschauen, sondern wirklich Schritt für Schritt nachzuvollziehen und zu verstehen. ",
+            "Die Vorlesung ist extrem hilfreich, sobald man die Herleitungen verstanden hat, muss man sich vieles später nicht mehr komplett alleine erarbeiten.",
+            "Die Übungen sind sehr interessant, wenn man Spaß an Anwendungen und Simulationen hat."
+        ],
+        "erfahrungen": [
+            
+            {   
+                "semester": "WS24/25",
+                "bericht": "Sehr interessantes Modul, das ich besonders empfehlen würde, wenn man Mathematik mag. Wenn einem mathematische Inhalte eher nicht liegen, wird das Modul wahrscheinlich deutlich schwieriger. Mir persönlich hat es sehr viel Spaß gemacht, vor allem weil man lernt, die Prozesse hinter den Gleichungen wirklich zu verstehen und die Methoden später auch auf andere Themen übertragen kann."
+            }
+
+        ]
     },
     "grundlagen_angewandten_muskuloskelettalen_biomechanik_orthopaedietechnik": {
         "name": "Grundlagen der angewandten muskulo-skelettalen Biomechanik und Orthopädietechnik",
@@ -1200,10 +1230,20 @@ RAW_MODULES = {
     "hydraulische_stroemungsmaschinen": {
         "name": "Hydraulische Strömungsmaschinen",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul besteht aus jeweils 1,5 Stunden Vorlesung und Übung pro Woche. Inhaltlich geht es um inkompressible Medien und die elementaren Grundlagen von Strömungsmaschinen. Behandelt werden unter anderem die Herleitung grundlegender Gleichungen, die Auslegung und der Entwurf von Radialmaschinen, Anlagenregelung, Kavitation, Propellerentwurf sowie Energiegewinnung aus Wasser und Wind. Das Modul vermittelt eine sehr gute Grundlage, um Strömungsmaschinen und deren Funktionsweise wirklich zu verstehen.",
+        "klausur": "Die Prüfung ist mündlich und dauert ungefähr 30 Minuten. Meistens gibt es drei Oberthemen: Das erste Thema darf man sich teilweise selbst aussuchen, das zweite wird vom Professor vorgegeben und das dritte kommt häufig vom Übungsleiter. Inhaltlich geht es viel um Verständnis, Herleitungen und Zusammenhänge.",
+        "tipps": [
+            "Die Herleitung der Euler-Gleichung sollte man wirklich auswendig können und genauso nachvollziehen können wie in der Vorlesung, da sie praktisch immer gefragt wird."
+            "Außerdem kommt häufig entweder eine Frage zu Kavitation oder zu grundlegenden Gleichungen wie der Impulserhaltung "
+            "Als drittes Thema kommen oft Anlagen- oder Kennlinienregelungen dran, auch wenn natürlich immer etwas anderes gefragt werden kann. "
+            "Die Vorlesung aufmerksam zu verfolgen und die Herleitungen sauber nachzuarbeiten."
+        ],
+        "erfahrungen": [
+            {
+                "semester": "WS23/24",
+                "bericht": "Sehr gutes Modul, wenn man verstehen möchte, wie Strömungsmechanik praktisch in Strömungsmaschinen angewendet wird. Besonders hilfreich ist das Verständnis dafür, wie die Maschinen funktionieren und wie man sie auslegt. Das Modul ist allerdings schon recht spezialisiert und vertieft. Wenn man später beruflich in diesem Bereich arbeiten möchte, lohnt es sich definitiv."
+            }
+        ]
     },
     "ideenfindung_entwicklung": {
         "name": "Ideenfindung und -entwicklung",
@@ -1393,10 +1433,19 @@ RAW_MODULES = {
     "labor_thermische_maschinen": {
         "name": "Laborpraktikum: Thermische Maschinen - Effizienz und Umwelt",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Ein praxisnahes Labor-Modul (soll 3h gehen, manchmal länger, manchmal kürzer) mit verschiedenen Versuchen an unterschiedlichen Prüfständen, z. B. im Bereich Motoren und Abgasnachbehandlung. Vor jedem Praktikum müssen Vorbereitungsfragen bearbeitet werden, die von den Betreuenden zugeschickt werden. Zu jedem Versuch gehört außerdem ein Protokoll, das bewertet wird. Offiziell hat man etwa eine Woche Zeit für die Bearbeitung, meistens kann man aber auch mit den Betreuenden reden, falls es knapp wird.",
+        "klausur": "Die Note setzt sich entweder aus dem Durchschnitt aller Protokolle zusammen oder es gibt zusätzlich eine mündliche Prüfung. Voraussetzung dafür ist aber, dass alle Protokolle bestanden wurden.",
+        "tipps": [
+            "Die Protokolle sollte man wirklich ordentlich machen, da sie einen großen Einfluss auf die Note haben.",
+             "Die Vorbereitungsfragen helfen später auch für die Versuche und sollten deshalb vernünftig ausgearbeitet werden.",
+             "Wenn möglich, lieber die gute Protokollnote mitnehmen statt die zusätzliche mündliche Prüfung."
+                  ],
+        "erfahrungen": [
+            {
+            "semester":"SS25",
+            "bericht":"Zeitaufwendiges Modul mit ungefähr 10–12 Protokollen im Semester. Inhaltlich nicht besonders schwer, aber man muss konstant dranbleiben. Für eine sehr gute Note muss man sich bei den Protokollen wirklich Mühe geben, weil schon ein schlechteres Protokoll die Gesamtnote deutlich nach unten ziehen kann. Dafür hat man aber eine Klausur weniger im Semester."
+            }
+        ]
     },
     "labor_werkstofftechnik": {
         "name": "Laborpraktikum Werkstofftechnik",
@@ -1597,10 +1646,20 @@ RAW_MODULES = {
     "mehrstoffthermodynamik": {
         "name": "Mehrstoffthermodynamik",
         "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Die Vorlesung besteht aus insgesamt 3 × 45 Minuten pro Woche (in einer Woche gibt es 90 Minuten Vorlesung, in der nächsten zweimal 90 Minuten). Zusätzlich gibt es jede Woche eine Übung. Inhaltlich geht es nicht mehr nur um ideale Reinstoffe, sondern vor allem um Mischungen und deren Verhalten im nichtidealen Fall. Chemie spielt dabei auch eine Rolle, allerdings nicht übermäßig stark, und der Dozent hilft bei Verständnisproblemen gut weiter. Das Modul ist besonders wichtig für thermodynamisches Arbeiten, da in der Praxis selten nur mit idealen Reinstoffen gearbeitet wird.<br><br> Es gibt keine Prüfungszulassung.",
+        "klausur": "Die Prüfung ist mündlich. Am Anfang gibt es meistens eine Rechenaufgabe, die man entweder erst alleine lösen und danach erklären kann oder direkt während des Rechnens erklärt. Dieser Teil dauert ungefähr 10–15 Minuten. Danach folgen Theorie- und Verständnisfragen zum Stoff aus der Vorlesung.",
+        "tipps": [
+            "Die Übungsaufgaben und zusätzlichen Aufgaben sollte man auf jeden Fall bearbeiten, da sich die mündliche Prüfung stark daran orientiert.",
+            "Außerdem gibt es hilfreiche Literatur zum Modul, die man sich anschauen sollte.",
+            "Vorlesung und Übung regelmäßig zu besuchen ist hier wirklich wichtig, sonst verliert man schnell den Anschluss.",
+            "Man sollte sich außerdem bewusst sein, dass das Modul eine Mischung aus Thermodynamik und Chemie ist und deshalb nicht unbedingt das beste „Fühlmodul“ für nebenbei ist."
+            ],
+        "erfahrungen": [
+            {
+                "semester":"SS24",
+                "bericht":"Sehr interessantes und wichtiges Modul, wenn man sich tiefer mit Thermodynamik beschäftigen möchte. Gleichzeitig aber auch eines der schwereren Module im Master. Man muss definitiv Zeit investieren und kontinuierlich mitarbeiten, aber der Aufwand lohnt sich am Ende."            
+            }
+        ]
     },
     "meeresforschungstechnik": {
         "name": "Meeresforschungstechnik",
@@ -1808,12 +1867,18 @@ RAW_MODULES = {
         "klausur": "Schriftliche Prüfung mit: 2–3 Rechenaufgaben und 3–4 Theoriefragen",
         "tipps": [
             "Sehr früh anfangen zu lernen.",
-            ""
+            "Alle Übungsaufgaben sollte man wirklich durchrechnen. Wenn man damit sicher umgehen kann, ist man für die Prüfung schon sehr gut vorbereitet.",
+            "Außerdem lohnt es sich, einen ordentlichen und gut strukturierten Formelzettel zu erstellen. ",
+            "Die zusätzliche Literatur beziehungsweise das Buch, an dem sich die Vorlesung orientiert, kann ebenfalls sehr hilfreich sein und ist definitiv einen Blick wert."
         ],
         "erfahrungen": [
             {
-            "semester":"WS24/25",
+            "semester":"WS25/26",
             "bericht": "Ich fand es sehr schwer zu verstehen, da man alles mitschreiben musste und dadurch kaum Zeit hatte, das Erklärte wirklich zu durchdenken oder zu verinnerlichen, sodass man noch Fragen stellen kann. Die Prüfung war nicht extrem schwer, aber auf keinen Fall leicht. Man muss die Übungen wirklich sehr gut beherrschen, um eine gute bis sehr gute Note zu erreichen. Die Theoriefragen wirkten ziemlich zufällig und waren schwer einzuordnen. Ich würde das Modul empfehlen, wenn man Interesse an physikalischer Mathematik und Rechenaufgaben hat."
+            },
+            {
+            "semester":"WS24/25",
+            "bericht": "Sehr interessantes Modul, besonders wenn man später im Bereich Strömungsmaschinen arbeitet, da man dort häufig mit Fluiden unterschiedlicher Dichte zu tun hat. Die Vorlesung ist insgesamt sehr gut aufgebaut und strukturiert, wodurch man den Inhalten gut folgen kann."
             }
         ]
     },
@@ -1857,13 +1922,18 @@ RAW_MODULES = {
     "tipps": [
         "Die Übungen zu Vorwärts-, Rückwärts- und weiteren numerischen Verfahren sind sehr hilfreich.",
         "Unbedingt die Konsultationen von Hüttmann nutzen, besonders wenn bereits konkrete Fragen gesammelt wurden.",
-        "Die Vorlesungen regelmäßig besuchen, da die Prüfung sehr nah an den dort erklärten Inhalten orientiert ist."
+        "Die Vorlesungen regelmäßig besuchen, da die Prüfung sehr nah an den dort erklärten Inhalten orientiert ist.",
+        "Zusätzliche Literatur kann hilfreich sein, um manche Themen noch einmal aus einem anderen Blickwinkel zu verstehen. Der Dozent lädt dazu auch ergänzende Materialien hoch, die man sich anschauen sollte."
     ],
     "erfahrungen": [
         {
-            "semester": "WS24/25",
+            "semester": "WS25/26",
             "bericht": "Sehr cooles Modul, definitiv nicht eines der leichtesten, aber wenn man Interesse an dem Thema hat, macht es wirklich Spaß. Die Dozenten sind super engagiert und sehr studentennah. Die mündliche Prüfung war total angenehm. Durch die entspannte Art der beiden war die Aufregung schnell weg. Insgesamt war die Note genau wie erwartet, und das Verhältnis von Aufwand zu Ergebnis war wirklich gut."
-            }
+        },
+        {
+            "semester": "WS24/25",
+            "bericht": "Sehr interessantes Modul, allerdings auch ziemlich mathematisch. Es hilft weniger für direkte Anwendungen, dafür aber sehr beim grundsätzlichen Verständnis der Zusammenhänge. Das Modul ist anspruchsvoll, aber mit guter Vorbereitung und den Inhalten aus der Vorlesung gut machbar."
+        }
     ]
 },
     "open_space": {
@@ -2136,10 +2206,20 @@ RAW_MODULES = {
     "regenerative_energietechnik": {
         "name": "Regenerative Energietechnik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul besteht aus jeweils 1,5 Stunden Vorlesung und Übung pro Woche. Zusätzlich gibt es manchmal freiwillige Exkursionen, zum Beispiel zu einem stillgelegten Atomkraftwerk oder zum Wendelstein 7-X in Greifswald. Inhaltlich geht es um Energiespeichertechnologien – von mechanischen Speichern bis hin zu vielen anderen Speicherarten. Behandelt werden sowohl die technischen und physikalischen Funktionsweisen als auch die Frage, wie man die Speicher sinnvoll einbinden kann, etwa für Kurzzeit- oder Langzeitspeicherung und unterschiedliche Kapazitäten. Die Übungen sind eher anwendungsorientiert und beinhalten auch Simulationen, was sehr beim Verständnis hilft. Das Modul ist besonders wichtig, wenn man sich weiter mit Thermodynamik beschäftigen möchte, da Energiespeicher ein grundlegender Bestandteil davon sind.",
+        "klausur": "Die Prüfung ist mündlich. Zu Beginn hält man einen etwa 10-minütigen Vortrag über ein selbstgewähltes Thema. Danach folgen ungefähr 5 Minuten Fragen zum Vortrag und anschließend allgemeine Fragen zur Vorlesung.",
+        "tipps": [
+            "Die Vorlesung ist wirklich gut und deckt bereits einen großen Teil der Prüfungsinhalte ab.",
+            "Beim Vortragsthema kann man ruhig kreativ werden, es sollte zwar zur Vorlesung passen, aber der Professor möchte nicht jedes Semester dieselben Themen hören.",
+            "Außerdem lädt er zusätzliche Literatur hoch, die man auf jeden Fall nutzen sollte. Besonders hilfreich ist laut vielen die Literatur von Erich Rummich.",
+            "Falls eine Exkursion angeboten wird, sollte man die unbedingt mitnehmen."
+        ],
+        "erfahrungen": [
+            {
+                "semester":"WS23/24",
+                "bericht":"Für den Prüfungsvortrag hat es sich gelohnt, ein eher unkonventionelles Thema zu wählen, weil dadurch eine spannende Diskussion entstanden ist. Den Aufbau von Batterien sollte man sich unbedingt anschauen und auch skizzieren können – besonders die Gehäuse und deren Aufbau. Insgesamt ein sehr cooles Modul, das Spaß gemacht hat. Mit etwas Aufwand kann man hier eine sehr gute Note erreichen, vom Schwierigkeitsgrad liegt es aber eher im Mittelfeld."
+            }
+        ]
     },
     "renewable_energy_grid_connection_controller_design_grid_code_requirements": {
         "name": "Renewable Energy: Grid Connection, Controller Design and Grid Code Requirements",
@@ -2596,10 +2676,18 @@ RAW_MODULES = {
     "thermodynamik_umweltprozesse": {
         "name": "Thermodynamik von Energie- und umwelttechnischen Prozessen",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul wird auf Englisch unterrichtet und ist etwas wie eine Ringvorlesung mit drei verschiedenen Dozenten aufgebaut. Die Themenbereiche sind Stoffdatenmessung, Simulationsthemen wie Biogasverbrennung sowie Verbrennungsprozesse bei Motoren. Die Bereiche sind dabei nicht gleichmäßig aufgeteilt, da der erste Themenblock deutlich mehr Vorlesungen umfasst. Pro Woche gibt es 1,5 Stunden Vorlesung und Übung, wobei sich beides eher wie Vorlesung anfühlt. Inhaltlich bekommt man grundlegendes Wissen vermittelt, vor allem zu Unsicherheiten und Fehlerrechnung, was sich später auch gut auf andere Bereiche übertragen lässt. Außerdem erhält man einen guten Einblick in experimentelle und simulationsbasierte Forschungsarbeit.",
+        "klausur": "Die Prüfung ist mündlich und dauert ungefähr 30 Minuten. Dabei werden Fragen aus allen Themenbereichen gestellt. Wichtig ist, dass die Fachbegriffe und die Terminologie sicher sitzen. Die Prüfung startet meist mit normalen Theoriefragen und geht später mehr in zusammenhängende Konzepte und Verständnisfragen über.",
+        "tipps": [
+            "Am Anfang sollte man sich nicht abschrecken lassen. Zu Beginn wirkt das Modul etwas kompliziert und man weiß nicht sofort, worauf alles hinausläuft, aber wenn man sich einmal eingearbeitet hat, ist das Modul eigentlich gut machbar und sehr dankbar.",
+            "Es kann hilfreich sein, sich die realen Anlagen und Systeme aus der Vorlesung noch einmal genauer anzuschauen, zum Beispiel über Hersteller-Websites oder ähnliche Quellen. Das hilft vor allem fürs Verständnis und die Vorstellung, wird aber nicht extrem detailliert in der Prüfung abgefragt."
+        ],
+        "erfahrungen": [
+            {
+                "semester": "WS23/24",
+                "bericht": "Sehr cooles und dankbares Modul. Am Anfang etwas schwer reinzukommen, aber später versteht man die Zusammenhänge deutlich besser. Besonders interessant war es, Forschung aus verschiedenen Perspektiven kennenzulernen. Vom Schwierigkeitsgrad eher im Mittelfeld: Bestehen ist mit überschaubarem Aufwand möglich, aber mit etwas zusätzlicher Arbeit kann man auch eine sehr gute Note erreichen."
+            }
+        ]
     },
     "thermodynamik_verbrennung": {
         "name": "Thermodynamik der Verbrennung",
