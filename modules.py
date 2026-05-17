@@ -106,7 +106,7 @@ RAW_MODULES = {
     },
     "additive_fertigungsverfahren": {
         "name": "Additive Fertigungsverfahren",
-        "modul_link": "",
+        "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/additive-fertigungsverfahren/",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch terminlich individuelle Praktika. Hier lernt man die verschiedenen Verfahren der Addiviten Fertigung kennen, sowie ihre Anwendungsbereiche. In den Praktika (in kleinen Gruppen) müssen Bauteile konstruiert und gedruckt werden sowie ein Bericht dazu erstellt werden. Als Prüfungsvorleistung muss das Praktikum absolviert sein.",
         "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden sowie die Tipps des Professors beachtet werden.Tipps",
         "tipps": [
@@ -227,7 +227,7 @@ RAW_MODULES = {
     },
     "antriebssteuerung": {
         "name": "Antriebssteuerung",
-        "modul_link": "",
+        "modul_link": "https://www.lfm.uni-rostock.de/lehre/bachelor/antriebssteuerung/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -653,7 +653,7 @@ RAW_MODULES = {
     },
     "einfuehrung_meerestechnik": {
         "name": "Einführung in die Meerestechnik",
-        "modul_link": "",
+        "modul_link": "https://www.lmt.uni-rostock.de/lehre/sommersemester/grundlagen-der-meerestechnik-bachelor/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1191,7 +1191,7 @@ RAW_MODULES = {
     },
     "hydraulik_pneumatik": {
         "name": "Hydraulik und Pneumatik",
-        "modul_link": "",
+        "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/hydraulik-und-pneumatik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1327,7 +1327,7 @@ RAW_MODULES = {
     },
     "komponenten_mechatronischer_systeme": {
         "name": "Komponenten mechatronischer Systeme",
-        "modul_link": "",
+        "modul_link": "https://www.lfm.uni-rostock.de/lehre/lehrveranstaltungen/komponenten-mechatronischer-systeme/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1612,7 +1612,7 @@ RAW_MODULES = {
     },
     "meeresforschungstechnik": {
         "name": "Meeresforschungstechnik",
-        "modul_link": "",
+        "modul_link": "https://www.lmt.uni-rostock.de/lehre/wintersemester/meeresforschungstechnik-master/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1656,7 +1656,7 @@ RAW_MODULES = {
     },
     "mikrofluidik": {
         "name": "Mikrofluidik",
-        "modul_link": "",
+        "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/mikrofluidik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1988,7 +1988,7 @@ RAW_MODULES = {
     },
     "projekt_additive_fertigung": {
         "name": "Projekt Additive Fertigung",
-        "modul_link": "",
+        "modul_link": "https://www.lfm.uni-rostock.de/lehre/bachelor/projekt-additive-fertigung/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2265,7 +2265,7 @@ RAW_MODULES = {
     },
      "sea_loads_on_offshore_structures_emship": {
         "name": "Sea loads on Offshore structures",
-        "modul_link": "",
+        "modul_link": "https://www.lmt.uni-rostock.de/lehre/wintersemester/sea-loads-on-offshore-structures-emship/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2542,7 +2542,7 @@ RAW_MODULES = {
     },
     "theorie_offshore_systeme": {
         "name": "Theorie und Entwerfen schwimmender und gegründeter Offshore-Systeme",
-        "modul_link": "",
+        "modul_link": "https://www.lmt.uni-rostock.de/lehre/wintersemester/theorie-und-entwerfen-schwimmender-und-gegruendeter-offshore-systeme-master/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2558,7 +2558,7 @@ RAW_MODULES = {
     },
     "theorie_und_entwerfen_von_unterwassersystemen": {
         "name": "Theorie und Entwerfen von Unterwassersystemen",
-        "modul_link": "",
+        "modul_link": "https://www.lmt.uni-rostock.de/lehre/sommersemester/theorie-und-entwerfen-von-unterwassersystemen-master/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
