@@ -98,7 +98,7 @@ def normalize_modules(modules_dict):
 RAW_MODULES = {
     "aktive_systeme_kraftfahrzeug": {
         "name": "Aktive Systeme im Kraftfahrzeug",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/sommersemester-master/aktive-systeme-im-kraftfahrzeug/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -533,7 +533,7 @@ RAW_MODULES = {
     },
     "digitale_regelung": {
         "name": "Digitale Regelung",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/sommersemester-bachelor/digitale-regelung/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1620,7 +1620,7 @@ RAW_MODULES = {
     },
     "messtechnik": {
         "name": "Grundlagen der Messtechnik",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/wintersemester-bachelor/grundlagen-der-messtechnik/",
         "beschreibung": "Grundlagen technischer Messverfahren und Auswertung.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1728,7 +1728,7 @@ RAW_MODULES = {
     },
     "moderne_methoden_regelungstechnik": {
         "name": "Moderne Methoden der Regelungstechnik",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/wintersemester-bachelor/grundlagen-der-messtechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1792,7 +1792,7 @@ RAW_MODULES = {
     },
     "nichtlineare_regelungssysteme": {
         "name": "Nichtlineare Regelungssysteme",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/wintersemester-master/nichtlineare-regelungssysteme/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1884,7 +1884,7 @@ RAW_MODULES = {
     },
     "optimierungsmethoden_mechatronik": {
         "name": "Optimierungsmethoden in der Mechatronik",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/sommersemester-master/optimierungsmethoden-in-der-mechatronik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2119,7 +2119,7 @@ RAW_MODULES = {
     },
     "regelungstechnik": {
         "name": "Systemdynamik und Regelungstechnik",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/sommersemester-bachelor/systemdynamik-und-regelungstechnik/",
         "beschreibung": "Einführung in Regelkreise, Systeme und deren Verhalten.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2127,7 +2127,7 @@ RAW_MODULES = {
     },
     "regelungsorientierte_modellbildung_mechatronik": {
         "name": "Regelungsorientierte Modellbildung in der Mechatronik",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/wintersemester-master/regelungsorientierte-modellbildung-in-der-mechatronik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2135,7 +2135,7 @@ RAW_MODULES = {
     },
     "regelungssysteme_zustandsraum": {
         "name": "Regelungssysteme im Zustandsraum",
-        "modul_link": "",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/wintersemester-bachelor/regelungssysteme-im-zustandsraum/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
