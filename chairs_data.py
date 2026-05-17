@@ -23,6 +23,10 @@ CHAIRS = {
             "schiffsfertigungstechnik",
             "anlagenwirtschaft",
             "qualitaetsmanagement",
+            "ausgewaehlte_fertigungsverfahren",
+            "automobile_produktion",
+            "steuerungstechnik",
+            "technical_production_processes_ships"
         ]
     },
     "fuegetechnik": {
@@ -60,6 +64,8 @@ CHAIRS = {
             "kolben_stroemungsmaschinen",
             "kraft_schmierstoffe_co2",
             "aufladung_verbrennungsmotor",
+            "motor_energiemanagement",
+            "engine_thermodynamics",
         ]
     },
     "leichtbau": {

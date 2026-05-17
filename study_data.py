@@ -440,7 +440,9 @@ DATA = {
                 "technologien_meeresenergienutzung",
                 "computational_modelling_of_biomaterials_and_their_interaction_with_tissue",
                 "x_ray",
-                "deep_learning"
+                "deep_learning",
+                "motor_energiemanagement",
+                "engine_thermodynamics",
             ],
             "nichttechnischer_wahlpflichtbereich":[
                 "einfuehrung_cpp",

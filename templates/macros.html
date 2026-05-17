@@ -11,20 +11,20 @@
       </summary>
 
       <div class="module-card-body">
-        {% if modul.beschreibung %}
+         {% if modul.beschreibung %}
           <div class="module-description full-width">
             <h5>{{ t.module_description }}</h5>
             <p>{{ modul.beschreibung | safe }}</p>
-
-            {% if modul.modul_link %}
-              <a href="{{ modul.modul_link if modul.modul_link else '#' }}"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="module-link-button">
-                ↗ Zur offiziellen Modulbeschreibung
-              </a>
-            {% endif %}
           </div>
+        {% endif %}
+
+        {% if modul.modul_link %}
+          <a href="{{ modul.modul_link }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="module-link-button">
+            ↗ Zur offiziellen Modulbeschreibung
+          </a>
         {% endif %}
 
         {% if modul.klausur %}
