@@ -315,7 +315,7 @@ RAW_MODULES = {
     },
     "betriebsfestigkeit": {
         "name": "Betriebsfestigkeit",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/master/betriebsfestigkeit/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -589,7 +589,7 @@ RAW_MODULES = {
     },
     "dynamik_mehrkoerpersysteme": {
         "name": "Dynamik von Mehrkörpersystemen",
-        "modul_link": "",
+        "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/dynamik-von-mehrkoerpersystemen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -727,7 +727,7 @@ RAW_MODULES = {
     },
     "elastische_mehrkoerpersysteme": {
         "name": "Elastische Mehrkörpersysteme",
-        "modul_link": "",
+        "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/elastische-mehrkoerpersysteme/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -792,7 +792,7 @@ RAW_MODULES = {
     },
     "energietechnik": {
         "name": "Energietechnik",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -824,7 +824,7 @@ RAW_MODULES = {
     },
     "ermuedungsrisse": {
         "name": "Ermüdungsrisse",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/master/ermuedungsrisse/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -920,7 +920,7 @@ RAW_MODULES = {
     },
     "festigkeitsoptimiertes_bruchsicheres": {
         "name": "Festigkeitsoptimiertes und bruchsicheres Gestalten",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/master/festigkeitsoptimiertes-und-bruchsicheres-gestalten/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1279,7 +1279,7 @@ RAW_MODULES = {
     },
     "kaelte_klimatechnik": {
         "name": "Kälte- und Klimatechnik",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1525,7 +1525,7 @@ RAW_MODULES = {
     },
     "maschinendynamik": {
         "name": "Maschinendynamik",
-        "modul_link": "",
+        "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/maschinendynamik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1604,7 +1604,7 @@ RAW_MODULES = {
     },
     "mehrstoffthermodynamik": {
         "name": "Mehrstoffthermodynamik",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1744,7 +1744,7 @@ RAW_MODULES = {
     },
     "moderne_windenergieanlagen": {
         "name": "Moderne Windenergieanlagen",
-        "modul_link": "",
+        "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/elastische-mehrkoerpersysteme-1-1/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1956,7 +1956,7 @@ RAW_MODULES = {
     },
     "principles_of_energy_technology_systems_and_applications_in_maritime_context": {
         "name": "Principles of energy technology: systems & applications in maritime context",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2175,7 +2175,7 @@ RAW_MODULES = {
     },
     "robotertechnik": {
         "name": "Robotertechnik",
-        "modul_link": "",
+        "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/robotertechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2397,7 +2397,7 @@ RAW_MODULES = {
     },
     "strukturmechanik_fem_1": {
         "name": "Strukturmechanik und FEM 1: Grundlagen",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/bachelor/strukturmechanik-und-fem-1/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2405,7 +2405,7 @@ RAW_MODULES = {
     },
     "strukturmechanik_fem_2": {
         "name": "Strukturmechanik und FEM 2: Erweiterte Grundlagen",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/master/strukturmechanik-und-fem-2/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2482,7 +2482,7 @@ RAW_MODULES = {
     },
     "technische_mechanik_1": {
         "name": "Technische Mechanik 1: Statik",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/bachelor/technische-mechanik-1-statik/",
         "beschreibung": "Das Modul umfassen 135-minütige Vorlesungen, 90-Minütige Übungen und Tutorien, wo man die Grundlage vieler anderen Module lernt: Von der Definition einer Kraft, über die Bestimmung von Schwerpunkten eines Körpers bis hin zum Verhalten von Lagern und Stäben unter Belastung. Hierbei wird viel auf der Schulmathematik und Physik aufgebaut. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
@@ -2496,7 +2496,7 @@ RAW_MODULES = {
     },
     "technische_mechanik_2": {
         "name": "Technische Mechanik 2: Festigkeitslehre",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/bachelor/technische-mechanik-2-festigkeit/",
         "beschreibung": "Das Modul umfassen 135-minütige Vorlesungen, 90-Minütige Übungen und Tutorien, welches auf das Modul Technische Mechanik 1 aufbaut. Hier kommt zu der Frage, welche Kräfte auf das System wirken auch die Frage, wie und ab wann sich das System unter der Belastung verändert, verbiegt und knickt. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
@@ -2507,7 +2507,7 @@ RAW_MODULES = {
     },
     "technische_mechanik_3": {
         "name": "Technische Mechanik 3: Dynamik",
-        "modul_link": "",
+        "modul_link": "https://www.stm.uni-rostock.de/lehre/bachelor/technische-mechanik-3-dynamik/",
         "beschreibung": "Das Modul umfassen 135-minütige Vorlesungen, 90-Minütige Übungen und Tutorien, welches auf das Modul Technische Mechanik 2 aufbaut. Hier fangen die Systeme an sich zu bewegen und man erlernt die Beschreibung von Bahnenbewegungen, Stößen und Schwingungen. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
@@ -2526,7 +2526,7 @@ RAW_MODULES = {
     },
     "technische_thermodynamik_2": {
         "name": "Technische Thermodynamik 2",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2571,7 +2571,7 @@ RAW_MODULES = {
     },
     "thermodynamics_of_energy_and_environmental_processes": {
         "name": "Thermodynamics of Energy and Environmental Processes",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2584,7 +2584,7 @@ RAW_MODULES = {
     },
     "thermodynamik": {
         "name": "Technische Thermodynamik 1",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen und Übungen. Hier lernt man welche Energieformen es gibt, wie man Systeme und Kreisläufe mit diesen beschreibt und mithilfe der Hauptsätze berechnet. Es gibt zwar keine Klausurvorleistung, doch sollte man das Modul deshalb nicht auf die leichte Schulter nehmen.",
         "klausur": "Die Klausur ist schriftlich und beinhaltet einen Theorieteil, wo Kurzfragen beantwortet werden, und einen Rechenteil, der aus ca. drei Aufgaben besteht. Die lehrstuhleigene Formelsammlung darf mitgenommen werden.",
         "tipps": [
@@ -2733,7 +2733,7 @@ RAW_MODULES = {
     },
     "waerme_stoffuebertragung": {
         "name": "Wärme- und Stoffübertragung",
-        "modul_link": "",
+        "modul_link": "https://www.ltt.uni-rostock.de/lehre/lehrveranstaltungen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2777,7 +2777,7 @@ RAW_MODULES = {
     },
     "windenergie_simulation": {
         "name": "Simulation von Windenergieanlagen - Einführung und praktische Anwendung",
-        "modul_link": "",
+        "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/elastische-mehrkoerpersysteme-1/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
