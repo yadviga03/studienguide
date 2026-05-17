@@ -117,7 +117,7 @@ RAW_MODULES = {
     },
     "advanced_analysis_of_marine_structures": {
         "name": "Advanced Analysis of Marine Structures",
-        "modul_link": " # ",
+        "modul_link": " https://www.lsk.uni-rostock.de/studium/lehrangebot-master/finite-elemente-methode-zur-berechnung-maritimer-strukturen/ ",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -373,7 +373,7 @@ RAW_MODULES = {
     },
     "cad": {
         "name": "Computer Aided Design (CAD)",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/master/computer-aided-design/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -381,7 +381,7 @@ RAW_MODULES = {
     },
     "cfd_fuer_schiffshydrodynamik": {
         "name": "CFD für Schiffshydrodynamik",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=6507&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -397,7 +397,7 @@ RAW_MODULES = {
         },
     "coding_of_finite_elements": {
         "name": "Coding of Finite Elements",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-master/ausgewaehlte-kapitel-der-berechnung-maritimer-strukturen-1-1-1/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -429,7 +429,7 @@ RAW_MODULES = {
     },
     "computational_methods_in_fluid_dynamics": {
         "name": "Computational Methods in Fluid Dynamics",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&modulnr=1551480",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -453,7 +453,7 @@ RAW_MODULES = {
     },
     "continuum_mechanics": {
         "name": "Continuum Mechanics",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-master/ausgewaehlte-kapitel-der-berechnung-maritimer-strukturen-1-1/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -597,7 +597,7 @@ RAW_MODULES = {
     },
     "dynamik_von_schiffen_und_offshore_strukturen": {
         "name": "Dynamik von Schiffen und Offshore Strukturen",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=6258&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -629,7 +629,7 @@ RAW_MODULES = {
     },
     "einfuehrung_cpp": {
         "name": "Einführung in die angewandte C++ Programmierung",
-        "modul_link": "",
+        "modul_link": "https://www.lemos.uni-rostock.de/lehre/lehrveranstaltungen/wintersemester/c/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -808,7 +808,7 @@ RAW_MODULES = {
     },
     "entwerfen_von_schiffen": {
         "name": "Entwerfen von Schiffen",
-        "modul_link": "",
+        "modul_link": "https://www.lsb.uni-rostock.de/studium/lehrangebot/entwerfen-von-schiffen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -928,7 +928,7 @@ RAW_MODULES = {
     },
     "fluid_dynamik": {
         "name": "Fluid Dynamik",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=2834&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1105,7 +1105,7 @@ RAW_MODULES = {
     },
     "grundlagen_hydromechanik_schiffen_offshore": {
         "name": "Grundlagen der Hydromechanik von Schiffen und Offshore-Strukturen",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=5051&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1129,7 +1129,7 @@ RAW_MODULES = {
     },
     "grundlagen_schiffstechnik": {
         "name": "Grundlagen der Schiffstechnik",
-        "modul_link": "",
+        "modul_link": "https://www.lsb.uni-rostock.de/studium/lehrangebot/grundlagen-schiffstechnik/",
         "beschreibung": "Ein 90-minütige Vorlesung und Übungsvorlesung. Man beschäftigt sich mit der allgemeinen Einteilung von Schiffen (nach Gruppen), außerdem mit dem Entwurfsprozess. Die Schwimmstabilität wird in den letzten Vorlesungen ebenfalls zu einem wichtigen Thema. In der Übung geht es eher um etwas Praktisches und nicht nur um Rechenübungen, obwohl man auch ein bisschen rechnen muss. Prüfungsvorleistung sind 4 Belege: 1. Rechnen, 2. Modellieren, 3. Rechnen mit Software, 4. Dokumentation abgeben",
         "klausur": "Mündliche Prüfung: an sich fragen die genau das was in der Vorlesungen besprochen wurde.",
         "tipps": [
@@ -1343,7 +1343,7 @@ RAW_MODULES = {
     },
     "konstruktionslehre": {
         "name": "Konstruktionslehre",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/bachelor/konstruktionslehre-ii-1/",
         "beschreibung": "Das Modul geht über zwei Semester und besteht aus 90-minütigen Vorlesungen und Übungen, wobei ein Tutorium nur in der ersten Hälfte vorgesehen ist. Hier lernt man wie Bauteile in technischen Zeichnungen erkennt, zeichnet, modelliert, deren Ausmaße und Festigkeit berechnet und nachweist. Das Hauptaugenmerk liegt hierbei auf den Berechnungen. Die Klausurvorleistung beinhalten Handzeichnungen, Online-Fragetest, 3D-Modellierungen, und Berechnungen.",
         "klausur": "Die Klausur findet erst im 3.ten Semester statt und umfasst zwei mal drei Teile: jeweils einen Theorie-, einen Zeichen- und einen Rechenteil pro Semester (Kl2 im SS und Kl3 im WS). Es ist möglich, dass bald die Klausur zusammengefasst wird und nicht mehr 2 mal 3 Teile hat sondern, nur 3 Große Teile sind.",
         "tipps": [
@@ -1360,7 +1360,7 @@ RAW_MODULES = {
     },
     "konstruktionsmethodik": {
         "name": "Konstruktionsmethodik",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/master/konstruktionsmethodik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1384,7 +1384,7 @@ RAW_MODULES = {
     },
     "labor_schiffs_meerestechnik": {
         "name": "Labor: Schiffs- und Meerestechnik",
-        "modul_link": "",
+        "modul_link": "https://www.lsb.uni-rostock.de/studium/lehrangebot/labor-schiffs-und-meerestechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1435,7 +1435,7 @@ RAW_MODULES = {
     },
     "leckstabilitaet_und_kentersicherheit": {
         "name": "Leckstabilität und Kentersicherheit",
-        "modul_link": "",
+        "modul_link": "https://www.lsb.uni-rostock.de/studium/lehrangebot/leckstabilitaet-und-kentersicherheit/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1580,7 +1580,7 @@ RAW_MODULES = {
     },
     "mathematische_modelle_in_der_schiffstheorie": {
         "name": "Mathematische Modelle in der Schiffstheorie",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=6651&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1768,7 +1768,7 @@ RAW_MODULES = {
     },
     "nachhaltige_werkstoffauswahl": {
         "name": "Nachhaltige Werkstoffauswahl und Produktentwicklung",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/bachelor/konstruktionslehre-i-2/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -1948,7 +1948,7 @@ RAW_MODULES = {
     },
     "principle_analysis_of_marine_structures": {
         "name": "Principle Analysis of Marine Structures",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-master/grundlagen-der-berechnung-maritimer-strukturen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2004,7 +2004,7 @@ RAW_MODULES = {
     },
     "projekt_konstruktionslehre": {
         "name": "Projekt Konstruktionslehre",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/bachelor/projekt-konstruktionslehre/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2012,7 +2012,7 @@ RAW_MODULES = {
     },
     "projekt_produktentwicklung": {
         "name": "Projekt Produktentwicklung",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/master/projekt-produktentwicklung/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2036,7 +2036,7 @@ RAW_MODULES = {
     },
     "propellertheorie": {
         "name": "Propellertheorie",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=6259&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2102,8 +2102,8 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "rechnergestuetzte_entwicklungsmethoden_in_der_schiffs_und_meerestechnik": {
-        "name": "Rechnergestützte Entwicklungsmethoden in der Schiffs- und Meerestechnik",
-        "modul_link": "",
+        "name": "Rechnergestützte Entwicklungsmethoden in der Schiffs- und Meerestechnik / Ship Lifecycle Digitalization",
+        "modul_link": "https://www.lsb.uni-rostock.de/studium/lehrangebot/rechnergestuetzte-entwicklungsmethoden-in-der-schiffs-und-meerestechnik/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2223,7 +2223,7 @@ RAW_MODULES = {
     },
     "schiffs_offshorekonstruktionen": {
         "name": "Schiffs- und Offshorekonstruktionen",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-bachelor/schiffs-und-offshorekonstruktionen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2281,7 +2281,7 @@ RAW_MODULES = {
     },
     "selected_topics_for_the_analysis_of_marine_structures": {
         "name": "Selected Topics for the Analysis of Marine Structures",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-master/ausgewaehlte-kapitel-der-berechnung-maritimer-strukturen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2381,7 +2381,7 @@ RAW_MODULES = {
     },
     "structural_design_marine_structures": {
         "name": "Structural Design of Marine Structures",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-master/auslegung-von-schiffs-und-offshorekonstruktionen/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2454,7 +2454,7 @@ RAW_MODULES = {
     },
     "technische_darstellungslehre": {
         "name": "Technische Darstellunglehre",
-        "modul_link": "",
+        "modul_link": "https://www.pe.uni-rostock.de/studium/bachelor/konstruktionslehre-i-1/",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlagen des technischen Zeichnens, als auch die Zeichnung von Gegenständen in verschiedenen Ansichten lernt. Von „Wie halte ich den Bleistift richtig“ bis „Wie stelle ich zwei sich schneidende Körper da“. Als Klausurvorleistung müssen handgezeichnete Belege, als auch am PC erstellte 3D- Modelle, angefertigt werden.",
         "klausur": "Die Klausur ist schriftlich und umfasst einen Theorie- und auch meist zwei Zeichenteile",
         "tipps": [
@@ -2627,7 +2627,7 @@ RAW_MODULES = {
     },
     "turbulenzmodellierung": {
         "name": "Modellierung und Simulation der Turbulenz",
-        "modul_link": "",
+        "modul_link": "https://pruefung.uni-rostock.de/qisserver/rds?state=verpublish&publishContainer=modulDetail&_form=publish&modulversion.versionsid=6652&menuid=&topitem=locallinks&subitem=",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2669,7 +2669,7 @@ RAW_MODULES = {
     },
     "ultimate_strength_assessment_of_marine_structures": {
         "name": "Ultimate Strength Assessment of Marine Structures",
-        "modul_link": "",
+        "modul_link": "https://www.lsk.uni-rostock.de/studium/lehrangebot-master/ausgewaehlte-kapitel-der-berechnung-maritimer-strukturen-1/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2768,8 +2768,8 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "widerstand_und_propulsion": {
-        "name": "Widerstand und Propulsion",
-        "modul_link": "",
+        "name": "Widerstand und Propulsion / Resistance and Propulsion",
+        "modul_link": "https://www.lsb.uni-rostock.de/studium/lehrangebot/widerstand-und-propulsion/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
