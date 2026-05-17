@@ -23,22 +23,8 @@
   <section class="hero-intro-section">
     <div class="container">
       <p class="hero-intro-text">
-        Wir als MaFIa – MaschinenbauFachschaftsInitiative wollten euch eine übersichtliche Orientierung für das Studium zusammenstellen.
-        Gerade am Anfang verliert man bei den vielen Modulen, Vertiefungen und Lehrstühlen schnell den Überblick.
-        Wir hoffen, dass euch die Seite bei der Orientierung hilft und die Modulenwahl ein bisschen einfacher macht.
+        {{ t.home_intro | safe }}
 
-        <br><br>
-
-        Falls euch Inhalte fehlen oder ihr eigene Erfahrungen teilen möchtet, schreibt uns gerne auf
-        <a href="https://www.instagram.com/mafia_uni_rostock/" target="_blank">
-          Instagram (@mafia_uni_rostock)
-        </a>
-
-        oder per Mail an
-
-        <a href="mailto:fachschaft.mbst@uni-rostock.de">
-          fachschaft.mbst@uni-rostock.de
-        </a>
       </p>
     </div>
   </section>
@@ -53,8 +39,7 @@
             <div class="home-tile-icon">🎓</div>
             <h3>{{ t.study_programs }}</h3>
             <p>
-              Hier findest du eine Übersicht nach Studiengängen. Wähle deinen Studiengang aus
-              und entdecke alle Module, die du nach unserem aktuellen Stand wählen kannst.
+              {{ t.study_programs_desc }}
             </p>
           </a>
 
@@ -62,8 +47,7 @@
             <div class="home-tile-icon">🏛️</div>
             <h3>{{ t.chairs }}</h3>
             <p>
-              Falls du dir anschauen möchtest, welche Lehrstühle es bei uns gibt
-              und welche Module die haben, findest du hier eine Übersicht.
+              {{ t.chairs_desc }}
             </p>
           </a>
         </div>
@@ -73,9 +57,7 @@
 
   <div class="home-disclaimer-wrap container">
     <p class="home-disclaimer-text">
-      Diese Website ist keine offizielle Seite der Universität oder Fakultät.
-      Alle Inhalte dienen nur zur Orientierung und können unvollständig oder veraltet sein.
-      Informiert euch deshalb zusätzlich immer selbst.
+      {{ t.home_disclaimer | safe }}
     </p>
   </div>
 {% endblock %}
