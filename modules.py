@@ -5,9 +5,9 @@ def normalize_modules(modules_dict):
 
     contact_text = Markup(
         'Wenn du helfen möchtest, schreib uns gerne auf '
-        '<a href="https://www.instagram.com/mafia_uni_rostock/" target="_blank" rel="noopener noreferrer">Instagram ↗</a> '
+        '<a href="https://www.instagram.com/mafia_uni_rostock/" target="_blank" rel="noopener noreferrer">🔗Instagram</a> '
         'oder per E-Mail an '
-        '<a href="mailto:fachschaft.mbst@uni-rostock.de">fachschaft.mbst@uni-rostock.de ↗</a>.'
+        '<a href="mailto:fachschaft.mbst@uni-rostock.de">🔗fachschaft.mbst@uni-rostock.de</a>.'
     )
 
     for module_id, module in modules_dict.items():
@@ -684,7 +684,7 @@ RAW_MODULES = {
         "erfahrungen": []
     },
     "elektrotechnik": {
-        "name": "Einführung im die Elektrotechnik für Maschinenbau",
+        "name": "Einführung in die Elektrotechnik für Maschinenbau",
         "modul_link": "",
         "beschreibung": "Das Modul umfassen drei mal 45-minütige Vorlesungen als auch Übungen, welche sich von zwei Lehrpersonen geteilt werden: Elektrotechnik und elektrische Maschinen. Hier lernt man die Grundlagen zum Thema Strom, Spannung, Widerstand, als auch Magnetismus, Stromkreise und verschiedenen Maschinen, welche man beschreiben und berechnen muss. Als Klausurvorleistung muss man die Kurzfragentest vor jedem „Praktikum“ bestehen, als auch ein Protokoll des jeweiligen Versuches anfertigen, welche aus dem Deckblatt, einer Hausaufgabe, Berechnungen von Messwerten, Zeichnungen von Diagrammen und einer Auswertung bestehen.",
         "klausur": "Die Klausur ist schriftlich mit Rechen- und Theorieaufgaben. Es kommen Teile aus dem Bereich Elektrotechnik und Rechenaufgaben aus dem Bereich elektrische Maschinen. Die Klausur orientiert sich sehr stark an der letzten Übung und der Konsultation.",
@@ -1535,13 +1535,15 @@ RAW_MODULES = {
         "name": "Mathematik 1: Grundlagen und eindimensionale Analysis",
         "modul_link": "",
         "beschreibung": "Das Modul beinhaltet eine 3 mal 45-minütige Vorlesung als auch 90-minütige Übungen und Tutorien. Hier lernt man die ersten mathematischen Grundlagen, die auf der Schulmathematik aufbauen und im Laufe des Studiums gebraucht werden: Von Mengenlehre und was Reihen sind, über imaginäre Zahlen, bis hin zu Integralen, Ableitungen und Differentialgleichungen. Als Klausurvorleistung müssen wöchentliche Hausaufgaben abgegeben werden, wo man mindestens 50% der möglichen Punkte erreichen muss.",
-        "klausur": "Schriftliche Klausur: Bei Prof. Wagner ist die Klausur sehr ähnlich zur Probeklausur. Echt sehr ähnlich. Bei Dr. Just: Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.",
+        "klausur": "Schriftliche Klausur:<br><br>Bei Dr. Just: Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.<br><br>Klausur bei Wagner: Die Klausur wird in 6 Aufgaben unterteilt, in die Klausur dürfen 12 Seiten handgeschriebener Spicker mitgenommen werden angelehnt an die 12 Serien/Inhaltlichen Vorlesungen. Sehr sehr ähnlich mit der Probeklausur ",
         "tipps": [
             "Geht unbedingt zu der ersten Vorlesung, da erklären die Profs immer was genau zu beachten ist und wie alles aufgebaut ist. Jedes Jahr kann etwas neues dazu kommen, was hier noch nicht steht.",
             "Macht die Serien ordentlich und schreibt euch das gut auf (mit einem guten System). Ihr werdet im Studium noch weiter darauf zurückgreifen. ",
             "Falls ihr die Klausur nicht schreiben wollt, macht trotzdem die Zulassung. Ihr werdet euch ärgern, wenn ihr das nicht vorher fertig macht.",
             "Die wöchentlichen Aufgabenserien gründlich bearbeiten und in den Übungen mitmachen, sodass man den Stoff versteht.",
-            "o	Nehmt euch Zeit die Übungsserien zu bearbeiten, da sie teilweise sehr aufwendig sein können und man ein paar Stunden vor den Aufgaben sitzt."
+            "Nehmt euch Zeit die Übungsserien zu bearbeiten, da sie teilweise sehr aufwendig sein können und man ein paar Stunden vor den Aufgaben sitzt.",
+            "Nutzt das Tutorium bei Dr Müller besonders in den letzten Wochen vor der Klausur, er weist nochmals auf mögliche Tücken in der Klausur hin.",
+            "Auf den 12 Seiten Spicker dürfen kommentierte, gelöste Aufgaben stehen, wieso also nicht das zur Klausur SEHR ähnliche Examensbeispiel."
         ],
         "erfahrungen": [
             {
@@ -2481,18 +2483,21 @@ RAW_MODULES = {
     "technische_mechanik_1": {
         "name": "Technische Mechanik 1: Statik",
         "modul_link": "",
-        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, wo man die Grundlage vieler anderen Module lernt: Von der Definition einer Kraft, über die Bestimmung von Schwerpunkten eines Körpers bis hin zum Verhalten von Lagern und Stäben unter Belastung. Hierbei wird viel auf der Schulmathematik und Physik aufgebaut. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
+        "beschreibung": "Das Modul umfassen 135-minütige Vorlesungen, 90-Minütige Übungen und Tutorien, wo man die Grundlage vieler anderen Module lernt: Von der Definition einer Kraft, über die Bestimmung von Schwerpunkten eines Körpers bis hin zum Verhalten von Lagern und Stäben unter Belastung. Hierbei wird viel auf der Schulmathematik und Physik aufgebaut. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
             "Die Übungen helfen beim Verständnis, da dort die Aufgaben vorgerechnet werden, während man in den Tutorien die Aufgaben selbstständig bearbeitet und den Stoff verinnerlicht.",
-            "Unbedingt zu beiden Probeklausuren gehen, da etwas ähnliches auch in der Klausur drankommen könnte."
+            "Unbedingt zu beiden Probeklausuren gehen, da etwas ähnliches auch in der Klausur drankommen könnte.",
+            "Früh Lernzeit Investieren erspart langes anstrengendes hinterherlaufen, da man in den Vorlesungen und Übungen dann gut mitkommt und versteht.",
+            "In der Vorlesung geht es viel darum WESHALB etwas gerechnet wird, wie es gerechnet wird, in Übung und Tutorium dann WIE man etwas tatsächlich rechnet. Wenn man in den Übungen und Tutorien zurecht kommt ist man gut dabei.",
+            "Die Prüfungsaufgaben für die  Zulassungsklausur orientieren sich stark an der Aufgabensammlung."
         ],
         "erfahrungen": []
     },
     "technische_mechanik_2": {
         "name": "Technische Mechanik 2: Festigkeitslehre",
         "modul_link": "",
-        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, welches auf das Modul Technische Mechanik 1 aufbaut. Hier kommt zu der Frage, welche Kräfte auf das System wirken auch die Frage, wie und ab wann sich das System unter der Belastung verändert, verbiegt und knickt. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
+        "beschreibung": "Das Modul umfassen 135-minütige Vorlesungen, 90-Minütige Übungen und Tutorien, welches auf das Modul Technische Mechanik 1 aufbaut. Hier kommt zu der Frage, welche Kräfte auf das System wirken auch die Frage, wie und ab wann sich das System unter der Belastung verändert, verbiegt und knickt. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
             "Die Übungen helfen beim Verständnis, da dort die Aufgaben vorgerechnet werden, während man in den Tutorien die Aufgaben selbstständig bearbeitet und den Stoff verinnerlicht.",
@@ -2503,7 +2508,7 @@ RAW_MODULES = {
     "technische_mechanik_3": {
         "name": "Technische Mechanik 3: Dynamik",
         "modul_link": "",
-        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, Übung und Tutorien, welches auf das Modul Technische Mechanik 2 aufbaut. Hier fangen die Systeme an sich zu bewegen und man erlernt die Beschreibung von Bahnenbewegungen, Stößen und Schwingungen. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
+        "beschreibung": "Das Modul umfassen 135-minütige Vorlesungen, 90-Minütige Übungen und Tutorien, welches auf das Modul Technische Mechanik 2 aufbaut. Hier fangen die Systeme an sich zu bewegen und man erlernt die Beschreibung von Bahnenbewegungen, Stößen und Schwingungen. Als Klausurvorleistung muss man einer der beiden kleineren Probeklausuren bestehen.",
         "klausur": "Schriftliche Klausur. Ähnlich vom Aufbau wie die Probeklausuren, vom Umfang drei bis vier Aufgaben.",
         "tipps": [
             "Die Übungen helfen beim Verständnis, da dort die Aufgaben vorgerechnet werden, während man in den Tutorien die Aufgaben selbstständig bearbeitet und den Stoff verinnerlicht.",
