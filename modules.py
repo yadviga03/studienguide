@@ -331,7 +331,7 @@ RAW_MODULES = {
     },
     "biofilm_medizin_technik": {
         "name": "Biofilm in Medizin und Technik",
-        "modul_link": "",
+        "modul_link": "https://www.iw.uni-rostock.de/lehre/uebersicht-lehre/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -339,7 +339,7 @@ RAW_MODULES = {
     },
     "biomaterialieneinsatz_und_prüfung": {
         "name": "Biomaterialieneinsatz und -prüfung",
-        "modul_link": "",
+        "modul_link": "https://www.iw.uni-rostock.de/lehre/uebersicht-lehre/",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -347,7 +347,7 @@ RAW_MODULES = {
     },
     "biomaterialien_maschinenbau": {
         "name": "Biomaterialien für Maschinenbau",
-        "modul_link": "",
+        "modul_link": "https://www.iw.uni-rostock.de/lehre/uebersicht-lehre/",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen (für Maschinenbauer). Sowohl die Vorlesungen als auch die Übungen/ Praktika sind sehr informativ und kommunikativ gestaltet. Die Übungen beinhalten Präsentationen und Laborarbeiten, welche als Zulassungsvoraussetzung für die Prüfung dienen.",
         "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden und die Übungen als Vorbereitungen genutzt werden.",
         "tipps": [
@@ -1400,7 +1400,7 @@ RAW_MODULES = {
     },
     "labor_werkstofftechnik": {
         "name": "Laborpraktikum Werkstofftechnik",
-        "modul_link": "https://www.cld.uni-rostock.de/finite-elemente-analyse-von-verbundwerkstoffstrukturen-en/",
+        "modul_link": "https://www.werkstofftechnik.uni-rostock.de/storages/uni-rostock/Alle_MSF/WT/Sonstiges/Modulbeschreibung_MScMB_LaborWerkstofftechnik2013.pdf",
         "beschreibung": "Das Pflicht-Modul umfasst verschiedenste Praktika (5-7 Stück, je nach Jahrgang), welche vor und Nachbereitung bedürfen. Während des Praktikums wird eine kleine Fragerunde vorangestellt, um den Wissensstand zu klären und euch zu testen, anschließend kommen die Versuche, wobei Ihr schon im Vorhinein den Ablauf detailliert kennen solltet. Es ist notwendig, die Fragerunde sowie die Versuche kompetent zu absolvieren, um das Praktikum abzuschließen. Regulär wird pro Praktikum auch ein Protokoll angefertigt, welches auch in euren Zeitplan mit involviert sein sollte. Alle Praktika müssen bestanden werden.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [
@@ -1416,15 +1416,7 @@ RAW_MODULES = {
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
         "erfahrungen": []
-    },
-    "labor_werkstofftechnik": {
-        "name": "Laborpraktikum Werkstofftechnik",
-        "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
-    },
+    },  
     "large_engines_energy_converters_fuels": {
         "name": "Large Engines, Energy Converters and Fuels for Climate Neutral Marine Applications",
         "modul_link": "",
@@ -1644,7 +1636,7 @@ RAW_MODULES = {
     },
     "metallische_konstruktionswerkstoffe": {
         "name": "Metallische Konstruktionswerkstoffe / Wärmebehandlung",
-        "modul_link": "",
+        "modul_link": "https://www.werkstofftechnik.uni-rostock.de/storages/uni-rostock/Alle_MSF/WT/Sonstiges/Modulbeschreibung_MScMB_MetKonstuktionswerkstoffe2013.pdf",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Werkstofftechnik 1 und 2 wird hier weitergesetzt. Es ist wichtig zu den Veranstaltungen zu erscheinen, da die Tafelbilder nicht hochgeladen werden. Sauberes Tafelbild und viel schreiben, ganz nach dem Motto: wer schreibt, der bleibt. Vertiefende Kenntnisse zu Metallen können hier erworben werden und sind sehr interessant.",
         "klausur": "Die Klausur ist schriftlich. Die Tafelbilder sollten als Vorbereitung genutzt werden.",
         "tipps": [
@@ -2329,7 +2321,7 @@ RAW_MODULES = {
     },
     "simulation_werkstofftechnik": {
         "name": "Simulation in der Werkstofftechnik",
-        "modul_link": "",
+        "modul_link": "https://www.werkstofftechnik.uni-rostock.de/storages/uni-rostock/Alle_MSF/WT/Sonstiges/Modulbeschreibung_MScMB_SimulationWT2013.pdf",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2741,7 +2733,7 @@ RAW_MODULES = {
     },
     "werkstoffanalytik": {
         "name": "Werkstoffanalytik",
-        "modul_link": "",
+        "modul_link": "https://www.werkstofftechnik.uni-rostock.de/storages/uni-rostock/Alle_MSF/WT/Sonstiges/Modulbeschreibung_MScMB_Werkstoffanalytik2013.pdf",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
@@ -2749,7 +2741,7 @@ RAW_MODULES = {
     },
     "werkstofftechnik": {
         "name": "Werkstofftechnik 1",
-        "modul_link": "",
+        "modul_link": "https://www.werkstofftechnik.uni-rostock.de/storages/uni-rostock/Alle_MSF/WT/Sonstiges/Modulbeschreibungen_WT1_2013-08-15.pdf",
         "beschreibung": "Das Modul geht über zwei Semester, wobei das erste Semester aus 90-minütigen Vorlesungen und allen zwei Wochen stattfindenden Übungen und das zweite aus Laborpraktika besteht. Hier lernt man welche verschiedenen Werkstoffe es gibt, wie sie chemisch aufgebaut sind und wie man sie behandeln kann, um die Eigenschaften des Endprodukts nach belieben zu verändern. Als Klausurvorleistung müssen die Laborpraktika bestanden werden, welche aus einer Fragerunde und einer kleinen Demonstration der verschiedenen Untersuchungsmethoden von Werkstoffen bestehen.",
         "klausur": "Die Klausur ist schriftlich. Die Probeklausuren helfen sehr, da einige Fragen der Klausur wiederverwendet werden.",
         "tipps": [
@@ -2761,7 +2753,7 @@ RAW_MODULES = {
     },
     "werkstofftechnik_2": {
         "name": "Werkstofftechnik 2: Erweiterte Grundlagen",
-        "modul_link": "",
+        "modul_link": "https://www.werkstofftechnik.uni-rostock.de/storages/uni-rostock/Alle_MSF/WT/Sonstiges/Modulbeschreibungen_WT2_2013-08-15.pdf",
         "beschreibung": "Beschreibung folgt.",
         "klausur": "Noch keine Informationen zur Klausur vorhanden.",
         "tipps": [],
