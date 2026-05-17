@@ -340,10 +340,20 @@ RAW_MODULES = {
     "biofilm_medizin_technik": {
         "name": "Biofilm in Medizin und Technik",
         "modul_link": "https://www.iw.uni-rostock.de/lehre/uebersicht-lehre/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul besteht aus einer 1,5-stündigen Vorlesung pro Woche. Inhaltlich geht es um verschiedene Bereiche, in denen Biofilme eine wichtige Rolle spielen, sowohl in medizinischen Anwendungen als auch in der Schiffs- und Meerestechnik. Behandelt werden unter anderem Mikroorganismen, Bakterien, Oberflächen und deren Wechselwirkungen. Eine zusätzliche Vorleistung gibt es nicht. Die PowerPoint-Folien aus der Vorlesung werden hochgeladen und zur Verfügung gestellt.",
+        "klausur": "Die Prüfung ist schriftlich und dauert eine Stunde. Inhaltlich kommen sowohl Theoriefragen als auch Multiple-Choice-Aufgaben dran.",
+        "tipps": [
+            "Die Vorlesungsfolien sind teilweise etwas unübersichtlich. Wenn man etwas nicht versteht, lohnt es sich auf jeden Fall nachzufragen."
+            "Außerdem sollte man sich notieren, welche Werte oder Zusammenhänge in bestimmten Diagrammen wichtig sind, da diese für das Verständnis relevant sein können."
+        ],
+        "erfahrungen": [
+            
+{
+                "semester": "SS24",
+                "bericht": "Das Modul war stellenweise etwas trocken, insgesamt aber trotzdem ein spannendes Thema. Besonders interessant fand ich, welche Strategien und Beschichtungen für medizinische Anwendungen oder technische Oberflächen berücksichtigt werden müssen."
+            }
+
+        ]
     },
     "biomaterialieneinsatz_und_prüfung": {
         "name": "Biomaterialieneinsatz und -prüfung",
@@ -1311,11 +1321,23 @@ RAW_MODULES = {
     },
     "ip_management_in_der_medizintechnik": {
         "name": "IP-Management in der Medizintechnik",
-        "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "modul_link":"",
+        "beschreibung": "Das Modul ist als Blockveranstaltung aufgebaut und findet an drei Tagen jeweils von 8 bis 16 Uhr statt. Inhaltlich geht es um Patente in der Medizintechnik und alles, was damit zusammenhängt. Behandelt werden unter anderem der Aufbau und die Aufgaben von Patentschriften, die Anmeldung von Patenten, Patentverletzungen, Patentrecherche sowie Lizenzverträge. Insgesamt bekommt man einen guten Überblick darüber, wie Patentwesen in der Industrie funktioniert und warum es wichtig ist, besonders auch, wenn man später selbst Entwicklungen oder Erfindungen macht. Das Modul wird von einem externen Professor gehalten. Die Teilnahme an der Blockveranstaltung ist Voraussetzung für die Prüfungszulassung. Die Vorlesungsfolien werden zur Verfügung gestellt.",
+        "klausur": "Die Prüfung ist mündlich und dauert ungefähr 30 Minuten.",
+        "tipps": [
+            "Der Dozent sagt während der Vorlesung meistens direkt, welche Folien und Inhalte besonders wichtig sind, genau diese Themen werden später oft abgefragt.",
+            " Man sollte sich darauf einstellen, dass die Tage lang sind und sich den gesamten Zeitraum freihalten. ",
+            "Es lohnt sich außerdem, aktiv mitzumachen und Fragen zu beantworten, da der Dozent viele Fragerunden einbaut und man dadurch gut lernen kann. ",
+            "Obwohl das Thema grundsätzlich eher trocken ist, erschreckt euch nciht, der Dozent moderiert die Veranstaltung sehr angenehm und schafft es, Interesse dafür zu wecken."
+        ],
+        "erfahrungen": [
+            
+            {
+                "semester": "WS24/25",
+                "bericht": "Ich persönlich fand das Thema zwar wichtig, aber insgesamt eher trocken. Der externe Dozent war allerdings wirklich gut und konnte mit seiner Art trotzdem Interesse für das Thema erzeugen. Trotz der langen Tage nimmt man aus der Veranstaltung die wichtigsten Grundlagen gut mit. Die Prüfung war sehr fair und es wurden nur Inhalte abgefragt, die vorher klar auf den Folien markiert oder besprochen wurden. Man sollte sich aber darauf einstellen, dass die drei Tage komplett durchgezogen werden,früher Schluss gibt es eher nicht."
+            }
+
+        ]
     },
     "kaelte_klimatechnik": {
         "name": "Kälte- und Klimatechnik",
@@ -1336,10 +1358,23 @@ RAW_MODULES = {
     "kardiovakulaere_implantate": {
         "name": "Kardiovaskuläre Implantate",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul ist als Blockveranstaltung aufgebaut und beinhaltet eine zweitägige Exkursion nach Berlin mit Hotelübernachtung. Dort bekommt man eine ganztägige Führung durch zwei Kliniken mit Fokus auf Kardiologie – das Klinikum Am Urban in Kreuzberg sowie das Klinikum im Friedrichshain. Die Führungen werden vom leitenden Arzt durchgeführt und dauern jeweils etwa 1–2 Stunden. Danach folgen OP-Besichtigungen in kleinen Gruppen. Man kann verschiedene Herzoperationen live miterleben, darunter Ablationen, Mitralclip-Eingriffe, PFO-Verschlüsse und Stentimplantationen. Die einzelnen OPs dauern meistens 1–2 Stunden. Dabei steht man viel im OP und trägt durchgehend Bleiweste und OP-Kleidung, was körperlich durchaus anstrengend sein kann. Nach etwa 17 Uhr hat man Freizeit, allerdings gibt es tagsüber keine richtige Mittagspause. Nach der Exkursion gibt es noch einen Termin in Rostock mit drei Vorlesungen an einem Tag. Inhaltlich geht es vor allem um die Themen Endovaskuläres Stenting der COA, PFO-Verschluss und Mitralclip. Zusätzlich spielen die Anatomie des Herzens, verschiedene Erkrankungen wie Stenosen sowie Klassifikationssysteme, zum Beispiel für Luftnot, eine Rolle. Die Vorlesungen werden per PowerPoint gehalten und aktives Mitschreiben lohnt sich sehr. Der Dozent wartet in der Regel auch, bis alle wichtige Inhalte notiert haben. Die Teilnahme an der Exkursion ist verpflichtend.",
+        "klausur": "Die Prüfung ist mündlich und dauert ungefähr 30 Minuten. Gefragt wird ausschließlich aus den Vorlesungen",
+        "tipps": [
+            "Die Vorlesungen sollte man unbedingt besuchen, da sich die Prüfung stark daran orientiert. "
+            "Besonders cool ist die Möglichkeit, während der Exkursion direkt mit Fachärzten zu sprechen und Fragen zu Herzoperationen oder Medizinprodukten zu stellen. ",
+            "Für die Fahrt und den langen Kliniktag sollte man sich unbedingt genug Wasser und Snacks mitnehmen, da es tagsüber keine richtige Mittagspause gibt.",
+            "Außerdem sollte man sich bewusst sein, dass man während der OPs lange steht und dauerhaft Bleiweste trägt.",
+            "Wer Probleme mit Blut, OPs oder engen Klinikräumen hat, sollte vorher überlegen, ob das etwas für einen ist."
+        ],
+        "erfahrungen": [
+            
+{
+                "semester": "SS24",
+                "bericht": "Sehr praxisnahes und besonderes Modul, bei dem man echte Einblicke in den Klinikalltag bekommt. Man kann live verfolgen, wie Herzoperationen ablaufen, wie 3D-Modelle von Herzen erstellt werden und welche bildgebenden Verfahren dabei eingesetzt werden. Die Prüfung ist sehr fair und mit vergleichsweise geringem Lernaufwand aus nur wenigen Vorlesungen kann man eine sehr gute Note erreichen. Die Exkursion selbst kann allerdings auch anstrengend sein: viel stehen, schwere Bleiweste und frühes Aufstehen. Man ist meistens zu zweit auf einem Hotelzimmer und nach dem langen Kliniktag oft ziemlich fertig. Frühstück im Hotel ist inklusive, Mittagessen muss man sich allerdings selbst organisieren oder sich mit anderen Teilnehmenden absprechen. Insgesamt aber eine wirklich spannende Erfahrung, die ich sehr empfehlen kann."
+            }
+
+        ]
     },
     "klimaneutrale_kraftstoffe": {
         "name": "Klimaneutrale Kraftstoffe",
@@ -1939,10 +1974,22 @@ RAW_MODULES = {
     "open_space": {
         "name": "Open Space",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul ist kein klassischer Frontalunterricht mit Vorlesung und Übung. Stattdessen arbeitet man in Gruppen an einem eigenen Projekt, bei dem ein Produkt oder eine Idee entwickelt und geplant wird. Jede Person übernimmt dabei einen eigenen Teilbereich und arbeitet selbstständig daran. Der Prozess reicht von ersten Brainstorming-Ideen über die Entwicklung eines sinnvollen Konzepts bis hin zu möglichen Umsetzungen oder Prototypen. Als Vorleistung hält man einen Zwischenvortrag über den aktuellen Stand des Projekts. Zusätzlich stehen Übungsleiter aus dem IBMT als Ansprechpartner zur Verfügung, die bei fachlichen Fragen oder technischen Problemen unterstützen können.",
+        "klausur": "Am Ende wird ein Bericht über das entwickelte Produkt beziehungsweise Projekt abgegeben. Dieser umfasst ungefähr 15–20 Seiten und wird ähnlich wie eine wissenschaftliche Arbeit bewertet.",
+        "tipps": [
+            "Man sollte die Arbeit innerhalb der Gruppe frühzeitig und ordentlich aufteilen. "
+            "Es lohnt sich außerdem sehr, aktiv mit den relevanten Expertinnen und Experten zu sprechen und deren Feedback einzuholen. "
+            "Da viele der betreuenden Übungsleiter nicht direkt aus dem eigenen Themenbereich kommen, muss man häufig den aktuellen Projektstand erneut erklären und verständlich präsentieren, darauf sollte man sich einstellen. "
+            "Termine und Absprachen innerhalb der Gruppe sollte man möglichst früh klären und generell auf eine klare Aufgabenverteilung achten."
+        ],
+        "erfahrungen": [
+            
+            {
+                "semester": "SS2X",
+                "bericht": "Ich persönlich fand die Bewertung teilweise etwas hart und manchmal war unklar, wie realistisch oder umsetzbar das Projekt am Ende eigentlich ist. Man arbeitet insgesamt sehr eigenständig und bekommt relativ wenige konkrete Vorgaben. Trotzdem lernt man dadurch viel Eigeninitiative und auch, die eigenen Ideen zu verteidigen oder kritisch zu hinterfragen, wenn bestimmte Konzepte nicht sinnvoll oder nicht umsetzbar erscheinen."
+            }
+
+        ]
     },
     "optimierungsmethoden_mechatronik": {
         "name": "Optimierungsmethoden in der Mechatronik",
