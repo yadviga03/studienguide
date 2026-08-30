@@ -1158,7 +1158,7 @@ RAW_MODULES = {
         "erfahrungen": [
             {
                 "semester": "WS24/25",
-                "bericht": "Vorteil: derZeitaufwand zu Prüfunslesitung ist sehr gering. Nachteil: Themengebiete können sehr trocken werden. Vertretungsdozent mussten sehr oft einspringen, ohne genug Zeit die Folien vorbereiten zu können. Sonst gilt die Letzte Vorlesung als Konsultation. Wenn ihr keine Fragen habt, wird nichts beantwortet. Das Modul würde nicht unbedingt weiterempfehlen, da es oft Trocken werden kann. Anderseits kann man gut Kontakte in der regionalen Industrie aufbauen."
+                "bericht": "Vorteil: der Zeitaufwand zu Prüfunslesitung ist sehr gering. Nachteil: Themengebiete können sehr trocken werden. Vertretungsdozent mussten sehr oft einspringen, ohne genug Zeit die Folien vorbereiten zu können. Sonst gilt die Letzte Vorlesung als Konsultation. Wenn ihr keine Fragen habt, wird nichts beantwortet. Das Modul würde nicht unbedingt weiterempfehlen, da es oft Trocken werden kann. Anderseits kann man gut Kontakte in der regionalen Industrie aufbauen."
             }
         ]
     },
@@ -1688,7 +1688,10 @@ RAW_MODULES = {
         "modul_link": "",
         "beschreibung": "Vertiefung mathematischer Methoden mit Fokus auf Analysis und lineare Algebra.",
         "klausur": "Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden.",
-        "tipps": [],
+        "tipps": [
+            "Die wöchentlichen Aufgabenserien gründlich bearbeiten und in den Übungen mitmachen, sodass man den Stoff versteht.",
+            "Nehmt euch Zeit die Übungsserien zu bearbeiten, da sie teilweise sehr aufwendig sein können und man ein paar Stunden vor den Aufgaben sitzt",
+        ],
         "erfahrungen": [
             {
                 "semester": "WS24/25",
@@ -1701,7 +1704,10 @@ RAW_MODULES = {
         "modul_link": "",
         "beschreibung": "Weiterführende mathematische Verfahren für technische Problemstellungen.",
         "klausur": "Die Klausur ist schriftlich und besteht aus einem Kurzrechenteil, wo nur die Antworten zählen, und einem Teil, wo größere Aufgaben mit mehreren Unteraufgaben gestellt werden und Lösungswege abgefragt werden",
-        "tipps": [],
+        "tipps": [
+            "Die wöchentlichen Aufgabenserien gründlich bearbeiten und in den Übungen mitmachen, sodass man den Stoff versteht.",
+            "Nehmt euch Zeit die Übungsserien zu bearbeiten, da sie teilweise sehr aufwendig sein können und man ein paar Stunden vor den Aufgaben sitzt.",
+        ],
         "erfahrungen": [
             {
                 "semester": "WS24/25",
@@ -2004,7 +2010,7 @@ RAW_MODULES = {
     "numerik_stochastik_ing": {
         "name": "Numerik und Stochastik",
         "modul_link": "",
-        "beschreibung": "Numerik: Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte hauptsächlich theoretisch erklärt und gelegentlich anhand von Beispielen verdeutlicht oder vorgerechnet. In der Übung werden dann passende Aufgaben gemeinsam gerechnet. Diese Aufgaben orientieren sich oft stark an den Abgaben. Inhaltlich behandelt das Modul verschiedene Themen aus der numerischen Mathematik, darunter lineare Gleichungssysteme, Eigenwertprobleme und nichtlineare Gleichungssysteme, Differentiation und Integration sowie um Anfangs- und Randwertprobleme bei gewöhnlichen Differentialgleichungen und partielle Differentialgleichungen. •	Prüfungsvorleistung: Zweiwöchige Abgabe von Übungsaufgaben, für die Zulassung zur Prüfung sind mindestens 50% in den Aufgaben notwendig. Die Abgaben werden handschriftlich in der Vorlesung abgegeben. Stochastik:Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte sehr theoretisch behandelt, wobei viele Definitionen und Herleitungen im Mittelpunkt stehen. Inhaltlich geht es um Wahrscheinlichkeitsrechnung. Behandelt werden diskrete und allgemeine Wahrscheinlichkeitsräume, bedingte Wahrscheinlichkeiten sowie Unabhängigkeit von Ereignissen. Außerdem werden Erwartungswert und Varianz eingeführt. Darauf aufbauend folgen Grenzwertsätze sowie eine Einführung in die Statistik. •	Prüfungsvorleistung: Wöchentliche Abgabe von Übungsaufgaben über Studip, für die Zulassung zur Prüfung sind mindestens 50% in den Abgaben notwendig",",
+        "beschreibung": "Numerik: Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte hauptsächlich theoretisch erklärt und gelegentlich anhand von Beispielen verdeutlicht oder vorgerechnet. In der Übung werden dann passende Aufgaben gemeinsam gerechnet. Diese Aufgaben orientieren sich oft stark an den Abgaben. Inhaltlich behandelt das Modul verschiedene Themen aus der numerischen Mathematik, darunter lineare Gleichungssysteme, Eigenwertprobleme und nichtlineare Gleichungssysteme, Differentiation und Integration sowie um Anfangs- und Randwertprobleme bei gewöhnlichen Differentialgleichungen und partielle Differentialgleichungen. •	Prüfungsvorleistung: Zweiwöchige Abgabe von Übungsaufgaben, für die Zulassung zur Prüfung sind mindestens 50% in den Aufgaben notwendig. Die Abgaben werden handschriftlich in der Vorlesung abgegeben. Stochastik:Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte sehr theoretisch behandelt, wobei viele Definitionen und Herleitungen im Mittelpunkt stehen. Inhaltlich geht es um Wahrscheinlichkeitsrechnung. Behandelt werden diskrete und allgemeine Wahrscheinlichkeitsräume, bedingte Wahrscheinlichkeiten sowie Unabhängigkeit von Ereignissen. Außerdem werden Erwartungswert und Varianz eingeführt. Darauf aufbauend folgen Grenzwertsätze sowie eine Einführung in die Statistik. •	Prüfungsvorleistung: Wöchentliche Abgabe von Übungsaufgaben über Studip, für die Zulassung zur Prüfung sind mindestens 50% in den Abgaben notwendig",
         "klausur": "Numerik: Schriftlich, 60 Minuten. Stochastik: Schriftlich, 60 Minuten",
         "tipps": [
             "Hinweis: Alle Mechatronik-Studierenden schreiben eine Kombinationsprüfung mit Numerik (3LP) und Stochastik (3LP) in den Ingenieurswissenschaften, alle anderen Studiengänge belegen die Module einzeln.",
