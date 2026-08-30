@@ -107,11 +107,16 @@ RAW_MODULES = {
     "additive_fertigungsverfahren": {
         "name": "Additive Fertigungsverfahren",
         "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/additive-fertigungsverfahren/",
-        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch terminlich individuelle Praktika. Hier lernt man die verschiedenen Verfahren der Addiviten Fertigung kennen, sowie ihre Anwendungsbereiche. In den Praktika (in kleinen Gruppen) müssen Bauteile konstruiert und gedruckt werden sowie ein Bericht dazu erstellt werden. Als Prüfungsvorleistung muss das Praktikum absolviert sein.",
-        "klausur": "Die Klausur ist schriftlich. Es sollten die Vorlesungsdateien durchgearbeitet werden sowie die Tipps des Professors beachtet werden.Tipps",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch terminlich individuelle Praktika. Hier lernt man die verschiedenen Verfahren der Addiviten Fertigung kennen, sowie ihre Anwendungsbereiche. In den Praktika (in kleinen Gruppen) müssen Bauteile konstruiert und gedruckt werden sowie ein Bericht dazu erstellt werden. •	Klausurvorleistung: In dem Praktikum sollen in Gruppenarbeit zwei Teile konstruiert und gedruckt werden (FDM, DLP), zu dem Praktikum muss ein Projektbericht geschrieben werden",
+        "klausur": "Die Klausur ist schriftlich, 90 Minuten. Es sollten die Vorlesungsdateien durchgearbeitet werden sowie die Tipps des Professors beachtet werden.Tipps",
         "tipps": [
             "Geht zu den Vorlesungen und seht euch auch die vorgestellten Unternehmen mit an",
-            "Stellt bei den Praktika ausreichend Fragen, um euch den anschließenden Bericht zu erleichtern"
+            "Stellt bei den Praktika ausreichend Fragen, um euch den anschließenden Bericht zu erleichtern",
+            "Bei der Sicherheitsunterweisung ist Anwesenheitspflicht, um am Praktikum teilnehmen zu können",
+            "Die Vorlesung ist zum Teil sehr trocken mit vielen Details, Inhalte wiederholen sich",
+            "In der Klausur geht es vor allem um gängige additive Fertigungsverfahren",
+            "Die Praktikaveranstaltungen zu Beginn unbedingt mitnehmen, die Inhalte sind sehr relevant für die Klausur",
+            "In der Klausur sind Fachbegriffe sehr wichtig",
         ],
         "erfahrungen": []
     },
@@ -158,9 +163,14 @@ RAW_MODULES = {
     "alternative_antriebssysteme": {
         "name": "Alternative Antriebssysteme",
         "modul_link": "https://www.gat.uni-rostock.de/lehre/module-im-master/alternative-antriebssysteme/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul ist als Kombination aus Vorlesung und Übung konzipiert (jeweils 90-minütige Einheiten). Übung und Vorlesung erfolgen im zweiwöchigen Wechsel: Auf eine Doppelvorlesung folgt ein entsprechender Übungsblock. Die Übungen werden vorher als Video hochgeladen und in Präsenz werden nur Fragen zu den Übungen besprochen. Die Vorlesungsinhalte umfassen konventionelle thermische Antriebe, elektrische Antriebe und Hybrid- und Elektrofahrzeuge. Das Hauptmerkmal liegt hierbei auf hybridischen Systemen.",
+        "klausur": "Mündliche Prüfung (unter 10 Teilnehmern), keine Rechnungen in der Prüfung. •	Klausurvorleistung: Projektbericht über die Auslegung eines Antriebstranges, wird über das Semester in Zweiergruppen erarbeitet und am Ende ausgewertet und besprochen",
+        "tipps": [
+            "Der Fokus liegt auf hybridischen Systemen, Verständnis der verschiedenen Systeme ist wichtig",
+            "Es braucht keine ausgeprägten Vorkenntnisse im Bereich Antriebstechnik",
+            "Nette Atmosphäre in der Prüfung",
+            "Die Übungen sind für die (mündliche) Prüfung nicht relevant",
+        ],
         "erfahrungen": []
     },
     "anatomie_und_physiologie": {
@@ -190,11 +200,11 @@ RAW_MODULES = {
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
         "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/angewandte-stroemungsmechanik-in-natur-und-technik/",
-        "beschreibung": "Es ist eine Ringvorlesung. Man muss nicht zu allen Veranstaltungen gehen, aber ihr bekommt vorher einen Plan mit allen Terminen und Themen. Daran kann man sich gut orientieren. Es ist eine gute Fühler Veranstaltung für die Vertiefung, falls man nciht weiß was man nehmen soll",
+        "beschreibung": "Es ist eine Ringvorlesung. Man muss nicht zu allen Veranstaltungen gehen, aber ihr bekommt vorher einen Plan mit allen Terminen und Themen. Daran kann man sich gut orientieren, was einen interessiert. Es ist eine gute Veranstaltung für die Vertiefung, falls man nichht weiß was man nehmen soll.",
         "klausur": "Es ist eine Hausarbeit, die anschließend präsentiert wird. Die Themen werden in den ersten Wochen ausgesucht und es gibt wirklich viele verschiedene Themen, da ist bestimmt für jeden etwas dabei.",
         "tipps": [
             "Geht zu den Vorlesungen, es lohnt sich echt",
-            "Fang früh mit der Hausarbeit an"
+            "Fang früh mit der Hausarbeit an",
             "Thema sollte man sich gut aussuchen und viel rücksprache mit dem Betreuer halten"
         ],
         "erfahrungen": [
@@ -202,6 +212,11 @@ RAW_MODULES = {
             {
                 "semester": "SS25",
                 "bericht": "Sehr cooles und interessantes Modul. Fachlich geht es nicht extrem tief in einzelne Themen, dafür bekommt man aber viele spannende Einblicke in aktuelle Forschung und unterschiedliche Bereiche. Man hört zu vielen Themen etwas, entwickelt dabei allerdings eher einen breiten Überblick statt tiefer Grundkompetenzen in einem speziellen Gebiet. Für die persönliche akademische Entwicklung und um verschiedene Forschungsrichtungen kennenzulernen, ist das Modul aber wirklich sehr empfehlenswert."
+            },
+
+            {
+                "semester": "SS26",
+                "bericht": "War sehr entspannt, benotung nett und eine topp Übung für spätere Präsentationen."
             }
 
         ]
@@ -287,7 +302,7 @@ RAW_MODULES = {
         "beschreibung": "Das Modul besteht nicht aus klassischen Frontalvorlesungen. Stattdessen sucht man sich ein eigenes Thema (die Themen sind breit gefächert) aus und führt dazu eine Art kleine Forschungsarbeit durch. Es ist im Grunde als ein „Üben des Präsentierens von eigenen Ergebnissen“ gedacht. Jedem wird ein Betreuer zugewiesen, die Bearbeitung erfolgt jedoch eigenständig. Im Laufe des Semesters gibt es außerdem eine Zwischenpräsentation.",
         "klausur": "Die Prüfungsleistung besteht aus einer Präsentation der erzielten Ergebnisse.",
         "tipps": [
-            "Fand früh an! Es wird nichts bringen in den letzten 2 Wochen etwas zu machen.",
+            "Fangt früh an! Es wird nichts bringen in den letzten 2 Wochen etwas zu machen.",
             "Nimmt ein Thema was euch echt interessiert.",
             "Achtet auf die grundlegenden Dinge einer guten Präsentation: ein ansprechendes Design (soll seriös wirken), eine klare Struktur und ein sicheres, freies Sprechen"
         ],
@@ -608,9 +623,13 @@ RAW_MODULES = {
     "dynamik_mehrkoerpersysteme": {
         "name": "Dynamik von Mehrkörpersystemen",
         "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/dynamik-von-mehrkoerpersystemen/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Die Veranstaltung besteht wöchentlich aus 90 Minuten Vorlesung und 90 Minuten Übung. Die Vorlesung ist stark mathematisch orientiert und behandelt das Verhalten von Mehrkörpersystemen. Zu Beginn werden die Grundlagen der Kinematik und Dynamik vermittelt, auf denen anschließend verschiedene Arten von Mehrkörpersystemen. Zu Beginn sind die Übungen reine Rechenübungen, zum Ende gibt es auch Parts mit Matlab und Simulationssoftware.",
+        "klausur": "schriftlich, 120 Minuten. •	Zu Beginn eine Aufgabe Verständnisfragen und dann 3 Aufgaben Rechnungen .Es wird eine Formelsammlung gestellt. Klausurvorleistung: In Zweiergruppen eine Belegaufgabe abgeben zum Ende des Semesters, für die Prüfungszulassung werden 75% benötigt",
+        "tipps": [
+            "Von Anfang an die Übungen verstehen und mitrechnen, um am Ball zu bleiben",
+            "In der Vorlesung werden viele Herleitungen erklärt, die für die Klausur nicht unbedingt relevant sind. In der Klausur werden die Systeme rechnerisch angewendet.",
+            "Belegaufgabe als Klausurvorbereitung nutzen und möglichst ohne viele Hilfsmittel lösen",
+        ],
         "erfahrungen": []
     },
     "dynamik_von_schiffen_und_offshore_strukturen": {
@@ -1232,9 +1251,14 @@ RAW_MODULES = {
     "hydraulik_pneumatik": {
         "name": "Hydraulik und Pneumatik",
         "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/hydraulik-und-pneumatik/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul besteht aus einer 90-minütigen Vorlesung und einem 90-minütigen Praktikum/Übung im Wechsel (pro Woche eine Vorlesung + Übung/Praktikum). Thematisch werden die Grundlagen der Fluidtechnik, fluidtechnische Baugruppen und hydraulische Kreisläufe behandelt. Während der Praktika werden in Gruppen Versuchsaufbauten erstellt und Messungen durchgeführt",
+        "klausur": "Mündliche Prüfung (unter 10 Teilnehmern), die ersten 10 Minuten Rechnung, dann Wissensfragen.•	Prüfungsvorleistung: In Gruppenarbeit müssen 6 Praktika absolviert werden und dazu Praktikumsberichte angefertigt werden, bei unzureichender Bearbeitung kommen die Berichte zur Nachbesserung zurück",
+        "tipps": [
+            "Vor Beginn der Praktika finden kurze Fragerunden statt, auf die man sich vorbereiten sollte.",
+            "Obwohl das Modul „Hydraulik & Pneumatik“ heißt, wird die Pneumatik nur am Rande behandelt.",
+            "Die Praktikumsberichte müssen spätestens etwa zwei Wochen vor der Prüfung abgegeben werden, daher sollte man sie nicht zu lange aufschieben.",
+
+        ],
         "erfahrungen": []
     },
     "hydraulische_stroemungsmaschinen": {
@@ -1298,10 +1322,19 @@ RAW_MODULES = {
     "intralogistik": {
         "name": "Intralogistik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul ist klassisch aufgebaut: 90-minütigen Vorlesung sowie einer 90-minütigen Übung. Inhaltlich beschäftigt man sich mit zahlreichen wichtigen Themen rund um die vernetzte Produkti. Dazu gehören unter anderem Materialflusstechnik, Automatisierung, Sensorik, Industrial Data Science sowie Informationsmanagement und Informationstechnik. Besonders interessant ist die inhaltliche Tiefe des Moduls: Man erhält fundierte Einblicke in die verschiedenen Themengebiete und lernt dabei sowohl grundlegende Zusammenhänge als auch konkrete technische Ansätze kennen. Die Vorlesungen werden von unterschiedlichen Mitarbeitenden des Lehrstuhls gehalten, die jeweils ihre fachliche Expertise und Erfahrung aus den entsprechenden Bereichen einbringen. Dadurch werden die einzelnen Themen sehr kompetent und praxisnah vermittelt. Auch die Übungen sind sehr gut aufgebaut.Dabei wird viel „händisch“ gearbeitet, macht Spaß.",
+        "klausur": "90 Minuten, Schriftlich. Typische Klausur bei dem Prof: viel Errötern, Begriffe voneinander abgrenzen, Vor- und Nachteile bennen und noch viele andere Sachen.",
+        "tipps": [
+            "Der Prof macht echt gute Vorlesungen, wenn man regelmäßig hingeht, kann man sehr viel daraus nehmen und man muss für die Klausur viel weniger lernen",
+            "die letzte Vorlesung im Semester ist eine Art Klausurvorbereitung, stellt gute Fragen und geht UNBEDINGT hin! ;)",
+            "Übungen sind super gut zum gucken wie solche Roboter und FTFs funktionieren, kann man ganz cool damit rumspielen",
+        ],
+        "erfahrungen": [
+             {
+                "semester": "SS26",
+                "bericht": "Ich fand das Modul wirklich gut und es war mal etwas anderes. Besonders cool fand ich, dass man Themen wie Roboter, FTFs und Drohnen behandelt hat. In der Klausur kamen allerdings teilweise Sachen dran, bei denen vorher gesagt wurde, dass sie eher unwichtig seien. Außerdem mussten wir sogar KI definieren, was ich etwas ungewöhnlich fand und nicht ganz zu den typischen Klausuren des Lehrstuhls gepasst hat. Insgesamt kann ich das Modul aber auf jeden Fall weiterempfehlen."
+            }
+        ]
     },
     "introduction_applied_programming_cpp": {
         "name": "Introduction to Applied Programming in C++",
@@ -1570,10 +1603,18 @@ RAW_MODULES = {
     "management_entwicklungsteams_projekten": {
         "name": "Management von Entwicklungsteams und Projekten",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul besteht aus wöchentlichen Vorlesungen von jeweils 90 Minuten. Statt klassischer Übungen nutzt man die Übungszeit, um sich auf die Zulassung vorzubereiten. Für die Zulassung muss man zwei Präsentationen zu Aufgaben halten, die der Professor im Laufe des Semesters stellt. Dafür findet man sich in Gruppen mit maximal 6 Personen zusammen. Die Präsentationen finden jeweils während der regulären Übungszeit statt. Es geht um Bussinesplan erstellen,Phasen des Entwicklungsprozesses, Szenariotechniken sowie Gewerbliche Schutzrechte",
+        "klausur": "90 Minutige, sehr entspannte klausur mit netten Fragen.",
+        "tipps": [
+            "Präsentationen helfen beim lernen für die Klausur",
+            "Geht zur Konsultation",
+        ],
+        "erfahrungen": [
+            {
+                "semester": "SS26",
+                "bericht":  "Für ein nichttechnisches Modul super entspannt und sehr interesant. Nimmt auch nicht viel Zeit im Anspruch."
+            }
+        ]
     },
     "maritime_graphics": {
         "name": "Maritime Graphics",
@@ -1586,18 +1627,32 @@ RAW_MODULES = {
     "maritime_logistik": {
         "name": "Maritime Logistik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul ist als Blockmodul aufgebaut und unterscheidet sich dadurch deutlich von klassischen Modulen mit wöchentlichen Vorlesungen und Übungen. Zu Beginn des Semesters findet zunächst eine Einführungsveranstaltung statt, in der unter anderem die einzelnen Termine für das Semester bekannt gegeben werden. An diesen Blocktagen verbringt man dann jeweils ungefähr acht Stunden mit den verschiedenen Veranstaltungen des Moduls. In der Regel gibt es etwa zwei bis vier Vorlesungen und eine ähnliche Anzahl an Übungen. Einen großen und besonders interessanten Teil des Moduls machen dafür die Exkursionen aus. Dabei besucht man verschiedene Unternehmen und Standorte (beispielsweise Liebherr oder die Euroports) und bekommt die Möglichkeit, die zuvor behandelten Themen direkt in der Praxis zu erleben. Die Exkursionen sind sehr gut organisiert und definitiv eines der Highlights des Moduls.",
+        "klausur": "90 Minuten, typische Klausur des Lehrstuhls",
+        "tipps": [
+            "Exkursionen sind echt geil",
+            "Vorlesungen super",
+            "Es gibt manchmal auch Gastvorträge"
+        ],
+        "erfahrungen": [
+                {
+                                "semester": "SS26",
+                                "bericht": "Fand es ein super geiles Modul. Ich war bei allem, was ging, dabei und es hat sich zu 100 % gelohnt. Der Gastvortrag war nicht so meins, aber sonst war alles top! Die Klausur war auch gut machbar, mit ein bisschen Aufwand kann man bestimmt eine gute Note schreiben."
+                }
+        ]
     },
     "maritime_sensorik": {
         "name": "Maritime Sensorik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Eine wöchentliche Veranstaltung von 2-3h (Vorlesung + Übung). Inhaltlich beschäftigt sich das Modul mit den Grundlagen von Sensoren und verschiedenen Funktionsprinzipien. Dabei werden unterschiedliche Arten von Sensoren sowie deren Aufbau und Einsatzmöglichkeiten behandelt. Zusätzlich gibt es freiwillige Praktika, die direkt im Anschluss an die Vorlesung stattfinden. ",
+        "klausur":"schriftlich, 90 Minuten, keine Vorleistung",
+        "tipps": [
+            "Dr. Schaeper berichtet viel von eigenen Erfahrungen, dadurch ist das Modul sehr anwendungsorientiert",
+            "Es gibt die Möglichkeit einer Exkursion in der Projektwoche zur biologischen Station Zingst",
+        ],
+        "erfahrungen": [
+            
+        ]
     },
     "maschinendynamik": {
         "name": "Maschinendynamik",
@@ -1936,17 +1991,29 @@ RAW_MODULES = {
     "numerik_fuer_ingenieurwissenschaften": {
         "name": "Numerik für Ingenieurwissenschaften",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte hauptsächlich theoretisch erklärt und gelegentlich anhand von Beispielen verdeutlicht oder vorgerechnet. In der Übung werden dann passende Aufgaben gemeinsam gerechnet. Diese Aufgaben orientieren sich oft stark an den Abgaben. Inhaltlich behandelt das Modul verschiedene Themen aus der numerischen Mathematik, darunter lineare Gleichungssysteme, Eigenwertprobleme und nichtlineare Gleichungssysteme, Differentiation und Integration sowie um Anfangs- und Randwertprobleme bei gewöhnlichen Differentialgleichungen und partielle Differentialgleichungen.",
+        "klausur": "Schriftlich, 60 Minuten",
+        "tipps": [
+            "Hinweis: Alle Mechatronik-Studierenden schreiben eine Kombinationsprüfung mit Numerik (3LP) und Stochastik (3LP) in den Ingenieurswissenschaften, alle anderen Studiengänge belegen die Module einzeln.",
+            "Nicht erst einen Tag vor der Abgabe mit den Aufgaben beginnen",
+            "Von Anfang an am Ball bleiben",
+            "Es lohnt sich zur Vorlesung zu gehen, weil dort oft schon Beispiele durchgerechnet werden",
+        ],
         "erfahrungen": []
     },
     "numerik_stochastik_ing": {
-        "name": "Numerik und Stochastik für Ingenieurwissenschaften",
+        "name": "Numerik und Stochastik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Numerik: Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte hauptsächlich theoretisch erklärt und gelegentlich anhand von Beispielen verdeutlicht oder vorgerechnet. In der Übung werden dann passende Aufgaben gemeinsam gerechnet. Diese Aufgaben orientieren sich oft stark an den Abgaben. Inhaltlich behandelt das Modul verschiedene Themen aus der numerischen Mathematik, darunter lineare Gleichungssysteme, Eigenwertprobleme und nichtlineare Gleichungssysteme, Differentiation und Integration sowie um Anfangs- und Randwertprobleme bei gewöhnlichen Differentialgleichungen und partielle Differentialgleichungen. •	Prüfungsvorleistung: Zweiwöchige Abgabe von Übungsaufgaben, für die Zulassung zur Prüfung sind mindestens 50% in den Aufgaben notwendig. Die Abgaben werden handschriftlich in der Vorlesung abgegeben. Stochastik:Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte sehr theoretisch behandelt, wobei viele Definitionen und Herleitungen im Mittelpunkt stehen. Inhaltlich geht es um Wahrscheinlichkeitsrechnung. Behandelt werden diskrete und allgemeine Wahrscheinlichkeitsräume, bedingte Wahrscheinlichkeiten sowie Unabhängigkeit von Ereignissen. Außerdem werden Erwartungswert und Varianz eingeführt. Darauf aufbauend folgen Grenzwertsätze sowie eine Einführung in die Statistik. •	Prüfungsvorleistung: Wöchentliche Abgabe von Übungsaufgaben über Studip, für die Zulassung zur Prüfung sind mindestens 50% in den Abgaben notwendig",",
+        "klausur": "Numerik: Schriftlich, 60 Minuten. Stochastik: Schriftlich, 60 Minuten",
+        "tipps": [
+            "Hinweis: Alle Mechatronik-Studierenden schreiben eine Kombinationsprüfung mit Numerik (3LP) und Stochastik (3LP) in den Ingenieurswissenschaften, alle anderen Studiengänge belegen die Module einzeln.",
+            "Nicht erst einen Tag vor der Abgabe mit den Aufgaben beginnen",
+            "Von Anfang an am Ball bleiben",
+            "Es lohnt sich zur Vorlesung zu gehen, weil dort oft schon Beispiele durchgerechnet werden",
+            "Unbedingt die Übung mitnehmen, da werden alle Themen sehr verständlich erklärt",
+            "Ca. 50% der Abgabe ist ein Online-Test mit 3 Versuchen, nach jeder Frage gibt es eine Rückmeldung, dadurch ist es relativ einfach im 2. oder 3. Testversuch 100 % zu erreichen",
+        ],
         "erfahrungen": []
     },
     "numerische_stroemungsmechanik": {
@@ -2122,9 +2189,15 @@ RAW_MODULES = {
     "projekt_produktentwicklung": {
         "name": "Projekt Produktentwicklung",
         "modul_link": "https://www.pe.uni-rostock.de/studium/master/projekt-produktentwicklung/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das 12-LP-Modul läuft bis Ende August und findet jede Woche statt. Pro Woche gibt es zwei Termine: einen 90-minütigen Termin nur mit den Studierenden und einen weiteren Termin zusammen mit Prof. Gericke. Für diesen zweiten Termin sind vier Stunden eingeplant. Zu Beginn des Moduls wird eine Problemstellung von einem Industriepartner vorgestellt. Mit dieser Aufgabe beschäftigt sich die gesamte Gruppe über das ganze Semester hinweg. Alle Teilnehmenden arbeiten gemeinsam an dem Projekt und organisieren sich dabei selbst als Projektteam. Innerhalb der Gruppe werden unterschiedliche Aufgaben und Verantwortlichkeiten verteilt. Prof. Gericke begleitet das Projekt und gibt regelmäßig neue Impulse, Feedback und Unterstützung für den weiteren Verlauf des Projekts. Gleichzeitig liegt ein großer Teil der Organisation bei den Studierenden selbst. Viele Entscheidungen, Absprachen und Arbeitsprozesse werden direkt im Team geplant und umgesetzt. ",
+        "klausur": "Prüfungsleistung: Abschlusspräsentation + Projektbericht. Prüfungsvorleistung: 2 Zwischenpräsentationen im Laufe des Semesters",
+        "tipps": [
+        "Es wird eine regelmäßige Anwesenheit gefordert",
+        "Viel der Arbeit liegt im Semester",
+        "Das Modul „Konstruktionsmethodik“ aus dem Wintersemester beschäftigt sich mit der methodischen Vorgehensweise der Projektplanung, es ist hilfreich dieses vorher belegt zu haben",
+        "Sehr praxisnahes Modul mit der Möglichkeit mit verschiedenen Abteilungen eines Unternehmens zusammen zu arbeiten und ein bisschen in di Arbeit einer Entwicklungsabteilung zu schnuppern",
+        "Der Termin mit Prof. Gericke ist zwar auf 4 Stunden geplant, dauert aber oft nur 2-3, je nachdem wie viel zu besprechen ist",
+        ],
         "erfahrungen": []
     },
     "project_seminar_power_electronics": {
@@ -2237,9 +2310,16 @@ RAW_MODULES = {
     "regelungsorientierte_modellbildung_mechatronik": {
         "name": "Regelungsorientierte Modellbildung in der Mechatronik",
         "modul_link": "https://www.com.uni-rostock.de/lehre/wintersemester-master/regelungsorientierte-modellbildung-in-der-mechatronik/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul besteht wöchentlich aus einer 150-minütigen Vorlesung (15 Minuten Pause inklusive) und einer 90-minütigen Übung. Die Vorlesung ist sehr theoretisch und behandelt die Modellbildung auf Basis physikalischer Systeme, Systeme mit verteilten Parametern, Modellvereinfachung, nicht parametrische Modelle und Optimierungsprobleme. Zu Beginn gibt es ausschließlich Rechenübungen, zum Ende wird auch viel in Matlab gelöst. ",
+        "klausur": "schriftlich, 120 Minuten. Eine selbstbeschriebene doppelseitige DIN A4 Seite Formelsammlung ist zugelassen. Prüfungsvorleistung: 2-3 Praktikumstermine, vor den Praktikumsterminen wird eine Aufgabenstellung verteilt, die in Form eines Matlab-Skriptes bis zwei Tage vor dem Praktikum eingereicht werden muss. Klausur besteht aus einer Mischung von Verständnisfragen und Rechenaufgaben, Rechenaufgaben geben deutlich mehr Punkte",
+        "tipps": [
+            "Physikalische Modelle sind wichtig zu verstehen",
+            "Alle Matlabaufgaben sind für die Klausur nicht relevant",
+            "Im Vergleich ein eher komplexes Modul mit viel Inhalt",
+            "Die Klausuren werden meistens vom Schnitt runtergesetzt, es sind meistens nur 30-40% zum Bestehen notwendig",
+            "Zum Ende des Moduls wird eine Probeklausur gerechnet, vom Aufbau ist die ähnlich der richtigen Klausur, richtige Klausur ist jedoch schwieriger",
+            "Es lohnt sich viel Zeit in eine ausführliche Formelsammlung zu stecken",
+        ],
         "erfahrungen": []
     },
     "regelungssysteme_zustandsraum": {
@@ -2473,9 +2553,12 @@ RAW_MODULES = {
     "stochastik": {
         "name": "Stochastik für Ingenieurwissenschaften",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das 3-LP-Modul besteht aus einer wöchentlichen 90-minütigen Vorlesung und einer 90-minütigen Übung, die alle zwei Wochen stattfindet. In der Vorlesung werden die Inhalte sehr theoretisch behandelt, wobei viele Definitionen und Herleitungen im Mittelpunkt stehen. Inhaltlich geht es um Wahrscheinlichkeitsrechnung. Behandelt werden diskrete und allgemeine Wahrscheinlichkeitsräume, bedingte Wahrscheinlichkeiten sowie Unabhängigkeit von Ereignissen. Außerdem werden Erwartungswert und Varianz eingeführt. Darauf aufbauend folgen Grenzwertsätze sowie eine Einführung in die Statistik. •	Prüfungsvorleistung: Wöchentliche Abgabe von Übungsaufgaben über Studip, für die Zulassung zur Prüfung sind mindestens 50% in den Abgaben notwendig",
+        "klausur": "schriftlich, 60 Minuten",
+        "tipps": [
+            "Unbedingt die Übung mitnehmen, da werden alle Themen sehr verständlich erklärt",
+            "Ca. 50% der Abgabe ist ein Online-Test mit 3 Versuchen, nach jeder Frage gibt es eine Rückmeldung, dadurch ist es relativ einfach im 2. oder 3. Testversuch 100 % zu erreichen"
+        ],
         "erfahrungen": []
     },
     "stroemungsmechanik_grundlagen": {
@@ -2747,9 +2830,13 @@ RAW_MODULES = {
     "thermische_stroemungsmaschinen": {
         "name": "Thermische Strömungsmaschinen",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Sehr cooles Modul, wenn man hydraulische Strömungsmaschinen gemacht hat und interesse in Thermodynamik hat ist das Modul perfekt. Man beschäftigt sich mit Lavaldüse, Schaufelauslegung, Triebwerke usw.",
+        "klausur": "Mündliche Klausur, es gibt drei Fragen. Die ersten beiden von Prof und die letzte vom Übungsleiter. Alles super human, sollte man aber trozdem lernen.",
+        "tipps": [
+            "geht zu den Vorlesungen und Übungen, es wird super viel da erklärt",
+            "Konsultation ist sehr hilfreich",
+            "Literatur die er gibt, war ganz gut, falls einer sich für die Themen mehr interresiert",
+        ],
         "erfahrungen": []
     },
     "turbulenzmodellierung": {

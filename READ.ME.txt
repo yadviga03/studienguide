@@ -1,3 +1,35 @@
+WAS MACHE ICH WENN ICH EIN MODUL EINTRAGEN WILL?
+
+ich gehe zu "modules.py" darin suche ich nach meinem Modul
+die sehen so aus:
+"aktive_systeme_kraftfahrzeug": {   
+        "name": "Aktive Systeme im Kraftfahrzeug",
+        "modul_link": "https://www.com.uni-rostock.de/lehre/sommersemester-master/aktive-systeme-im-kraftfahrzeug/",
+        "beschreibung": "Beschreibung folgt.",
+        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "tipps": [],
+        "erfahrungen": []
+    },
+was bedeutet das alles?
+    "name ist der echter name, der auf der Website angezeigt wieder"
+    "modullink ist der link, für die offizielle Beschreibung des Profs"
+    "beschreibung" ist logischerweise die beschreibung
+    "klausur" logischwerweise auch
+    "tipps" müssen in der Form reingemavht werden
+                    "tipps": [
+                        "hier tipp nummer 1",
+                        "hier tipp nummer 2"
+                    ],
+     "erfahrungen" müssen in der Form rein:
+                    "erfahrungen": [
+                            {
+                                "semester": "hier semester wie "SS23" oder "WS24/25"",
+                                "bericht": "einmal das was der Student berichtet"
+                            }
+                        ]
+
+
+
 
 
 DIE BEZEICHNUNGEN FÜR DIE MÖGLICHEN MODULGRUPPEN IN ALLEN STUDIENGÄNGEN
@@ -18,3 +50,38 @@ wahlmodule
 
 
 BESCHREIBUNG MODULE FOLGENDERWEISE
+# Beschreibung (Beispiel)
+# Name: "..."
+# Beschreibung:
+#   1. Welche Struktur hatte das Modul?
+#      z. B. Vorlesung 1,5 h / Übung 1,5 h oder zusätzlich Praktika?
+#   2. Welche Inhalte sind besonders wichtig und was eher Nebensächlich?
+#   3. Warum ist das Modul für weiterführende Module wichtig oder nicht wichtig?
+#   4. Prüfungsvorleistung:
+#      Näheres: Was genau musste gemacht werden? (Inhalt, zeitlicher Aufwand etc.)
+
+# Klausur:
+#   Wie ist die Prüfungsleistung aufgebaut?
+#   z. B. mündlich oder schriftlich
+#   Wenn schriftlich:
+#       - Rechnen / Theorie, wie ist der Aufbau?
+#       - Wie viele Aufgaben gibt es?
+#       - Wie viel Zeit steht zur Verfügung?
+#   Wenn mündlich:
+#       - Wie ist die Prüfung aufgebaut? 
+#       - Was ist das Ziel in der Prüfung (z.B möglichst viele Fragen beantworten oder vielleicht eher die Fragen sehr ausführilich beantworten mit Zusatzinformationen)
+
+# Tipps:
+#   Wenn du das Modul nochmal beginnen würdest:
+#       - Was würdest du vorher wissen wollen?
+#       - Gibt es hilfreiche Bücher?
+#       - Welche Vorleistungen sind besonders wichtig?
+#       - Gibt es etwas, das man auf keinen Fall machen sollte?
+
+# Erfahrungen:
+#   1. Wann hast du das Modul belegt? (z. B. WS 2025/2026, SS 2024)
+#   2. Was war besonders gut?
+#   3. Was war nicht so gut?
+#   4. Wie gut war die Vorbereitung auf die Klausur?
+#   5. Wie passt die Note zu deinem Lernaufwand?
+#   6. Würdest du das Modul im Nachhinein wieder wählen / empfehlen?

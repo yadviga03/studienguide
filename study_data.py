@@ -317,7 +317,7 @@ DATA = {
                     "betriebsfestigkeit",
                     "biomaterialien_maschinenbau",
                     "experimenteller_leichtbau",
-                    "festigkeitsoptimiertes_gestalten",
+                    "festigkeitsoptimiertes_bruchsicheres",
                     "klebtechnik",
                     "leichtbaukonstruktion",
                     "leichtbauwerkstoffe",
