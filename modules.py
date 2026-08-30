@@ -108,7 +108,7 @@ RAW_MODULES = {
         "name": "Additive Fertigungsverfahren",
         "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/additive-fertigungsverfahren/",
         "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch terminlich individuelle Praktika. Hier lernt man die verschiedenen Verfahren der Addiviten Fertigung kennen, sowie ihre Anwendungsbereiche. In den Praktika (in kleinen Gruppen) müssen Bauteile konstruiert und gedruckt werden sowie ein Bericht dazu erstellt werden. •	Klausurvorleistung: In dem Praktikum sollen in Gruppenarbeit zwei Teile konstruiert und gedruckt werden (FDM, DLP), zu dem Praktikum muss ein Projektbericht geschrieben werden",
-        "klausur": "Die Klausur ist schriftlich, 90 Minuten. Es sollten die Vorlesungsdateien durchgearbeitet werden sowie die Tipps des Professors beachtet werden.Tipps",
+        "klausur": "Die Klausur ist schriftlich, 90 Minuten. Dazu kommt das nennen von Vor- und Nachteilen. Um eine 1,0 zu bekommen, müssen nur 80% der Fragen richtig beantwortet werden. Man kann sich also Aufgaben „aussuchen“. Es sollten die Vorlesungsdateien durchgearbeitet werden sowie die Tipps des Professors beachtet werden.",
         "tipps": [
             "Geht zu den Vorlesungen und seht euch auch die vorgestellten Unternehmen mit an",
             "Stellt bei den Praktika ausreichend Fragen, um euch den anschließenden Bericht zu erleichtern",
@@ -118,7 +118,13 @@ RAW_MODULES = {
             "Die Praktikaveranstaltungen zu Beginn unbedingt mitnehmen, die Inhalte sind sehr relevant für die Klausur",
             "In der Klausur sind Fachbegriffe sehr wichtig",
         ],
-        "erfahrungen": []
+        "erfahrungen": [
+
+            {
+                "semester": "WS21/22",
+                "bericht": "In diesem Modul lernt man die unterschiedlichsten Verfahren der additiven Fertigung kennen. Anders ausgedrückt: 3D-Druck. Der Vorlesungsinhalt ist etwas trocken. Aber das Laborpraktikum ist interessant. Die Prüfung ist sehr Theorielastig. Das bedeutet, dass die sehr viele unterschiedliche Prozesse beschrieben werden müssen. Generell kann ich das Modul empfehlen."
+            }
+        ]
     },
     "advanced_analysis_of_marine_structures": {
         "name": "Advanced Analysis of Marine Structures",
@@ -275,10 +281,16 @@ RAW_MODULES = {
     "ausgewaehlte_anwendung_regelungstechnik": {
         "name": "Ausgewählte Anwendungen der Regelungstechnik",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "beschreibung": "Vorlesung: 120 min. Übung: 90 min. Praktika: Zwei Laborpraktika. Prüfungsvorleistungen: Besuchen der Praktika",
+        "klausur": "Schriftlich mit Rechenaufgaben und ein Teil mit Kurzfragen. Für die Klausur hat man 120 min Zeit, was ausreichend ist. Altklausuren und die Übungsaufgaben sin dabei sehr hilfreich. ",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester":"WS24/25",
+                "bericht":"Für dieses Modul ist eine gute Kenntnis in Regelungstechnik notwendig. In der Vorlesung werden sehr viele Themen gelehrt, was schonmal überfordernd sein kann. Die Prüfung ist aber deutlich angenehmer, als in Messtechnik oder Systemdynamik und Regelungstechnik. Ich empfehle dieses Modul, wenn ein Regelungsmodul in der SPSO vorgesehen ist."
+            }
+            
+        ]
     },
     "ausgewaehlte_fertigungsverfahren": {
         "name": "Ausgewählte Fertigungsverfahren",
@@ -624,13 +636,18 @@ RAW_MODULES = {
         "name": "Dynamik von Mehrkörpersystemen",
         "modul_link": "https://www.ltmd.uni-rostock.de/lehrveranstaltungen/dynamik-von-mehrkoerpersystemen/",
         "beschreibung": "Die Veranstaltung besteht wöchentlich aus 90 Minuten Vorlesung und 90 Minuten Übung. Die Vorlesung ist stark mathematisch orientiert und behandelt das Verhalten von Mehrkörpersystemen. Zu Beginn werden die Grundlagen der Kinematik und Dynamik vermittelt, auf denen anschließend verschiedene Arten von Mehrkörpersystemen. Zu Beginn sind die Übungen reine Rechenübungen, zum Ende gibt es auch Parts mit Matlab und Simulationssoftware.",
-        "klausur": "schriftlich, 120 Minuten. •	Zu Beginn eine Aufgabe Verständnisfragen und dann 3 Aufgaben Rechnungen .Es wird eine Formelsammlung gestellt. Klausurvorleistung: In Zweiergruppen eine Belegaufgabe abgeben zum Ende des Semesters, für die Prüfungszulassung werden 75% benötigt",
+        "klausur": "schriftlich, 120 Minuten. Zu Beginn eine Aufgabe Verständnisfragen und dann 3 Aufgaben Rechnungen .Es wird eine Formelsammlung gestellt. Klausurvorleistung: In Zweiergruppen eine Belegaufgabe abgeben zum Ende des Semesters, für die Prüfungszulassung werden 75% benötigt",
         "tipps": [
             "Von Anfang an die Übungen verstehen und mitrechnen, um am Ball zu bleiben",
             "In der Vorlesung werden viele Herleitungen erklärt, die für die Klausur nicht unbedingt relevant sind. In der Klausur werden die Systeme rechnerisch angewendet.",
             "Belegaufgabe als Klausurvorbereitung nutzen und möglichst ohne viele Hilfsmittel lösen",
         ],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester": "WS20/21",
+                "bericht":"Dieses Modul knüpft an TM3 an. Wenn man diese Module gut fand und sich die Thematik interessiert, ist dies eine gute Wahl. Man lernt, wie sich die Dynamik von verschiedener Kinematiken verhält. Für weiterführende Module ist dieses Modul nicht wichtig. Das Modul war besonders gut strukturiert. Man Konnte sich gut auf die Prüfung vorbereiteten und der Lernaufwand ist zu Note fair."
+            }
+        ]
     },
     "dynamik_von_schiffen_und_offshore_strukturen": {
         "name": "Dynamik von Schiffen und Offshore Strukturen",
@@ -938,10 +955,15 @@ RAW_MODULES = {
     "fehlerdiagnose_und_fehlertoleranz_in_technischen_systemen": {
         "name": "Fehlerdiagnose und Fehlertoleranz in technischen Systemen",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "beschreibung": "Vorlesung: 90 min. Übung: 90 min. Praktika: keine. Prüfungsvorleistung: Beleg, indem ein System zur Fehlererkennung in Matlab Simulink erstellt werden soll",
+        "klausur": "Mündliche Wissensabfrage. Die Prüfung ist ein zwei Teile geteilt. Der Erste Teil ist eine Abfrage der Theorie aus der Vorlesung. Im zweiten Teil muss das entwickelte Simulink-Model erklärt werden. Die Stimmung in der Prüfung ist gut und die Dozenten versuchen durch Änderung der Fragestellung, das meiste aus einem herauszuholen.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                 "semester": "WS21/22",
+                "bericht": "Dieses Modul ist sehr mathematisch. Man muss ein grundlegendes Verständnis für Regelungstechnik und Matlab haben. Ich fand dieses Modul sehr interessant. Dazu ist aber zu sagen, dass die Vorlesung nicht so gut strukturiert ist. Ich würde das Modul empfehlen."
+            }
+        ]
     },
     "fertigungslehre": {
         "name": "Fertigungslehre",
@@ -1804,10 +1826,15 @@ RAW_MODULES = {
     "mikrofluidik": {
         "name": "Mikrofluidik",
         "modul_link": "https://www.lfm.uni-rostock.de/lehre/master/mikrofluidik/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "beschreibung": "Vorlesung: 90 min.Übung: keine. Praktika: Zwei Stück, die in Gruppenarbeit durchzuführen sind. Prüfungsvorleistung: Bestehen von vier Praktika die in Gruppenarbeit durchgeführt werden.",
+        "klausur": "Mündliche Prüfung in der die Theorie aus der Vorlesung abgefragt wird. Die Stimmung in der Prüfung ist gut. Der Dozent stellt die Fragen auch in anderer Form, wenn diese nicht verstanden wird.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester":"SS21",
+                "bericht": "Dieses Modul ist etwas trocken. Das bedeutet die Vorlesung ist sehr theoretisch, wo sehr viel Inhalt übermittelt wird. Die Laborversuche sind da eine nette Abwechslung. Generell ist dieses Modul aber interessant und ich würde es weiterempfehlen."
+            }
+        ]
     },
     "mikrosystemtechnologie": {
         "name": "Mikrosystemtechnologie",
@@ -2445,10 +2472,15 @@ RAW_MODULES = {
     "schweisskonstruktion": {
         "name": "Schweißkonstruktion",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "beschreibung": "Vorlesung: 90 min. Übung: 90 min",
+        "klausur": "Schriftlich mit Rechenteil und einen Wissensteil. Die Aufgaben aus dem Rechenteil sind ähnlich zu den Übungsaufgaben. Für den Wissensteil gibt es Altklausuren, mit denen man sich gut vorbereiten kann.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+            "semester":"WS24/25",
+            "bericht":"Dies Modul ist zu empfehlen, wenn man TM gut fand. Es sind viele Parallelen von TM1 und TM2 vorhanden. Generell ist dieses Modul etwas leichter als andere. Die Prüfung zu bestehen ist kein Problem. Eine gute Note zu bekommen ist schon schwere. "
+            }
+        ]
     },
     "schweissmetallurgie": {
         "name": "Schweißmetallurgie",
@@ -2726,11 +2758,16 @@ RAW_MODULES = {
     },
     "technische_schwingungslehre": {
         "name": "Technische Schwingungslehre",
-        "modul_link": "",
+        "modul_link": "Übung/Vorlesung 90min. Ein Laborpraktikum",
         "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
+        "klausur": "Prüfungsvorleistungen: 3 Rechenbelege mit Teilaufgaben, wo programmiert werden musste. Mündlich in der man vier bis fünf „Rechenaufgaben“ gezeigt bekommt, wo man sein vorgehen beschreiben soll. Generell ist die mündliche Prüfung fair gewesen und der Dozent versucht so viel wie möglich zu unterstützen.",
         "tipps": [],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+                "semester":"SS21",
+                "bericht":  "Dieses Modul ist eine Art Weiterführung von Maschinendynamik und TM3. Es ist sehr mathematisch. Die Vorlesung und Übungen sind gut aufeinander abgestimmt. Generell ist dieses Modul aber sehr anspruchsvoll. Die Prüfung war mündlich ist man muss die Thematik gut verstanden haben, um eine gute bis sehr gute Note zu bekommen. Ich würde dieses Modul Leuten empfehlen, die gut in TM waren und kein Problem mit einem etwas mehr Mathe in einem Modul haben."
+            }
+        ]
     },
     "technische_thermodynamik_2": {
         "name": "Technische Thermodynamik 2",
