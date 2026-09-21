@@ -2464,10 +2464,19 @@ RAW_MODULES = {
     "resistance_propulsion": {
         "name": "Resistance and Propulsion",
         "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "The module consists of one and a half hours of lectures and one and a half hours of exercise sessions. However, the exercise sessions do not necessarily take place every week, so the schedule may vary. The lectures provide a lot of theoretical background (with repetition on fundamentals of fluid mechanics, which are essential for understanding resistance and propulsion). During the exercise sessions, the focus is more on developing a deeper understanding of the concepts introduced in the lectures. There are also several calculation exercises, which are quite interesting and enjoyable to work on. This is a particularly important module for anyone who is considering working in the field of propulsion later on, as it goes into greater detail on propellers and propulsion systems. At the same time, the module is also very useful for gaining a deeper overall understanding of ship design and development. There is also a prerequisite assessment that is likely to remain the same each year. It consists of a written report based on a given assignment. The assignment is divided into four parts and is completed in groups of four students. The group works together on the different parts of the task and has to achieve a certain number of points in order to pass. Overall, however, this assessment is fairly straightforward and not particularly difficult to pass. ",
+        "klausur": "The exam is a written exam lasting 90 minutes and is divided into three parts. The first part consists of multiple-choice questions. The second part includes theoretical questions, some of which also involve short calculations. The third part consists entirely of calculation exercises. These are usually divided into several subparts, for example 2a, 2b, 2c and 2d. The individual subparts can build on each other, meaning that the result of one part may be needed for the following parts. A minimum of 50% of the total points is required to pass the exam. ",
+        "tipps": [
+            "Go to the exercise sessions and lectures. It is really important to understand the concepts, how the formulas are derived, and how the calculations are carried out."
+            "Ask questions whenever there is something you do not understand.",
+            "Make sure you have a solid understanding of fluid mechanics before going deeper into the more advanced topics.",
+        ],
+        "erfahrungen": [
+            {
+                "semester":"SS26",
+                "bericht": "I really enjoyed this module. It was very interesting and the content was explained in a clear and understandable way. The professor is a great lecturer, and Max, who led the exercise sessions, was also really good at explaining difficult concepts. Both of them were always patient, friendly, and happy to answer any questions. The module helped me gain a much better understanding of how propellers work and how ship resistance and propulsion are connected. The exam was challenging, but fair and closely related to what we had learned during the semester. I would definitely recommend this module to anyone who is interested in learning more about propulsion, ship resistance, and the technical side of ship design."
+            }
+        ]
     },
     "robotertechnik": {
         "name": "Robotertechnik",
