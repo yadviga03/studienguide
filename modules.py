@@ -411,10 +411,20 @@ RAW_MODULES = {
      "bruch_schaedigungmechanik": {
         "name": "Bruch- und Schädigungsmechanik",
         "modul_link": "https://www.cld.uni-rostock.de/bruch-und-schaedigungsmechanik/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul beschäftigt sich mit der Frage, wie Risse und Schädigungen in Werkstoffen und Bauteilen entstehen, sich ausbreiten und rechnerisch bewertet werden können. Nach einer Einführung in die mechanischen Grundlagen geht es unter anderem um Spannungskonzentrationen, die linear-elastische und elastisch-plastische Bruchmechanik sowie die Finite Bruchmechanik. Ergänzt wird das Ganze durch experimentelle Charakterisierungsmethoden und numerische Ansätze wie Cohesive-Zone- und Phasenfeldmodelle. Die Veranstaltung ist forschungsnah aufgebaut und zeigt neben etablierten Methoden auch neuere Entwicklungen der Bruch- und Schädigungsmechanik. Das Modul ist als englischsprachige Veranstaltung ausgewiesen und das vollständige Skript steht auf Englisch zur Verfügung. Je nach Zusammensetzung der Gruppe kann die Veranstaltung nach Absprache auch auf Deutsch stattfinden.",
+        "klausur": "Die Prüfung ist mündlich und findet nach bisherigen Erfahrungen gemeinsam mit weiteren Studierenden in einer Kleingruppe statt. Im Mittelpunkt stehen das Verständnis der Zusammenhänge und die Fähigkeit, geeignete Modelle und Methoden einzuordnen und anzuwenden.",
+        "tipps": [
+            "Skript und Übung hilfreich für Vorbereitung",
+            "Reines Auswendiglernen bringt deutlich weniger als ein solides Verständnis der Annahmen, Gültigkeitsbereiche und Zusammenhänge der verschiedenen Modelle.",
+            "Vorkenntnisse in Technischer Mechanik und Kontinuumsmechanik erleichtern den Einstieg.",
+            "Bei offenen Fragen lohnt es sich, direkt in der Vorlesung oder Übung nachzufragen; die Lehrenden sind auch außerhalb der Veranstaltungen gut ansprechbar.",
+        ],
+        "erfahrungen": [
+            {
+            "semester": "",
+            "bericht": "Das Modul vermittelt ein deutlich tieferes Verständnis dafür, warum und wie Bauteile durch Risse oder fortschreitende Schädigung versagen. Die Veranstaltung und die Übungen sind interaktiv gestaltet und bieten viel Raum für fachliche Diskussionen und Rückfragen. Besonders positiv ist die enge Verbindung zwischen mechanischen Grundlagen, aktuellen Forschungsansätzen und praktischen Anwendungen. Hervorzuheben ist außerdem das Engagement der Lehrenden.",
+            }
+        ]
     },
     "cad": {
         "name": "Computer Aided Design (CAD)",
@@ -930,10 +940,19 @@ RAW_MODULES = {
     "experimenteller_leichtbau": {
         "name": "Experimenteller Leichtbau",
         "modul_link": "https://www.cld.uni-rostock.de/experimenteller-leichtbau/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul verbindet eine begleitende Vorlesung mit mehreren Laborpraktika. Inhaltlich geht es vor allem um die Herstellung von Faserkunststoffverbunden und um experimentelle Methoden zur Untersuchung ihres mechanischen Verhaltens. Dazu gehören unter anderem Handlaminieren, Vakuuminfusion, zerstörungsfreie Prüfverfahren und digitale Bildkorrelation. Die experimentellen Ergebnisse werden außerdem mit analytischen und numerischen FEM-Modellen verglichen. Im Praktikum wird das theoretische Wissen direkt angewendet. Es werden drei Versuche in Vierergruppen durchgeführt und zu jedem Versuch wird ein gemeinsames Protokoll angefertigt. Dadurch lernt man nicht nur die einzelnen Verfahren kennen, sondern auch, Messungen sauber auszuwerten und die zugrunde liegenden Mechanismen zu erklären",
+        "klausur": "Die Prüfung findet mündlich in kleineren Gruppen statt und dauert etwa 30 bis 40 Minuten. Die ausgedruckten Praktikumsprotokolle dürfen in der mündlichen Prüfung genutzt werden",
+        "tipps": [
+            "Wer die Praktika sorgfältig vorbereitet und die Protokolle gewissenhaft bearbeitet, schafft sich bereits eine sehr gute Grundlage für die Prüfung.",
+            "Wichtig ist, nicht nur Definitionen und Versuchsaufbauten zu kennen, sondern auch zu verstehen, warum ein bestimmtes Herstellungs- oder Messverfahren eingesetzt wird und wie die Ergebnisse zu interpretieren sind.",
+            "Für die Praktika sind Kenntnisse aus „Grundlagen des Leichtbaus“ und „Leichtbaukonstruktion“ hilfreich.",
+        ],
+        "erfahrungen": [
+            {
+                        "semester":"",
+                        "bericht":"Durch den hohen Praxisanteil ist das Modul eine willkommene Abwechslung zu vielen stärker theoretisch geprägten Veranstaltungen. Besonders hilfreich ist, dass die in der Vorlesung behandelten Inhalte direkt im Labor ausprobiert werden. Die Lehrenden begleiten die Versuche eng und nehmen sich Zeit für Fragen und Erklärungen."
+                        }
+        ]
     },
 
     "fabrikplanung": {
@@ -1575,28 +1594,52 @@ RAW_MODULES = {
     "leichtbau_grundlagen": {
         "name": "Grundlagen des Leichtbaus",
         "modul_link": "https://www.cld.uni-rostock.de/grundlagen-des-leichtbaus/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul bietet einen breiten Einstieg in den Leichtbau und zeigt, wie sich leichte und ressourceneffiziente Strukturen systematisch entwickeln lassen. Zunächst werden typische Anwendungsfelder, Leichtbaustrategien und Bauweisen behandelt. Dazu gehören unter anderem konstruktiver Leichtbau, Stoff-, Verbund-, Fertigungs- und Systemleichtbau sowie die Frage, wie sich Leichtbau sinnvoll in den Produktentwicklungsprozess einordnen lässt. Ein weiterer Schwerpunkt liegt auf Leichtbauwerkstoffen und ihrer systematischen Auswahl. Neben grundlegenden Werkstoffkennwerten und Ashby-Diagrammen werden metallische Werkstoffe, Kunststoffe und Faserkunststoffverbunde betrachtet. Zum Abschluss führt das Modul in die mechanische Beschreibung von Faserverbundwerkstoffen und in Stabilitätsprobleme dünnwandiger Strukturen wie Knicken und Plattenbeulen ein. Rechnerübungen und laborpraktische Übungen ergänzen die Vorlesung.",
+        "klausur": "Die schriftliche Prüfung dauert 60 Minuten. Als Hilfsmittel sind laut aktueller Lehrstuhlseite ein Taschenrechner und eine handgeschriebene Formelsammlung auf einer A4-Seite zugelassen. (Überprüft die Zugelassenehilfsmittel, zum Not fragt immer vor der Klausur ochaml nach!)",
+        "tipps": [
+            "Der Stoff ist sehr breit gefächert. Deshalb lohnt es sich, die einzelnen Themenblöcke regelmäßig nachzuarbeiten und die Zusammenhänge zwischen Strategie, Werkstoff und Struktur im Blick zu behalten.",
+            "Besonders wichtig sind die systematische Werkstoffauswahl mit Kennzahlen und Ashby-Diagrammen sowie die Grundlagen zu Faserkunststoffverbunden.", 
+            "Für die Prüfungsvorbereitung sind das Skript und die Übungen die beste Grundlage; bei Rechenaufgaben sollte man nicht nur die Formeln kennen, sondern auch verstehen, welche Annahmen dahinterstehen und wann ein Verfahren sinnvoll eingesetzt wird.",
+        ],
+        "erfahrungen": [
+            {
+                "semester":"",
+                "bericht":"Das Modul eignet sich gut als Einstieg, weil es viele Bereiche des Leichtbaus miteinander verbindet und einen Überblick über die späteren Vertiefungsmodule gibt. Durch die große Themenbreite wechseln die Inhalte allerdings vergleichsweise schnell. Wer kontinuierlich mitarbeitet, bekommt eine gute Grundlage für weiterführende Veranstaltungen wie Leichtbauwerkstoffe, Leichtbaukonstruktion sowie Bruch- und Schädigungsmechanik. Besonders hilfreich ist die Mischung aus anschaulichen Anwendungsbeispielen, Berechnungen und praktischen Übungen." 
+            }
+        ]
     },
     "leichtbaukonstruktion": {
         "name": "Leichtbaukonstruktion",
         "modul_link": "https://www.cld.uni-rostock.de/leichtbaukonstruktion/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Das Modul vermittelt, wie typische Leichtbaustrukturen sinnvoll idealisiert, modelliert und berechnet werden. Behandelt werden grundlegende Verfahren der Elastostatik sowie die Analyse schlanker und dünnwandiger Strukturen. Dazu gehören unter anderem Balken unter Biegung und Querkraft, offene und geschlossene Profile unter Torsion, Schubwandträger und Schubfelder sowie Stabilitätsprobleme wie Knicken und Plattenbeulen. Im Mittelpunkt steht nicht nur das Rechnen, sondern auch das mechanische Verständnis hinter den Modellen: Welche Idealisierung passt zu einer Struktur, welche Annahmen gelten und wo liegen die Grenzen eines Verfahrens? Einzelne Berechnungen werden in den Übungen mit Python-Notebooks umgesetzt.",
+        "klausur": "Die schriftliche Prüfung dauert 60 Minuten und umfasst sowohl Rechenaufgaben als auch Multiple-Choice-Aufgaben. Als Hilfsmittel sind ein Taschenrechner und eine handgeschriebene Formelsammlung auf einer A4- Seite zugelassen. Die Prüfung ist als Überhangklausur aufgebaut, sodass für die Bestnote nicht alle angebotenen Punkte erreicht werden mussten.",
+        "tipps": [
+            "Da die Themen stark aufeinander aufbauen, empfiehlt es sich, Vorlesung und Übung regelmäßig nachzuarbeiten. Besonders wichtig sind die Rechenübungen, weil sie einen großen Teil der späteren Prüfungsvorbereitung ausmachen. Entscheidend ist, die Herleitung und die Voraussetzungen der Verfahren zu verstehen, statt nur einzelne Formeln auswendig zu lernen.",
+        ],
+        "erfahrungen": [
+            {
+                "semester":"",
+                "bericht":"Leichtbaukonstruktion ist anspruchsvoll, vermittelt aber ein sehr nützliches Verständnis für das Tragverhalten leichter und dünnwandiger Strukturen. Die Übungen helfen dabei, die Theorie auf konkrete Aufgaben zu übertragen und typische Denkfehler früh zu erkennen. Durch die enge Betreuung lassen sich auch schwierigere Inhalte gut nachvollziehen."
+            }
+        ]
     },
     "leichtbauwerkstoffe": {
         "name": "Leichtbauwerkstoffe",
         "modul_link": "https://www.cld.uni-rostock.de/leichtbauwerkstoffe/",
-        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Die Vorlesungen sind sehr interessant gestaltet und der Prof steckt mit seiner Begeisterung für das Fach an. Die Übungen sind für Berechnungen von Leichtbaustrukturen uns sollten unbedingt genutzt werden. Das Skriptum ist umfangreich, jedoch gut durchzuarbeiten",
-        "klausur": "Die Klausur ist schriftlich. Multiple Choise Fragen sind enthalten, werden aber erst ab 3/5 richtigen Antworten bewertet. Eine ausreichende Vorbereitung ist ein Muss.",
+        "beschreibung": "Das Modul umfassen 90-minütige Vorlesungen, als auch Übungen. Die Vorlesungen sind sehr interessant gestaltet und der Prof steckt mit seiner Begeisterung für das Fach an. Die Übungen sind für Berechnungen von Leichtbaustrukturen uns sollten unbedingt genutzt werden. Das Modul gibt zunächst einen Überblick über wichtige Werkstoffklassen im Leichtbau und zeigt, wie sich Werkstoffe anhand von Dichte, Steifigkeit, Festigkeit, Fertigung, Kosten und weiteren Anforderungen bewerten lassen. Einen besonderen Schwerpunkt bilden Kunststoffe und Faserkunststoffverbunde. Behandelt werden außerdem die mechanischen Grundlagen, die Mikromechanik einer unidirektionalen Einzelschicht, das Verhalten geschichteter Laminate und verschiedene Versagenskriterien für Faserverbundwerkstoffe. In den Übungen werden die Inhalte praktisch angewendet. Ein Teil der Berechnungen wird mit Python umgesetzt, wodurch man gleichzeitig einen guten Einblick in die computergestützte Analyse von Werkstoffen und Laminaten bekommt.",
+        "klausur": "Die schriftliche Prüfung dauert 60 Minuten und besteht aus Rechenaufgaben und Multiple-Choice-Aufgaben. Als Hilfsmittel sind ein Taschenrechner und eine handgeschriebene Formelsammlung auf einer A4-Seite zugelassen. Die Prüfung ist als Überhangklausur aufgebaut, sodass für die Bestnote nicht alle angebotenen Punkte erreicht werden mussten.  Eine ausreichende Vorbereitung ist ein Muss.",
         "tipps": [
-            "Skriptum = Prüfungsvorbereitung"
+            "Skriptum = Prüfungsvorbereitung",
+            "Es lohnt sich, die Vorlesung regelmäßig nachzuarbeiten, da viele Themen aufeinander aufbauen",
+            "Verständnisfragen lassen sich am besten früh klären, bevor Laminattheorie und Versagenskriterien dazukommen.",
+            "Die Übungen sind besonders wichtig: Sie festigen nicht nur die Theorie, sondern zeigen auch, wie die Verfahren mit Python umgesetzt und auf konkrete Aufgaben angewendet werden.",
         ],
-        "erfahrungen": []
+        "erfahrungen": [
+            {
+            "semester":"",
+            "bericht":"Das Modul bietet einen gut nachvollziehbaren Einstieg in die Werkstoffmechanik des Leichtbaus und baut dabei auf Grundlagen aus der Technischen Mechanik auf. Der Stoff wird im Verlauf deutlich anspruchsvoller, bleibt durch die vielen Beispiele und Übungen aber gut zugänglich. Wer regelmäßig mitarbeitet und Fragen stellt, kann sich Schritt für Schritt ein solides Verständnis erarbeiten. Das Engagement und die Hilfestellungen durch die Lehrenden sind hier klar hervorzuheben, da man mit den schwierigen Themen nicht einfach alleine gelassen wird. "
+            }
+        ]
     },
     "leistungshalbleiter": {
         "name": "Leistungshalbleiter",
