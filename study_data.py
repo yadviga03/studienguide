@@ -316,13 +316,15 @@ DATA = {
                 "Leichtbau": [
                     "betriebsfestigkeit",
                     "biomaterialien_maschinenbau",
+                    "bruch_schaedigungmechanik",
                     "experimenteller_leichtbau",
                     "festigkeitsoptimiertes_bruchsicheres",
+                    "finite_elemente_analyse_verbundwerkstoffstrukturen",
                     "klebtechnik",
                     "leichtbaukonstruktion",
                     "leichtbauwerkstoffe",
                     "metallische_konstruktionswerkstoffe",
-                    "strukturmechanik_fem_2"
+                    "strukturmechanik_fem_2",
                 ],
                 "Logistik": [
                     "ausgewaehlte_themen_logistik",
