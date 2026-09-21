@@ -941,8 +941,9 @@ RAW_MODULES = {
         "name": "Experimenteller Leichtbau",
         "modul_link": "https://www.cld.uni-rostock.de/experimenteller-leichtbau/",
         "beschreibung": "Das Modul verbindet eine begleitende Vorlesung mit mehreren Laborpraktika. Inhaltlich geht es vor allem um die Herstellung von Faserkunststoffverbunden und um experimentelle Methoden zur Untersuchung ihres mechanischen Verhaltens. Dazu gehören unter anderem Handlaminieren, Vakuuminfusion, zerstörungsfreie Prüfverfahren und digitale Bildkorrelation. Die experimentellen Ergebnisse werden außerdem mit analytischen und numerischen FEM-Modellen verglichen. Im Praktikum wird das theoretische Wissen direkt angewendet. Es werden drei Versuche in Vierergruppen durchgeführt und zu jedem Versuch wird ein gemeinsames Protokoll angefertigt. Dadurch lernt man nicht nur die einzelnen Verfahren kennen, sondern auch, Messungen sauber auszuwerten und die zugrunde liegenden Mechanismen zu erklären",
-        "klausur": "Die Prüfung findet mündlich in kleineren Gruppen statt und dauert etwa 30 bis 40 Minuten. Die ausgedruckten Praktikumsprotokolle dürfen in der mündlichen Prüfung genutzt werden",
+        "klausur": "Die Prüfung findet mündlich in kleineren Gruppen statt und dauert etwa 30 bis 40 Minuten. Dabei werden nacheinander die einzelnen Vorlesungen abgefragt. Falls jemand eine Frage nicht beantworten kann, wird die nächste Person gefragt. Insgesamt wird jede Person zu zwei Vorlesungen befragt. Dazwischen hat man jeweils eine kurze Pause, in der die anderen Personen abgefragt werden. Die ausgedruckten Praktikumsprotokolle dürfen in der mündlichen Prüfung genutzt werden",
         "tipps": [
+            "Vor der neuen Vorlesung das Wissen aus der vorherigen Woche noch einmal kurz wiederholen, da die Inhalte zu Beginn der Vorlesung häufig noch einmal aufgegriffen werden.",
             "Wer die Praktika sorgfältig vorbereitet und die Protokolle gewissenhaft bearbeitet, schafft sich bereits eine sehr gute Grundlage für die Prüfung.",
             "Wichtig ist, nicht nur Definitionen und Versuchsaufbauten zu kennen, sondern auch zu verstehen, warum ein bestimmtes Herstellungs- oder Messverfahren eingesetzt wird und wie die Ergebnisse zu interpretieren sind.",
             "Für die Praktika sind Kenntnisse aus „Grundlagen des Leichtbaus“ und „Leichtbaukonstruktion“ hilfreich.",
@@ -951,7 +952,12 @@ RAW_MODULES = {
             {
                         "semester":"",
                         "bericht":"Durch den hohen Praxisanteil ist das Modul eine willkommene Abwechslung zu vielen stärker theoretisch geprägten Veranstaltungen. Besonders hilfreich ist, dass die in der Vorlesung behandelten Inhalte direkt im Labor ausprobiert werden. Die Lehrenden begleiten die Versuche eng und nehmen sich Zeit für Fragen und Erklärungen."
-                        }
+            },
+            
+            {
+                "semester":"SS26",
+                "bericht":"Die Vorlesungen und Folien sind verständlich aufgebaut und durch die kürzere Dauer sehr angenehm. Da es nur sieben Vorlesungseinheiten gibt, kann die verbleibende Zeit am Ende des Semesters gut für die Laborprotokolle oder zur Aufbereitung der Vorlesungsinhalte genutzt werden. Für die Prüfung reicht es, die Folien gut zu lernen, da häufig die Stichpunkte der Folien abgefragt werden. Prof. bewertet die mündliche Prüfung sehr fair.",
+            }
         ]
     },
 
@@ -1443,7 +1449,7 @@ RAW_MODULES = {
         ],
         "erfahrungen": [
             
-{
+            {
                 "semester": "SS24",
                 "bericht": "Sehr praxisnahes und besonderes Modul, bei dem man echte Einblicke in den Klinikalltag bekommt. Man kann live verfolgen, wie Herzoperationen ablaufen, wie 3D-Modelle von Herzen erstellt werden und welche bildgebenden Verfahren dabei eingesetzt werden. Die Prüfung ist sehr fair und mit vergleichsweise geringem Lernaufwand aus nur wenigen Vorlesungen kann man eine sehr gute Note erreichen. Die Exkursion selbst kann allerdings auch anstrengend sein: viel stehen, schwere Bleiweste und frühes Aufstehen. Man ist meistens zu zweit auf einem Hotelzimmer und nach dem langen Kliniktag oft ziemlich fertig. Frühstück im Hotel ist inklusive, Mittagessen muss man sich allerdings selbst organisieren oder sich mit anderen Teilnehmenden absprechen. Insgesamt aber eine wirklich spannende Erfahrung, die ich sehr empfehlen kann."
             }
@@ -1510,10 +1516,18 @@ RAW_MODULES = {
     "konstruktionsmethodik": {
         "name": "Konstruktionsmethodik",
         "modul_link": "https://www.pe.uni-rostock.de/studium/master/konstruktionsmethodik/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
-        "erfahrungen": []
+        "beschreibung": "Hauptbestandteil des Moduls ist der Produktentwicklungsprozess. Neben der regulären Vorlesung gibt es kleine Workshops, in denen die theoretischen Inhalte in Gruppen praktisch angewendet werden. Zusätzlich gibt es drei Prüfungsvorleistungen in Zweiergruppen. Dazu gehören die Planung eines Produktentwicklungsprozesses sowie zwei Vorträge. Für den ersten Vortrag wird eine systematische Literaturrecherche zu einem vorgegebenen Thema durchgeführt und präsentiert. Im zweiten Vortrag werden die Ergebnisse eines eigenständig durchgeführten KI-Kreativworkshops vorgestellt. Konstruktionsmethodik (KM) sollte außerdem belegt werden, wenn man im Sommersemester das Modul Projekt Produktentwicklung (PPE) belegen möchte, da dort die theoretischen Grundlagen im Rahmen eines Industrieprojekts angewendet werden. Wenn man KM nicht belegt hat, kann es sein, dass man bei PPE keinen Platz bekommt.",
+        "klausur": "Die Klausur ist schriftlich und dauert 60 Minuten. In der letzten Vorlesung werden mögliche Prüfungsfragen genannt, die zum Großteil auch in der Klausur vorkommen. Abgefragt werden sowohl Verständnisfragen und reine Aufzählungen als auch Anwendungsaufgaben, wie beispielsweise ein paarweiser Vergleich oder das Erstellen einer Anforderungsliste für ein selbst gewähltes Beispiel.",
+        "tipps": [
+            "Frühzeitig mit den Prüfungsvorleistungen beginnen, damit am Ende nicht alles zusammenkommt.",
+            "Für die Prüfung die Anwendung der Methoden noch einmal anhand eines Beispiels üben (z. B. Auswahl- und Bewertungsmethoden).",
+        ],
+        "erfahrungen": [
+            {
+                "semester":"WS25/26",
+                "bericht":"Die Vorlesung ist eher wie ein Seminar aufgebaut, in dem regelmäßig Fragen gestellt werden und man sich aktiv einbringen kann. Dadurch ist die Atmosphäre insgesamt etwas lockerer. Die Workshops bieten eine gute Möglichkeit, die theoretischen Inhalte praktisch anzuwenden."
+            }
+        ]
     },
     "kraft_schmierstoffe_co2": {
         "name": "Kraft- und Schmierstoffe – von der fossilen Basis zur CO₂-Neutralität",
