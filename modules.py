@@ -525,9 +525,13 @@ RAW_MODULES = {
     "deep_learning": {
         "name": "Deep Learning",
         "modul_link": "https://www.cdma.uni-rostock.de/lehre/lehrveranstaltungen/deep-learning/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "* 90 min lecture + 90 min programming exercise, both in English. Lecture: gain understanding about the fundamental methods and architectures of deep learning models. Exercise: learn how to work with and implement your own models hands-on in Python, mainly working in Jupyter Notebooks",
+        "klausur": "* Oral exam, in English. No programming questions in the exam. Exam prerequisite: Programming project on a topic of your choice including a presentation and the submission of a short report, in English",
+        "tipps": [
+            "Ideally you should have visited the” Introduction to Python” and/or Data Science lecture previously, to get fundaments for programming and machine learning, though not obligatory, most students haven't",
+            "Strongly recommend to attend the lectures because the lecturer works extensively with hand-written notes/schematics",
+            "Exercises often start with quizzes and lecture recaps which are a good preparation for the exam",
+        ],
         "erfahrungen": []
     },
     "deep_sea_technology_underwater_applications": {
@@ -953,7 +957,7 @@ RAW_MODULES = {
                         "semester":"",
                         "bericht":"Durch den hohen Praxisanteil ist das Modul eine willkommene Abwechslung zu vielen stärker theoretisch geprägten Veranstaltungen. Besonders hilfreich ist, dass die in der Vorlesung behandelten Inhalte direkt im Labor ausprobiert werden. Die Lehrenden begleiten die Versuche eng und nehmen sich Zeit für Fragen und Erklärungen."
             },
-            
+
             {
                 "semester":"SS26",
                 "bericht":"Die Vorlesungen und Folien sind verständlich aufgebaut und durch die kürzere Dauer sehr angenehm. Da es nur sieben Vorlesungseinheiten gibt, kann die verbleibende Zeit am Ende des Semesters gut für die Laborprotokolle oder zur Aufbereitung der Vorlesungsinhalte genutzt werden. Für die Prüfung reicht es, die Folien gut zu lernen, da häufig die Stichpunkte der Folien abgefragt werden. Prof. bewertet die mündliche Prüfung sehr fair.",
@@ -1393,10 +1397,13 @@ RAW_MODULES = {
     },
     "introduction_data_science_materials": {
         "name": "Introduction to Data Science in Materials Science and Engineering",
-        "modul_link": "",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "modul_link": "https://www.cdma.uni-rostock.de/en/teaching/lectures/einfuehrung-in-die-data-science-in-materialwissenschaft-und-ingenieurswesen/",
+        "beschreibung": "* 90 min lecture + 90 min programming exercise, both in English Lecture: gain understanding about the fundamental methods in data science and know how to apply them to scientific questions in materials science and engineering. Exercise: learn how to work with all techniques hands-on in Python and confidently interpret and evaluate your results",
+        "klausur": "* Oral exam: data science project on a topic of your choice including a presentation and the submission of a short report, in English",
+        "tipps": [
+            "Recommended prior knowledge is „ Introduction to Python “ and „Einführung in die Programmierung“",
+            "Strongly recommend to attend the lectures because the lecturer works extensively with hand-written notes/schematics",
+        ],
         "erfahrungen": []
     },
     "ip_management_in_der_medizintechnik": {
