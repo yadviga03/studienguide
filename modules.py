@@ -1067,9 +1067,15 @@ RAW_MODULES = {
     "finite_elemente_analyse_verbundwerkstoffstrukturen": {
         "name": "Finite-Elemente-Analyse von Verbundwerkstoffstrukturen",
         "modul_link": "https://www.cld.uni-rostock.de/finite-elemente-analyse-von-verbundwerkstoffstrukturen-en/",
-        "beschreibung": "Beschreibung folgt.",
-        "klausur": "Noch keine Informationen zur Klausur vorhanden.",
-        "tipps": [],
+        "beschreibung": "Das Modul zeigt, wie Strukturen aus Faserverbundwerkstoffen mit der Finite-Elemente-Methode modelliert und berechnet werden. Nach den Grundlagen orthotroper Werkstoffe und der FEM geht es um die Modellierung von Laminaten mit Schalen- und Volumenelementen und um Versagenskriterien wie Hashin, Puck und LaRC05. Danach folgen Beulanalysen, numerische Homogenisierung mit RVEs und die Simulation von Delaminationen mit Kohäsivzonenmodellen. Zum Abschluss kommen User-Subroutinen und Python-Skripting in Abaqus dazu. In den Übungen im PC-Pool werden die Inhalte direkt in Abaqus und Python umgesetzt. Grundlage ist das Buch von Barbero, das es in der Unibibliothek als PDF gibt. Die Veranstaltung ist englischsprachig.",
+        "klausur": "Die Prüfung ist eine 30-minütige mündliche Prüfung in Form eines Lehrgesprächs. Prüfungsstoff sind alle Vorlesungen und Übungen, und Skizzen auf Papier sind ausdrücklich erwünscht.",
+        "tipps": [
+            "Die Übungen selbst durcharbeiten, denn sie sind Teil der Prüfung.",
+            "Grundlagen zur Strukturmechanik werden empfohlen.",
+            "Annahmen und Grenzen der Modelle verstehen ist wichtiger als Formeln auswendig zu lernen. Ein Beispiel: Welcher Elementtyp passt, und warum?",
+            "Zentrale Herleitungen und Skizzen vorher auf Papier üben.",
+            "Vorkenntnisse aus Verbundwerkstoffdesign und etwas Python erleichtern den Einstieg.",
+        ],
         "erfahrungen": []
     },
     "fortgeschrittene_elektronik_schaltkreisentwurf": {
