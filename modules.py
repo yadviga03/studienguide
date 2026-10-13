@@ -206,7 +206,7 @@ RAW_MODULES = {
     "angewandte_stroemungsmechanik": {
         "name": "Angewandte Strömungsmechanik in Natur und Technik",
         "modul_link": "https://www.lsm.uni-rostock.de/lsm-lehre/master-studiengang-msc/angewandte-stroemungsmechanik-in-natur-und-technik/",
-        "beschreibung": "Es ist eine Ringvorlesung. Man muss nicht zu allen Veranstaltungen gehen, aber ihr bekommt vorher einen Plan mit allen Terminen und Themen. Daran kann man sich gut orientieren, was einen interessiert. Es ist eine gute Veranstaltung für die Vertiefung, falls man nichht weiß was man nehmen soll.",
+        "beschreibung": "Es ist eine Ringvorlesung.  Daran kann man sich gut orientieren, was einen interessiert. Es ist eine gute Veranstaltung für die Vertiefung, falls man nichht weiß was man nehmen soll.",
         "klausur": "Es ist eine Hausarbeit, die anschließend präsentiert wird. Die Themen werden in den ersten Wochen ausgesucht und es gibt wirklich viele verschiedene Themen, da ist bestimmt für jeden etwas dabei.",
         "tipps": [
             "Geht zu den Vorlesungen, es lohnt sich echt",
